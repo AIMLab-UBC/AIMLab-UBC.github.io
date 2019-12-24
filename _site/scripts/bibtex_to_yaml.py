@@ -4,8 +4,10 @@ import sys
 from bibtexparser.bparser import BibTexParser
 from bibtexparser.customization import convert_to_unicode
 
+
 def quote(s):
     return '"' + s + '"'
+
 
 title_to_link = dict()
 fh = open("_data/pub_links.tsv")
@@ -28,7 +30,7 @@ for pub in reversed(bib_database.entries):
         if a.strip() == "others":
             truncate_authorlist = True
             break
-        
+
         if a.find(",") != -1:
             (last, first) = a.split(",")
             author_out.append(first.strip() + " " + last.strip())
@@ -40,7 +42,7 @@ for pub in reversed(bib_database.entries):
         continue
     if 'journal' not in pub:
         continue
-    
+
     url = title_to_link[quoted_title]
     preprint_flag = 0
     if pub["journal"] == "bioRxiv":
@@ -48,7 +50,7 @@ for pub in reversed(bib_database.entries):
 
     # Write record
     print("- title:", quote(pub['title']))
-    
+
     if truncate_authorlist or len(author_out) > max_authors:
         print("  authors:", ", ".join(author_out[0:max_authors]) + " et al.")
     else:
