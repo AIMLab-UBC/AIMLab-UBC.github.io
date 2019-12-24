@@ -1,26 +1,26 @@
 - name: Ali Bashashati
   photo: alib.jpg
-  info: Director of AI Research at BC Cancer, Assistant Professor in Biomedical Engineering & Pathology
-  email: abashash@bccrc.ca
+  info: Director of AI Research at BC Ovarian Cancer Program (OVCARE), Assistant Professor in Biomedical Engineering & Pathology
+  email: ali.bashashati@ubc.ca
   github: 0
   twitter: 0
   linkedin: https://www.linkedin.com/in/alibashashati/
   number_educ: 3
-  education1: PhD in Electrical & Computer Engineering at the University of British Columbia
-  education2: MSc in Biomedical Engineering at Amirkabir University of Technology
-  education3: BSc in Electrical Engineering at Sharif University of Technology
+  education1: PhD in Electrical & Computer Engineering, University of British Columbia
+  education2: MSc in Biomedical Engineering, Amirkabir University of Technology
+  education3: BSc in Electrical Engineering, Sharif University of Technology
 
-- name: Hossein Farahani
+- name: Hossein Shahrabi
   photo: default.png
-  info: Research Associate
+  info: Lead Machine Learning Scientist
   email: h.farahani@ubc.ca
   github: 0
   twitter: 0
   linkedin: 0
   number_educ: 3
-  education1: PhD in Electrical & Computer Engineering at the University of British Columbia
-  education2: MSc in Biomedical Engineering at Amirkabir University of Technology
-  education3: BSc in Electrical Engineering at Sharif University of Technology
+  education1: PhD in Computer Sciecne, KTH Royal Institute of Technology 
+  education2: MSc in Aerospace Engineering, TBD
+  education3: BSc in Mechanical Engineering, Sharif University of Technology
 
 - name: Mitchell Nursay
   photo: mnursy.jpg
