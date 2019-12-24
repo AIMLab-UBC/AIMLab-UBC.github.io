@@ -1,0 +1,15 @@
+- title: "Introduction to Biomedical Engineering"
+  term: 2020 Spring
+  type: course
+  link:
+    url: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=BMEG&course=101&section=201
+    display: "BMEG 101"
+
+- title: "Topics in Biomedical Engineering - SIGNATURE"
+  term: 2019 Fall
+  type: course
+  link:
+    url: https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=BMEG&course=591A&section=101
+    display: "BMEG 591A"
+
+

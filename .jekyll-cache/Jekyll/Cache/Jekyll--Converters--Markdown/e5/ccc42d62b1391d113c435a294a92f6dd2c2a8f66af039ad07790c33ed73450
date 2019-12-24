@@ -1,0 +1,21 @@
+I"<p>Jared’s <a href="https://github.com/jts/nanopolish">nanopolish</a> tool for
+Nanopore data uses <a href="http://sourceforge.net/projects/poamsa/">poaV2</a>,
+the original partial order alignment software described in papers by
+Lee, Grasso, and Sharlow <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup><sup>,</sup><sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup><sup>,</sup><sup id="fnref:3"><a href="#fn:3" class="footnote">3</a></sup>, for
+correcting the reads, following a similar approach taken by PacBio in
+<a href="https://github.com/PacificBiosciences/pbdagcon">PBDagCon</a>.</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p><a href="http://bioinformatics.oxfordjournals.org/content/18/3/452.short">Multiple sequence alignment using partial order graphs</a> (2002) by Lee, Grasso, and Sharlow <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p><a href="http://bioinformatics.oxfordjournals.org/content/19/8/999.short">Generating consensus sequences from partial order multiple sequence alignment graphs</a> (2003) by Lee <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p><a href="http://bioinformatics.oxfordjournals.org/content/20/10/1546.short">Combining partial order alignment and progressive multiple sequence alignment increases alignment speed and scalability to very large alignment problems </a> (2004), Grasso and Lee <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

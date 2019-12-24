@@ -1,0 +1,181 @@
+I"¶Q<h3 id="motivation">Motivation</h3>
+
+<p>The data produced by Oxford Nanopore Technologies (ONT) sequencers is stored in <code class="highlighter-rouge">.fast5</code> files, based on the <a href="https://www.hdfgroup.org/HDF5/">HDF5</a> file format, with one file per sequenced read. Fast5 files are (currently) notoriously large. Taking a random sample of 10,000 fast5 files from the <a href="https://github.com/nanopore-wgs-consortium/NA12878">public NA12878 ONT dataset</a>, we observe a ratio of ~340 bytes per sequenced base pair, which translates into ~100 GB per 1X coverage of the human genome. This is almost 2 orders of magnitude larger than the space requirements for storing Illumina sequencing data.</p>
+
+<p>The core of ONT sequencing data consists of electrical current level measurements (in picoamps) taken while biological molecules (DNA, and more recently, RNA) are threaded through a sequencing pore. The process of <em>basecalling</em> translates these currents into the more usual base pairs. However, current levels are arguably richer than just base pairs. For example, in <a href="http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.4184.html">recent work</a>, we demonstrate how current levels (more specifically, event-level data, as detailed below) can be used to detect methylation. For this reason, when trying to reduce the size of fast5 data, it might be desirable to archive current levels in addition to, or independent of, base pairs.</p>
+
+<h3 id="a-new-tool">A New Tool</h3>
+
+<p>Motivated by these concerns, we introduce a new tool <code class="highlighter-rouge">f5pack</code> for the purpose packing fast5 files. This tool is part of the <a href="https://github.com/mateidavid/fast5">fast5 library</a>, more specifically, it is distributed with the Python wrapper of this library. Support for packing is built into the library itself, so any tools that rely on (the updated version of) this library for interacting with fast5 files (e.g. <a href="https://github.com/jts/nanopolish">Nanopolish</a>) will be able to use packed files transparently, i.e., without explicitly unpacking them.</p>
+
+<p>Using this tool, <strong>we are able to reduce the storage space required by</strong> 10,000 <strong>fast5 files</strong> from the NA12878 dataset <strong>by a factor of ~10</strong>. Here is the detailed log of this packing run:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bp_seq_count           92857415                   # number of bases sequenced
+rs_count               2483038052                 # number of raw samples
+rs_bits                16331772672  6.58  175.88
+rs_total_bits          16331772672  6.58  175.88
+ed_count               451912927                  # number of eventdetection events
+ed_skip_bits           452604512    1.00  4.87
+ed_len_bits            3243960992   7.18  34.93
+ed_total_bits          3696565504   8.18  39.81
+fq_count               95063899                   # number of bases in fastq entries
+fq_bp_bits             218731072    2.30  2.36
+fq_qv_bits             547456248    5.76  5.90
+fq_total_bits          766187320    8.06  8.25
+ev_count               369403783                  # number of basecall events
+ev_rel_skip_bits       2111901000   5.72  22.74
+ev_move_bits           464575320    1.26  5.00
+ev_p_model_state_bits  738838088    2.00  7.96
+ev_total_bits          3315314408   8.97  35.70
+rs_total_duration      620760.76                  # duration of raw samples, in seconds
+rs_called_duration     597422.90                  # duration of raw samples that were basecalled
+rs_frac_called         0.96
+bp_per_sec             155.43                     # average sequencing speed
+input_bytes            31950088342                # size of input
+output_bytes           3361740258                 # size of output
+output_overhead_bytes  348010270                  # size of output, minus bits accounted for above
+</code></pre></div></div>
+
+<p>In order to understand how <code class="highlighter-rouge">f5pack</code> works, and to explain some of the fields above, we need to talk about the specific types of data found in fast5 files.</p>
+
+<h3 id="fast5-data">Fast5 Data</h3>
+
+<p>Conceptually, there are 3 main types of data stored in fast5 files:</p>
+
+<ul>
+  <li>
+    <p><strong>Raw samples data</strong> consists of raw electrical current measurements taken by the sequencer. This is what travels through the USB/LAN cable connecting the sequencer to a computer. The measurements are usually taken at a rate of 4,000 per second, and each measurement is encoded in fast5 files as a 16-bit integer. Note: fast5 files might use HDF5 internal compression to store data, so it might take less than 16 bits to store each such integer.</p>
+
+    <p>To pack raw samples data, we use the observation that raw samples change rather slowly during sequencing. As such, we compute differences between consecutive raw samples (in integral space), and we encode these differences using a Huffman code based on the predetermined distribution of values, computed from several training files. On this dataset, we achieve a packing rate of 6.58 bits per raw sample (see <code class="highlighter-rouge">rs_bits</code> above).</p>
+
+    <p>The packing of raw samples data is <strong>lossless</strong>.</p>
+  </li>
+  <li>
+    <p><strong>Event-level data</strong> aggregates raw samples data into <em>events</em>, each of which ideally corresponds to a specific DNA context found in the pore. To understand this, first observe that DNA is threaded through the sequencing pore using a biological process at a stochastic rate. Since raw samples are measured at a fixed rate, the number of raw samples corresponding to a specific DNA context is a stochastic quantity. The process of <em>event detection</em> takes as input the sequence of raw samples, and it produces a sequence of events. Ideally, each event corresponds to exactly one DNA context, but the process is noisy, so some DNA contexts can correspond to either 0 events (i.e., they are missed) or 2 or more events (i.e., they are over-separated). Fast5 files might contain both <em>pre-basecall</em> and <em>post-basecall</em> event data.</p>
+
+    <p>Pre-basecall events, found at internal fast5 paths such as <code class="highlighter-rouge">/Analyses/EventDetection_000/Reads/Read_291/Events</code>, contain the following fields:</p>
+    <ul>
+      <li><code class="highlighter-rouge">start</code>, <code class="highlighter-rouge">length</code>: (conceptual) indexes in the raw samples sequence,</li>
+      <li><code class="highlighter-rouge">mean</code>, <code class="highlighter-rouge">stdv</code>: summaries of the corresponding raw samples.</li>
+    </ul>
+
+    <p>Post-basecall events, found at internal fast5 paths such as <code class="highlighter-rouge">/Analyses/Basecall_1D_000/BaseCalled_template/Events</code>, contain all the data in pre-basecall events, plus annotations made by the basecalling process such as:</p>
+    <ul>
+      <li><code class="highlighter-rouge">move</code>: the number of bases that have changed from the DNA context in the previous event,</li>
+      <li><code class="highlighter-rouge">state</code>: the DNA context the event corresponds to,</li>
+      <li><code class="highlighter-rouge">p_model_state</code>: the probability that <code class="highlighter-rouge">state</code> is correct,</li>
+      <li><code class="highlighter-rouge">mp_state</code> and others: post-basecall events contain a few other fields which we currently do not pack.</li>
+    </ul>
+
+    <p>In <code class="highlighter-rouge">f5pack</code>, we encode event-level data as follows:</p>
+    <ul>
+      <li><code class="highlighter-rouge">start</code> is encoded as <code class="highlighter-rouge">skip</code>, a difference from previous event end. <code class="highlighter-rouge">skip</code> is usually 0, but not always, with non-0 values corresponding to instances where the event detection process decided to skip 1 or more raw samples for various reasons (e.g., perhaps they were too error-prone to decode). On this dataset we achieve 1.00 bits per event (see <code class="highlighter-rouge">ed_skip_bits</code> above).</li>
+      <li><code class="highlighter-rouge">length</code> is encoded using a Huffman code based on a predetermined distribution of values, computed from several training files. On this dataset we achieve 7.18 bits per event (see <code class="highlighter-rouge">ed_len_bits</code> above).</li>
+      <li><code class="highlighter-rouge">mean</code> and <code class="highlighter-rouge">stdv</code> are not encoded at all. Instead, <code class="highlighter-rouge">f5pack</code> requires the existence of raw samples (packed or not) to pack event-level data, and it recomputes <code class="highlighter-rouge">mean</code> and <code class="highlighter-rouge">stdv</code> as part of the unpacking process.</li>
+      <li>When both pre- and post-basecall events are present, for each post-basecall event we also encode <code class="highlighter-rouge">rel_skip</code>, the relative skip in post-basecall events with respect to the pre-basecall event indexes. This value is 0 if no pre-basecall events are skipped, but it can be non-0 as well. On this dataset we achieve 5.72 bits per event (see <code class="highlighter-rouge">ev_rel_skip_bits</code> above).</li>
+      <li><code class="highlighter-rouge">move</code> is encoded using a Huffman code based on a predetermined distribution of values, computed from several training files. On this dataset we achieve 1.26 bits per event (see <code class="highlighter-rouge">ev_move_bits</code> above).</li>
+      <li><code class="highlighter-rouge">state</code> is not encoded at all. Instead, <code class="highlighter-rouge">f5pack</code> requires the existence of base-level data (packed or not) to pack event-level data, and it recomputes <code class="highlighter-rouge">state</code> using <code class="highlighter-rouge">move</code> as part of the unpacking process.</li>
+      <li><code class="highlighter-rouge">p_model_state</code> is a probability, and <code class="highlighter-rouge">f5pack</code> exposes an option as to how many bits of precision to encode from it, defaulting to 2 bits (see <code class="highlighter-rouge">ev_p_model_state_bits</code> above).</li>
+    </ul>
+
+    <p>In addition to event tables, event-level data also includes 2D alignment data in the case that the sequencing and basecalling are operating in 2D mode. The dataset above is 1D only.</p>
+
+    <p>The packing of event-level data is <strong>lossy</strong>: there are certain post-basecalling events fields we do not pack, as well as hairpin detection data that we ignore.</p>
+  </li>
+  <li>
+    <p><strong>Base-level data</strong> is produced by the basecalling process, and it consists of <a href="https://en.wikipedia.org/wiki/FASTQ_format">fastq</a> entries. For each base pair, the fastq format stores the base itself, and a quality value. We encode these as follows:</p>
+
+    <ul>
+      <li>The bases are encoded using a Huffman code in which we allow for non-ACGT bases. On this dataset, we achieve 2.30 bits per base (see <code class="highlighter-rouge">fq_bp_bits</code> above).</li>
+      <li>For the base quality value, <code class="highlighter-rouge">f5pack</code> imposes an upper limit of 31 on the quality value, and it exposes an option as to how many (most significant) bits of precision to encode from it, defaulting to all 5 bits (see <code class="highlighter-rouge">fq_qv_bits</code> above).</li>
+    </ul>
+
+    <p>The packing of base-level data is <strong>lossless</strong>, except for the fact that quality values higher than 31 are replaced by 31.</p>
+  </li>
+  <li>
+    <p><strong>Configuration data</strong> and <strong>Summary data</strong>: In addition to the main types of data above, fast5 files also contain configuration data for various pipelines that the file is run through, as well as summary data for the results of these pipelines. Currently, <code class="highlighter-rouge">f5pack</code> does not save either configuration or summary data, though that could be added as an option if interest arises.</p>
+  </li>
+</ul>
+
+<h3 id="future-directions">Future Directions</h3>
+
+<p>By inspecting the log of the packing run above, more specifically the third column of the <code class="highlighter-rouge">_bits</code> fields, we observe that the bulk of the packed data consists of packed raw samples: for every sequenced base pair, we store ~170 bits for its corresponding raw samples, ~75 bits for its event-level data, and only ~8 bits for its fastq entry. Therefore, assuming we want to preserve raw samples for future reproducibility, it is the packing of raw samples that can yield most further improvements. In this sense, there are 2 directions we are currently investigating: using Arithmetic coding instead of Huffman coding to help with power-of-2 rounding issues, and allowing for dynamic codeword maps.</p>
+
+<h3 id="command-line-options">Command Line Options</h3>
+
+<ul>
+  <li>
+    <p>Input: <code class="highlighter-rouge">f5pack</code> accepts as inputs any combination of: directories, individual fast5 files, or files of fast5 file names. If no input is given, a file of fast5 file names is read from stdin. Input directories are traversed recursively if <code class="highlighter-rouge">--recurse</code> is given.</p>
+  </li>
+  <li>
+    <p>Output: <code class="highlighter-rouge">f5pack</code> requires an output directory to be specified with <code class="highlighter-rouge">--output</code>. Output files are all placed in this directory. For every input directory, if <code class="highlighter-rouge">--recurse</code> is given, the subdirectory structure is recreated in the output directory. Fast5 files specified individually on the input line and those coming from files of fast5 file names are placed in the output directory without any other subdirectories.</p>
+  </li>
+  <li>
+    <p>Packing and Unpacking: <code class="highlighter-rouge">f5pack</code> recognizes 5 types of data: <code class="highlighter-rouge">rs</code> (raw samples), <code class="highlighter-rouge">ed</code> (eventdetection events), <code class="highlighter-rouge">fq</code> (fastq entries), <code class="highlighter-rouge">ev</code> (basecall events), and <code class="highlighter-rouge">al</code> (basecall alignments). For each of these, one of the following individual policies can be specified: <code class="highlighter-rouge">drop</code>, <code class="highlighter-rouge">pack</code>, <code class="highlighter-rouge">unpack</code>, and <code class="highlighter-rouge">copy</code>. If any individual policy is specified, the remaining unspecified ones default to <code class="highlighter-rouge">drop</code>: <code class="highlighter-rouge">--rs pack</code> implies <code class="highlighter-rouge">drop</code> for all other 4 types of data.</p>
+
+    <p>The program will automatically check that unpacking produces reasonable results, and will exit with an error code if that is not the case. This design will catch invalid combinations of policies. For example, <code class="highlighter-rouge">--ev pack --rs drop</code> is invalid because raw samples are required to unpack basecall events.</p>
+  </li>
+  <li>
+    <p>Presets: <code class="highlighter-rouge">f5pack</code> recognizes the following presets:</p>
+
+    <ul>
+      <li><code class="highlighter-rouge">--pack</code>: Pack all data. This is the default if nothing else is specified.</li>
+      <li><code class="highlighter-rouge">--unpack</code>: Unpack all data.</li>
+      <li><code class="highlighter-rouge">--archive</code>: Pack raw samples only, drop rest.</li>
+      <li><code class="highlighter-rouge">--fastq</code>: Pack fastq only, drop rest.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Tweak packing:</p>
+
+    <ul>
+      <li><code class="highlighter-rouge">--qv-bits</code>: Number of (most significant) fastq base quality value bits to store. Default: 5.</li>
+      <li><code class="highlighter-rouge">--p-model-state-bits</code>: Number of (most significant) bits to keep from <code class="highlighter-rouge">p_model_state</code>. Default: 2.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Errors and Return value: When <code class="highlighter-rouge">f5pack</code> fails to process (pack/unpack) an input fast5 file, it produces a log message and continues. At the end, <code class="highlighter-rouge">f5pack</code> exits with an error code if and only if the processing of any of the input fast5 files has failed.</p>
+  </li>
+</ul>
+
+<h3 id="examples">Examples</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># drop everything but raw samples
+f5pack --archive --output archive.dir/ input.dir/
+
+# unpack raw samples, so that the files can be rerun through Metrichor
+f5pack --unpack --output uploaded.new.dir/ archive.dir/
+
+# drop everything other than fastq entries
+f5pack --fastq --output fq-only.dir/ input.dir/
+
+# show exactly what is being packed and what is being dropped from a given file
+# in terms of internal fast5 paths
+f5pack --pack --output pack.dir/ input.dir/file.fast5
+f5pack --unpack --output unpack.dir/ pack.dir/file.fast5
+diff &lt;(h5dump -n 1 input.dir/file.fast5) &lt;(h5dump -n 1 unpack.dir/file.fast5)
+</code></pre></div></div>
+
+<h3 id="limitations-and-quirks">Limitations and Quirks</h3>
+
+<p>There are several different existing basecallers for ONT data: (the one provided by the distinct company called) Metrichor, MinKNOW (local), Albacore, Nanonet, and possibly others. Unfortunately, the format for event-level data is not standardized, and as such they each encode it in slightly different ways. We used the first 3, and Metrichor is the only one that produces both pre- and post-basecalling event data, while MinKNOW and Albacore produce only post-basecalling event data. In principle, <code class="highlighter-rouge">f5pack</code> is designed to work with both pre-and-post and post-only event-level data. However, see below.</p>
+
+<p>Here is a list of issues and bugs that <code class="highlighter-rouge">f5pack</code> attempts to work around:</p>
+
+<ul>
+  <li>
+    <p>Current versions of MinKNOW and Albacore both contain a show-stopper issue from the point of view of <code class="highlighter-rouge">f5pack</code>, in that they do not store enough bits to allow the unambiguous reconstruction of a raw samples index from the event <code class="highlighter-rouge">start</code> field. We reported this issue to ONT, but pending a design change, <strong>Metrichor is the only basecaller for which we support packing event-level data</strong>. Raw samples and base-level data are not affected by this problem. When <code class="highlighter-rouge">f5pack</code> encounters (during a packing run) event-level data written by a basecaller other than Metrichor, it ignores this data (i.e., it <code class="highlighter-rouge">drop</code>-s it), emits a warning, and continues.</p>
+  </li>
+  <li>
+    <p>The current version of Metrichor contains a known bug related to the <code class="highlighter-rouge">stdv</code> field of both pre- and post-basecall events. In pre-basecall events, the bug consists of <code class="highlighter-rouge">stdv</code> being a small-non-0 value when it should be exactly-0. In post-basecall events, this difference is magnified by the fact that exactly-0 <code class="highlighter-rouge">stdv</code> fields are replaced by a more plausible read-dependent constant value, but small-non-0 values are left intact. <code class="highlighter-rouge">f5pack</code> works around this issue by assuming small-non-0 <code class="highlighter-rouge">stdv</code> values are buggy, it corrects them to behave as exactly-0 values, emits a warning, and continues.</p>
+  </li>
+  <li>
+    <p>The current version of some basecallers contains a known bug in the post-basecall events <code class="highlighter-rouge">move</code> field: sometimes the value stored in fast5 files is wrong. <code class="highlighter-rouge">f5pack</code> currently works around this issue by trusting the fastq entry and the <code class="highlighter-rouge">state</code> field more than the <code class="highlighter-rouge">move</code> field. When the <code class="highlighter-rouge">move</code> value is detected to be wrong, <code class="highlighter-rouge">f5pack</code> corrects this value if possible, emits a warning, and continues. If no reasonable correction is available, the packing of that file is considered to have failed.</p>
+  </li>
+</ul>
+
+<h3 id="disclaimer">Disclaimer</h3>
+
+<p>This software is experimental, and it is distributed under the <a href="https://github.com/mateidavid/fast5/blob/master/LICENSE">MIT License</a>. The fast5 format is a moving target. Weâ€™ve tried to ensure that <code class="highlighter-rouge">f5pack</code> is fault tolerant and safe to use, but please note that you use this software at your own risk.</p>
+
+:ET

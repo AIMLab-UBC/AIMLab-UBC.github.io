@@ -1,0 +1,9 @@
+I"V<p>As part of the work of the <a href="http://pancancer.info/variant_calling.html">Pancancer variant-calling working
+group</a>, we needed to merge the
+results of variant calls from a wide range of different packages to compare
+their results and select interesting sites for lab validation.  This is a 
+more subtle procedure than it sounds, and we could not find any one 
+place where all the necessary information was documented, so we wrote up 
+our process here.  Code that implements this part of our analysis pipeline
+can be found on <a href="https://github.com/ljdursi/mergevcf">GitHub</a>.</p>
+:ET

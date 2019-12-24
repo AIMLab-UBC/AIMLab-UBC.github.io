@@ -1,0 +1,240 @@
+I"��<p>Last week, <a href="http://ivory.idyll.org/blog/">Titus Brown</a> asked a question on <a href="https://twitter.com/ctitusbrown/status/599220862311469056">twitter</a> and <a href="https://github.com/dib-lab/khmer/issues/1002">github</a> which spurred a lot of discussion – what was the best way to randomly read a subset of entries in a FASTQ file?  He and others quickly mentioned the two basic approaches – randomly seeking around in the file, and streaming the file through and selecting at random – and there were discussions of the merits of each in both forums.</p>
+
+<p>This workload is a great case study for looking some of the ins and outs of I/O performance in general, and the tradeoffs between streaming and random file access in particular.  The results can be a little surprising, and the exact numbers will necessarily be file system dependant: but on hard drives (and even more so on most cluster file systems), seeks will perform surprisingly poorly compared to streaming reads (the “Reservoir” approach in the plot below):</p>
+
+<p><img src="/assets/io/uncompress-seek-vs-stream.png" alt="Streaming Reads vs. Seeks" class="img-responsive" /></p>
+
+<p>and here we’ll talk about why.</p>
+
+<h2 id="anatomy-of-a-file-system">Anatomy of a File System</h2>
+
+<p>Unlike so many other pieces of software we have to deal with daily, the file system stack just works, and so we normally don’t have to spend much time thinking about what happens under the hood; but some level of familiarity with the moving parts in there and how they interact helps us better understand when we can and can’t get good performance out of that machine.</p>
+
+<h3 id="iops-vs-bandwidth">IOPS vs Bandwidth</h3>
+
+<p>A hard drive is a physical machine with moving parts, and the file system software stack is built around this (even in situations where this might not make sense any more, like with SSDs - about which more later).  Several metal platters are spinning at speeds from 7,200 to 15,000 revolutions per minute (a dizzying 120-500 revolutions per <em>second</em>), and to start any particular read or write operation requires the appropriate sector of the disk being under the read heads; an event that won’t happen, on average, until 1 to 4 milliseconds from now.</p>
+
+<p>Both the drive controller hardware and the operating system work hard to maximize the efficiency of this physical system, re-arranging pending reads and writes in the queue to ensure that requests are processed as quickly as possible; this allows one read request to “jump the queue” if the sector it needs to read from is just about to arrive, rather than having it wait in line, possibly for more than one disk rotation.  While this can greatly help the throughput of a large number of unrelated operations, it can’t do much to speed a single threaded program’s stream of reads or writes.</p>
+
+<p>This means that, for physical media, there is a limit to the number of (say) read I/O Operations Per Second (IOPS) that can be performed; the bottleneck could be at the filesystem level, or the disk controller, but it is normally at the level of the individual hard drive, where the least can be done about it.  As a result, even for quite good, new, hard drives, a <a href="http://en.wikipedia.org/wiki/IOPS#Mechanical_hard_drives">typical performance</a> might be say 250 IOPS.</p>
+
+<p>On the other hand, once the sector is under the read head, a lot of data can be pulled in at once.  New hard disks typically have <a href="http://en.wikipedia.org/wiki/Disk_sector">block sizes</a> of 4KB, and all of that data can be slurped in essentially instantly.  A good hard disk and controller can easily provide sequential read rates (or bandwidth) of over 100MB/s.</p>
+
+<h3 id="prefetching-and-caching-or-why-is-bandwidth-so-good">Prefetching and Caching, or: Why is Bandwidth so good?</h3>
+
+<p>You, astute reader, will have noticed that the numbers in that sentence above don’t even come close to working out.  250 IOP/s times 4KB is something like 1 MB/s, not 100MB/s.  Where does that extra factor of 100 come from?</p>
+
+<p>Much as the operating system and disk controller both work to schedule reads and writes so that they are collectively completed as quickly as possible, the entire input/output stack on modern operating systems is built to make sure that it speeds up I/O whenever possible – and it is extremely successful at doing this, when the I/O behaves predictably.  Predictable, here, means that there is a large degree of <a href="http://en.wikipedia.org/wiki/Locality_of_reference">locality of reference</a> in the access; either temporal locality (if you’ve accessed a piece of data recently, you’re likely to access it again), or spatial (if you’ve accessed a piece of data, you’re likely to access a nearby piece soon).</p>
+
+<p>Temporal locality is handled through caching; data that is read in is kept handy in case it’s needed again.  There may be block caches on the disk drive or disk controller itself; within the Linux kernel there is a unified cache which caches both low-level blocks and high level pages worth of data (the memory-mapped file interface ties directly into this).  Directory information is cached there, too; you may have noticed that in doing an <code class="highlighter-rouge">ls -l</code> in a directory with a lot of files, the first is much slower than any followups.</p>
+
+<p>In user space, I/O libraries often do their own caching, as well.  C’s stdlib, for instance, will cache substantial amounts of recently used data; and so, by extension, will everything built upon it (iostreams in C++, or lines of data seen by Python).  The various players are shown below in this diagram from IBM’s DeveloperWorks:</p>
+
+<figure>
+    <img src="http://www.ibm.com/developerworks/library/l-virtual-filesystem-switch/figure8.gif" alt="File System Stack, from IBM DeveloperWorks: http://www.ibm.com/developerworks/library/l-linux-filesystem-switch/" />
+    <figcaption style="font-style:italic; font-size:75%">File System Stack, from IBM DeveloperWorks: http://www.ibm.com/developerworks/library/l-linux-filesystem-switch/</figcaption>
+</figure>
+
+<p>None of this caching directly helps us in our immediate problem, since we’re not intending to re-read a sequence again and again; we are picking a number of random entries to read.  However, the entire mechanism used for caching recently used data can also be used for presenting data that the operating system and libraries thinks is <em>going</em> to be used <em>soon</em>.  This is where the second locality comes in; spatial locality.</p>
+
+<p>The Operating System and libraries make the reasonable assumption that if you are reading one block in a file, there’s an excellent chance that you’ll be reading the next block shortly afterwards. Since this is such a common scenario, and in fact one of the few workloads that can easily be predicted, the file system (at all levels) supports quite agressive  prefetching, or <a href="http://en.wikipedia.org/wiki/Readahead">read ahead</a>.  This basic idea – since reading is slow, try to read the next few things ahead of time, too – is so widely useful that it is used not just for data on disk, but for data in <a href="http://en.wikipedia.org/wiki/Prefetch_buffer">RAM</a>, links by <a href="https://medium.com/@luisvieira_gmr/html5-prefetch-1e54f6dda15d">web browsers</a>, etc.</p>
+
+<p>To support this, the lowest levels of the file system (block device drivers, and even the disk and controller hardware) try to lay out sequential data on disk in such a way that when one block is read, the next block is immediately ready to be read, so that only one seek, one IOP, is necessary to begin the read, and then following reads happen more or less “for free”.  The higher levels of the stack take advantage of this by explicitly requesting one or many pages worth of data whenever a read occurs, and presents that data in the cache as if it had already been used.  Then this data can be accessed by user software without expensive I/O operations.</p>
+
+<p>The effectiveness of this can be seen not only in the factor of 100 difference in streaming reads (100MB/s vs 4KB x 250 IOP/s), but also in how performance suffers when this isn’t possible.  On a hard drive that is nearly full, a new file being written doesn’t have the luxury of being written out in nice contiguous chunks that can be read in as a stream.  The disk is said to be <em>fragmented</em>, and <a href="http://en.wikipedia.org/wiki/Defragmentation">defragmentation</a> can often improve performance.</p>
+
+<p>In summary, then, prefetching and caching performed by the disk, controller, operating system, and libraries can speed large streaming reads on hard disks by a factor of 100 over random seek-and-read patterns, to the extent that, on a typical hard drive, 100-400KB can be read in the time that it takes to perform a single seek.  On these same hard drives, then, you might expect streaming through a single 1000MB file to take roughly as long (~10s) as 2,500-4,000 seeks.  We’ll see later that considering other types of file systems - single SSDs, or clustered file systems - can change where that crossover point between number of seeks versus size of streaming read will occur, but the basic tradeoff remains.</p>
+
+<h2 id="the-random-fasta-entry-problem">The Random FASTA Entry Problem</h2>
+
+<p>To illustrate the performance of both a seeking and sequential streaming method, let’s consider a slightly simpler problem than posed.  To avoid the complications with FASTQ, let’s consider a sizeable FASTA file (we take <a href="http://hgdownload.cse.ucsc.edu/goldenpath/hg19/bigZips/est.fa.gz">est.fa from HG19</a>, slightly truncated for the purposes of some of our later tests).  The final file is about 8,000,000 lines of text, containing some 6,444,875 records.  We consider both compressed and uncompressed versions of the file.</p>
+
+<p>We’ll randomly sample <script type="math/tex">k</script> records from this file – 0.1%, 0.2%, 0.5%, 1%, 2%, 5%, 10%, 20%, and 50% of the total number of records <script type="math/tex">N</script> – run for several different trials, and done a few different ways.  We’ll consider a seeking solution and a sequential reading solution.</p>
+
+<p>The code we’ll discuss below, and scripts to reproduce the results, can be found <a href="https://github.com/ljdursi/seek-vs-sequential">on GitHub</a>.  The code is in Python, for clarity.</p>
+
+<h3 id="a-seeking-solution">A Seeking Solution</h3>
+
+<p>Coding up a solution to randomly sample the file by seeking to random locations is relatively straightforward.  We generate a random set of offsets into the file, given the file’s size; then seek to each of these locations in order, find and read the next record, and continue.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">randomSeek</span><span class="p">(</span><span class="n">infile</span><span class="p">,</span> <span class="n">size</span><span class="p">,</span> <span class="n">nrecords</span><span class="p">):</span>
+    <span class="n">infile</span><span class="o">.</span><span class="n">seek</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">os</span><span class="o">.</span><span class="n">SEEK_SET</span><span class="p">)</span>
+
+    <span class="n">totrecords</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">recordsdict</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">while</span> <span class="n">totrecords</span> <span class="o">&lt;</span> <span class="n">nrecords</span><span class="p">:</span>
+        <span class="c1"># generate the random locations
+</span>        <span class="n">locations</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nrecords</span><span class="o">-</span><span class="n">totrecords</span><span class="p">):</span>
+            <span class="n">locations</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">size</span><span class="p">)))</span>
+        <span class="n">locations</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+
+	<span class="c1"># read the records immediately following these locations
+</span>        <span class="n">reader</span> <span class="o">=</span> <span class="n">simplefasta</span><span class="o">.</span><span class="n">FastaReader</span><span class="p">(</span><span class="n">infile</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">location</span> <span class="ow">in</span> <span class="n">locations</span><span class="p">:</span>
+            <span class="n">infile</span><span class="o">.</span><span class="n">seek</span><span class="p">(</span><span class="n">location</span><span class="p">,</span><span class="n">os</span><span class="o">.</span><span class="n">SEEK_SET</span><span class="p">)</span>
+            <span class="n">reader</span><span class="o">.</span><span class="n">skipAhead</span><span class="p">()</span>
+            <span class="n">record</span> <span class="o">=</span> <span class="n">reader</span><span class="o">.</span><span class="n">readNext</span><span class="p">()</span>
+            <span class="n">recordsdict</span><span class="p">[</span><span class="n">record</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">=</span> <span class="n">record</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">totrecords</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">recordsdict</span><span class="p">)</span>
+        
+    <span class="c1"># return a list of records
+</span>    <span class="n">records</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">k</span><span class="p">,</span><span class="n">v</span> <span class="ow">in</span> <span class="n">recordsdict</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="n">records</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="n">k</span><span class="p">,</span><span class="n">v</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">records</span></code></pre></figure>
+
+<p>There are a few things to note about this approach:</p>
+
+<ul>
+  <li>I’ve sorted the random locations to improve our chances of reading nearby locations sequentially, letting the operating system help us when it can.</li>
+  <li>The file size must be known before generating the locations.  This means we must have access to the whole file; we can’t just pipe a file through this method</li>
+  <li>Some compression methods become difficult to deal with; one can’t just move to a random location in a gzipped file, for instance, and start reading.  Other compression methods - bgzip, for instance, make things a little easier but still tricky.</li>
+  <li>The method is not completely uniformly random if the records are of unequal length; we are more likely to land in the middle of a large record than a small one, so this method is biased in favour of records following a large one.</li>
+  <li>Because we are randomly selecting locations, we may end up choosing the same record more than once; this gets more likely as the fraction of records we are reading increases.  In this case, we go back and randomly sample records to make up the difference.  There’s no way to know in general if two locations indicate the same record without reading the file at those locations.</li>
+</ul>
+
+<h3 id="a-streaming-solution---reservoir-sampling">A Streaming Solution - Reservoir Sampling</h3>
+
+<p>A solution to the <script type="math/tex">k</script>-random-sampling problem which makes use of streaming input is the <a href="http://en.wikipedia.org/wiki/Reservoir_sampling">Reservoir Sampling</a> approach.  This elegant method not only takes advantage of streaming support in the file system, but doesn’t require knowledge of the file size ahead of time; it is a so-called <a href="http://en.wikipedia.org/wiki/Online_algorithm">‘online’ method</a>.</p>
+
+<p>The basic idea is that, for every <script type="math/tex">i</script>th item seen, it is selected with a probability of <script type="math/tex">k/i</script>.  Because there’s a <script type="math/tex">1/(i+1)</script> chance of it being bumped by the next item, then the probability of the <script type="math/tex">i</script>th item being selected by the end of round <script type="math/tex">i+1</script> is</p>
+
+<script type="math/tex; mode=display">P_{i+1}(i) = P_i(i) \times \left (1 - \frac{1}{i+1} \right) = \frac{k}{i} \frac{i}{i+1} = \frac{k}{i+1}</script>
+
+<p>and so on until by the time all <script type="math/tex">N</script> items are read, each item has a <script type="math/tex">k/N</script> chance of being selected.</p>
+
+<p>Our simple implementation follows; we select the first <script type="math/tex">k</script> items to fill the reservoir, and then randomly select through the rest of the file.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">reservoir</span><span class="p">(</span><span class="n">infile</span><span class="p">,</span> <span class="n">nrecords</span><span class="p">):</span>
+    <span class="n">reader</span> <span class="o">=</span> <span class="n">simplefasta</span><span class="o">.</span><span class="n">FastaReader</span><span class="p">(</span><span class="n">infile</span><span class="p">)</span>
+    <span class="n">results</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="n">nrecords</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">nrecords</span><span class="p">):</span>
+        <span class="n">results</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">reader</span><span class="o">.</span><span class="n">readNext</span><span class="p">()</span>
+
+    <span class="n">countsSoFar</span> <span class="o">=</span> <span class="n">nrecords</span>
+    <span class="k">while</span> <span class="ow">not</span> <span class="n">reader</span><span class="o">.</span><span class="n">eof</span><span class="p">():</span>
+        <span class="n">loc</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">countsSoFar</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">loc</span> <span class="o">&lt;</span> <span class="n">nrecords</span><span class="p">:</span>
+            <span class="n">record</span> <span class="o">=</span> <span class="n">reader</span><span class="o">.</span><span class="n">readNext</span><span class="p">()</span>
+            <span class="k">if</span> <span class="n">record</span><span class="p">:</span>
+                <span class="n">results</span><span class="p">[</span><span class="n">loc</span><span class="p">]</span> <span class="o">=</span> <span class="n">record</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">reader</span><span class="o">.</span><span class="n">skipAhead</span><span class="p">(</span><span class="bp">True</span><span class="p">)</span>
+        <span class="n">countsSoFar</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">return</span> <span class="n">results</span></code></pre></figure>
+
+<p>Note that this method does uniformly select records, and can work in pipes or through compressed files equally well as it passes sequentially through the entire file.</p>
+
+<h3 id="timing-results-workstation-hard-drive">Timing Results: Workstation Hard Drive</h3>
+
+<p>I ran these benchmarks on my desktop workstation, with a mechanical hard drive. As a quick benchmark for streaming, simply counting the number of lines of the uncompressed (a shade under 4GB) file takes about 25 seconds on this system, which gives us a sense of the best possible streaming time for the file; this is about 160MB/s, a reasonable result (and in fact slightly higher than I would have expected).  Similarly, if we expected an IOPS rate of about 400, then we’d expect to see 0.1% selection to take about 6445/400 ~ 16s.</p>
+
+<p>The file handling and parsing will be significantly slower in python than it would be in C++, which disadvantages the streaming approach (which must process many more records than the seeking approach) somewhat, but our results should be instructive regardless.</p>
+
+<p>The primary results are shown in this plot, which we have already seen (note that both x and y scales are logarithmic):</p>
+
+<p><img src="/assets/io/uncompress-seek-vs-stream.png" alt="Streaming Reads vs. Seeks" class="img-responsive" /></p>
+
+<p>Some basic takeaways:</p>
+
+<ul>
+  <li>The reservoir approach, which always has to pass through the entire file, is much less variable in time than the seeking approach.</li>
+  <li>For sampling less than 0.75% of the file, seeking is clearly and reliably faster; for greater sampling fraction, seeking may or may not be faster</li>
+  <li>At very large fractions, the seeking time blows up as the chance of “collisions” - selecting the same entry multiple times - greatly increases, meaning you have to go back and resample.  But no one would really suggest this approach for sampling more than 10% of the file anyway.</li>
+  <li>Reservoir sampling works roughly equally well if it is operating directly on the file or having it piped through; and it actually can be somewhat faster for a gzipped file with zcat, since less data actually has to be pulled from the disk.</li>
+</ul>
+
+<p>We also tried the same test on gzipped files directly, since Python’s <a href="https://docs.python.org/2/library/gzip.html">gzipped file access</a> has a seek operation you can in principle use; but this isn’t really a fair test, as you can’t properly <code class="highlighter-rouge">seek</code> through a gzipped file, you have to decompress along the way.  That means the “seeking” approach is really just a streaming approach implemented much less efficiently, and we see that quite clearly:</p>
+
+<p><img src="/assets/io/gzip-seek-vs-stream.png" alt="On gzipped files" class="img-responsive" /></p>
+
+<p>It was because the file was truncated that we could use gzip with seek-based sampling here at all; seek-sampling requires knowing the filesize, and the total (uncompressed) file size isn’t available with a gzipped file unless the uncompressed size is less than 4GB.</p>
+
+<h3 id="sidebar---benchmark-warning-clear-that-cache">Sidebar - Benchmark warning: Clear that cache!</h3>
+
+<p>Note that for benchmarking I/O, even for moderately large files like this one (~1+GB compressed, 4GB uncompressed), a significant amount of the file will remain in various levels of OS cache, so it is absolutely essential to clear or avoid the cache in subsequent runs or else your timing results will be completely wrong.</p>
+
+<p>On linux, as root, you can completely clear caches with the following:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">sync</span>
+<span class="nv">$ </span><span class="nb">echo </span>3 <span class="o">&gt;</span> /proc/sys/vm/drop_caches</code></pre></figure>
+
+<p>but this is rather overkill, and requires root.  Easier, but requiring more disk space (and a file system which is not too smart/aggressive about deduplication!) is to cycle between multiple copies of the same file.  The <code class="highlighter-rouge">getdata</code> script makes 5 copies each of the compressed and uncompressed est.trunc.fa file to cycle through, which may or may not be enough.</p>
+
+<h2 id="other-file-stores-cluster-file-systems">Other File Stores: Cluster File Systems</h2>
+
+<p>Of course, single spinning disk performance isn’t all that a bioinformatician cares about.  Two other types of file systems play a large role; file systems on shared clusters, and individual SSDs.</p>
+
+<p>On a cluster file system, data is stored on a large array of spinning disks.  This has performance advantages, and disadvantages.</p>
+
+<p>On the plus side, file systems like <a href="http://en.wikipedia.org/wiki/Lustre_(file_system)">Lustre</a> will often stripe large files across several disks and even servers, so that streaming reads can be served from many pieces of hardware at once – potentially offering many multiples of 100MB/s of streaming bandwidth.   Similarly, the data file being striped across multiple disks means that many multiples of the IOPS are in principle available.</p>
+
+<p>In practice, because so many parts (servers, disks) need to be coordinated to perform operations, there is often an additional latency to file system operations; this tends to come through as modestly fewer effective IOPS than one would expect.  This means that the IOPS, while still potentially much higher than a local disk, are proportionally less increased than the bandwidth, tilting the balance in favour of streaming over seeking.</p>
+
+<p>On the other hand, having a network-attached file system introduces another potential bottleneck; a slow or congested network may mean that the peak bandwidth available for streaming reads at the reader may be decreased, pushing the balance back towards seeking.</p>
+
+<h2 id="other-file-stores-ssds">Other File Stores: SSDs</h2>
+
+<p>SSDs – which are ubiquitous in laptops and increasingly common on workstations – change things quite a bit.  These solid state devices have no moving parts, meaning that there is no delay waiting for media to move to the right location.  As a result, IOPS on these devices can be <a href="http://en.wikipedia.org/wiki/IOPS#Solid-state_devices">significantly higher</a>. Indeed, traditional disk controllers and drivers become the bottleneck; a consumer-grade device plugged in as a disk will still be limited to 500MB/s and say 20k IOPS, while specialized devices that look more directly like external memory can achieve much higher speeds.  (For those who want to know more about SSDs, Lee Hutchinson has an <a href="http://arstechnica.com/information-technology/2012/06/inside-the-ssd-revolution-how-solid-state-disks-really-work/">epic and accessible discussion of how SSDs work</a> on Ars Technica; the article is from 2012 but very little fundamental has changed in the intervening three years).</p>
+
+<p>At those rates, both streaming and seeking workflows see a performance boost, but the increase is much higher for IOPS.  Rather than streaming a 1000MB file taking roughly as long as 2,500-4,000 seeks, it is now more like 40,000 seeks.  That’s still finite, and each seek still takes roughly as much time as reading 25KB of data; but that factor of ten difference in relative rates will change the balance between whether streaming or seeking is most efficient for any given problem.</p>
+
+<p>Running this same test on my laptop gives results as shown below:</p>
+
+<p><img src="/assets/io/ssd.png" alt="SSD: Streaming Reads vs. Seeks" class="img-responsive" /></p>
+
+<p>We see that the laptop-grade hardware limits the performance of the streaming read; bandwidths (and thus the performance of the reservoir sampling) are down by about a factor of 2.  On the other hand, we seem to have gained over a factor of 10 in IOPS, with approximately 3000 effective random reading IOPS.  As a result, the seeking for a 0.1% sampling fraction takes a lightning-fast 2.5 seconds.</p>
+
+<p>However, it’s worth noticing that, even with the decrease in bandwidth and startling increase in IOPS, the crossover point between where streaming wins over seeking has only shifted from 0.75% to 3%; beyond that, streaming is clearly the winner.</p>
+
+<h2 id="how-to-further-improve-seeking-results">How to further improve seeking results</h2>
+
+<h3 id="hardware-ssds">Hardware: SSDs</h3>
+
+<p>Mechanical hard drives will always be at a significant disadvantage for random-access workloads compared to SSDs.  While SSDs are significantly more expensive than mechanical HDs for the same capacity, the increase in performance for these workloads (and their lower power draw for laptops) may make them a worthwhile investment for use cases where seeky access can’t be avoided.</p>
+
+<h3 id="software-multithreading">Software: multithreading</h3>
+
+<p>It’s also possible to improve the performance of the seeky workload through software.  As mentioned before, the file system OS layer and physical layer are highly concurrent, juggling many requests at once and shuffling the order of requests behind the scenes to maximize throughput.  For a highly seeky workflow like this, it’s often possible to make use of this concurrency by launching multiple threads, each sending their read request at the same time, and waiting until completion before launching the next.  This greatly increases the chance of finding a read request which can be performed quickly, making fuller use of the disk subsystem.  This significantly increases the complexity of the user software, however, and I won’t attempt it for the purposes of this post.</p>
+
+<h3 id="software-turning-off-os-caching">Software: turning off OS caching</h3>
+
+<p>A smaller possible gain could be realized, for small sample fractions, by hinting to the operating system not to provide expensive caching that will not be used by the seek-heavy access pattern.  This can be done by <a href="http://man7.org/linux/man-pages/man2/open.2.html">opening the file with O_DIRECT</a>, or using <a href="https://docs.python.org/dev/library/os.html#os.posix_fadvise">posix_fadvise</a> which allows a more flexible method for hinting to the operating system not to bother prefetching or caching, respectively, by passing <code class="highlighter-rouge">POSIX_FADV_RANDOM </code>and <code class="highlighter-rouge">POSIX_FADV_NOREUSE</code>.  However, this is likely only helpful for very small sample fractions, where seeking is already doing pretty well; for moderate sample fractions, the prefetching can actually help (e.g., that downward trend in time taken at around 10%) so I did not include this in the benchmark.</p>
+
+<h2 id="how-to-further-improve-sequential-results">How to further improve sequential results</h2>
+
+<h3 id="hardware-ssds-1">Hardware: SSDs</h3>
+
+<p>Workstation-class SSDs, with appropriate controllers, also offer a significant
+increase in streaming bandwidth over their mechanical counterparts, even if the
+increase is proportionally less than that in IOPS.  4-5x increases are not
+uncommon, and those would benefit the reservoir method here.</p>
+
+<h3 id="software-faster-parsing">Software: Faster parsing</h3>
+
+<p>While Python is excellent for many purposes, there is no question but that it is
+slower than compiled languages like C++.  FASTA parsing is quite simple, and
+for very small sampling fractions, there is no good reason that the resevoir solution should be a
+factor of two or more slower than running <code class="highlighter-rouge">wc -l</code>.  This hurts the reservoir
+sampling more than the streaming, as the resevoir approach (which parses records which then
+get bumped later) must parse ~17 times more records in this test than the seeking method.</p>
+
+<h3 id="software-turning-off-os-caching-1">Software: turning off OS caching</h3>
+
+<p>While <em>prefetching</em> is essential for the streaming performance we have seen,
+there may be some modest benefit to turning off <em>caching</em> of the data we 
+read in; after all, even with the reservoir sampling, we are still only
+processing each record at most once.  Again, we could use
+<a href="https://docs.python.org/dev/library/os.html#os.posix_fadvise">posix_fadvise</a>,
+this time with only <code class="highlighter-rouge">POSIX_FADV_NOREUSE</code>.  I again expect this to be a
+relatively small effect, and so it is not tested here.</p>
+
+<h2 id="conclusion-io-is-complicated-but-streaming-is-pretty-fast">Conclusion: I/O is Complicated, But Streaming is Pretty Fast</h2>
+
+<p>This post only scratches the surface of I/O performance considerations.  While we’ve thought a little bit about seeking vs sequential reading IOPS and bandwidth, even just streaming writes has different considerations (on the one hand, you can write anywhere that’s free, as opposed to needing to read specific bytes; on the other hand, there’s nothing like ‘prefetching’ for reads).  More complex operations – and especially metadata-heavy operations, like creating, deleting, or even just appending to files – involve even more moving parts.</p>
+
+<p>And even for seeking vs streaming reads, while the trends we’ve discussed here are widely applicable, different systems – underlying hardware (disk vs ssd) or how the file system is accessed (network-attached vs local) can greatly change the underlying numbers, which change the tradeoffs between seeking and streaming, possibly enough to make the conclusions different for any particular use case.  We are empiricists, and the best way to find out which approach works best for your problem is to measure on the system that you use – fully aware that anyone else who uses your software might do so on different systems or for different-sized problems.</p>
+
+<p>But a lot of software and hardware infrastructure is tuned to make streaming reads from filesystems as fast as possible, and it’s always worth testing to see if streaming through the data really isn’t fast enough.</p>
+:ET

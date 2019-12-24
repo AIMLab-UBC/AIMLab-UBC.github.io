@@ -1,0 +1,39 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            AIM Lab Webpage
+tagline:          'AIM Webpage'
+description:      'AIM Lab at BC Cancer and UBC'
+baseurl: ""
+url: ""
+
+include:
+  - .htaccess
+  - _pages
+
+sass:
+  sass_dir: _sass
+
+author:
+  name:           'Ali Bashashati'
+  url:            http://blogs.ubc.ca/alibashashati/
+
+paginate:         5
+
+# Custom vars
+version:          1.0
+markdown:         kramdown
+
+authors:
+    jared:
+        display_name: 'Ali Bashashati'
+    jonathan:
+        display_name: 'Ali Bashashati'
+
+github:
+  repo:           https://github.com/simpsonlab/simpsonlab.github.io

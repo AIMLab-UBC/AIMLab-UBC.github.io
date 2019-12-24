@@ -1,0 +1,67 @@
+- name: Ali Bashashati
+  photo: alib.jpg
+  info: Director of AI Research at BC Cancer, Assistant Professor in Biomedical Engineering & Pathology
+  email: abashash@bccrc.ca
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/alibashashati/
+  number_educ: 3
+  education1: PhD in Electrical & Computer Engineering at the University of British Columbia
+  education2: MSc in Biomedical Engineering at Amirkabir University of Technology
+  education3: BSc in Electrical Engineering at Sharif University of Technology
+
+- name: Hossein Farahani
+  photo: default.png
+  info: Research Associate
+  email: h.farahani@ubc.ca
+  github: 0
+  twitter: 0
+  linkedin: 0
+  number_educ: 3
+  education1: PhD in Electrical & Computer Engineering at the University of British Columbia
+  education2: MSc in Biomedical Engineering at Amirkabir University of Technology
+  education3: BSc in Electrical Engineering at Sharif University of Technology
+
+- name: Mitchell Nursay
+  photo: mnursy.jpg
+  info: Co-op Student
+  email: mnursy@uvic.ca
+  github: https://github.com/mnursey
+  twitter: 0
+  linkedin: 0
+  number_educ: 1
+  education1: BSc in Computer Science at the University of Victoria
+
+- name: Yiping Wang
+  photo: ywang.jpg
+  info: Co-op Student
+  email: yipingwang@uvic.ca
+  github: https://github.com/yiping-wang
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/yiping-wang
+  number_educ: 1
+  education1: BSc in Computer Science at the University of Victoria
+
+- name: Yang Xia
+  photo: default.png
+  info: Co-op Student
+  email: yxia@bccrc.ca
+  github: 0
+  twitter: 0
+  linkedin: 0
+  number_educ: 3
+  education1: BSc in Computer Science at the University of British Columbia
+  education2: MSc in Pathology and Laboratory Medicine at the University of British Columbia 
+  education3: BSc in Neurosciece and Psychology at the University of Toronto
+
+- name: Colin Chen
+  photo: default.png
+  info: Co-op Student
+  email: cchen@bccrc.ca
+  github: 0
+  twitter: 0
+  linkedin: 0
+  number_educ: 1
+  education1: BSc in Computer Science at the University of British Columbia
+
+

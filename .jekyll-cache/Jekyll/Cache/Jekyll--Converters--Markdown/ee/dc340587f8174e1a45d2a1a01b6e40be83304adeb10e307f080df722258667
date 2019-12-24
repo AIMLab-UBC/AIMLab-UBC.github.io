@@ -1,0 +1,76 @@
+I"Æ<h1 id="group-members">Group Members</h1>
+
+<div class="row">
+
+
+<div class="col-sm-6 clearfix">
+  <img src="http://localhost:4000/assets/teampic/alib.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Ali Bashashati</h4> 
+  
+  
+    
+  <a href="https://www.linkedin.com/in/alibashashati//"> <i class="fa fa-linkedin" style="color:#0e76a8; font-size:24px;"></i></a>
+  
+  <br />
+  <i>Director of AI Research at BC Cancer, Assistant Professor in Biomedical Engineering &amp; Pathology<br /></i>
+  <ul style="overflow: hidden">
+  
+  
+  
+  
+  
+  
+  <li> PhD in Electrical &amp; Computer Engineering, University of British Columbia </li>
+  <li> MSc in Biomedical Engineering, Amirkabir University of Technology </li>
+  <li> BSc in Electrical Engineering, Sharif University of Technology </li>
+  
+  
+  
+  
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-sm-6 clearfix">
+  <img src="http://localhost:4000/assets/teampic/alib.jpg" class="img-responsive" width="25%" style="float: left" />
+  <h4>Yiping wang</h4> 
+  
+  <a href="https://github.com/yiping-wang/"> <i class="fa fa-github" style="color:black; font-size:24px;"></i></a>
+  
+  
+    
+  <a href="https://www.linkedin.com/in/yiping-wang/"> <i class="fa fa-linkedin" style="color:#0e76a8; font-size:24px;"></i></a>
+  
+  <br />
+  <i>Co-op Student<br /></i>
+  <ul style="overflow: hidden">
+  
+  
+  <li> BSc in Computer Science at University of Victoria </li>
+  
+  
+  
+  
+  
+  
+  
+  
+  </ul>
+</div>
+
+
+
+
+</div>
+
+<p><br /></p>
+:ET

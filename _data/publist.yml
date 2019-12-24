@@ -1,0 +1,240 @@
+- title: "Detecting DNA Methylation using the Oxford Nanopore Technologies MinION sequencer"
+  authors: Jared T Simpson, Rachael Workman, Philip C Zuzarte, Matei David, Lewis Jonathan Dursi, Winston Timp
+  year: 2017
+  preprint: 0
+  link:
+    url: http://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.4184.html
+    display: "Nature Methods"
+
+- title: "Epidemic establishment and cryptic transmission of Zika virus in Brazil and the Americas"
+  authors: Nuno R Faria, Josh Quick, Ingra Morales, Julien Theze, Jacqueline G de Jesus, Marta Giovanetti, Moritz UG Kraemer, Sarah C Hill et al.
+  year: 2017
+  preprint: 1
+  link:
+    url: http://biorxiv.org/content/early/2017/02/02/105171
+    display: "bioRxiv"
+
+- title: "De novo genome and transcriptome assembly of the Canadian beaver (Castor canadensis)"
+  authors: Si Lok, Tara A Paton, Zhuozhi Wang, Gaganjot Kaur, Susan Walker, Ryan KC Yuen, Wilson WL Sung, Joseph Whitney et al.
+  year: 2017
+  preprint: 0
+  link:
+    url: http://www.g3journal.org/content/early/2017/01/13/g3.116.038208.1
+    display: "G3: Genes, Genomes, Genetics"
+
+- title: "Multiplex PCR method for MinION and Illumina sequencing of Zika and other virus genomes directly from clinical samples"
+  authors: Joshua Quick, Nathan D Grubaugh, Steven T Pullan, Ingra M Claro, Andrew D Smith, Karthik Gangavarapu, Glenn Oliveira, Refugio Robles-Sikisaka et al.
+  year: 2017
+  preprint: 1
+  link:
+    url: http://biorxiv.org/content/early/2017/01/09/098913
+    display: "bioRxiv"
+
+- title: "A renewed model of pancreatic cancer evolution based on genomic rearrangement patterns"
+  authors: Faiyaz Notta, Michelle Chan-Seng-Yue, Mathieu Lemire, Yilong Li, Gavin W Wilson, Ashton A Connor, Robert E Denroche, Sheng-Ben Liang et al.
+  year: 2016
+  preprint: 0
+  link:
+    url: http://www.nature.com/nature/journal/v538/n7625/full/nature19823.html
+    display: "Nature"
+
+- title: "Evaluation of GRCh38 and de novo haploid genome assemblies demonstrates the enduring quality of the reference assembly"
+  authors: Valerie A Schneider, Tina Graves Lindsay, Kerstin Howe, Nathan Bouk, Hsiu-Chuan Chen, Paul A Kitts, Terence D Murphy, Kim D Pruitt et al.
+  year: 2016
+  preprint: 1
+  link:
+    url: http://biorxiv.org/content/early/2016/08/30/072116
+    display: "bioRxiv"
+
+- title: "Using reference-free compressed data structures to analyse sequencing reads from thousands of human genomes"
+  authors: Dirk-Dominic Dolle, Zhicheng Liu, Matthew L Cotten, Jared T Simpson, Zamin Iqbal, Richard Durbin, Shane A McCarthy, Thomas M Keane
+  year: 2016
+  preprint: 0
+  link:
+    url: http://genome.cshlp.org/content/27/2/300.abstract
+    display: "Genome Research"
+
+- title: "A global reference for human genetic variation"
+  authors: 1000 Genomes Project Consortium et al.
+  year: 2015
+  preprint: 0
+  link:
+    url: http://www.nature.com/nature/journal/v526/n7571/full/nature15393.html
+    display: "Nature"
+
+- title: "trio-sga: facilitating de novo assembly of highly heterozygous genomes with parent-child trios"
+  authors: Milan Malinsky, Jared T Simpson, Richard Durbin
+  year: 2016
+  preprint: 1
+  link:
+    url: http://biorxiv.org/content/early/2016/05/03/051516
+    display: "bioRxiv"
+
+- title: "Nanocall: an open source basecaller for Oxford Nanopore sequencing data"
+  authors: Matei David, Lewis Jonathan Dursi, Delia Yao, Paul C Boutros, Jared T Simpson
+  year: 2016
+  preprint: 0
+  link:
+    url: https://academic.oup.com/bioinformatics/article/33/1/49/2525680/Nanocall-an-open-source-basecaller-for-Oxford
+    display: "Bioinformatics"
+
+- title: "Real-time, portable genome sequencing for Ebola surveillance"
+  authors: Joshua Quick, Nicholas J Loman, Sophie Duraffour, Jared T Simpson, Ettore Severi, Lauren Cowley, Joseph Akoi Bore, Raymond Koundouno et al.
+  year: 2016
+  preprint: 0
+  link:
+    url: http://www.nature.com/nature/journal/v530/n7589/full/nature16996.html
+    display: "Nature"
+
+- title: "A comprehensive assessment of somatic mutation detection in cancer using whole-genome sequencing"
+  authors: Tyler S Alioto, Ivo Buchhalter, Sophia Derdak, Barbara Hutter, Matthew D Eldridge, Eivind Hovig, Lawrence E Heisler, Timothy A Beck et al.
+  year: 2015
+  preprint: 0
+  link:
+    url: http://www.nature.com/articles/ncomms10001
+    display: "Nature communications"
+
+- title: "MinION Analysis and Reference Consortium: Phase 1 data release and analysis"
+  authors: Camilla LC Ip, Matthew Loose, John R Tyson, Mariateresa de Cesare, Bonnie L Brown, Miten Jain, Richard M Leggett, David A Eccles et al.
+  year: 2015
+  preprint: 0
+  link:
+    url: https://f1000research.com/articles/4-1075/v1
+    display: "F1000Research"
+
+- title: "The khmer software package: enabling efficient nucleotide sequence analysis"
+  authors: Michael R Crusoe, Hussien F Alameldin, Sherine Awad, Elmar Boucher, Adam Caldwell, Reed Cartwright, Amanda Charbonneau, Bede Constantinides et al.
+  year: 2015
+  preprint: 0
+  link:
+    url: https://f1000research.com/articles/4-900/v1
+    display: "F1000Research"
+
+- title: "A complete bacterial genome assembled de novo using only nanopore sequencing data"
+  authors: Nicholas J Loman, Joshua Quick, Jared T Simpson
+  year: 2015
+  preprint: 0
+  link:
+    url: http://www.nature.com/nmeth/journal/v12/n8/full/nmeth.3444.html
+    display: "Nature methods"
+
+- title: "The genomic and phenotypic diversity of Schizosaccharomyces pombe"
+  authors: Daniel C Jeffares, Charalampos Rallis, Adrien Rieux, Doug Speed, Martin P{ř}evorovsk{ỳ}, Tobias Mourier, Francesc X Marsellach, Zamin Iqbal et al.
+  year: 2015
+  preprint: 0
+  link:
+    url: http://www.nature.com/ng/journal/v47/n3/full/ng.3215.html
+    display: "Nature genetics"
+
+- title: "The theory and practice of genome sequence assembly"
+  authors: Jared T Simpson, Mihai Pop
+  year: 2015
+  preprint: 0
+  link:
+    url: http://www.annualreviews.org/doi/abs/10.1146/annurev-genom-090314-050032?journalCode=genom
+    display: "Annual review of genomics and human genetics"
+
+- title: "A high-definition view of functional genetic variation from natural yeast genomes"
+  authors: Anders Bergström, Jared T Simpson, Francisco Salinas, Benjamin Barré, Leopold Parts, Amin Zia, Alex N Nguyen Ba, Alan M Moses et al.
+  year: 2014
+  preprint: 0
+  link:
+    url: https://academic.oup.com/mbe/article/31/4/872/1103434/A-High-Definition-View-of-Functional-Genetic
+    display: "Molecular biology and evolution"
+
+- title: "Exploring genome characteristics and sequence quality without a reference"
+  authors: Jared T Simpson
+  year: 2014
+  preprint: 0
+  link:
+    url: https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btu023
+    display: "Bioinformatics"
+
+- title: "Assemblathon 2: evaluating de novo methods of genome assembly in three vertebrate species"
+  authors: Keith R Bradnam, Joseph N Fass, Anton Alexandrov, Paul Baranay, Michael Bechner, Inan{ç} Birol, Sébastien Boisvert, Jarrod A Chapman et al.
+  year: 2013
+  preprint: 0
+  link:
+    url: https://gigascience.biomedcentral.com/articles/10.1186/2047-217X-2-10
+    display: "GigaScience"
+
+- title: "Insights into hominid evolution from the gorilla genome sequence"
+  authors: Aylwyn Scally, Julien Y Dutheil, LaDeana W Hillier, Gregory E Jordan, Ian Goodhead, Javier Herrero, Asger Hobolth, Tuuli Lappalainen et al.
+  year: 2012
+  preprint: 0
+  link:
+    url: http://www.nature.com/nature/journal/v483/n7388/full/nature10842.html
+    display: "Nature"
+
+- title: "Efficient de novo assembly of large genomes using compressed data structures"
+  authors: Jared T Simpson, Richard Durbin
+  year: 2012
+  preprint: 0
+  link:
+    url: http://genome.cshlp.org/content/early/2011/12/07/gr.126953.111
+    display: "Genome research"
+
+- title: "Assemblathon 1: a competitive assessment of de novo short read assembly methods"
+  authors: Dent Earl, Keith Bradnam, John St John, Aaron Darling, Dawei Lin, Joseph Fass, Hung On Ken Yu, Vince Buffalo et al.
+  year: 2011
+  preprint: 0
+  link:
+    url: http://genome.cshlp.org/content/early/2011/09/16/gr.126599.111.abstract
+    display: "Genome research"
+
+- title: "Trait variation in yeast is defined by population history"
+  authors: Jonas Warringer, Enikö Zörgö, Francisco A Cubillos, Amin Zia, Arne Gjuvsland, Jared T Simpson, Annabelle Forsmark, Richard Durbin et al.
+  year: 2011
+  preprint: 0
+  link:
+    url: http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1002111
+    display: "PLoS Genet"
+
+- title: "Copy number variant detection in inbred strains from short read sequence data"
+  authors: Jared T Simpson, Rebecca E McIntyre, David J Adams, Richard Durbin
+  year: 2010
+  preprint: 0
+  link:
+    url: https://academic.oup.com/bioinformatics/article-lookup/doi/10.1093/bioinformatics/btp693
+    display: "Bioinformatics"
+
+- title: "Revealing the genetic structure of a trait by sequencing a population under selection"
+  authors: Leopold Parts, Francisco A Cubillos, Jonas Warringer, Kanika Jain, Francisco Salinas, Suzannah J Bumpstead, Mikael Molin, Amin Zia et al.
+  year: 2011
+  preprint: 0
+  link:
+    url: http://genome.cshlp.org/content/21/7/1131.full
+    display: "Genome research"
+
+- title: "Efficient construction of an assembly string graph using the FM-index"
+  authors: Jared T Simpson, Richard Durbin
+  year: 2010
+  preprint: 0
+  link:
+    url: https://academic.oup.com/bioinformatics/article/26/12/i367/286190/Efficient-construction-of-an-assembly-string-graph
+    display: "Bioinformatics"
+
+- title: "Deep short-read sequencing of chromosome 17 from the mouse strains A/J and CAST/Ei identifies significant germline variation and candidate genes that regulate liver triglyceride levels"
+  authors: Ian Sudbery, Jim Stalker, Jared T Simpson, Thomas Keane, Alistair G Rust, Matthew E Hurles, Klaudia Walter, Dee Lynch et al.
+  year: 2009
+  preprint: 0
+  link:
+    url: https://genomebiology.biomedcentral.com/articles/10.1186/gb-2009-10-10-r112
+    display: "Genome biology"
+
+- title: "Complex landscapes of somatic rearrangement in human breast cancer genomes"
+  authors: Philip J Stephens, David J McBride, Meng-Lay Lin, Ignacio Varela, Erin D Pleasance, Jared T Simpson, Lucy A Stebbings, Catherine Leroy et al.
+  year: 2009
+  preprint: 0
+  link:
+    url: http://www.nature.com/nature/journal/v462/n7276/full/nature08645.html
+    display: "Nature"
+
+- title: "ABySS: a parallel assembler for short read sequence data"
+  authors: Jared T Simpson, Kim Wong, Shaun D Jackman, Jacqueline E Schein, Steven JM Jones, Inan{ç} Birol
+  year: 2009
+  preprint: 0
+  link:
+    url: http://genome.cshlp.org/content/19/6/1117
+    display: "Genome research"
+

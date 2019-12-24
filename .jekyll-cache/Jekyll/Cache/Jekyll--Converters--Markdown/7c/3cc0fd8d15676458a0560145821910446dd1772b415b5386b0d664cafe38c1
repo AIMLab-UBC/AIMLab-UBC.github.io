@@ -1,0 +1,152 @@
+I"-<h2 id="introduction">Introduction</h2>
+
+<p>This post describes a new module I added to our <a href="https://github.com/jts/nanopolish">nanopolish</a> software package that aligns the signal data emitted by a nanopore to a reference genome. This is in contrast to most approaches which align two DNA sequences to each other (for example a base-called read and a reference genome). To make sense of what aligning signal data to a reference genome means, I will describe at a high level my model of how nanopore sequencing works. For a more detailed and technical description, see the supplement of our <a href="http://biorxiv.org/content/early/2015/03/11/015552">preprint</a>.</p>
+
+<h2 id="nanopore-sequencing">Nanopore Sequencing</h2>
+
+<p>A nanopore sequencer threads a single strand of DNA through a pore embedded in a membrane. The pore allows electric current to flow from one side of the membrane to the other. As DNA transits this pore it partially blocks the flow of current, which is measured by the instrument. In Oxford Nanopore’s MinION system the measured current depends on the 5-mer that resides in the pore when the measurements are taken.</p>
+
+<p>The MinION samples the current thousands of times per second; as 5-mers slide though the pore they should be observed in multiple samples. The MinION’s event detection software processes these samples and tries to detect points where the current level changes. These jumps indicate a new 5-mer resides in the pore. To help illustrate this I’ve reproduced a figure from our preprint below:</p>
+
+<p><img src="/assets/simulation.svg" alt="simulation" /></p>
+
+<p>This is a simulation from an idealized nanopore sequencing process. The black dots represent the sampled current and the red lines indicate contiguous segments that make up the detected <em>events</em>. For example the mean current was around 60 picoamps, plus a bit of noise, for the first 0.5s. The current then dropped to 40 pA for 0.1s before jumping to 52 pA and so on.</p>
+
+<p>The event detection software writes the events to an HDF5 file. The raw kHz samples are typically not stored as the output files would be impractically large. Here’s the table of events for this simulation:</p>
+
+<table class="table table-striped table-post">
+  <thead>
+    <tr>
+      <th style="text-align: center">event index</th>
+      <th style="text-align: center">mean (pA)</th>
+      <th style="text-align: center">length (s)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">60.3</td>
+      <td style="text-align: center">0.521</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">40.6</td>
+      <td style="text-align: center">0.112</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">52.2</td>
+      <td style="text-align: center">0.356</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">54.1</td>
+      <td style="text-align: center">0.051</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">5</td>
+      <td style="text-align: center">61.5</td>
+      <td style="text-align: center">0.291</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">6</td>
+      <td style="text-align: center">72.7</td>
+      <td style="text-align: center">0.015</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">7</td>
+      <td style="text-align: center">49.4</td>
+      <td style="text-align: center">0.141</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>To help translate events into a DNA sequence, Oxford Nanopore provides a <em>pore model</em> which describes the expected current signal for each 5-mer. The pore model is a set of 1024 normal distributions - an example might look like this:</p>
+
+<table class="table table-striped table-post">
+  <thead>
+    <tr>
+      <th style="text-align: center">5-mer</th>
+      <th style="text-align: center"><script type="math/tex">\mu_k</script></th>
+      <th style="text-align: center"><script type="math/tex">\sigma_k</script></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">AAAAA</td>
+      <td style="text-align: center">53.5</td>
+      <td style="text-align: center">1.3</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">AAAAC</td>
+      <td style="text-align: center">54.2</td>
+      <td style="text-align: center">0.9</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">…</td>
+      <td style="text-align: center">…</td>
+      <td style="text-align: center">…</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">TTTTG</td>
+      <td style="text-align: center">65.3</td>
+      <td style="text-align: center">1.8</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">TTTTT</td>
+      <td style="text-align: center">67.1</td>
+      <td style="text-align: center">1.4</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This indicates that the measured current is expected to be drawn from <script type="math/tex">\mathcal{N}(53.5, 1.3^2)</script> when AAAAA is in the pore and so on.</p>
+
+<h2 id="inferring-bases-from-events">Inferring Bases from Events</h2>
+
+<p>Using the pore model and the observed data we can solve a number of inference problems. For example we can infer the sequence of nucleotides that passed through the pore. This is the base calling problem. We can also infer the sequence of the genome given a set of overlapping reads. This is the consensus problem, which we addressed in our paper.</p>
+
+<p>These inference problems are complicated by two important factors. First, the normal distributions for 5-mers overlap. There are 1024 different 5-mers but the signals typically range from about 40-70 pA. This can make it difficult to infer which 5-mer generated a particular event. This is partially mitigated by the structure of the data; a solution must respect the overlap between 5-mers so a position that is difficult to resolve may become clear when we look at subsequent events. Second, event detection is performed in real time and inevitably makes errors. Some events may not be detected if they are too short or if the signals for adjacent 5-mers of the DNA strand are very similar. The extreme case for the latter situation occurs when sequencing through long homopolymers - here we do not expect a detectable change in current. The opposite problem occurs as well. The event detector may split what should be a single event into multiple events due to noise in the system that looks like a change in current. Handling these artefacts is key to accurately inferring the DNA sequence that generated the events.</p>
+
+<h2 id="aligning-events-to-a-reference">Aligning Events to a Reference</h2>
+
+<p>The hidden Markov model we designed for the consensus problem had 5-mers of a proposed consensus sequence as the backbone of the HMM, with additional states and transitions to handle the skipping/splitting artefacts. In our preprint we used this HMM to calculate a consensus sequence from a set of reads. If we make a reference genome the backbone of the HMM, we can use it to align events to the reference.</p>
+
+<p>The new <code class="highlighter-rouge">eventalign</code> module of <code class="highlighter-rouge">nanopolish</code> exposes this functionality as a command line tool.  This program takes in a set of nanopore reads aligned in base-space to a reference sequence (or draft genome assembly) and re-aligns the reads in event space.</p>
+
+<p>The pipeline uses <code class="highlighter-rouge">bwa mem</code> alignments as a guide. We start with a normal bwa workflow:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bwa mem -x ont2d -t 8 ecoli_k12.fasta reads.fa | samtools view -Sb - | samtools sort - alignments.sorted
+samtools index alignments.sorted.bam
+</code></pre></div></div>
+
+<p>We can then realign in event space                                                   using nanopolish:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nanopolish eventalign -r reads.fa -b alignments.sorted.bam -g ecoli_k12.fasta "gi|556503834|ref|NC_000913.3|:10000-20000" &gt; eventalign.tsv
+</code></pre></div></div>
+
+<p>The output looks like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>contig                         position  reference_kmer  read_index  strand  event_index  event_level_mean  event_length  model_kmer  model_mean  model_stdv
+gi|556503834|ref|NC_000913.3|  10000     ATTGC           1           c       27470        50.57             0.022         ATTGC       50.58       1.02
+gi|556503834|ref|NC_000913.3|  10001     TTGCG           1           c       27471        52.31             0.023         TTGCG       51.68       0.73
+gi|556503834|ref|NC_000913.3|  10001     TTGCG           1           c       27472        53.05             0.056         TTGCG       51.68       0.73
+gi|556503834|ref|NC_000913.3|  10001     TTGCG           1           c       27473        54.56             0.011         TTGCG       51.68       0.73
+gi|556503834|ref|NC_000913.3|  10002     TGCGC           1           c       27474        65.56             0.012         TGCGC       66.96       2.91
+gi|556503834|ref|NC_000913.3|  10002     TGCGC           1           c       27475        69.97             0.071         TGCGC       66.96       2.91
+gi|556503834|ref|NC_000913.3|  10003     GCGCT           1           c       27476        67.11             0.017         GCGCT       68.08       2.20
+gi|556503834|ref|NC_000913.3|  10004     CGCTG           1           c       27477        69.47             0.052         CGCTG       69.84       1.89
+</code></pre></div></div>
+
+<p>This is the complement strand (c) of a 2D Nanopore read from Nick’s <a href="http://www.gigasciencejournal.com/content/3/1/22">E. coli data</a> aligned to E. coli K12. The first event listed (event 27470) had a measured current level of 50.57 pA. It aligns to the reference 5-mer ATTGC at position 10,000 of the reference genome. The pore model indicates that events measured for 5-mer ATTGC should come from <script type="math/tex">\mathcal{N}(50.58, 1.02^2)</script>, which matches the observed data very well. The next 3 events (27471, 27472, 27473) are all aligned to the same reference 5-mer (TTGCG) indicating that the event detector erroneously called 3 events where only one should have been emitted. Note that the current for these 3 events are all plausibly drawn from the expected distribution <script type="math/tex">\mathcal{N}(51.68, 0.73^2)</script>.</p>
+
+<p>This output has one row for every event. If a reference 5-mer was skipped, there will be a gap in the output where no signal was observed:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gi|556503834|ref|NC_000913.3|   10009   GCACC   1       c       27489   67.52   0.028   GCACC   66.83   2.46
+gi|556503834|ref|NC_000913.3|   10011   ACCGC   1       c       27490   65.17   0.012   ACCGC   65.03   1.92
+</code></pre></div></div>
+
+<p>Here we did not observe an event for the 5-mer at position 10010.</p>
+
+<p>This module will hopefully make it easier to work with signal-level nanopore data, and help the development of improved models. The <code class="highlighter-rouge">eventalign</code> module can be found in the latest version of <a href="https://github.com/jts/nanopolish">nanopolish</a>.</p>
+:ET
