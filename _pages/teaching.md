@@ -8,7 +8,7 @@ permalink: /teaching/
 
 # Teaching
 
-### University of British Columbia. Courses
+### University of British Columbia Courses
 
 {% assign courses = site.data.courselist | where: "type", "course" %}
 {% for course in courses %}
