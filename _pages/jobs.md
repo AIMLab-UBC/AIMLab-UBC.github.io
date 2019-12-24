@@ -1,6 +1,6 @@
 ---
 title: "AIM Lab - Jobs"
-layout: homelay
+layout: gridlay
 excerpt: "AIM Lab - Jobs"
 sitemap: false
 permalink: /jobs/
