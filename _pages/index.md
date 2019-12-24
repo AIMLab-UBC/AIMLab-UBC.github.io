@@ -6,7 +6,7 @@ sitemap: false
 permalink: /
 ---
 
-The AIM Lab research area lies the interface between computational, engineering and biomedical sciences.
+The Artificial Intelligence in Medicine (AIM) Lab research area lies the interface between computational, engineering and biomedical sciences.
 
 We are interested in developing machine learning, statistical and signal processing algorithms and software infrastructure to combine various sources of omics and imaging data with major emphasis on discovering novel complex biological information related to different diseases.
 
