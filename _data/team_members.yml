@@ -1,7 +1,8 @@
 - name: Ali Bashashati
   photo: alib.jpg
   info: Director of AI Research at BC Ovarian Cancer Program (OVCARE), Assistant Professor in Biomedical Engineering & Pathology
-  email: ali.bashashati@ubc.ca
+  email: mailto:ali.bashashati@ubc.ca
+  website: 0
   github: 0
   twitter: 0
   linkedin: https://www.linkedin.com/in/alibashashati/
@@ -13,7 +14,8 @@
 - name: Hossein Shahrabi
   photo: default.png
   info: Lead Machine Learning Scientist
-  email: h.farahani@ubc.ca
+  email: mailto:h.farahani@ubc.ca
+  website: 0
   github: 0
   twitter: 0
   linkedin: 0
@@ -25,43 +27,47 @@
 - name: Mitchell Nursay
   photo: mnursy.jpg
   info: Co-op Student
-  email: mnursy@uvic.ca
+  email: mailto:mnursy@uvic.ca
   github: https://github.com/mnursey
+  website: 0
   twitter: 0
   linkedin: 0
   number_educ: 1
-  education1: BSc in Computer Science at the University of Victoria
+  education1: BSc in Computer Science, University of Victoria
 
 - name: Yiping Wang
   photo: ywang.jpg
   info: Co-op Student
-  email: yipingwang@uvic.ca
+  email: mailto:yipingwang@uvic.ca
   github: https://github.com/yiping-wang
+  website: https://yiping.wang.vision
   twitter: 0
   linkedin: https://www.linkedin.com/in/yiping-wang
   number_educ: 1
-  education1: BSc in Computer Science at the University of Victoria
+  education1: Honours BSc in Computer Science, University of Victoria
 
 - name: Yang Xia
-  photo: default.png
+  photo: yxia.jpg
   info: Co-op Student
-  email: yxia@bccrc.ca
+  email: mailto:yxia@bccrc.ca
+  website: 0
   github: 0
   twitter: 0
   linkedin: 0
   number_educ: 3
-  education1: BSc in Computer Science at the University of British Columbia
-  education2: MSc in Pathology and Laboratory Medicine at the University of British Columbia 
-  education3: BSc in Neurosciece and Psychology at the University of Toronto
+  education1: Bachelor of Computer Science, University of British Columbia
+  education2: MSc in Pathology and Laboratory Medicine, University of British Columbia 
+  education3: BSc in Neuroscience and Psychology, University of Toronto
 
 - name: Colin Chen
   photo: default.png
   info: Co-op Student
-  email: cchen@bccrc.ca
+  email: mailto:cchen@bccrc.ca
+  website: 0
   github: 0
   twitter: 0
   linkedin: 0
   number_educ: 1
-  education1: BSc in Computer Science at the University of British Columbia
+  education1: BSc in Computer Science, University of British Columbia
 
 

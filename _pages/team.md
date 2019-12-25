@@ -20,14 +20,20 @@ permalink: /team/
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/assets/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4> 
+  {% if member.email != 0 %}
+  <a href="{{ member.email }}"> <i class="far fa-envelope" style="color:#158CBA; font-size:24px;"></i></a>
+  {% endif %}
+  {% if member.website != 0 %}
+  <a href="{{ member.website }}/"> <i class="fas fa-link" style="color:#158CBA; font-size:24px;"></i></a>
+  {% endif %}
   {% if member.github != 0 %}
-  <a href="{{ member.github }}/"> <i class="fa fa-github" style="color:black; font-size:24px;"></i></a>
+  <a href="{{ member.github }}/"> <i class="fab fa-github-alt" style="color:#158CBA; font-size:24px;"></i></a>
   {% endif %}
   {% if member.twitter != 0 %}
-  <a href="{{ member.twitter }}/"> <i class="fa fa-twitter" style="color:#0084b4; font-size:24px;"></i></a>
+  <a href="{{ member.twitter }}/"> <i class="fa fa-twitter" style="color:#158CBA; font-size:24px;"></i></a>
   {% endif %}
-    {% if member.linkedin != 0 %}
-  <a href="{{ member.linkedin }}/"> <i class="fa fa-linkedin" style="color:#0e76a8; font-size:24px;"></i></a>
+  {% if member.linkedin != 0 %}
+  <a href="{{ member.linkedin }}/"> <i class="fab fa-linkedin-in" style="color:#158CBA; font-size:24px;"></i></a>
   {% endif %}
   <br>
   <i>{{ member.info }}<br></i>
