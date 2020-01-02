@@ -85,25 +85,17 @@ permalink: /team/
     <td>Kiran Garimella (University of Oxford) 2018</td>
 </tr>
 </table>
+{% endcomment %}
+
 
 ## Alumni
 <table align="center" class="table table-condensed">
 <tr>
-    <th>Staff</th>
-</tr>
-  <tr> <td>Hamza Khan, 2017-2019</td> </tr>
-  <tr> <td>Jonathan Dursi, 2015-2016</td> </tr>
-  <tr> <td>Matei David, 2013-2017</td> </tr>
-  <tr> <td>Marina Barsky, 2013-2015</td> </tr>
-<tr>
     <th>Undergraduate Students</th>
 </tr>
-  <tr><td>Tina Lee, 2018</td></tr>
-  <tr><td>Yin Yin, 2017</td></tr>
-  <tr><td>Audrina Zhou, 2017</td></tr>
-  <tr><td>Tom Piao, 2016</td></tr>
-
+  <tr><td>Christopher Halim, Summer Student (Summer 2019) supervised by Ali Bashashati</td></tr>
+  <tr><td>Jason Peng, Research Intern (Summer 2019) supervised by Ali Bashashati</td></tr>
+  <tr><td>Sina Zareian, Co-op Student (Spring & Summer 2019) supervised by Ali Bashashati</td></tr>
 </table>
-{% endcomment %}
 
 <br />
