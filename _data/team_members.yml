@@ -70,4 +70,48 @@
   number_educ: 1
   education1: BSc in Computer Science, University of British Columbia
 
+- name: Amirali Darbandsari
+  photo: default.png
+  info: Graduate Student
+  email: mailto:cchen@bccrc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  number_educ: 1
+  education1: BSc in Computer Science & Electrical Engineering, University of Tehran
+  education2: MSc in Electrical & Computer Engineering, University of British Columbia
+  
+- name: Sina Zareian
+  photo: default.png
+  info: Co-op Student
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  number_educ: 1
+  education1: BSc in Computer Science, Simon Fraser University
+
+- name: Jason Peng
+  photo: default.png
+  info: Intern
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  number_educ: 1
+  education1: BSc in Engineering Physics, University of British Columbia
+
+- name: Christopher Halim
+  photo: default.png
+  info: Summer Student
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  number_educ: 1
+  education1: BSc in Biomedical Engineering, University of British Columbia
 
