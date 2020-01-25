@@ -1,4 +1,4 @@
-- title: "Synthesis of Clinical Grade Cancer Pathology Images"
+- title: "Synthesis of Clinical Grade Cancer Pathology Images Using Generative Adversarial Networks"
   image: logo.png
   description: The purpose of this project is to showcase the capacity of generative adversarial networks (GAN) in synthesizing realistic looking histopathology images. The synthesized images can be utilized for educational and quality assurance purposes as well as improving deep learning histopathology classifier performances, where limited datasets are available.
   authors: 
@@ -7,8 +7,28 @@
     display: Link
   highlight: 1
   news2:
-  
-- title: "Ovarian Cancer Histotype Classification"
+
+- title: "Machine Learning-Driven Biomarker Discovery Platform for Gynecological Cancers: Towards Precision Medicine"
+  image: logo.png
+  description: Despite the revolution in our understanding of genetic and molecular drivers of different cancers, standard clinical management of gynecological cancers (specifically, ovarian and endometrial) and patient outcomes have not seen major improvements in the past decades. For example, recent findings, including ours, in the classification of ovarian cancer based on genetic markers have important clinical implications, including the potential for identifying new treatments. However, until the discovery of surrogate biomarkers, these sub-classifications are based on labor-intensive assays with long turnaround times, limiting their routine use. We are building a platform for characterizing ovarian and endometrial cancers, based on advanced machine learning techniques, by combining genetic and histopathology images.
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2:
+
+- title: "Spatial Genetic and Micro-Environmental Heterogeneity in Cancer"
+  image: logo.png
+  description: Cancer therapeutic resistance occurs as tumors develop resistance to treatments such as chemotherapy, radiotherapy and targeted therapies, through many different mechanisms. There is growing evidence that (epi)genetic and phenotypic heterogeneity within a tumor as well as tumor microenvironment contributes to resistance. While many studies in the past years (including ours) have characterized the degree of intra-tumor genetic heterogeneity and microenvironmental factors in different cancers, characterizing the spatial heterogeneity at single cell resolution is critical to identify driving factors of tumor heterogeneity. Using AI techniques, we are integrating a variety of assays including histopathology (haematoxin & eosin (H&E), multi-spectral IHC), in-situ, and single cell RNA sequencing to objectively characterize cancer–microenvironment interactions and genetic heterogeneity at different spatial scales in ovarian, endometrial, and synovial sarcoma tumors.
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2:
+
+- title: "Genomic Signatures for Ovarian Cancer Histotypes Stratification"
   image: logo.png
   description: we stratified ovarian cancer histotypes into novel genomic subtypes. This major discovery was built upon novel approach of integrating computation of point mutation and structural variation signatures that provided a potent, genome-based discriminant biomarker across the spectra of ovarian cancer histotypes. The most striking finding was a previously unreported poor outcome group representing ~50% of high grade serous ovarian cancer (HGSOC) cases. The poor outcome group was characterized by specific types of genomic structural rearrangement reflective of micro homology mediated end joining (MMEJ) as an active double strand break repair process that was notably absent from the other HGSOC cases.
   authors: 
