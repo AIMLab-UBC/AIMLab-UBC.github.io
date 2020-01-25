@@ -19,10 +19,11 @@
   github: 0
   twitter: 0
   linkedin: 0
-  number_educ: 3
+  number_educ: 4
   education1: PhD in Computer Sciecne, KTH Royal Institute of Technology 
-  education2: MSc in Aerospace Engineering, TBD
-  education3: BSc in Mechanical Engineering, Sharif University of Technology
+  education2: MSc in Space Science & Technology, The Julius Maximilians University of Würzburg, Germany
+  education3: MSc in Robotics & Automation Engineering, Gwangju Institute of Science and Technology, South Korea
+  education4: BSc in Mechanical Engineering, Sharif University of Technology
 
 - name: Amirali Darbandsari
   photo: default.png
@@ -35,7 +36,6 @@
   number_educ: 2
   education1: MASc in Electrical & Computer Engineering, University of British Columbia
   education2: BSc in Computer Science & Electrical Engineering, University of Tehran
-
 
 - name: Mitchell Nursey
   photo: mnursey.jpg
