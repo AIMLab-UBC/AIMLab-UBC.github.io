@@ -1,9 +1,59 @@
-- title: "GAN Demo"
+- title: "Synthesis of Clinical Grade Cancer Pathology Images"
   image: logo.png
   description: The purpose of this project is to showcase the capacity of generative adversarial networks (GAN) in synthesizing realistic looking histopathology images. The synthesized images can be utilized for educational and quality assurance purposes as well as improving deep learning histopathology classifier performances, where limited datasets are available.
-  authors: Colin Chen
+  authors: 
   link:
     url: https://gan.aimlab.ca/#/
     display: Link
   highlight: 1
   news2:
+  
+- title: "Ovarian Cancer Histotype Classification"
+  image: logo.png
+  description: we stratified ovarian cancer histotypes into novel genomic subtypes. This major discovery was built upon novel approach of integrating computation of point mutation and structural variation signatures that provided a potent, genome-based discriminant biomarker across the spectra of ovarian cancer histotypes. The most striking finding was a previously unreported poor outcome group representing ~50% of high grade serous ovarian cancer (HGSOC) cases. The poor outcome group was characterized by specific types of genomic structural rearrangement reflective of micro homology mediated end joining (MMEJ) as an active double strand break repair process that was notably absent from the other HGSOC cases.
+  authors: 
+  link:
+    url: https://www.nature.com/articles/ng.3849
+    display: Link
+  highlight: 1
+  news2:  
+  
+- title: "TMEM30A Loss of Function Mutations in Diffuse Large B-Cell Lymphoma"
+  image: logo.png
+  description: We conducted an integrative genomic analysis on a large cohort of patients (n = 347) with de novo DLBCL, drawn from a population registry, that were treated uniformly with modern immune-chemotherapy (R-CHOP). This study provides unprecedented insight into mutation-associated changes in membrane physiology linked to cancer. Specifically, we identified and characterized TMEM30A as a novel tumor suppressor gene whose loss is exclusively found in DLBCL and associated with favourable outcome after immuno-chemotherapy.
+  authors: 
+  link:
+    url: 
+    display: 
+  highlight: 1
+  news2:    
+  
+- title: "Kronos: a Workflow Assembler for Genome Analytics and Informatics"
+  image: logo.png
+  description: Kronos is a software platform for facilitating the development and execution of modular, auditable, and distributable bioinformatics workflows. Kronos obviates the need for explicit coding of workflows by compiling a text configuration file into executable Python applications. The Kronos platform provides a standard framework for developers to implement custom tools, reuse existing tools, and contribute to the community at large. 
+  authors: 
+  link:
+    url: https://academic.oup.com/gigascience/article/6/7/gix042/3888812
+    display: Link
+  highlight: 1
+  news2:  
+  
+- title: "Evolutionary Trajectories of Primary High‐Grade Serous Ovarian Cancers"
+  image: logo.png
+  description: The first world study on quantifying the degree of clonal diversity and evolution in primary untreated high-grade serous ovarian cancers (HGSOC). In this study, we measured the degree of genomic diversity within primary, untreated HGSCs to examine the natural state of tumour evolution prior to therapy. Our results demonstrate extensive intra-tumoral mutational, copy number and expression heterogeneity in HGSCs, thus illuminating a challenge for application of sequencing tumor genomes in the context of personalized, precision medicine. Although HGSCs are considered a single disease, they exhibit individual evolutionary trajectories that will require consideration in future therapeutic solutions.
+  authors: 
+  link:
+    url: https://onlinelibrary.wiley.com/doi/full/10.1002/path.42302
+    display: Link
+  highlight: 1
+  news2:    
+  
+- title: "DriverNet: Measuring the Impact of Somatic Mutations on Transcriptional Networks in Cancer"
+  image: logo.png
+  description: we introduce a novel computational framework, DriverNet, to identify likely driver mutations by virtue of their effect on mRNA expression networks. Application to four cancer datasets reveals the prevalence of rare candidate driver mutations associated with disrupted transcriptional networks and a simultaneous modulation of oncogenic and metabolic networks, induced by copy number co-modification of adjacent oncogenic and metabolic drivers.
+  authors: 
+  link:
+    url: https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-12-r124
+    display: Link
+  highlight: 1
+  news2:    
