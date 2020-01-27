@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            AIM Lab Webpage
 tagline:          'AIM Webpage'
-description:      'AIM Lab at BC Cancer and UBC'
+description:      'AIM Lab at OVCARE and UBC'
 baseurl: ""
 url: ""
 
@@ -36,4 +36,4 @@ authors:
         display_name: 'Ali Bashashati'
 
 github:
-  repo:           https://github.com/simpsonlab/simpsonlab.github.io
+  repo:           https://github.com/AliBashashati/AliBashashati.github.io
