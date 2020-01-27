@@ -23,6 +23,9 @@ permalink: /team/
   {% if member.email != 0 %}
   <a href="{{ member.email }}"> <i class="far fa-envelope" style="color:#158CBA; font-size:24px;"></i></a>
   {% endif %}
+  {% if member.google_scholar != 0 %}
+  <a href="{{ member.google_scholar }}/"> <i class="ai ai-google-scholar ai-3x" style="color:#158CBA; font-size:24px;"></i></a>
+  {% endif %}
   {% if member.website != 0 %}
   <a href="{{ member.website }}/"> <i class="fas fa-link" style="color:#158CBA; font-size:24px;"></i></a>
   {% endif %}
