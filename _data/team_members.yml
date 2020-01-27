@@ -7,9 +7,9 @@
   twitter: 0
   linkedin: https://www.linkedin.com/in/alibashashati/
   number_educ: 3
-  education1: PhD in Electrical & Computer Engineering, University of British Columbia
-  education2: MSc in Biomedical Engineering, Amirkabir University of Technology
-  education3: BSc in Electrical Engineering, Sharif University of Technology
+  education1: PhD in Electrical & Computer Engineering, University of British Columbia, Canada
+  education2: MSc in Biomedical Engineering, Amirkabir University of Technology, Iran
+  education3: BSc in Electrical Engineering, Sharif University of Technology, Iran
 
 - name: Hossein Shahrabi
   photo: default.png
@@ -23,7 +23,20 @@
   education1: PhD in Computer Sciecne, KTH Royal Institute of Technology 
   education2: MSc in Space Science & Technology, The Julius Maximilians University of Würzburg, Germany
   education3: MSc in Robotics & Automation Engineering, Gwangju Institute of Science and Technology, South Korea
-  education4: BSc in Mechanical Engineering, Sharif University of Technology
+  education4: BSc in Mechanical Engineering, Sharif University of Technology, Iran
+
+- name: Maryam Asadi (Starting June 2020)
+  photo: default.png
+  info: Post-Doctoral Fellow
+  email: 
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  number_educ: 3
+  education1: PhD in Computer Engineering (AI), Sharif University of Technology, Iran 
+  education2: MSc in Computer Engineering (Software), Iran University of Science & Technology, Iran
+  education3: BSc in Computer Engineering (Software), Iran University of Science & Technology, Iran
 
 - name: Amirali Darbandsari
   photo: default.png
@@ -34,8 +47,21 @@
   twitter: 0
   linkedin: 0
   number_educ: 2
-  education1: MASc in Electrical & Computer Engineering, University of British Columbia
-  education2: BSc in Computer Science & Electrical Engineering, University of Tehran
+  education1: MASc in Electrical & Computer Engineering, University of British Columbia, Canada
+  education2: BSc in Computer Science & Electrical Engineering, University of Tehran, Iran
+
+- name: P Ahmad (Starting May 2020)
+  photo: default.png
+  info: Graduate Student
+  email: 
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  number_educ: 3
+  education1: MASc in Bioinformatics, University of British Columbia, Canada
+  education2: MASc in Computer Engineering (Software), Shahid Rajaee Teacher Training University, Iran
+  education3: BSc in Computer Engineering (Software), Isfahan University, Iran
 
 - name: Mitchell Nursey
   photo: mnursey.jpg
@@ -46,7 +72,7 @@
   twitter: 0
   linkedin: 0
   number_educ: 1
-  education1: BSc in Computer Science, University of Victoria
+  education1: BSc in Computer Science, University of Victoria, Canada
 
 - name: Yiping Wang
   photo: ywang.jpg
@@ -57,7 +83,7 @@
   twitter: 0
   linkedin: https://www.linkedin.com/in/yiping-wang
   number_educ: 1
-  education1: Honours BSc in Computer Science, University of Victoria
+  education1: Honours BSc in Computer Science, University of Victoria, Canada
 
 - name: Yang Xia
   photo: yxia.jpg
@@ -68,9 +94,9 @@
   twitter: 0
   linkedin: 0
   number_educ: 3
-  education1: Bachelor of Computer Science, University of British Columbia
-  education2: MSc in Pathology and Laboratory Medicine, University of British Columbia 
-  education3: BSc in Neuroscience and Psychology, University of Toronto
+  education1: Bachelor of Computer Science, University of British Columbia, Canada
+  education2: MSc in Pathology and Laboratory Medicine, University of British Columbia, Canada 
+  education3: BSc in Neuroscience and Psychology, University of Toronto, Canada
 
 - name: Colin Chen
   photo: cchen.jpeg
@@ -81,5 +107,5 @@
   twitter: 0
   linkedin: https://www.linkedin.com/in/thisiscolinc/
   number_educ: 1
-  education1: BSc Combined Honours in Computer Science and Mathematics, University of British Columbia
+  education1: BSc Combined Honours in Computer Science and Mathematics, University of British Columbia, Canada
 
