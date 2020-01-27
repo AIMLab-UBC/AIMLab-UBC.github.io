@@ -11,7 +11,8 @@
 .carousel-inner {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 75%;
+  margin: auto;
 
   > .item {
     display: none;
