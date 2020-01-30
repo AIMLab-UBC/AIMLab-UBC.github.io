@@ -6,7 +6,7 @@ sitemap: false
 permalink: /teaching/
 ---
 
-# Teaching
+## Teaching
 
 ### University of British Columbia Courses
 

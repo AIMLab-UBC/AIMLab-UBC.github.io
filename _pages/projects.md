@@ -6,8 +6,7 @@ sitemap: false
 permalink: /projects/
 ---
 
-
-# Projects
+## Projects
 
 {% assign number_printed = 0 %}
 {% for project in site.data.project_list %}
