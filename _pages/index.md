@@ -1,7 +1,7 @@
 ---
-title: "AIM Lab - Home"
+title: "AIM Lab | Home"
 layout: homelay
-excerpt: "AIM Lab - Artificial Intelligence in Medicine Lab."
+excerpt: "AIM Lab | Artificial Intelligence in Medicine Lab."
 sitemap: false
 permalink: /
 ---

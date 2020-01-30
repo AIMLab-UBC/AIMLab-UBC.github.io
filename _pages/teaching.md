@@ -1,7 +1,7 @@
 ---
-title: "AIM Lab - Teaching"
+title: "AIM Lab | Teaching"
 layout: gridlay
-excerpt: "AIM Lab: Teaching"
+excerpt: "AIM Lab | Teaching"
 sitemap: false
 permalink: /teaching/
 ---
