@@ -18,8 +18,8 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <a href="{{ member.page_name }}/"><img src="{{ site.url }}{{ site.baseurl }}/assets/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
-  <a href="{{ member.page_name }}/"><h4>{{ member.name }}</h4></a>
+  <a href="{{ member.page_name }}"><img src="{{ site.url }}{{ site.baseurl }}/assets/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
+  <a href="{{ member.page_name }}"><h4>{{ member.name }}</h4></a>
   {% if member.email != 0 %}
   <a href="{{ member.email }}"> <i class="far fa-envelope" style="color:#158CBA; font-size:24px;"></i></a>
   {% endif %}
