@@ -3,7 +3,7 @@ title: "AIM Lab | Mitchell Nursey"
 layout: gridlay
 excerpt: "AIM Lab | Mitchell Nursey"
 sitemap: false
-permalink: /team/mnursey
+permalink: /team/mnursey/
 team_member_name: Mitchell Nursey
 ---
 
