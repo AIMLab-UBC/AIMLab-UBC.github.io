@@ -18,8 +18,8 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4> 
+  <a href="{{ member.page_name }}/"><img src="{{ site.url }}{{ site.baseurl }}/assets/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
+  <a href="{{ member.page_name }}/"><h4>{{ member.name }}</h4></a>
   {% if member.email != 0 %}
   <a href="{{ member.email }}"> <i class="far fa-envelope" style="color:#158CBA; font-size:24px;"></i></a>
   {% endif %}
@@ -79,16 +79,6 @@ permalink: /team/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
-{% comment %}
-## Visitors
-
-<table align="center" class="table table-condensed">
-<tr>
-    <td>Kiran Garimella (University of Oxford) 2018</td>
-</tr>
-</table>
-{% endcomment %}
 
 
 ## Alumni
