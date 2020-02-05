@@ -78,7 +78,12 @@
   linkedin: 0
   google_scholar: 0
   number_educ: 1
+  resume: 0
   education1: BSc in Computer Science, University of Victoria, Canada
+  page_name: mnursey
+  desc: "Over the past few years I have been working and developing my skills as a hobbyist programmer. Currently, I am working towards getting a bachelor's degree at the University of Victoria studying Computer Science. I have worked on a plethora of projects, from strategy games, to neural networks. I have a keen interest in artificial intelligence, game design, low level networking, computer vision, and teaching.
+
+"
 
 - name: Yiping Wang
   photo: ywang.jpg
