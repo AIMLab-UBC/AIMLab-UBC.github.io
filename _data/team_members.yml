@@ -81,9 +81,7 @@
   resume: 0
   education1: BSc in Computer Science, University of Victoria, Canada
   page_name: mnursey
-  desc: "Over the past few years I have been working and developing my skills as a hobbyist programmer. Currently, I am working towards getting a bachelor's degree at the University of Victoria studying Computer Science. I have worked on a plethora of projects, from strategy games, to neural networks. I have a keen interest in artificial intelligence, game design, low level networking, computer vision, and teaching.
-
-"
+  desc: "Over the past few years I have been working and developing my skills as a hobbyist programmer. Currently, I am working towards getting a bachelor's degree at the University of Victoria studying Computer Science. I have worked on a plethora of projects, from strategy games, to neural networks. I have a keen interest in artificial intelligence, game design, low level networking, computer vision, and teaching."
 
 - name: Yiping Wang
   photo: ywang.jpg
@@ -96,6 +94,8 @@
   google_scholar: 0
   number_educ: 1
   education1: Honours BSc in Computer Science, University of Victoria, Canada
+  page_name: ywang
+  desc: "Currently, I am a senior Honours BSc student in the Department of Computer Science at the University of Victoria. My interest and enthusiasm for Computer Vision and Medical Image Processing. I explore how to use medical image data and machine learning to help doctors make decisions. I am broadly interested in machine learning for improving lesion detection and classification, anatomical structure segmentation and quantification, cancer diagnosis and therapy. In a nutshell, I study and apply computer vision and machine learning for medical imaging."
 
 - name: Yang Xia
   photo: yxia.jpg
