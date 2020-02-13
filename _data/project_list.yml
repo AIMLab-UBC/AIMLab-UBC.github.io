@@ -8,6 +8,17 @@
   highlight: 1
   news2:
 
+
+- title: "Classification of Epithelial Ovarian Carcinoma Whole-Slide Pathology Images Using Deep Transfer Learning"
+  image: midl2020.png
+  description: Ovarian cancer is the most lethal cancer of the female reproductive organs. There are 5 major histological subtypes of epithelial ovarian cancer, each with distinct morphological, genetic, and clinical features. Currently, these subtypes are determined by a pathologist’s microscopic examination of tumor whole-slide images (WSI). This process is hampered by poor inter-observer agreement (Cohen’s kappa 0.54-0.67). We developed a two-stage deep transfer learning algorithm based on convolutional neural networks (CNN) for automatic classification of epithelial ovarian carcinoma WSIs. The proposed algorithm achieved a mean accuracy of 87.54% and Cohen’s kappa of 0.8106 in the slide-level classification of 305 WSIs; performing better than a standard CNN and pathologists without gynecologyspecific training.
+  authors: 
+  link:
+    url:
+    display:
+  highlight: 1
+  news2:
+
 - title: "Machine Learning-Driven Biomarker Discovery Platform for Gynecological Cancers: Towards Precision Medicine"
   image: logo.png
   description: Despite the revolution in our understanding of genetic and molecular drivers of different cancers, standard clinical management of gynecological cancers (specifically, ovarian and endometrial) and patient outcomes have not seen major improvements in the past decades. For example, recent findings, including ours, in the classification of ovarian cancer based on genetic markers have important clinical implications, including the potential for identifying new treatments. However, until the discovery of surrogate biomarkers, these sub-classifications are based on labor-intensive assays with long turnaround times, limiting their routine use. We are building a platform for characterizing ovarian and endometrial cancers, based on advanced machine learning techniques, by combining genetic and histopathology images.

@@ -1,7 +1,7 @@
 ---
-title: "AIM Lab - Jobs"
+title: "AIM Lab | Jobs"
 layout: gridlay
-excerpt: "AIM Lab - Jobs"
+excerpt: "AIM Lab | Jobs"
 sitemap: false
 permalink: /jobs/
 ---

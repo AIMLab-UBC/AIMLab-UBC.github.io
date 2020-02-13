@@ -1,7 +1,7 @@
 ---
-title: "AIM Lab - Projects"
+title: "AIM Lab | Projects"
 layout: projectlay
-excerpt: "AIM Lab -- Projects"
+excerpt: "AIM Lab | Projects"
 sitemap: false
 permalink: /projects/
 ---

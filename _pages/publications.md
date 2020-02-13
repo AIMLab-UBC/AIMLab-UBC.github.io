@@ -1,7 +1,7 @@
 ---
-title: "AIM Lab - Publications"
+title: "AIM Lab | Publications"
 layout: gridlay
-excerpt: "AIM Lab -- Publications"
+excerpt: "AIM Lab | Publications"
 sitemap: false
 permalink: /publications/
 ---
