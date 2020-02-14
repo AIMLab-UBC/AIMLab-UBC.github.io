@@ -21,6 +21,7 @@ permalink: /projects/
 <div class="col-sm-12 clearfix">
  <div class="well">
   <pubtit>{{ project.title }}</pubtit>
+  <p></p>
   <img src="{{ site.url }}{{ site.baseurl }}/assets/project_pic/{{ project.image }}" class="img-responsive" width="33%" style="float: left" />
   <p>{{ project.description }}</p>
   <p><em>{{ project.authors }}</em></p>
