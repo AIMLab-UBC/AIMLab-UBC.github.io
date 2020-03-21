@@ -46,7 +46,7 @@
 - name: Amirali Darbandsari
   photo: default.png
   info: Graduate Student
-  email: mailto:amiralid@ubc.ca
+  email: mailto:a.darbandsari@ece.ubc.ca
   website: 0
   github: 0
   twitter: 0
@@ -55,6 +55,32 @@
   number_educ: 2
   education1: MASc in Electrical & Computer Engineering, University of British Columbia, Canada
   education2: BSc in Computer Science & Electrical Engineering, University of Tehran, Iran
+
+- name: Matthew Wiens
+  photo: default.png
+  info: Graduate Student
+  email: mailto:m.wiens@shaw.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education2: BSc in Electrical Engineering (minor in Computer Engineering), University of Calgary, Canada
+
+- name: Jeffrey Boschman
+  photo: default.png
+  info: Graduate Student
+  email: mailto:jeffreyboschman@gmail.com
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education2: BSc in Chemical & Biological Engineering, University of British Columbia, Canada
 
 - name: P Ahmad (Starting May 2020)
   photo: default.png
@@ -69,6 +95,19 @@
   education1: MASc in Bioinformatics, University of British Columbia, Canada
   education2: MASc in Computer Engineering (Software), Shahid Rajaee Teacher Training University, Iran
   education3: BSc in Computer Engineering (Software), Isfahan University, Iran
+
+- name: Katherine Rich (Starting Sep 2020)
+  photo: default.png
+  info: Graduate Student
+  email: 
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education2: BSc in Biomedical Engineering, University of Toronto, Canada
 
 - name: Mitchell Nursey
   photo: mnursey.jpg
