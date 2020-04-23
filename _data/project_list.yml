@@ -2,20 +2,38 @@
   image: gan-flow.png
   description: The purpose of this project is to showcase the capacity of generative adversarial networks (GAN) in synthesizing realistic looking histopathology images. The synthesized images can be utilized for educational and quality assurance purposes as well as improving deep learning histopathology classifier performances, where limited datasets are available.
   authors: 
-  link:
+  link_pdf:
+    show: 1
+    url: https://www.biorxiv.org/content/10.1101/2020.02.24.963553v1
+    display: PDF
+  link_github:
+    show: 0
+    url: https://github.com/AIMLab-UBC
+    display: GitHub
+  link_demo:
+    show: 1
     url: https://gan.aimlab.ca/#/
-    display: Link
+    display: Demo
   highlight: 1
   news2:
 
 
 - title: "Classification of Epithelial Ovarian Carcinoma Whole-Slide Pathology Images Using Deep Transfer Learning"
   image: midl2020.png
-  description: Ovarian cancer is the most lethal cancer of the female reproductive organs. There are 5 major histological subtypes of epithelial ovarian cancer, each with distinct morphological, genetic, and clinical features. Currently, these subtypes are determined by a pathologist’s microscopic examination of tumor whole-slide images (WSI). This process is hampered by poor inter-observer agreement (Cohen’s kappa 0.54-0.67). We developed a two-stage deep transfer learning algorithm based on convolutional neural networks (CNN) for automatic classification of epithelial ovarian carcinoma WSIs. The proposed algorithm achieved a mean accuracy of 87.54% and Cohen’s kappa of 0.8106 in the slide-level classification of 305 WSIs; performing better than a standard CNN and pathologists without gynecologyspecific training.
+  description: Ovarian cancer is the most lethal cancer of the female reproductive organs. There are 5 major histological subtypes of epithelial ovarian cancer, each with distinct morphological, genetic, and clinical features. Currently, these histotypes are determined by a pathologist's microscopic examination of tumor whole-slide images (WSI). This process has been hampered by poor inter-observer agreement (Cohen’s kappa 0.54-0.67). We utilized a two-stage deep transfer learning algorithm based on convolutional neural networks (CNN) and progressive resizing for automatic classification of epithelial ovarian carcinoma WSIs. The proposed algorithm achieved a mean accuracy of 87.54% and Cohen's kappa of 0.8106 in the slide-level classification of 305 WSIs; performing better than a standard CNN and pathologists without gynecology-specific training. 
   authors: 
-  link:
-    url:
-    display:
+  link_pdf:
+    show: 1
+    url: https://openreview.net/forum?id=VXdQD8B307
+    display: PDF
+  link_github:
+    show: 1
+    url: https://github.com/AIMLab-UBC/MIDL2020
+    display: GitHub
+  link_demo:
+    show: 0
+    url: https://gan.aimlab.ca/#/
+    display: Demo
   highlight: 1
   news2:
 
