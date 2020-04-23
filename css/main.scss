@@ -8,6 +8,14 @@ img { margin-bottom: 24px;
     border-radius:0%;
 }
 
+a {
+    color: #FF330D;
+}
+
+a:hover {
+    color: #FF330D;
+}
+
 body {
 	padding-top: 70px;
 }
@@ -22,7 +30,7 @@ figcaption {
 .navbar {
     background-color: #FEFEFE;
     // border-color: rgb(157, 192, 238);
-    border-bottom-color:  rgb(157, 192, 238);
+    border-bottom-color:  #FF330D;
     padding-top: 6px;
     padding-bottom: 6px;
 }
@@ -134,11 +142,20 @@ img {
     height:10%;   
  }
 
- .btn{
+ .btn {
     text-transform: none;
     padding: 6px 12px;
     font-size: 14px;
     line-height: 1.428571429;
     border: 1px solid transparent;
-    border-radius: 4px;
+  }
+
+  .btn-aim {
+    border-radius: 0px;
+    color: white;
+    background-color: #FF330D;
+  }
+
+  .btn-aim:hover {
+    color: white;
   }

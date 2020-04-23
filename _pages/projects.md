@@ -27,13 +27,13 @@ permalink: /projects/
   <p><em>{{ project.authors }}</em></p>
   <span style="display: inline;">
   {% if project.link_pdf.show == 1 %}
-  <a type="button" class="btn btn-info" href="{{ project.link_pdf.url }}">{{ project.link_pdf.display }}</a>
+  <a type="button" class="btn btn-aim" href="{{ project.link_pdf.url }}">{{ project.link_pdf.display }}</a>
   {% endif %}
   {% if project.link_github.show == 1 %}
-  <a type="button" class="btn btn-info" href="{{ project.link_github.url }}">{{ project.link_github.display }}</a>
+  <a type="button" class="btn btn-aim" href="{{ project.link_github.url }}">{{ project.link_github.display }}</a>
   {% endif %}
   {% if project.link_demo.show == 1 %}
-  <a type="button" class="btn btn-info" href="{{ project.link_demo.url }}">{{ project.link_demo.display }}</a>
+  <a type="button" class="btn btn-aim" href="{{ project.link_demo.url }}">{{ project.link_demo.display }}</a>
   {% endif %}
   </span>
   <p class="text-danger"><strong> {{ project.news1 }}</strong></p>
