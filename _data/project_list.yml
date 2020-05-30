@@ -99,10 +99,11 @@
   
 - title: "DriverNet: Measuring the Impact of Somatic Mutations on Transcriptional Networks in Cancer"
   image: drivernet.jpg
-  description: we introduce a novel computational framework, DriverNet, to identify likely driver mutations by virtue of their effect on mRNA expression networks. Application to four cancer datasets reveals the prevalence of rare candidate driver mutations associated with disrupted transcriptional networks and a simultaneous modulation of oncogenic and metabolic networks, induced by copy number co-modification of adjacent oncogenic and metabolic drivers.
+  description: We introduce a novel computational framework, DriverNet, to identify likely driver mutations by virtue of their effect on mRNA expression networks. Application to four cancer datasets reveals the prevalence of rare candidate driver mutations associated with disrupted transcriptional networks and a simultaneous modulation of oncogenic and metabolic networks, induced by copy number co-modification of adjacent oncogenic and metabolic drivers.
   authors: 
-  link:
+  link_pdf:
+    show: 1
     url: https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-12-r124
-    display: Link
+    display: PDF
   highlight: 1
   news2:    
