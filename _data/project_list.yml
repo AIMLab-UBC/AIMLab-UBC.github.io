@@ -88,12 +88,13 @@
   news2:  
   
 - title: "Evolutionary Trajectories of Primary High‐Grade Serous Ovarian Cancers"
-  image: logo.png
+  image: ITH.jpg
   description: The first world study on quantifying the degree of clonal diversity and evolution in primary untreated high-grade serous ovarian cancers (HGSOC). In this study, we measured the degree of genomic diversity within primary, untreated HGSCs to examine the natural state of tumour evolution prior to therapy. Our results demonstrate extensive intra-tumoral mutational, copy number and expression heterogeneity in HGSCs, thus illuminating a challenge for application of sequencing tumor genomes in the context of personalized, precision medicine. Although HGSCs are considered a single disease, they exhibit individual evolutionary trajectories that will require consideration in future therapeutic solutions.
   authors: 
-  link:
+  link_pdf:
+    show: 1
     url: https://onlinelibrary.wiley.com/doi/full/10.1002/path.42302
-    display: Link
+    display: PDF
   highlight: 1
   news2:    
   
