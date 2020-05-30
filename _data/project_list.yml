@@ -61,9 +61,10 @@
   image: ov_landscape.jpg
   description: we stratified ovarian cancer histotypes into novel genomic subtypes. This major discovery was built upon novel approach of integrating computation of point mutation and structural variation signatures that provided a potent, genome-based discriminant biomarker across the spectra of ovarian cancer histotypes. The most striking finding was a previously unreported poor outcome group representing ~50% of high grade serous ovarian cancer (HGSOC) cases. The poor outcome group was characterized by specific types of genomic structural rearrangement reflective of micro homology mediated end joining (MMEJ) as an active double strand break repair process that was notably absent from the other HGSOC cases.
   authors: 
-  link:
+  link_pdf:
+    show: 1
     url: https://www.nature.com/articles/ng.3849
-    display: Link
+    display: PDF
   highlight: 1
   news2:  
   
