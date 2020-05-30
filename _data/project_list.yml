@@ -78,12 +78,13 @@
   news2:    
   
 - title: "Kronos: a Workflow Assembler for Genome Analytics and Informatics"
-  image: logo.png
+  image: kronos.jpg
   description: Kronos is a software platform for facilitating the development and execution of modular, auditable, and distributable bioinformatics workflows. Kronos obviates the need for explicit coding of workflows by compiling a text configuration file into executable Python applications. The Kronos platform provides a standard framework for developers to implement custom tools, reuse existing tools, and contribute to the community at large. 
   authors: 
-  link:
+  link_pdf:
+    show: 1
     url: https://academic.oup.com/gigascience/article/6/7/gix042/3888812
-    display: Link
+    display: PDF
   highlight: 1
   news2:  
   
