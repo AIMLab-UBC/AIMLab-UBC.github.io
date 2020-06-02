@@ -1,6 +1,6 @@
 - title: "Synthesis of Clinical Grade Cancer Pathology Images Using Generative Adversarial Networks"
   image: gan-flow.png
-  description: The purpose of this project is to showcase the capacity of generative adversarial networks (GAN) in synthesizing realistic looking histopathology images. The synthesized images can be utilized for educational and quality assurance purposes as well as improving deep learning histopathology classifier performances, where limited datasets are available.  The quality of these images was assessed using a comprehensive survey of board-certified pathologists (n = 9) and pathology trainees (n = 6). 
+  description: The purpose of this project is to showcase the capacity of generative adversarial networks (GAN) in synthesizing realistic looking histopathology images. Our findings have important applications in proficiency testing of medical practitioners and quality assurance in clinical laboratories. Furthermore, training of computer-aided diagnostic systems can benefit from synthetic images where labeled datasets are limited (e.g., rare cancers). We have created a publicly available demo website where clinicians and researchers can attempt questions from the image survey.
   authors: 
   link_pdf:
     show: 1
