@@ -26,7 +26,7 @@ permalink: /
             <img src="../img/gan3.png" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="../img/pathviewer.png" alt="Slide 2" />
+            <img src="../img/slider4.png" alt="Slide 2" />
         </div>
         <div class="item">
             <img src="../img/features.png" alt="Slide 3" />
