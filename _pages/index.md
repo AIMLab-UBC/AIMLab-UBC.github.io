@@ -29,7 +29,7 @@ permalink: /
             <img src="../img/slider4.png" alt="Slide 2" />
         </div>
         <div class="item">
-            <img src="../img/features.png" alt="Slide 3" />
+            <img src="../img/slider3.png" alt="Slide 3" />
         </div>
         <!-- <div class="item">
             <img src="../img/ocp_overview.jpg" alt="Slide 4" />
