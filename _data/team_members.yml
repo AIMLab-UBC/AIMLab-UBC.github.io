@@ -53,7 +53,7 @@
   linkedin: 0
   google_scholar: 0
   number_educ: 2
-  education1: MASc in Electrical & Computer Engineering, University of British Columbia, Canada
+  education1: MASc student in Electrical & Computer Engineering, University of British Columbia, Canada
   education2: BSc in Computer Science & Electrical Engineering, University of Tehran, Iran
 
 - name: Matthew Wiens
@@ -66,7 +66,7 @@
   linkedin: 0
   google_scholar: 0
   number_educ: 2
-  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education1: MASc student in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc in Electrical Engineering (minor in Computer Engineering), University of Calgary, Canada
 
 - name: Jeffrey Boschman
@@ -79,7 +79,7 @@
   linkedin: 0
   google_scholar: 0
   number_educ: 2
-  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education1: MASc student in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc in Chemical & Biological Engineering, University of British Columbia, Canada
 
 - name: Pouya Ahmadvand
@@ -92,9 +92,62 @@
   linkedin: 0
   google_scholar: 0
   number_educ: 3
-  education1: MASc in Bioinformatics, University of British Columbia, Canada
+  education1: MASc student in Bioinformatics, University of British Columbia, Canada
   education2: MASc in Computer Engineering (Software), Shahid Rajaee Teacher Training University, Iran
   education3: BSc in Computer Engineering (Software), Isfahan University, Iran
+
+- name: Colin Chen
+  photo: cchen.jpeg
+  info: Co-op Student
+  email: mailto:colinc@fastmail.com
+  website: 0
+  github: https://github.com/fireofearth
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/thisiscolinc/
+  google_scholar: 0
+  number_educ: 1
+  education1: BSc Combined Honours in Computer Science and Mathematics, University of British Columbia, Canada
+
+- name: Tina Li
+  photo: default_aim.png
+  info: Graduate Intern
+  email: mailto:zhengyangli1994@gmail.com
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MEng student in Biomedical Engineering, University of British Columbia, Canada
+  education2: BSc Chemical & Biological Engineering, University of British Columbia, Canada
+
+- name: Parisa Beygi (Starting Sep 2020)
+  photo: default_aim.png
+  info: Graduate Student
+  email: prsbeygi@gmail.com
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 3
+  education1: PhD student in Biomedical Engineering, University of British Columbia, Iran
+  education2: MASc in Computer Engineering (Artificial Intelligence), Amirkabir University of Technology, Iran
+  education3: BSc in Computer Engineering (Software), University of Tehran, Iran
+
+- name: Ramin Nakhli (Starting Sep 2020)
+  photo: default_aim.png
+  info: Graduate Student
+  email: raminnakhli@gmail.com
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 3
+  education1: PhD student in Biomedical Engineering, University of British Columbia, Iran
+  education2: MASc in Computer Engineering (Artificial Intelligence), University of Tehran, Iran
+  education3: BSc in Electrical Engineering, Sharif University of Technology, Iran
 
 - name: Katherine Rich (Starting Sep 2020)
   photo: default_aim.png
@@ -108,6 +161,19 @@
   number_educ: 2
   education1: MASc in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc in Biomedical Engineering, University of Toronto, Canada
+
+- name: Amir Hadjifaradji (Starting Sep 2020)
+  photo: default_aim.png
+  info: Graduate Student
+  email: ahadjifaradji@gmail.com
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education2: BSc in Biomedical Engineering, Simon Fraser University, Canada
 
 - name: Mitchell Nursey
   photo: mnursey.jpg
@@ -153,16 +219,3 @@
   education3: BSc in Neuroscience and Psychology, University of Toronto, Canada
   page_name: yxia
   desc: "I am an undergraduate student at UBC"
-
-- name: Colin Chen
-  photo: cchen.jpeg
-  info: Co-op Student
-  email: mailto:colinc@fastmail.com
-  website: 0
-  github: https://github.com/fireofearth
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/thisiscolinc/
-  google_scholar: 0
-  number_educ: 1
-  education1: BSc Combined Honours in Computer Science and Mathematics, University of British Columbia, Canada
-
