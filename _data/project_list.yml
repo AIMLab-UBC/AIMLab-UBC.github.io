@@ -38,7 +38,7 @@
 
 - title: "cPathPortal: a Web-Based Tool for Viewing and Annotation of Histopathology Images"
   image: viewer.png
-  description: In order to build and evaluate machine learning (ML) models, histopathology slide images need to be annotated by pathologists. Furthermore, evaluate of ML models needs a conveninet platform for viweing the results. Our group has developed an web-based application (named “cPathPortal”) for quick and intuitive annotation of histopathology images that works with tablets with stylus. cPathPortal is built on top of the OMERO application and allows the users to load histopathology images, zoom into different sections and annotate them. Our intention is to release cPathPortal as an open-source platform in the near future. Please contact us if you would like to deploy and test cPathPortal on your own servers.  
+  description: In order to build and evaluate machine learning (ML) models, histopathology slide images need to be annotated by pathologists. Furthermore, the evaluation of ML models needs a conveninet platform for viweing the results. Our group have developed a web-based application (named “cPathPortal”) for quick and intuitive annotation of histopathology images that works with tablets with stylus. cPathPortal is built on top of OMERO (https://www.openmicroscopy.org/omero/) and allows the users to load histopathology images, zoom into different sections and annotate them. Our intention is to release cPathPortal as an open-source platform in the near future. Please contact us if you would like to deploy and test cPathPortal on your own servers.  
   authors: 
   link_pdf:
     show: 0
@@ -49,7 +49,7 @@
     url: 
     display: GitHub
   link_demo:
-    show: 0
+    show: 1
     url: http://cpathportal.com/
     display: Demo
   highlight: 1
