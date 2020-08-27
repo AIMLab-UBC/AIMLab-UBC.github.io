@@ -29,7 +29,7 @@
   education3: MSc in Robotics & Automation Engineering, Gwangju Institute of Science and Technology, South Korea
   education4: BSc in Mechanical Engineering, Sharif University of Technology, Iran
 
-- name: Maryam Asadi (Starting June 2020)
+- name: Maryam Asadi (Starting Nov 2020)
   photo: default_aim.png
   info: Post-Doctoral Fellow
   email: 
@@ -96,18 +96,6 @@
   education2: MASc in Computer Engineering (Software), Shahid Rajaee Teacher Training University, Iran
   education3: BSc in Computer Engineering (Software), Isfahan University, Iran
 
-- name: Colin Chen
-  photo: cchen.jpeg
-  info: Co-op Student
-  email: mailto:colinc@fastmail.com
-  website: 0
-  github: https://github.com/fireofearth
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/thisiscolinc/
-  google_scholar: 0
-  number_educ: 1
-  education1: BSc Combined Honours in Computer Science and Mathematics, University of British Columbia, Canada
-
 - name: Tina Li
   photo: default_aim.png
   info: Graduate Intern
@@ -121,7 +109,7 @@
   education1: MEng student in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc Chemical & Biological Engineering, University of British Columbia, Canada
 
-- name: Parisa Beygi (Starting Sep 2020)
+- name: Parisa Beygi
   photo: default_aim.png
   info: Graduate Student
   email: prsbeygi@gmail.com
@@ -135,7 +123,7 @@
   education2: MASc in Computer Engineering (Artificial Intelligence), Amirkabir University of Technology, Iran
   education3: BSc in Computer Engineering (Software), University of Tehran, Iran
 
-- name: Ramin Nakhli (Starting Sep 2020)
+- name: Ramin Nakhli
   photo: default_aim.png
   info: Graduate Student
   email: raminnakhli@gmail.com
@@ -149,7 +137,7 @@
   education2: MASc in Computer Engineering (Artificial Intelligence), University of Tehran, Iran
   education3: BSc in Electrical Engineering, Sharif University of Technology, Iran
 
-- name: Katherine Rich (Starting Sep 2020)
+- name: Katherine Rich
   photo: default_aim.png
   info: Graduate Student
   email: 
@@ -162,7 +150,7 @@
   education1: MASc in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc in Biomedical Engineering, University of Toronto, Canada
 
-- name: Amir Hadjifaradji (Starting Sep 2020)
+- name: Amir Hadjifaradji
   photo: default_aim.png
   info: Graduate Student
   email: ahadjifaradji@gmail.com
@@ -174,6 +162,18 @@
   number_educ: 2
   education1: MASc in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc in Biomedical Engineering, Simon Fraser University, Canada
+
+- name: Colin Chen
+  photo: cchen.jpeg
+  info: Co-op Student
+  email: mailto:colinc@fastmail.com
+  website: 0
+  github: https://github.com/fireofearth
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/thisiscolinc/
+  google_scholar: 0
+  number_educ: 1
+  education1: BSc Combined Honours in Computer Science and Mathematics, University of British Columbia, Canada
 
 - name: Mitchell Nursey
   photo: mnursey.jpg
