@@ -14,4 +14,6 @@ We look for individuals with strong analytical as well as programming skills. Th
 
 Please include your CV (including details of the projects that you have worked on and link to your code repository) and transcripts (for PhD and MSc candidates) in your correspondence.
 
-Note 1: We admit graduate students through the [School of Biomedical Engineering](https://www.bme.ubc.ca/), the [Graduate Program in Bioinformatics](http://www.bioinformatics.ubc.ca/), and the Department of Pathology & Laboratory Medicine. In special cases, we may admit students through the Electrical & Computer Engineering Department.
+Note 1: We admit graduate students through the [School of Biomedical Engineering](https://www.bme.ubc.ca/), the [Graduate Program in Bioinformatics](http://www.bioinformatics.ubc.ca/), and the Department of Pathology & Laboratory Medicine. In very special cases, we may admit students through the Electrical & Computer Engineering Department.
+
+Note 2: We review ALL the applications that we receive but unfortunately cannot acknowledge receipt due to an overwhelming number of inquiries that we get.  
