@@ -1,32 +1,292 @@
-- title: "Classification of Epithelial Ovarian Carcinoma Whole-Slide Pathology Images Using Deep Transfer Learning"
-  authors: Yiping Wang, David Farnell, Hossein Farahani, Mitchell Nursey, Basile Tessier-Cloutier, Steven JM Jones, David G Huntsman, C Blake Gilks, Ali Bashashati
-  year: 2020
-  preprint: 0
-  url: https://arxiv.org/abs/2005.10957
-  display: "arXiv preprint arXiv:2005.10957"
+- title: "Synthesis of diagnostic quality cancer pathology images"
+  authors: Adrian B. Levine, Jason Peng, David Farnell, Mitchell Nursey, Yiping Wang, Julia R. Naso, Hezhen Ren, Hossein Farahani, Colin Chen, Derek Chiu, Aline Talhouk, Brandon Sheffield, Maziar Riazy, Philip P. Ip, Carlos Parra-Herran, Anne Mills, Naveena Singh, Basile Tessier-Cloutier, Taylor Salisbury, Jonathan Lee, Tim Salcudean, Steven J.M. Jones, David G. Huntsman, C. Blake Gilks, Stephen Yip, Ali Bashashati
+  url: https://doi.org/10.1101/2020.02.24.963553
 
 - title: "Synthesis of high resolution glioma pathology images using generative adversarial networks"
   authors: Adrian Levine, Jason Peng, David Farnell, Mitchell Nursey, Yiping Wang, Steven Jones, C Blake Gilks, Ali Bashashati, Stephen Yip
-  year: 2020
-  preprint: 0
   url: 
-  display: 
 
-- title: "Synthesis of diagnostic quality cancer pathology images by generative adversarial networks"
-  authors: Adrian B. Levine, Jason Peng, David Farnell, Mitchell Nursey, Yiping Wang, Julia R. Naso, Hezhen Ren, Hossein Farahani, Colin Chen, Derek Chiu, Aline Talhouk, Brandon Sheffield, Maziar Riazy, Philip P. Ip, Carlos Parra-Herran, Anne Mills, Naveena Singh, Basile Tessier-Cloutier, Taylor Salisbury, Jonathan Lee, Tim Salcudean, Steven J.M. Jones, David G. Huntsman, C. Blake Gilks, Stephen Yip, Ali Bashashati
-  year: 2020
-  preprint: 0
-  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/path.5509
-  display: "The Journal of Pathology"
+- title: "Classification of Epithelial Ovarian Carcinoma Whole-Slide Pathology Images Using Deep Transfer Learning"
+  authors: Yiping Wang, David Farnell, Hossein Farahani, Mitchell Nursey, Basile Tessier-Cloutier, Steven J. M. Jones, David G. Huntsman, C. Blake Gilks, Ali Bashashati
+  url: https://arxiv.org/abs/2005.10957
 
 - title: "TMEM30A loss-of-function mutations drive lymphomagenesis and confer therapeutically exploitable vulnerability in B-cell lymphoma"
-  authors: Daisuke Ennishi, Shannon Healy, Ali Bashashati, Saeed Saberi, Christoffer Hother, Anja Mottok, Fong Chun Chan, Lauren Chong, Libin Abraham, Robert Kridel, Merrill Boyle, Barbara Meissner, Tomohiro Aoki, Katsuyoshi Takata, Bruce W Woolcock, Elena Viganò, Michael Gold, Laurie L Molday, Robert S Molday, Adele Telenius, Michael Y Li, Nicole Wretham, Nancy Dos Santos, Mark Wong, Natasja N Viller, Robert A Uger, Gerben Duns, Abigail Baticados, Angel Madero, Brianna N Bristow, Pedro Farinha, Graham W Slack, Susana Ben-Neriah, Daniel Lai, Allen W Zhang, Sohrab Salehi, Hennady P Shulha, Derek S Chiu, Sara Mostafavi, Alina S Gerrie, Christopher Rushton, Diego Villa, Laurie H Sehn, Kerry J Savage, Andrew J Mungall, Andrew P Weng, Marcel B Bally, Ryan D Morin, Gabriela V Cohen Freue, Louis M Staudt, Joseph M Connors, Marco A Marra, Sohrab P Shah, Randy D Gascoyne, David W Scott, Christian Steidl
-  url: https://www.nature.com/articles/s41591-020-0757-z
+  authors: Daisuke Ennishi, Shannon Healy, Ali Bashashati, Saeed Saberi, Christoffer Hother, Anja Mottok, Fong Chun Chan, Lauren Chong, Libin Abraham, Robert Kridel, Merrill Boyle, Barbara Meissner, Tomohiro Aoki, Katsuyoshi Takata, Bruce W. Woolcock, Elena Viganò, Michael Gold, Laurie L. Molday, Robert S. Molday, Adele Telenius, Michael Y. Li, Nicole Wretham, Nancy Dos Santos, Mark Wong, Natasja N. Viller, Robert A. Uger, Gerben Duns, Abigail Baticados, Angel Madero, Brianna N. Bristow, Pedro Farinha, Graham W. Slack, Susana Ben-Neriah, Daniel Lai, Allen W. Zhang, Sohrab Salehi, Hennady P. Shulha, Derek S. Chiu, Sara Mostafavi, Alina S. Gerrie, Da Wei Huang, Christopher Rushton, Diego Villa, Laurie H. Sehn, Kerry J. Savage, Andrew J. Mungall, Andrew P. Weng, Marcel B. Bally, Ryan D. Morin, Gabriela V. Cohen Freue, Louis M. Staudt, Joseph M. Connors, Marco A. Marra, Sohrab P. Shah, Randy D. Gascoyne, David W. Scott, Christian Steidl
+  url: https://doi.org/10.1038/s41591-020-0757-z
 
 - title: "Generation of Synthetic Ovarian Carcinoma Microscopic Images for Proficiency Testing"
-  authors: Adrian Levine, Chien Chen Peng, David Farnell, Basile Tessier-Cloutier, Mitchell Nursey, Davood Karimi, Steven Jones, Septimiu Salcudean, David Huntsman, Stephen Yip, C Blake Gilks, Ali Bashashati
+  authors: Adrian Levine, Chien Chen Peng, David Farnell, Basile Tessier-Cloutier, Mitchell Nursey, Davood Karimi, Steven Jones, Septimiu Salcudean, David Huntsman, Stephen Yip
   url: 
 
 - title: "Endometrial Cancer Molecular Risk Stratification is Equally Prognostic for Endometrioid Ovarian Carcinoma"
-  authors: Pauline Krämer, Aline Talhouk, Mary Anne Brett, Derek S Chiu, Evan S Cairns, Daniëlla A Scheunhage, Rory Fl Hammond, David Farnell, Tayyebeh Mehrane Nazeran, Marcel Grube, Zhouchunyang Xia, Janine Senz, Samuel Leung, Lukas Feil, Jana Pasternak, Katherine Dixon, Andreas Hartkopf, Bernhard Krämer, Sara Brucker, Florian Heitz, Andreas du Bois, Philipp Harter, Felix Kommoss, Hans-Peter Sinn, Sabine Heublein, Friedrich Kommoss, Hans-Walter Vollert, Ranjit Manchanda, Cornelis D de Kroon, Hans W Nijman, Marco de Bruyn, Emily F Thompson, Ali Bashashati, Jessica N McAlpine, Naveena Singh, Anna V Tinker, Annette Staebler, Tjalling Bosse, Stefan Kommoss, Martin Köbel, Michael S Anglesio
-  url: https://clincancerres.aacrjournals.org/content/early/2020/09/04/1078-0432.CCR-20-1268.abstract
+  authors: Pauline Krämer, Aline Talhouk, Mary Anne Brett, Derek S. Chiu, Evan S. Cairns, Daniëlla A. Scheunhage, Rory F.L. Hammond, David Farnell, Tayyebeh M. Nazeran, Marcel Grube, Zhouchunyang Xia, Janine Senz, Samuel Leung, Lukas Feil, Jana Pasternak, Katherine Dixon, Andreas Hartkopf, Bernhard Krämer, Sara Brucker, Florian Heitz, Andreas du Bois, Philipp Harter, Felix K.F. Kommoss, Hans-Peter Sinn, Sabine Heublein, Friedrich Kommoss, Hans-Walter Vollert, Ranjit Manchanda, Cornelis D. de Kroon, Hans W. Nijman, Marco de Bruyn, Emily F. Thompson, Ali Bashashati, Jessica N. McAlpine, Naveena Singh, Anna V. Tinker, Annette Staebler, Tjalling Bosse, Stefan Kommoss, Martin Köbel, Michael S. Anglesio
+  url: https://doi.org/10.1158/1078-0432.ccr-20-1268
+
+- title: "The coming 15~years in gynaecological pathology: digitisation,  artificial intelligence,  and new technologies"
+  authors: David A Farnell, David Huntsman, Ali Bashashati
+  url: https://doi.org/10.1111/his.13991
+
+- title: "Abstract GMM-047: GENOMIC CHARACTERIZATION OF ADULT-TYPE GRANULOSA CELL TUMORS: IMPLICATIONS FOR PATHOGENESIS AND TREATMENT OF RECURRENT DISEASE"
+  authors: Jessica A. Pilsworth, Dawn R. Cochrane, Samantha Neilson, Anniina E.M. Färkkilä, Hugo M. Horlings, Satoshi Yanagida, Janine Senz, Yi Kan Wang, Bahar Moussavi, Daniel Lai, Ali Bashashati, Jacqueline Keul, Adele Wong, Hannah van Meurs, Sara Y. Brucker, Florin-Andrei Taran, Bernhard Krämer, Annette Staebler, Esther Oliva, Sohrab P. Shah, Stefan Kommoss, Friedrich Kommoss, C. Blake Gilks, David G. Huntsman
+  url: https://clincancerres.aacrjournals.org/content/25/22_Supplement/GMM-047
+
+- title: "Molecular profiling and molecular classification of endometrioid ovarian carcinomas"
+  authors: Paulina Cybulska, Arnaud Da Cruz Paula, Jill Tseng, Mario M. Leitao Jr, Ali Bashashati, David G. Huntsman, Tayyebeh M. Nazeran, Carol Aghajanian, Nadeem R. Abu-Rustum, Deborah F. DeLair, Sohrab P. Shah, Britta Weigelt
+  url: https://doi.org/10.1016/j.ygyno.2019.07.012
+
+- title: "Regulation of pH by Carbonic Anhydrase 9 Mediates Survival of Pancreatic Cancer Cells With Activated KRAS in Response to Hypoxia"
+  authors: Paul C. McDonald, Shawn C. Chafe, Wells S. Brown, Saeed Saberi, Mridula Swayampakula, Geetha Venkateswaran, Oksana Nemirovsky, Jordan A. Gillespie, Joanna M. Karasinska, Steve E. Kalloger, Claudiu T. Supuran, David F. Schaeffer, Ali Bashashati, Sohrab P. Shah, James T. Topham, Donald T. Yapp, Jinyang Li, Daniel J. Renouf, Ben Z. Stanger, Shoukat Dedhar
+  url: https://doi.org/10.1053/j.gastro.2019.05.004
+
+- title: "Abstract 3480:TMEM30Aloss-of-function mutations drive lymphomagenesis and confer therapeutically exploitable vulnerability in B-cell lymphoma"
+  authors: Shannon Healy, Daisuke Ennishi, Ali Bashashati, Saeed Saberi, Christoffer Hother, Anja Mottok, Fong Chun Chan, Lauren Chong, Robert Kridel, Merrill Boyle, Barbara Meissner, Tomohiro Aoki, Katsuyoshi Takata, Bruce W. Woolcock, Elena Vigano, Libin Abraham, Michael Gold, Adele Telenius, Pedro Farinha, Graham Slack, Susana Ben-Neriah, Daniel Lai, Allen W. Zhang, Sohrab Salehi, Hennady P. Shulha, Derek S. Chiu, Sara Mostafavi, Alina S. Gerrie, Diego Villa, Laurie H. Sehn, Kerry J. J. Savage, Andrew J. J. Mungall, Andrew P. Weng, Marcel Bally, Ryan D. Morin, Gabriela V. Cohen Freue, Joseph M. Connors, Marco A. Marra, Sohrab P. Shah, Randy D. Gascoyne, David W. Scott, Christian Steidl, Ulrich Steidl
+  url: https://doi.org/10.1158/1538-7445.am2019-3480
+
+- title: "Targeting Hypoxia-Induced Carbonic Anhydrase IX Enhances Immune-Checkpoint Blockade Locally and Systemically"
+  authors: Shawn C. Chafe, Paul C. McDonald, Saeed Saberi, Oksana Nemirovsky, Geetha Venkateswaran, Samantha Burugu, Dongxia Gao, Alberto Delaidelli, Alastair H. Kyle, Jennifer H.E. Baker, Jordan A. Gillespie, Ali Bashashati, Andrew I. Minchinton, Youwen Zhou, Sohrab P. Shah, Shoukat Dedhar
+  url: https://doi.org/10.1158/2326-6066.cir-18-0657
+
+- title: "Molecular profiling of endometrioid ovarian carcinomas"
+  authors: P Cybulska, ADC Paula, JH Tseng, A Bashashati, D Huntsman, NR Abu-Rustum, D DeLair, SP Shah, B Weigelt
+  url: https://doi.org/10.1016/j.ygyno.2019.04.128
+
+- title: "Pharmacological systems analysis defines EIF4A3 functions in cell-cycle and RNA stress granule formation"
+  authors: Alborz Mazloomian, Shinsuke Araki, Momoko Ohori, Amal M. El-Naggar, Damian Yap, Ali Bashashati, Shoichi Nakao, Poul H. Sorensen, Atsushi Nakanishi, Sohrab Shah, Samuel Aparicio
+  url: https://doi.org/10.1038/s42003-019-0391-9
+
+- title: "Molecular and Genetic Characterization of MHC Deficiency Identifies EZH2 as Therapeutic Target for Enhancing Immune Recognition"
+  authors: Daisuke Ennishi, Katsuyoshi Takata, Wendy Béguelin, Gerben Duns, Anja Mottok, Pedro Farinha, Ali Bashashati, Saeed Saberi, Merrill Boyle, Barbara Meissner, Susana Ben-Neriah, Bruce W. Woolcock, Adèle Telenius, Daniel Lai, Matt Teater, Robert Kridel, Kerry J. Savage, Laurie H. Sehn, Ryan D. Morin, Marco A. Marra, Sohrab P. Shah, Joseph M. Connors, Randy D. Gascoyne, David W. Scott, Ari M. Melnick, Christian Steidl
+  url: https://doi.org/10.1158/2159-8290.cd-18-1090
+
+- title: "Integrated structural variation and point mutation signatures in cancer genomes using correlated topic models"
+  authors: Tyler Funnell, Allen W. Zhang, Diljot Grewal, Steven McKinney, Ali Bashashati, Yi Kan Wang, Sohrab P. Shah
+  url: https://doi.org/10.1371/journal.pcbi.1006799
+
+- title: "Double-Hit Gene Expression Signature Defines a Distinct Subgroup of Germinal Center B-Cell-Like Diffuse Large B-Cell Lymphoma"
+  authors: Daisuke Ennishi, Aixiang Jiang, Merrill Boyle, Brett Collinge, Bruno M. Grande, Susana Ben-Neriah, Christopher Rushton, Jeffrey Tang, Nicole Thomas, Graham W. Slack, Pedro Farinha, Katsuyoshi Takata, Tomoko Miyata-Takata, Jeffrey Craig, Anja Mottok, Barbara Meissner, Saeed Saberi, Ali Bashashati, Diego Villa, Kerry J. Savage, Laurie H. Sehn, Robert Kridel, Andrew J. Mungall, Marco A. Marra, Sohrab P. Shah, Christian Steidl, Joseph M. Connors, Randy D. Gascoyne, Ryan D. Morin, David W. Scott
+  url: https://doi.org/10.1200/jco.18.01583
+
+- title: "The Double-Hit Gene Expression Signature Defines a Clinically and Biologically Distinct Subgroup within GCB-DLBCL"
+  authors: Daisuke Ennishi, Aixiang Jiang, Merrill Boyle, Brett Collinge, Bruno M. Grande, Susana Ben-Neriah, Graham W Slack, Pedro Farinha, Diego Villa, Anja Mottok, Barbara Meissner, Saeed Saberi, Ali Bashashati, Kerry J Savage, Laurie H Sehn, Robert Kridel, Marco A. Marra, Sohrab P Shah, Christian Steidl, Joseph M. Connors, Randy D. Gascoyne, Ryan D. Morin, David W. Scott
+  url: https://doi.org/10.1182/blood-2018-99-116827
+
+- title: "Somatic PRAME Deletions Are Associated with Decreased Immunogenicity,  Apoptosis Resistance and Poor Outcomes in Diffuse Large B-Cell Lymphoma"
+  authors: Katsuyoshi Takata, Daisuke Ennishi, Ali Bashashati, Saeed Saberi, Elena Viganò, Shannon Healy, Julie S Nielsen, Gianluca D′ Antonio, Brad H Nelson, Sohrab P Shah, Joseph M Connors, Randy D. Gascoyne, David W. Scott, Christian Steidl
+  url: https://doi.org/10.1182/blood-2018-99-113516
+
+- title: "Abstract B22: Capturing L1 retrotransposon-mediated DNA transductions in endometriosis associated ovarian cancers as a way to track tumor development"
+  authors: Zhouchunyang Xia, Dawn Cochrane, Michael Anglesio, Winnie Yang, Miguel Alcaide, Tayyebeh Nazeran, Janine Senz, Amy Lum, Ali Bashashati, Yikan Wang, Ryan Morin, Sohrab Shah, David Huntsman
+  url: https://doi.org/10.1158/1557-3265.ovca17-b22
+
+- title: "Abstract PR13: TERT is frequently mutated in adult-type granulosa cell tumors of the ovary compared to other malignant sex cord-stromal tumors"
+  authors: Jessica A. Pilsworth, Dawn R. Cochrane, Zhouchunyang Xia, Geraldine Aubert, Anniina E. M. Färkkilä, Hugo M. Horlings, Satoshi Yanagida, Winnie Yang, Jamie L. P. Lim, Yikan Wang, Ali Bashashati, Jacqueline Keul, Adele Wong, Esther Oliva, Sohrab P. Shah, Stefan Kommoss, Friedrich Kommoss, Peter M. Lansdorp, Duncan M. Baird, David G. Huntsman
+  url: https://doi.org/10.1158/1557-3265.ovca17-pr13
+
+- title: "Abstract B22: Capturing L1 retrotransposon-mediated DNA transductions in endometriosis associated ovarian cancers as a way to track tumor development"
+  authors: Zhouchunyang Xia, Dawn Cochrane, Michael Anglesio, Winnie Yang, Miguel Alcaide, Tayyebeh Nazeran, Janine Senz, Amy Lum, Ali Bashashati, Yikan Wang, Ryan Morin, Sohrab Shah, David Huntsman
+  url: https://doi.org/10.1158/1557-3265.ovca17-b22
+
+- title: "TERT promoter mutation in adult granulosa cell tumor of the ovary"
+  authors: Jessica A. Pilsworth, Dawn R. Cochrane, Zhouchunyang Xia, Geraldine Aubert, Anniina E. M. Färkkilä, Hugo M. Horlings, Satoshi Yanagida, Winnie Yang, Jamie L. P. Lim, Yi Kan Wang, Ali Bashashati, Jacqueline Keul, Adele Wong, Kevin Norris, Sara Y. Brucker, Florin-Andrei Taran, Bernhard Krämer, Annette Staebler, Hannah van Meurs, Esther Oliva, Sohrab P. Shah, Stefan Kommoss, Friedrich Kommoss, C. Blake Gilks, Duncan M. Baird, David G. Huntsman
+  url: https://doi.org/10.1038/s41379-018-0007-9
+
+- title: "Interfaces of Malignant and Immunologic Clonal Dynamics in Ovarian Cancer"
+  authors: Allen W. Zhang, Andrew McPherson, Katy Milne, David R. Kroeger, Phineas T. Hamilton, Alex Miranda, Tyler Funnell, Nicole Little, Camila P.E. de Souza, Sonya Laan, Stacey LeDoux, Dawn R. Cochrane, Jamie L.P. Lim, Winnie Yang, Andrew Roth, Maia A. Smith, Julie Ho, Kane Tse, Thomas Zeng, Inna Shlafman, Michael R. Mayo, Richard Moore, Henrik Failmezger, Andreas Heindl, Yi Kan Wang, Ali Bashashati, Diljot S. Grewal, Scott D. Brown, Daniel Lai, Adrian N.C. Wan, Cydney B. Nielsen, Curtis Huebner, Basile Tessier-Cloutier, Michael S. Anglesio, Alexandre Bouchard-Côté, Yinyin Yuan, Wyeth W. Wasserman, C. Blake Gilks, Anthony N. Karnezis, Samuel Aparicio, Jessica N. McAlpine, David G. Huntsman, Robert A. Holt, Brad H. Nelson, Sohrab P. Shah
+  url: https://doi.org/10.1016/j.cell.2018.03.073
+
+- title: "Integrated single-nucleotide and structural variation signatures of DNA-repair deficient human cancers"
+  authors: Tyler Funnell, Allen Zhang, Yu-Jia Shiah, Diljot Grewal, Robert Lesurf, Steven McKinney, Ali Bashashati, Yi Kan Wang, Paul C. Boutros, Sohrab P. Shah
+  url: https://doi.org/10.1101/267500
+
+- title: "Genetic Characterization and Clinical Impact of Loss of MHC Class I and II Expression in De Novo Diffuse Large B-Cell Lymphoma"
+  authors: Daisuke Ennishi, Anja Mottok, Pedro Farinha, Fong Chun Chan, Ali Bashashati, Saeed Saberi, Barbara Meissner, Merrill Boyle, Susana Ben-Neriah, Robert Kridel, Kerry J Savage, Laurie H. Sehn, Ryan D. Morin, Marco A Marra, Sohrab P Shah, Joseph M Connors, Randy D. Gascoyne, David W. Scott, Christian Steidl
+  url: https://ashpublications.org/blood/article-abstract/130/Supplement%201/40/72043
+
+- title: "LINE-1 retrotransposon-mediated DNA transductions in endometriosis associated ovarian cancers"
+  authors: Zhouchunyang Xia, Dawn R. Cochrane, Michael S. Anglesio, Yi Kan Wang, Tayyebeh Nazeran, Basile Tessier-Cloutier, Melissa K. McConechy, Janine Senz, Amy Lum, Ali Bashashati, Sohrab P. Shah, David G. Huntsman
+  url: https://doi.org/10.1016/j.ygyno.2017.09.032
+
+- title: "The driver landscape of sporadic chordoma"
+  authors: Patrick S. Tarpey, Sam Behjati, Matthew D. Young, Inigo Martincorena, Ludmil B. Alexandrov, Sarah J. Farndon, Charlotte Guzzo, Claire Hardy, Calli Latimer, Adam P. Butler, Jon W. Teague, Adam Shlien, P. Andrew Futreal, Sohrab Shah, Ali Bashashati, Farzad Jamshidi, Torsten O. Nielsen, David Huntsman, Daniel Baumhoer, Sebastian Brandner, Jay Wunder, Brendan Dickson, Patricia Cogswell, Josh Sommer, Joanna J. Phillips, M. Fernanda Amary, Roberto Tirabosco, Nischalan Pillay, Stephen Yip, Michael R. Stratton, Adrienne M. Flanagan, Peter J. Campbell
+  url: https://doi.org/10.1038/s41467-017-01026-0
+
+- title: "Abstract 3381: TERT promoter mutation in granulosa cell tumours of the ovary: Prevalence and prognostic significance"
+  authors: Jessica A. Pilsworth, Dawn R. Cochrane, Zhouchunyang Xia, Hugo M. Horlings, Winnie Yang, Melissa K. McConechy, Satoshi Yanagida, Anniina E. Färkkilä, Adele P. Wong, Genny Trigo-Gonzalez, S.W. Grace Cheng, Yikan Wang, Ali Bashashati, Gregg B. Morin, Esther Oliva, Sohrab P. Shah, David G. Huntsman
+  url: https://doi.org/10.1158/1538-7445.am2017-3381
+
+- title: "Abstract 2445: Integrative genetic analysis identifies therapeutic relevance of cell of origin-specific genetic alterations in diffuse large B-cell lymphoma"
+  authors: Daisuke Ennishi, Ali Bashashati, Saeed Saberi, Anja Mottok, Barbara Meissner, Merrill Boyle, Susana Ben-Neriah, Robert Kridel, Kerry J. Savage, Laurie H. Sehn, Joseph M. Connors, Ryan D. Morin, Marco A. Marra, Sohrab P. Shah, Christian Steidl, David W. Scott, Randy D. Gascoyne
+  url: https://doi.org/10.1158/1538-7445.am2017-2445
+
+- title: "Kronos: a workflow assembler for genome analytics and informatics"
+  authors: M. Jafar Taghiyar, Jamie Rosner, Diljot Grewal, Bruno M. Grande, Radhouane Aniba, Jasleen Grewal, Paul C. Boutros, Ryan D. Morin, Ali Bashashati, Sohrab P. Shah
+  url: https://doi.org/10.1093/gigascience/gix042
+
+- title: "CDK12 regulates alternative last exon mRNA splicing and promotes breast cancer cell invasion"
+  authors: Jerry F. Tien, Alborz Mazloomian, S.-W. Grace Cheng, Christopher S. Hughes, Christalle C.T. Chow, Leanna T. Canapi, Arusha Oloumi, Genny Trigo-Gonzalez, Ali Bashashati, James Xu, Vicky C.-D. Chang, Sohrab P. Shah, Samuel Aparicio, Gregg B. Morin
+  url: https://doi.org/10.1093/nar/gkx187
+
+- title: "Abstract DPOC-014: BEYOND CODING MUTATIONS: USING RETROTRANSPOSONS TO PREDICT OVARIAN CANCER DEVELOPMENT"
+  authors: Zhouchunyang Xia, Dawn Cochrane, Michael S Anglesio, Tayyebeh M Nazeran, Janine Senz, Amy Lum, Ali Bashashati, Yi Kan Wang, Sohrab P Shah, David Huntsman
+  url: https://doi.org/10.1158/1557-3265.ovcasymp16-dpoc-014
+
+- title: "Genomic consequences of aberrant DNA repair mechanisms stratify ovarian cancer histotypes"
+  authors: Yi Kan Wang, Ali Bashashati, Michael S Anglesio, Dawn R Cochrane, Diljot S Grewal, Gavin Ha, Andrew McPherson, Hugo M Horlings, Janine Senz, Leah M Prentice, Anthony N Karnezis, Daniel Lai, Mohamed R Aniba, Allen W Zhang, Karey Shumansky, Celia Siu, Adrian Wan, Melissa K McConechy, Hector Li-Chang, Alicia Tone, Diane Provencher, Manon de Ladurantaye, Hubert Fleury, Aikou Okamoto, Satoshi Yanagida, Nozomu Yanaihara, Misato Saito, Andrew J Mungall, Richard Moore, Marco A Marra, C Blake Gilks, Anne-Marie Mes-Masson, Jessica N McAlpine, Samuel Aparicio, David G Huntsman, Sohrab P Shah
+  url: https://doi.org/10.1038/ng.3849
+
+- title: "Genetic profiling of MYC and BCL2 in diffuse large B-cell lymphoma determines cell-of-origin–specific clinical impact"
+  authors: Daisuke Ennishi, Anja Mottok, Susana Ben-Neriah, Hennady P. Shulha, Pedro Farinha, Fong Chun Chan, Barbara Meissner, Merrill Boyle, Christoffer Hother, Robert Kridel, Daniel Lai, Saeed Saberi, Ali Bashashati, Sohrab P. Shah, Ryan D. Morin, Marco A. Marra, Kerry J. Savage, Laurie H. Sehn, Christian Steidl, Joseph M. Connors, Randy D. Gascoyne, David W. Scott
+  url: https://doi.org/10.1182/blood-2016-11-747022
+
+- title: "The interface of malignant and immunologic clonal dynamics in high-grade serous ovarian cancer"
+  authors: Allen W. Zhang, Andrew McPherson, Katy Milne, David R. Kroeger, Phineas T. Hamilton, Alex Miranda, Tyler Funnell, Sonya Laan, Dawn R. Cochrane, Jamie L.P. Lim, Winnie Yang, Andrew Roth, Maia A. Smith, Camila de Souza, Julie Ho, Kane Tse, Thomas Zeng, Inna Shlafman, Michael R. Mayo, Richard Moore, Henrik Failmezger, Andreas Heindl, Yi Kan Wang, Ali Bashashati, Scott D. Brown, Daniel Lai, Adrian N. C. Wan, Cydney B. Nielsen, Alexandre Bouchard-Côté, Yinyin Yuan, Wyeth W. Wasserman, C. Blake Gilks, Anthony N. Karnezis, Samuel Aparicio, Jessica N. McAlpine, David G. Huntsman, Robert A. Holt, Brad H. Nelson, Sohrab P. Shah
+  url: https://doi.org/10.1101/198101
+
+- title: "Neural Network Conditional Random Fields for Self-Paced Brain Computer Interfaces"
+  authors: Hossein Bashashati, Rabab K. Ward, Ali Bashashati, Amr Mohamed
+  url: https://doi.org/10.1109/icmla.2016.0169
+
+- title: "Histological Transformation and Progression in Follicular Lymphoma: A Clonal Evolution Study"
+  authors: Robert Kridel, Fong Chun Chan, Anja Mottok, Merrill Boyle, Pedro Farinha, King Tan, Barbara Meissner, Ali Bashashati, Andrew McPherson, Andrew Roth, Karey Shumansky, Damian Yap, Susana Ben-Neriah, Jamie Rosner, Maia A. Smith, Cydney Nielsen, Eva Giné, Adele Telenius, Daisuke Ennishi, Andrew Mungall, Richard Moore, Ryan D. Morin, Nathalie A. Johnson, Laurie H. Sehn, Thomas Tousseyn, Ahmet Dogan, Joseph M. Connors, David W. Scott, Christian Steidl, Marco A. Marra, Randy D. Gascoyne, Sohrab P. Shah
+  url: https://doi.org/10.1371/journal.pmed.1002197
+
+- title: "Targeted Sequencing Reveals Novel Gene Mutations Associated with Transformation and Early Progression in Follicular Lymphoma"
+  authors: Robert Kridel, Fong Chun Chan, Anja Mottok, Merrill Boyle, Pedro Farinha, King Tan, Barbara Meissner, Ali Bashashati, Susana Ben-Neriah, Eva Gine, Daisuke Ennishi, Andrew J. Mungall, Ryan D. Morin, Nathalie A. Johnson, Laurie H. Sehn, Thomas Tousseyn, Ahmet Dogan, Joseph M. Connors, David W. Scott, Christian Steidl, Marco A. Marra, Randy D. Gascoyne, Sohrab P. Shah
+  url: https://doi.org/10.1182/blood.v128.22.2919.2919
+
+- title: "Divergent Modes of Tumor Evolution Underlie Histological Transformation and Early Progression of Follicular Lymphoma"
+  authors: Fong Chun Chan, Robert Kridel, Anja Mottok, Merrill Boyle, Pedro Farinha, King Tan, Barbara Meissner, Ali Bashashati, Andrew McPherson, Andrew Roth, Karey Shumansky, Damian Yap, Susana Ben-Neriah, Jamie Rosner, Maia A. Smith, Cydney Nielsen, Adele Telenius, Daisuke Ennishi, Andrew J. Mungall, Richard Moore, Ryan D. Morin, Nathalie A. Johnson, Laurie H Sehn, Joseph M. Connors, David W Scott, Christian Steidl, Marco A. Marra, Randy D Gascoyne, Sohrab P. Shah
+  url: https://doi.org/10.1182/blood.v128.22.1091.1091
+
+- title: "Frequent Genetic Alterations of PI3K-AKT Pathway and Their Clinical Significance in Germinal Center B-Cell-like Diffuse Large B-Cell Lymphoma"
+  authors: Daisuke Ennishi, Ali Bashashati, Saeed Saberi, Anja Mottok, Barbara Meissner, Merrill Boyle, Susana Ben-Neriah, Robert Kridel, David Dominguez-Sola, Kerry J Savage, Laurie H Sehn, Joseph M. Connors, Ryan D. Morin, Marco A. Marra, Sohrab P. Shah, Christian Steidl, David W. Scott, Randy D Gascoyne
+  url: https://doi.org/10.1182/blood.v128.22.607.607
+
+- title: "Robust high-performance nanoliter-volume single-cell multiple displacement amplification on planar substrates"
+  authors: Kaston Leung, Anders Klaus, Bill K. Lin, Emma Laks, Justina Biele, Daniel Lai, Ali Bashashati, Yi-Fei Huang, Radhouane Aniba, Michelle Moksa, Adi Steif, Anne-Marie Mes-Masson, Martin Hirst, Sohrab P. Shah, Samuel Aparicio, Carl L. Hansen
+  url: https://doi.org/10.1073/pnas.1520964113
+
+- title: "Abstract LB-324: Genomic consequences of aberrant DNA repair stratify ovarian cancer histotypes"
+  authors: Yikan Wang, Ali Bashashati, Michael S. Anglesio, Dawn Cochrane, Diljot Grewal, Hugo Horlings, Anthony Karnezis, Anne-Marie Mes-Masson, Aikou Okamoto, Satoshi Yanagida, Nozomu Yanaihara, Misato Saito, Blake Gilks, Jessica McAlpine, Samuel Aparicio, David Huntsman, Sohrab Shah
+  url: https://doi.org/10.1158/1538-7445.am2016-lb-324
+
+- title: "Divergent modes of clonal spread and intraperitoneal mixing in high-grade serous ovarian cancer"
+  authors: Andrew McPherson, Andrew Roth, Emma Laks, Tehmina Masud, Ali Bashashati, Allen W Zhang, Gavin Ha, Justina Biele, Damian Yap, Adrian Wan, Leah M Prentice, Jaswinder Khattra, Maia A Smith, Cydney B Nielsen, Sarah C Mullaly, Steve Kalloger, Anthony Karnezis, Karey Shumansky, Celia Siu, Jamie Rosner, Hector Li Chan, Julie Ho, Nataliya Melnyk, Janine Senz, Winnie Yang, Richard Moore, Andrew J Mungall, Marco A Marra, Alexandre Bouchard-Côté, C Blake Gilks, David G Huntsman, Jessica N McAlpine, Samuel Aparicio, Sohrab P Shah
+  url: https://doi.org/10.1038/ng.3573
+
+- title: "Synchronous Endometrial and Ovarian Carcinomas: Evidence of Clonality"
+  authors: Michael S. Anglesio, Yi Kan Wang, Madlen Maassen, Hugo M. Horlings, Ali Bashashati, Janine Senz, Robertson Mackenzie, Diljot S. Grewal, Hector Li-Chang, Anthony N. Karnezis, Brandon S. Sheffield, Melissa K. McConechy, Friedrich Kommoss, Florin A. Taran, Annette Staebler, Sohrab P. Shah, Diethelm Wallwiener, Sara Brucker, C. Blake Gilks, Stefan Kommoss, David G. Huntsman
+  url: https://doi.org/10.1093/jnci/djv428
+
+- title: "Bayesian optimization of BCI parameters"
+  authors: Hossein Bashashati, Rabab K. Ward, Ali Bashashati
+  url: https://doi.org/10.1109/ccece.2016.7726801
+
+- title: "User-customized brain computer interfaces using Bayesian optimization"
+  authors: Hossein Bashashati, Rabab K Ward, Ali Bashashati
+  url: https://doi.org/10.1088/1741-2560/13/2/026001
+
+- title: "Abstract PR07: Synchronous ovarian and endometrial carcinomas: The case for pseudo-metastasis."
+  authors: Michael S. Anglesio, Yi Kan Wang, Madlen Maassen, Hugo M. Horlings, Ali Bashashati, Blake Gilks, Stefan Kommoss, David G. Huntsman
+  url: https://doi.org/10.1158/1557-3265.ovca15-pr07
+
+- title: "Pamidronate functionalized nanoconjugates for targeted therapy of focal skeletal malignant osteolysis"
+  authors: Qian Yin, Li Tang, Kaimin Cai, Rong Tong, Rachel Sternberg, Xujuan Yang, Lawrence W. Dobrucki, Luke B. Borst, Debra Kamstock, Ziyuan Song, William G. Helferich, Jianjun Cheng, Timothy M. Fan
+  url: https://doi.org/10.1073/pnas.1603316113
+
+- title: "The genomic landscape of epithelioid sarcoma cell lines and tumours"
+  authors: Farzad Jamshidi, Ali Bashashati, Karey Shumansky, Brendan Dickson, Nalan Gokgoz, Jay S Wunder, Irene L Andrulis, Alexander J Lazar, Sohrab P Shah, David G Huntsman, Torsten O Nielsen
+  url: https://doi.org/10.1002/path.4636
+
+- title: "Hidden Markov Support Vector Machines for Self-Paced Brain Computer Interfaces"
+  authors: Hossein Bashashati, Rabab K. Ward, Ali Bashashati
+  url: https://doi.org/10.1109/icmla.2015.178
+
+- title: "Systematic analysis of somatic mutations impacting gene expression in 12 tumour types"
+  authors: Jiarui Ding, Melissa K. McConechy, Hugo M. Horlings, Gavin Ha, Fong Chun Chan, Tyler Funnell, Sarah C. Mullaly, Jüri Reimand, Ali Bashashati, Gary D. Bader, David Huntsman, Samuel Aparicio, Anne Condon, Sohrab P. Shah
+  url: https://doi.org/10.1038/ncomms9554
+
+- title: "Abstract AS18: The somatic mutational landscape of endometriosis associated ovarian cancers and precursor lesions"
+  authors: Michael S Anglesio, Ali Bashashati, Yikan Wang, Gavin Ha, Janine Senz, Winnie Yang, Steve E Kalloger, Leah M Prentice, Satoshi Yanagida, Clara Salamanca, Galina Soukhatcheva, Anthony Kazernis, Hector Chang, Anne-Marie Mes-Mason, Aikou Okamoto, Marco A Marra, Blake Gilks, Sohrab P Shah, David G Huntsman
+  url: https://doi.org/10.1158/1557-3265.ovcasymp14-as18
+
+- title: "Comparing Different Classifiers in Sensory Motor Brain Computer Interfaces"
+  authors: Hossein Bashashati, Rabab K. Ward, Gary E. Birch, Ali Bashashati
+  url: https://doi.org/10.1371/journal.pone.0129435
+
+- title: "Multifocal endometriotic lesions associated with cancer are clonal and carry a high mutation burden"
+  authors: Michael S Anglesio, Ali Bashashati, Yi Kan Wang, Janine Senz, Gavin Ha, Winnie Yang, Mohamed R Aniba, Leah M Prentice, Hossein Farahani, Hector Li Chang, Anthony N Karnezis, Marco A Marra, Paul J Yong, Martin Hirst, Blake Gilks, Sohrab P Shah, David G Huntsman
+  url: https://doi.org/10.1002/path.4516
+
+- title: "An RCOR1 loss–associated gene expression signature identifies a prognostically significant DLBCL subgroup"
+  authors: Fong Chun Chan, Adele Telenius, Shannon Healy, Susana Ben-Neriah, Anja Mottok, Raymond Lim, Marie Drake, Sandy Hu, Jiarui Ding, Gavin Ha, David W. Scott, Robert Kridel, Ali Bashashati, Sanja Rogic, Nathalie Johnson, Ryan D. Morin, Lisa M. Rimsza, Laurie Sehn, Joseph M. Connors, Marco A. Marra, Randy D. Gascoyne, Sohrab P. Shah, Christian Steidl
+  url: https://doi.org/10.1182/blood-2013-06-507152
+
+- title: "Dynamics of genomic clones in breast cancer patient xenografts at single-cell resolution"
+  authors: Peter Eirew, Adi Steif, Jaswinder Khattra, Gavin Ha, Damian Yap, Hossein Farahani, Karen Gelmon, Stephen Chia, Colin Mar, Adrian Wan, Emma Laks, Justina Biele, Karey Shumansky, Jamie Rosner, Andrew McPherson, Cydney Nielsen, Andrew J. L. Roth, Calvin Lefebvre, Ali Bashashati, Camila de Souza, Celia Siu, Radhouane Aniba, Jazmine Brimhall, Arusha Oloumi, Tomo Osako, Alejandra Bruna, Jose L. Sandoval, Teresa Algara, Wendy Greenwood, Kaston Leung, Hongwei Cheng, Hui Xue, Yuzhuo Wang, Dong Lin, Andrew J. Mungall, Richard Moore, Yongjun Zhao, Julie Lorette, Long Nguyen, David Huntsman, Connie J. Eaves, Carl Hansen, Marco A. Marra, Carlos Caldas, Sohrab P. Shah, Samuel Aparicio
+  url: https://doi.org/10.1038/nature13952
+
+- title: "TITAN: inference of copy number architectures in clonal cell populations from tumor whole-genome sequence data"
+  authors: Gavin Ha, Andrew Roth, Jaswinder Khattra, Julie Ho, Damian Yap, Leah M. Prentice, Nataliya Melnyk, Andrew McPherson, Ali Bashashati, Emma Laks, Justina Biele, Jiarui Ding, Alan Le, Jamie Rosner, Karey Shumansky, Marco A. Marra, C. Blake Gilks, David G. Huntsman, Jessica N. McAlpine, Samuel Aparicio, Sohrab P. Shah
+  url: https://doi.org/10.1101/gr.180281.114
+
+- title: "Abstract LB-312: The somatic mutational landscape of ovarian clear cell carcinoma and its precursor lesions"
+  authors: Ali Bashashati, Michael Anglesio, Yikan Wang, Gavin Ha, Janine Senz, Winnie Yang, Steve Kalloger, Leah Prentice, Satoshi Yanagida, Clara Salamanca, Galina Soukhatcheva, Anthony Karnezis, Hector Chang, Martin Hirst, Anne-Marie Mes-Mason, Aikou Okamoto, Marco Marra, Blake Gilks, Sohrab Shah, David Huntsman
+  url: https://doi.org/10.1158/1538-7445.am2014-lb-312
+
+- title: "Distinct evolutionary trajectories of primary high-grade serous ovarian cancers revealed through spatial mutational profiling"
+  authors: Ali Bashashati, Gavin Ha, Alicia Tone, Jiarui Ding, Leah M Prentice, Andrew Roth, Jamie Rosner, Karey Shumansky, Steve Kalloger, Janine Senz, Winnie Yang, Melissa McConechy, Nataliya Melnyk, Michael Anglesio, Margaret TY Luk, Kane Tse, Thomas Zeng, Richard Moore, Yongjun Zhao, Marco A Marra, Blake Gilks, Stephen Yip, David G Huntsman, Jessica N McAlpine, Sohrab P Shah
+  url: https://doi.org/10.1002/path.4230
+
+- title: "DriverNet: uncovering the impact of somatic driver mutations on transcriptional networks in cancer"
+  authors: Ali Bashashati, Gholamreza Haffari, Jiarui Ding, Gavin Ha, Kenneth Lui, Jamie Rosner, David G Huntsman, Carlos Caldas, Samuel A Aparicio, Sohrab P Shah
+  url: https://doi.org/10.1186/gb-2012-13-12-r124
+
+- title: "Integrative analysis of genome-wide loss of heterozygosity and monoallelic expression at nucleotide resolution reveals disrupted pathways in triple-negative breast cancer"
+  authors: Gavin Ha, Andrew Roth, Daniel Lai, Ali Bashashati, Jiarui Ding, Rodrigo Goya, Ryan Giuliany, Jamie Rosner, Arusha Oloumi, Karey Shumansky
+  url: https://doi.org/10.1101/gr.137570.112
+
+- title: "The genomic and transcriptomic architecture of 2, 000 breast tumours reveals novel subgroups"
+  authors: Christina Curtis,  , Sohrab P. Shah, Suet-Feung Chin, Gulisa Turashvili, Oscar M. Rueda, Mark J. Dunning, Doug Speed, Andy G. Lynch, Shamith Samarajiwa, Yinyin Yuan, Stefan Gräf, Gavin Ha, Gholamreza Haffari, Ali Bashashati, Roslin Russell, Steven McKinney, Anita Langerød, Andrew Green, Elena Provenzano, Gordon Wishart, Sarah Pinder, Peter Watson, Florian Markowetz, Leigh Murphy, Ian Ellis, Arnie Purushotham, Anne-Lise Børresen-Dale, James D. Brenton, Simon Tavaré, Carlos Caldas, Samuel Aparicio
+  url: https://doi.org/10.1038/nature10983
+
+- title: "The clonal and mutational evolution spectrum of primary triple-negative breast cancers"
+  authors: Sohrab P. Shah, Andrew Roth, Rodrigo Goya, Arusha Oloumi, Gavin Ha, Yongjun Zhao, Gulisa Turashvili, Jiarui Ding, Kane Tse, Gholamreza Haffari, Ali Bashashati, Leah M. Prentice, Jaswinder Khattra, Angela Burleigh, Damian Yap, Virginie Bernard, Andrew McPherson, Karey Shumansky, Anamaria Crisan, Ryan Giuliany, Alireza Heravi-Moussavi, Jamie Rosner, Daniel Lai, Inanc Birol, Richard Varhol, Angela Tam, Noreen Dhalla, Thomas Zeng, Kevin Ma, Simon K. Chan, Malachi Griffith, Annie Moradian, S.-W. Grace Cheng, Gregg B. Morin, Peter Watson, Karen Gelmon, Stephen Chia, Suet-Feung Chin, Christina Curtis, Oscar M. Rueda, Paul D. Pharoah, Sambasivarao Damaraju, John Mackey, Kelly Hoon, Timothy Harkins, Vasisht Tadigotla, Mahvash Sigaroudinia, Philippe Gascard, Thea Tlsty, Joseph F. Costello, Irmtraud M. Meyer, Connie J. Eaves, Wyeth W. Wasserman, Steven Jones, David Huntsman, Martin Hirst, Carlos Caldas, Marco A. Marra, Samuel Aparicio
+  url: https://doi.org/10.1038/nature10933
+
+- title: "B Cells With High Side Scatter Parameter by Flow Cytometry Correlate With Inferior Survival in Diffuse Large B-Cell Lymphoma"
+  authors: Ali Bashashati, Nathalie A. Johnson, Alireza Hadj Khodabakhshi, Matthew D. Whiteside, Habil Zare, David W. Scott, Kenneth Lo, Raphael Gottardo, Fiona S.L. Brinkman, Joseph M. Connors, Graham W. Slack, Randy D. Gascoyne, Andrew P. Weng, Ryan R. Brinkman
+  url: https://doi.org/10.1309/ajcpgr8bg4jdvowr
+
+- title: "JointSNVMix: a probabilistic model for accurate detection of somatic mutations in normal/tumour paired next-generation sequencing data"
+  authors: Andrew Roth, Jiarui Ding, Ryan Morin, Anamaria Crisan, Gavin Ha, Ryan Giuliany, Ali Bashashati, Martin Hirst, Gulisa Turashvili, Arusha Oloumi, Marco A. Marra, Samuel Aparicio, Sohrab P. Shah
+  url: https://doi.org/10.1093/bioinformatics/bts053
+
+- title: "Feature-based classifiers for somatic mutation detection in tumour–normal paired sequencing data"
+  authors: Jiarui Ding, Ali Bashashati, Andrew Roth, Arusha Oloumi, Kane Tse, Thomas Zeng, Gholamreza Haffari, Martin Hirst, Marco A. Marra, Anne Condon, Samuel Aparicio, Sohrab P. Shah
+  url: https://doi.org/10.1093/bioinformatics/btr629
+
+- title: "Automated Analysis of Multidimensional Flow Cytometry Data Improves Diagnostic Accuracy Between Mantle Cell Lymphoma and Small Lymphocytic Lymphoma"
+  authors: Habil Zare, Ali Bashashati, Robert Kridel, Nima Aghaeepour, Gholamreza Haffari, Joseph M. Connors, Randy D. Gascoyne, Arvind Gupta, Ryan R. Brinkman, Andrew P. Weng
+  url: https://doi.org/10.1309/ajcpmmlq67yomgew
+
+- title: "BIOINFORMATICS TO BEDSIDE: AN AUTOMATED AND GENERALIZABLE MULTIDIMENSIONAL FLOW CYTOMETRY DATA ANALYSIS APPROACH IMPROVES DIAGNOSTIC ACCURACY BETWEEN MANTLE CELL LYMPHOMA AND SMALL LYMPHOCYTIC LYMPHOMA"
+  authors: Ryan R Brinkman, Habil Zare, Robert Kridel, Nima Aghaepour, Gholamreza Haffari, Josef M Connors, Randy D Gascoyne, Arvind Gupta, Andrew P Weng, Ali Bashashati
+  url: 
+
+- title: "A Random Forests-based approach for estimating depth of human body gestures using a single video camera"
+  authors: Mahsa T. Pourazad, Ali Bashashati, Panos Nasiopoulos
+  url: https://doi.org/10.1109/icce.2011.5722789
+
+- title: "Random forests-based 2D-to-3D video conversion"
+  authors: Mahsa T. Pourazad, Panos Nasiopoulos, Ali Bashashati
+  url: https://doi.org/10.1109/icecs.2010.5724476
+
+- title: "Pairwise network mechanisms in the host signaling response to coxsackievirus B3 infection"
+  authors: Farshid S Garmaroudi, David Marchant, Xiaoning Si, Abbas Khalili, Ali Bashashati, Brian W Wong, Aline Tabet, Raymond T Ng, Kevin Murphy, Honglin Luo
+  url: https://doi.org/10.1073/pnas.1006478107
+
+- title: "Per-channel basis normalization methods for flow cytometry data"
+  authors: Florian Hahne, Alireza Hadj Khodabakhshi, Ali Bashashati, Chao-Jen Wong, Randy D. Gascoyne, Andrew P. Weng, Vicky Seyfert-Margolis, Katarzyna Bourcier, Adam Asare, Thomas Lumley, Robert Gentleman, Ryan R. Brinkman
+  url: https://doi.org/10.1002/cyto.a.20823
+
