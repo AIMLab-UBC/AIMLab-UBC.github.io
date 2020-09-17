@@ -13,6 +13,7 @@
   education3: BSc in Electrical Engineering, Sharif University of Technology, Iran
   page_name: alib
   desc: "I received my B.Sc. degree in Electrical Engineering from Sharif University of Technology (SUT), Iran in 2000, the M.Sc. degree in Biomedical Engineering from Amirkabir University of Technology (Tehran polytechnic), Iran in 2002, and the Ph.D. degree in Electrical & Computer Engineering from the University of British Columbia, Canada in 2007. I am currently the Director of artificial intelligence (AI) Research in the Ovarian Cancer Research Program (OVCARE) of the BC Cancer/UBC as well as a faculty member in the Department of Pathology & Laboratory Medicine and the School of Biomedical Engineering (SBME). My research area lies at the interface between computational, engineering and biomedical sciences. I am interested in developing AI/machine learning, statistical and signal processing algorithms and software infrastructure to combine various sources of omics and imaging data with major emphasis on genomics and digital pathology in cancer."
+  alumni: 0
 
 - name: Hossein Farahani
   photo: hossein.jpeg
@@ -24,10 +25,11 @@
   linkedin: 0
   google_scholar: 0
   number_educ: 4
-  education1: PhD in Computer Sciecne, KTH Royal Institute of Technology 
+  education1: PhD in Computer Science, KTH Royal Institute of Technology 
   education2: MSc in Space Science & Technology, The Julius Maximilians University of Würzburg, Germany
   education3: MSc in Robotics & Automation Engineering, Gwangju Institute of Science and Technology, South Korea
   education4: BSc in Mechanical Engineering, Sharif University of Technology, Iran
+  alumni: 0
 
 - name: Amirali Darbandsari
   photo: amirali.jpg
@@ -41,6 +43,7 @@
   number_educ: 2
   education1: MASc student in Electrical & Computer Engineering, University of British Columbia, Canada
   education2: BSc in Computer Science & Electrical Engineering, University of Tehran, Iran
+  alumni: 0
 
 - name: Matthew Wiens
   photo: MatthewWiens.jpeg
@@ -54,6 +57,7 @@
   number_educ: 2
   education1: MASc student in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc in Electrical Engineering (minor in Computer Engineering), University of Calgary, Canada
+  alumni: 0
 
 - name: Jeffrey Boschman
   photo: jboschman.png
@@ -67,6 +71,7 @@
   number_educ: 2
   education1: MASc student in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc in Chemical & Biological Engineering, University of British Columbia, Canada
+  alumni: 0
 
 - name: Pouya Ahmadvand
   photo: pahmadvand.png
@@ -81,6 +86,7 @@
   education1: MASc student in Bioinformatics, University of British Columbia, Canada
   education2: MASc in Computer Engineering (Software), Shahid Rajaee Teacher Training University, Iran
   education3: BSc in Computer Engineering (Software), Isfahan University, Iran
+  alumni: 0
 
 - name: Tina Li
   photo: default_aim.png
@@ -94,6 +100,7 @@
   number_educ: 2
   education1: MEng student in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc Chemical & Biological Engineering, University of British Columbia, Canada
+  alumni: 0
 
 - name: Parisa Beygi
   photo: default_aim.png
@@ -108,6 +115,7 @@
   education1: PhD student in Biomedical Engineering, University of British Columbia, Iran
   education2: MASc in Computer Engineering (Artificial Intelligence), Amirkabir University of Technology, Iran
   education3: BSc in Computer Engineering (Software), University of Tehran, Iran
+  alumni: 0
 
 - name: Ramin Nakhli
   photo: default_aim.png
@@ -122,6 +130,7 @@
   education1: PhD student in Biomedical Engineering, University of British Columbia, Iran
   education2: MASc in Computer Engineering (Artificial Intelligence), University of Tehran, Iran
   education3: BSc in Electrical Engineering, Sharif University of Technology, Iran
+  alumni: 0
 
 - name: Katherine Rich
   photo: default_aim.png
@@ -135,6 +144,7 @@
   number_educ: 2
   education1: MASc in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc in Biomedical Engineering, University of Toronto, Canada
+  alumni: 0
 
 - name: Amir Hadjifaradji
   photo: default_aim.png
@@ -148,6 +158,7 @@
   number_educ: 2
   education1: MASc in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc in Biomedical Engineering, Simon Fraser University, Canada
+  alumni: 0
 
 - name: Colin Chen
   photo: cchen.jpeg
@@ -160,6 +171,7 @@
   google_scholar: 0
   number_educ: 1
   education1: BSc Combined Honours in Computer Science and Mathematics, University of British Columbia, Canada
+  alumni: 1
 
 - name: Mitchell Nursey
   photo: mnursey.jpg
@@ -175,6 +187,7 @@
   education1: BSc in Computer Science, University of Victoria, Canada
   page_name: mnursey
   desc: "Over the past few years I have been working and developing my skills as a hobbyist programmer. Currently, I am working towards getting a bachelor's degree at the University of Victoria studying Computer Science. I have worked on a plethora of projects, from strategy games, to neural networks. I have a keen interest in artificial intelligence, game design, low level networking, computer vision, and teaching."
+  alumni: 1
 
 - name: Yiping Wang
   photo: ywang.jpg
@@ -189,6 +202,7 @@
   education1: Honours BSc in Computer Science, University of Victoria, Canada
   page_name: ywang
   desc: "Currently, I am a senior Honours BSc student in the Department of Computer Science at the University of Victoria. My interest and enthusiasm for Computer Vision and Medical Image Processing. I explore how to use medical image data and machine learning to help doctors make decisions. I am broadly interested in machine learning for improving lesion detection and classification, anatomical structure segmentation and quantification, cancer diagnosis and therapy. In a nutshell, I study and apply computer vision and machine learning for medical imaging."
+  alumni: 1
 
 - name: Yang Xia
   photo: yxia.jpg
@@ -205,3 +219,40 @@
   education3: BSc in Neuroscience and Psychology, University of Toronto, Canada
   page_name: yxia
   desc: "I am an undergraduate student at UBC"
+  alumni: 1
+
+- name: Christopher Halim
+  photo: default_aim.png
+  info: Summer Student
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 0
+  alumni: 1
+
+- name: Jason Peng
+  photo: default_aim.png
+  info: Research Intern
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 0
+  alumni: 1
+
+- name: Sina Zareian
+  photo: default_aim.png
+  info: Co-op Student
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 0
+  alumni: 1
