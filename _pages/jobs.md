@@ -18,4 +18,4 @@ Note 1: We admit graduate students through the [School of Biomedical Engineering
 
 Note 2: We review ALL the applications that we receive but unfortunately cannot acknowledge receipt due to an overwhelming number of inquiries that we get.  
 
-Note 3: Outstanding applicants with BSc degrees will be considered for direct admission to PhD program. 
+Note 3: Our preference is to admit PhD students. Therefore, outstanding applicants with BSc degrees will be considered for direct admission to PhD program. 
