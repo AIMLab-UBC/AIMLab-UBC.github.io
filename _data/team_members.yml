@@ -76,11 +76,11 @@
 - name: Pouya Ahmadvand
   photo: pahmadvand.png
   info: Graduate Student
-  email: 
+  email: mailto:pouya.ahmadvand@ubc.ca
   website: 0
   github: 0
   twitter: 0
-  linkedin: 0
+  linkedin: https://www.linkedin.com/in/pouya-ahmadvand-a8913673/
   google_scholar: 0
   number_educ: 3
   education1: MASc student in Bioinformatics, University of British Columbia, Canada
@@ -89,7 +89,7 @@
   alumni: 0
 
 - name: Tina Li
-  photo: default_aim.png
+  photo: tinal.jpg
   info: Graduate Intern
   email: mailto:zhengyangli1994@gmail.com
   website: 0
@@ -118,7 +118,7 @@
   alumni: 0
 
 - name: Ramin Nakhli
-  photo: default_aim.png
+  photo: raminn.jpg
   info: Graduate Student
   email: raminnakhli@gmail.com
   website: 0
@@ -133,7 +133,7 @@
   alumni: 0
 
 - name: Katherine Rich
-  photo: default_aim.png
+  photo: katheriner.jpg
   info: Graduate Student
   email: 
   website: 0
@@ -147,7 +147,7 @@
   alumni: 0
 
 - name: Amir Hadjifaradji
-  photo: default_aim.png
+  photo: amirh.jpg
   info: Graduate Student
   email: ahadjifaradji@gmail.com
   website: 0
@@ -256,3 +256,33 @@
   google_scholar: 0
   number_educ: 0
   alumni: 1
+
+- name: Kareem Shammout
+  photo: kareems.jpg
+  info: Co-op Student
+  email: 0
+  website: https://kshammout.com/
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 1
+  education1: BSc in Mathematics and Computer Science, University of British Columbia, Canada
+  desc: "UBC undergrad enthusiastic about machine learning and data collection. I started programming by using python scripts to scrape data off of websites, and then moved on to other projects such as lighthearted Reddit bots and a grocery store comparison site. I've started a blog on my website that goes through my individual projects, explaining the process behind them in hopes of helping others to get started with computer science projects of their own."
+  page_name: kareems
+  alumni: 0 
+
+- name: Ashley Van Spankeren
+  photo: ashleyv.jpg
+  info: Co-op Student
+  email: mailto:avanspankeren@uvic.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 1
+  education1: BSc in Mathematics and Computer Science, University of Victoria, Canada
+  desc: "I’m currently an undergraduate student at the University of Victoria studying mathematics and computer science. My interest in artificial intelligence developed through my desire to integrate both aspects of my degree. I’m eager to explore applications of machine learning and image processing in the biomedical domain."
+  page_name: ashleyv
+  alumni: 0  
