@@ -6,6 +6,7 @@ sitemap: false
 permalink: /
 ---
 
+<div class="col-sm-12">
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="8000" data-pause="hover" >
     <!-- Menu -->
     <ol class="carousel-indicators">
@@ -51,9 +52,20 @@ permalink: /
         <span class="sr-only">Next</span>
     </a>
 </div>
+</div>
 
+<div class="col-sm-8">
+<p style="font-size:22px">
 The Artificial Intelligence in Medicine (AIM) Lab research area lies the interface between computational, engineering and biomedical sciences.
-
+<br><br>
 We are interested in developing machine learning, statistical and signal processing algorithms and software infrastructure to combine various sources of omics and imaging data with major emphasis on discovering novel biological information and biomarkers that can be used for treatment selection in cancer. 
-
+<br><br>
 We have active projects in ovarian, endometrial, prostate, pancreatic, and breast cancers.
+</p>
+</div>
+
+<div class="col-sm-4">
+    <div class='jekyll-twitter-plugin' align="center">
+        {% twitternocache https://twitter.com/AIMlab4 maxwidth=350 limit=2 %}
+    </div>
+</div>
