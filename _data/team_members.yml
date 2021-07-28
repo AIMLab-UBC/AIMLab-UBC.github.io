@@ -31,6 +31,21 @@
   education4: BSc in Mechanical Engineering, Sharif University of Technology, Iran
   alumni: 0
 
+- name: Maryam Asadi
+  photo: default_aim.png
+  info: Post-doctoral Fellow
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 3
+  education1: PhD in Computer Engineering (Machine learning), Sharif University of Technology, Iran
+  education2: MSc in Software Engineering, Sharif University of Technology, Iran
+  education3: BSc in Software Engineering, IUST, Iran
+  alumni: 0 
+
 - name: Amirali Darbandsari
   photo: amiralid.jpg
   info: Graduate Student
@@ -285,20 +300,6 @@
   education1: BSc in Mathematics and Computer Science, University of Victoria, Canada
   desc: "I’m currently an undergraduate student at the University of Victoria studying mathematics and computer science. My interest in artificial intelligence developed through my desire to integrate both aspects of my degree. I’m eager to explore applications of machine learning and image processing in the biomedical domain."
   page_name: ashleyv
-  alumni: 0 
-
-- name: Ali Saadat
-  photo: alis.png
-  info: Graduate Student
-  email: 0
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 2
-  education1: PhD student in Bioinformatics, University of British Columbia, Canada
-  education2: BSc in Biomedical Engineering, Sharif University of Technology, Iran
   alumni: 0 
 
 - name: Graham Archibald 
