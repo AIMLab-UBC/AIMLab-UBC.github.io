@@ -22,7 +22,7 @@ Note 3: Our preference is to admit PhD students. Therefore, outstanding applican
 
 
 
-# Ph.D. and post-doctoral fellowship (PDF) positions in machine learning for medical imaging and bioinformatics (posted on: July 27, 2021)
+#### Ph.D. and post-doctoral fellowship (PDF) positions in machine learning for medical imaging and bioinformatics (posted on: July 27, 2021)
 
 Job Summary
 Multiple Ph.D. and post-doctoral fellowship (PDF) positions in the field of machine learning/computational biology are available in the School of Biomedical Engineering and Department of Pathology and Laboratory Medicine at the University of British Columbia/Vancouver General Hospital. The incumbent will join an interdisciplinary team working to establish a program on machine learning applications in pathology and genomics. Candidates are expected to have extensive experience in one or more of the following areas: diverse areas of machine learning and statistics especially deep neural networks, statistics, and image processing.
