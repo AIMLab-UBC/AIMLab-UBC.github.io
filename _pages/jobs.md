@@ -6,7 +6,7 @@ sitemap: false
 permalink: /jobs/
 ---
 
-## Jobs
+### Jobs
 
 Please contact us if you are interested in graduate research assistant or post-doctoral positions in the following areas: Machine learning applications in medical imaging and genomics, Bioinformatics (Computational Biology), Computational Pathology, Computational Genomics.
 
