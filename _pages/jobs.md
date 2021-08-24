@@ -21,7 +21,8 @@ Note 2: We review ALL the applications that we receive but unfortunately cannot 
 Note 3: Our preference is to admit PhD students. Therefore, outstanding applicants with BSc degrees will be considered for direct admission to PhD program. 
 
 
-
+### Note (Aug 24, 2021)
+We thank all the individuals who have responded to our posting. Due to the volume of the applications, we regretfully cannot respond to all the inquiries but guarantee that we read ALL the applications. As such, we will only contact the short-listed applicants. We feel the enthusiasm from the emails but unfortunately, there is so much we can do on our end.
 
 ### Ph.D. and post-doctoral fellowship (PDF) positions in machine learning for medical imaging and bioinformatics (posted on: July 27, 2021)
 Multiple Ph.D. and post-doctoral fellowship (PDF) positions in the field of machine learning/computational biology are available in the School of Biomedical Engineering and Department of Pathology and Laboratory Medicine at the University of British Columbia/Vancouver General Hospital. The incumbent will join an interdisciplinary team working to establish a program on machine learning applications in pathology and genomics. Candidates are expected to have extensive experience in one or more of the following areas: diverse areas of machine learning and statistics especially deep neural networks, statistics, and image processing.
