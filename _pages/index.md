@@ -66,7 +66,7 @@ We have active projects in ovarian, endometrial, prostate, pancreatic, and breas
 
 <div class="col-sm-4">
     <div class='jekyll-twitter-plugin' align="center">
-        <div class="jekyll-twitter-plugin"><a class="twitter-timeline" data-width="350" data-tweet-limit="2" href="https://twitter.com/abashashati">Tweets by ubcAIMlab</a>
+        <div class="jekyll-twitter-plugin"><a class="twitter-timeline" data-width="350" data-tweet-limit="2" href="https://twitter.com/ABashashati">Tweets by ubcAIMlab</a>
             <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
     </div>
