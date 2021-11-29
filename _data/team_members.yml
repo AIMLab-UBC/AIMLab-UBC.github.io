@@ -34,7 +34,7 @@
 - name: Maryam Asadi
   photo: maryam.jpg
   info: Post-doctoral Fellow
-  email: maryam.asadi@ubc.ca
+  email: mailto:maryam.asadi@ubc.ca
   website: 0
   github: 0
   twitter: 0
@@ -220,7 +220,7 @@
 - name: Tony Xu
   photo: tonyxu.jpg
   info: Undergraduate Student
-  email: mailto:ashley.vanspankeren@ubc.ca
+  email: 0
   website: 0
   github: 0
   twitter: 0
