@@ -32,17 +32,17 @@
   alumni: 0
 
 - name: Maryam Asadi
-  photo: default_aim.png
+  photo: maryam.jpg
   info: Post-doctoral Fellow
-  email: 0
+  email: maryam.asadi@ubc.ca
   website: 0
   github: 0
   twitter: 0
-  linkedin: 0
-  google_scholar: 0
+  linkedin: https://ir.linkedin.com/in/maryam-asadi-40556170
+  google_scholar: https://scholar.google.com/citations?user=8UqpIK8AAAAJ&hl=en&oi=ao
   number_educ: 3
-  education1: PhD in Computer Engineering (Machine learning), Sharif University of Technology, Iran
-  education2: MSc in Software Engineering, Sharif University of Technology, Iran
+  education1: PhD in Computer Engineering (Artificial Intelligence), Sharif University of Technology, Iran
+  education2: MSc in Software Engineering, IUST, Iran
   education3: BSc in Software Engineering, IUST, Iran
   alumni: 0 
 
@@ -127,7 +127,7 @@
   linkedin: 0
   google_scholar: 0
   number_educ: 3
-  education1: PhD student in Biomedical Engineering, University of British Columbia, Iran
+  education1: PhD student in Biomedical Engineering, University of British Columbia, Canada
   education2: MASc in Computer Engineering (Artificial Intelligence), Amirkabir University of Technology, Iran
   education3: BSc in Computer Engineering (Software), University of Tehran, Iran
   alumni: 0
@@ -142,7 +142,7 @@
   linkedin: 0
   google_scholar: 0
   number_educ: 3
-  education1: PhD student in Biomedical Engineering, University of British Columbia, Iran
+  education1: PhD student in Biomedical Engineering, University of British Columbia, Canada
   education2: MASc in Computer Engineering (Artificial Intelligence), University of Tehran, Iran
   education3: BSc in Electrical Engineering, Sharif University of Technology, Iran
   alumni: 0
@@ -173,6 +173,61 @@
   number_educ: 2
   education1: MASc in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc in Biomedical Engineering, Simon Fraser University, Canada
+  alumni: 0
+- name: Graham Archibald 
+  photo: grahama.jpg
+  info: Lab Assistant
+  email: 0
+  website: https://meistrog.github.io/
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/graham-archibald-159114148/
+  google_scholar: 0
+  number_educ: 1
+  education1: BScH in Physics, Queens University, Canada
+  alumni: 0  
+
+- name: Puria Azadi
+  photo: Puria.jpg
+  info: Graduate Student
+  email: mailto:puria.azadi@ubc.ca
+  website: www.puriam.net
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 3
+  education1: PhD student in Electrical & Computer Engineering, University of British Columbia, Canada
+  education2: MSc in Computer Science, Simon Fraser University, Canada
+  education3: BSc in Electrical Engineering and minor in Computer Engineering, University of Tehran, Iran
+  alumni: 0
+
+- name: Roozbeh Bazargani
+  photo: Roozbeh.JPEG
+  info: Graduate Student
+  email: mailto:roozbehb@ece.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/roozbeh-bazargani/
+  google_scholar: 0
+  number_educ: 3
+  education1: MASc student in Electrical & Computer Engineering, University of British Columbia, Canada
+  education2: BSc in Computer Science, Amirkabir University of Technology, Iran
+  education3: BSc in Electrical Engineering, Amirkabir University of Technology, Iran
+  alumni: 0
+
+- name: Tony Xu
+  photo: tonyxu.jpg
+  info: Undergraduate Student
+  email: mailto:ashley.vanspankeren@ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 1
+  education1: BSc in Electrical Engineering (minor in Physics), University of British Columbia, Canada
   alumni: 0
 
 - name: Colin Chen
@@ -300,17 +355,4 @@
   education1: BSc in Mathematics and Computer Science, University of Victoria, Canada
   desc: "I’m currently an undergraduate student at the University of Victoria studying mathematics and computer science. My interest in artificial intelligence developed through my desire to integrate both aspects of my degree. I’m eager to explore applications of machine learning and image processing in the biomedical domain."
   page_name: ashleyv
-  alumni: 0 
-
-- name: Graham Archibald 
-  photo: grahama.jpg
-  info: Lab Assistant
-  email: 0
-  website: https://meistrog.github.io/
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/graham-archibald-159114148/
-  google_scholar: 0
-  number_educ: 1
-  education1: BScH in Physics, Queens University, Canada
-  alumni: 0  
+  alumni: 1 
