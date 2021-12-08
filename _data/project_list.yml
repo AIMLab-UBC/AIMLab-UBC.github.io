@@ -1,3 +1,14 @@
+- title: "The utility of color normalization for AI-based diagnosis of hematoxylin and eosin-stained pathology images"
+  image: color_norm.png
+  description: The color variation of hematoxylin and eosin (H&E)-stained tissues has presented a challenge for applications of artificial intelligence (AI) in digital pathology. In this study, we investigated eight color normalization algorithms for AI-based classification of H&E-stained histopathology slides, in the context of both using images from one center and from multiple centers. Our results show that color normalization does not consistently improve classification performance when both training and testing data are from a single center. However, using four multi-center datasets of two cancer types, we show that color normalization can significantly improve the classification of images from external datasets (ovarian cancer: 0.25 AUC increase, p=1.6e-05, pleural cancer: 0.21 AUC increase, p=1.4e-10). Furthermore, we introduce a novel augmentation strategy by mixing color-normalized images using three easily accessible algorithms that consistently improves the diagnosis of test images from external centers, even when the individual normalization methods had varied results.
+  authors: 
+  link_pdf:
+    show: 1
+    url: https://onlinelibrary.wiley.com/doi/epdf/10.1002/path.5797?saml_referrer
+    display: PDF
+  highlight: 1
+  news2:
+
 - title: "Synthesis of Clinical Grade Cancer Pathology Images Using Generative Adversarial Networks"
   image: gan-flow.png
   description: The purpose of this project is to showcase the capacity of generative adversarial networks (GAN) in synthesizing realistic looking histopathology images. Our findings have important applications in proficiency testing of medical practitioners and quality assurance in clinical laboratories. Furthermore, training of computer-aided diagnostic systems can benefit from synthetic images where labeled datasets are limited (e.g., rare cancers). We have created a publicly available demo website where clinicians and researchers can attempt questions from the image survey.
