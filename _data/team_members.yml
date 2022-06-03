@@ -229,6 +229,20 @@
   number_educ: 1
   education1: BSc in Electrical Engineering (minor in Physics), University of British Columbia, Canada
   alumni: 0
+  
+- name: Sanne Van Dalen
+  photo: Sanne.jpg
+  info: Co-op Student
+  email: mailto:sannevandalen@hotmail.nl
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/sanne-van-dalen-084a97151/
+  google_scholar: 0
+  number_educ: 2
+  education1: BSc in Biomedical Engineering, Eindhoven University of Technology, Netherlands
+  education2: MSc in Biomedical Engineering, Eindhoven University of Technology, Netherlands
+  alumni: 0
 
 - name: Colin Chen
   photo: cchen.jpeg
