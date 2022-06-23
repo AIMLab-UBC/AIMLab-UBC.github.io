@@ -243,6 +243,19 @@
   education1: MSc in Biomedical Engineering, Eindhoven University of Technology, Netherlands
   education2: BSc in Biomedical Engineering, Eindhoven University of Technology, Netherlands
   alumni: 0
+  
+- name: Cindy Shi
+  photo: Cindy.jpg
+  info: Graduate Student
+  email: mailto:
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc student in Bioinformatics, University of British Columbia, Canada
+  education2: Combined BSc (Hon) in Biology and Computer Science, University of British Columbia, Canada
 
 - name: Colin Chen
   photo: cchen.jpeg
