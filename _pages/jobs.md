@@ -20,7 +20,7 @@ Note 2: We review ALL the applications that we receive but unfortunately cannot 
 
 Note 3: Our preference is to admit PhD students. Therefore, outstanding applicants with BSc degrees will be considered for direct admission to PhD program. 
 
-### Feb 1, 2022
+### July 1, 2022
 
 ### Note 
 Currently, we are only looking for post-doctoral candidates. Graduate applicants with very exceptional track record may be considered as well. 
@@ -52,5 +52,5 @@ Qualifications and requirements
 
 How to apply
 -	Please send applications to maryam.asadi at ubc.ca, ali.bashashati at ubc.ca & h.farahani at ubc.ca. In the body of your email, please mention your earliest availability date.
--	Your package should include detailed CV (including the list of publications), and transcripts (optional for PDFs but helpful).
+-	Your package should include detailed CV (including the list of publications), a one-paragraph statement on your interesta and goals (optional), and transcripts (optional).
 
