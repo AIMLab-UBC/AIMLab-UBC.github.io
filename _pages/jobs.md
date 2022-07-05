@@ -52,5 +52,5 @@ Qualifications and requirements
 
 How to apply
 -	Please send applications to maryam.asadi at ubc.ca, ali.bashashati at ubc.ca & h.farahani at ubc.ca. In the body of your email, please mention your earliest availability date.
--	Your package should include detailed CV (including the list of publications), a one-paragraph statement on your interesta and goals (optional), and transcripts (optional).
+-	Your package should include detailed CV (including the list of publications), a concise statement (1-2 paragraphs) on your interests and goals (optional), and transcripts (optional).
 
