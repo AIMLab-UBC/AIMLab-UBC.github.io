@@ -1,3 +1,14 @@
+- title: "Deep Learning-Based Histotype Diagnosis of Ovarian Carcinoma Whole-Slide Pathology Images"
+  image: colornorm_MPathology.png
+  description: We compared four different deep convolutional neural networks for classifying H&E-stained images of epithelial ovarian carcinoma histotypes using the largest training dataset to date (948 slides corresponding to 485 patients), exploring techniques such as color normalization and partially balancing the histotypes. The best performing model, assessed on an independent test set of 60 patients from another institution, achieved a mean diagnostic concordance of 80.97% (Cohen’s kappa 0.7547). As well, in 4 of 8 cases misclassified by ML on the external testing dataset, two expert subspecialty pathologists rendered diagnoses, based on blind review of the WSIs, that agree with AI rather than the integrated reference diagnosis. Our results indicate that color normalization can reliably improve AI-based diagnosis of WSIs sourced from multiple centers, and specifically that an ML-based ovarian carcinoma classifier is ready for clinical validation studies as an adjunct for informing histotype diagnosis.
+  authors: 
+  link_pdf:
+    show: 1
+    url: 
+    display: PDF
+  highlight: 1
+  news2:
+  
 - title: "Identification of a Novel Subtype of Endometrial Cancer with Unfavourable Outcome Using Artificial Intelligence-based Histopathology Image Analysis"
   image: Amirali-Poster.png
   description: Utilizing an AI-based approach for histopathology image analysis, we have discovered ‘p53abn-like’ NSMPs, a novel subtype of NSMP ECs with morphological features similar to p53abn cases. ‘p53abn-like’ NSMPs exhibit similar clinical behavior as p53abn, having noticeably inferior outcome.
@@ -10,7 +21,7 @@
   news2:
   
 - title: "The utility of color normalization for AI-based diagnosis of hematoxylin and eosin-stained pathology images"
-  image: color_norm.png
+  image: colornorm_JPathology.png
   description: The color variation of hematoxylin and eosin (H&E)-stained tissues has presented a challenge for applications of artificial intelligence (AI) in digital pathology. In this study, we investigated eight color normalization algorithms for AI-based classification of H&E-stained histopathology slides, in the context of both using images from one center and from multiple centers. Our results show that color normalization does not consistently improve classification performance when both training and testing data are from a single center. However, using four multi-center datasets of two cancer types, we show that color normalization can significantly improve the classification of images from external datasets (ovarian cancer 0.25 AUC increase, p=1.6e-05, pleural cancer 0.21 AUC increase, p=1.4e-10). Furthermore, we introduce a novel augmentation strategy by mixing color-normalized images using three easily accessible algorithms that consistently improves the diagnosis of test images from external centers, even when the individual normalization methods had varied results.
   authors: 
   link_pdf:
