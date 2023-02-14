@@ -61,7 +61,7 @@
   alumni: 0
 
 - name: Nikolay Alabi
-  photo: default_aim.jpg
+  photo: default_aim.png
   info: MD/PhD student
   email: 0
   website: 0
@@ -74,7 +74,7 @@
   alumni: 0
 
 - name: Mayur Mallya
-  photo: default_aim.jpg
+  photo: default_aim.png
   info: PhD student
   email: 0
   website: 0
@@ -217,7 +217,20 @@
   education2: BSc in Electrical Engineering, Isfahan University of Technology, Iran
   education3: BSc in Mathematics, Isfahan University of Technology, Iran
   alumni: 0
-    
+
+- name: Irem Eren
+  photo: default_aim.png
+  info: Lab Tech
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 1
+  education1: BSc in Life Sciences, University of British Columbia, Canada
+  alumni: 0
+
 - name: Colin Chen
   photo: cchen.jpeg
   info: Co-op Student
