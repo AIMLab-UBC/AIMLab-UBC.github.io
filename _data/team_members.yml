@@ -48,7 +48,7 @@
 
 - name: Amirali Darbandsari
   photo: Amirali.jpg
-  info: Graduate Student
+  info: machine learning scientist
   email: mailto:amirali@ece.ubc.ca
   website: 0
   github: 0
@@ -60,6 +60,33 @@
   education2: BSc in Electrical Engineering (Communication) and minor in Computer Engineering, University of Tehran, Iran
   alumni: 0
 
+- name: Nikolay Alabi
+  photo: default_aim.jpg
+  info: MD/PhD student
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 1
+  education1: BSc in Life Sciences, Queens University, Canada
+  alumni: 0
+
+- name: Mayur Mallya
+  photo: default_aim.jpg
+  info: PhD student
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: BSc in Electronics and Communication Engineering, National Institute of Technology Karnataka (NIT-K), India
+  education2: MSc in Computer Science, Simon Fraser University, Canada
+  alumni: 0
+  
 - name: Matthew Wiens
   photo: MatthewWiens.jpeg
   info: Graduate Student
@@ -86,7 +113,7 @@
   number_educ: 2
   education1: MASc student in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc in Chemical & Biological Engineering, University of British Columbia, Canada
-  alumni: 0
+  alumni: 1
 
 - name: Pouya Ahmadvand
   photo: pahmadvand.png
