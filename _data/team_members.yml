@@ -230,6 +230,19 @@
   education3: BSc in Electrical Engineering and minor in Computer Engineering, University of Tehran, Iran
   alumni: 0
 
+- name: Irem Eren
+  photo: default_aim.png
+  info: Lab Tech
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 1
+  education1: BSc in Life Sciences, University of British Columbia, Canada
+  alumni: 0
+
 - name: Tony Xu
   photo: tonyxu.jpg
   info: Undergraduate Student
