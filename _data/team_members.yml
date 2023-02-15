@@ -204,7 +204,7 @@
 
 - name: Graham Archibald 
   photo: grahama.jpg
-  info: Lab Assistant
+  info: Graduate Student
   email: 0
   website: https://meistrog.github.io/
   github: 0
@@ -212,7 +212,8 @@
   linkedin: https://www.linkedin.com/in/graham-archibald-159114148
   google_scholar: 0
   number_educ: 1
-  education1: BScH in Physics, Queens University, Canada
+  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education2: BScH in Physics, Queens University, Canada
   alumni: 0  
 
 - name: Puria Azadi
