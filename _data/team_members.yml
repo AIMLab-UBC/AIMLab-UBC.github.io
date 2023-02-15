@@ -74,14 +74,14 @@
   alumni: 0
 
 - name: Mayur Mallya
-  photo: default_aim.png
+  photo: Mayur.png
   info: PhD student
-  email: 0
-  website: 0
+  email: mailto:mmallya@sfu.ca
+  website: https://mayurmallya.github.io/
   github: 0
   twitter: 0
-  linkedin: 0
-  google_scholar: 0
+  linkedin: https://www.linkedin.com/in/mayur-m-mallya-695a7915b/
+  google_scholar: https://scholar.google.ca/citations?user=gzRUnEMAAAAJ&hl=en
   number_educ: 2
   education1: BSc in Electronics and Communication Engineering, National Institute of Technology Karnataka (NIT-K), India
   education2: MSc in Computer Science, Simon Fraser University, Canada
