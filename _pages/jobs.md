@@ -20,37 +20,15 @@ Note 2: We review ALL the applications that we receive but unfortunately cannot 
 
 Note 3: Our preference is to admit PhD students. Therefore, outstanding applicants with BSc degrees will be considered for direct admission to PhD program. 
 
-### July 1, 2022
+### April 18, 2023: Post-doctoral position in machine learning for medical imaging and bioinformatics
+To view the job descript and apply please visit: [Post-doctoral position](https://docs.google.com/forms/d/1ZitNWNpyYSc4i54Qe4RRTurcqm9U7_C_B8SXtBVtwKE/viewform?edit_requested=true)
+
+### April 18, 2023: Machine learning software developer position 
+To view the job descript and apply please visit: [Software developer position](https://docs.google.com/forms/d/1U8nAhy6IdtuO3p4U3J_ue5KIrxpE-iBlcNgJv5yqgj8/viewform?edit_requested=true)
 
 ### Note 
-Currently, we are only looking for post-doctoral candidates. Graduate applicants with very exceptional track record may be considered as well. 
-
 Due to the volume of the applications, we regretfully cannot respond to all the inquiries but guarantee that we read ALL the applications. As such, we will only contact the short-listed applicants. We feel the enthusiasm from the emails but unfortunately, there is so much we can do on our end. We wish all the best for all the applicants and confident that everybody will manage to find a posiiton that matches their background and intrest. 
 
-### Post-doctoral positions in machine learning for medical imaging and bioinformatics 
-Post-doctoral fellowship (PDF) positions in the field of machine learning/computational biology are available in the School of Biomedical Engineering and Department of Pathology and Laboratory Medicine at the University of British Columbia/Vancouver General Hospital. The incumbent will join an interdisciplinary team working to establish a program on machine learning applications in pathology and genomics. Candidates are expected to have extensive experience in one or more of the following areas: diverse areas of machine learning and statistics especially deep neural networks, statistics, and image processing.
-Post-doctoral candidates will play an important role in the project team, including authoring grants, conducting large-scale international projects, managing collaborations, disseminating research findings, and assisting in managing junior lab members. 
 
-Responsibilities
--	Developing efficient deep learning algorithms for the classification and risk-stratification of patients based on whole slide tissue images.
--	Developing machine learning algorithms for studying correlation between genomic/transcriptomic signatures and whole slide tissue images in cancer samples.
--	Senior members: participation in the preparation of manuscripts and grant applications.
--	Senior members: Participation in supervising junior lab members.
 
-Qualifications and requirements
--	Degree in computer science, bioinformatics, biomedical engineering, electrical engineering or similar.
--	Outstanding publication record in top journals and conferences
--	Proven experience in design and implementation of deep learning algorithms in image processing.
--	Outstanding programming skills in Python and R.
--	Extensive experience working on one or more of the following areas: image processing, machine learning, large scale genomic/transcriptomics, single cell sequencing.
--	Track record of development and implementation of novel machine learning algorithms in cancer genomics.
--	Extensive experience in utilizing machine learning libraries such as TensorFlow, Keras, PyTorch, and Scikit-learn.
--	At least 2 years of experience working with Linux computing clusters.
--	Ability to work independently and within a team environment.
--	Effective oral and written communication, analytical, and interpersonal skills.
-* We are looking for candidates with strong analytical, programming and machine learning skills. Experience in biomedical applications in not necessary but desired. We encourage all qualified applicants to apply.
-
-How to apply
--	Please send applications to maryam.asadi at ubc.ca, ali.bashashati at ubc.ca & h.farahani at ubc.ca. In the body of your email, please mention your earliest availability date.
--	Your package should include detailed CV (including the list of publications), a concise statement (1-2 paragraphs) on your interests and goals (optional), and transcripts (optional).
 
