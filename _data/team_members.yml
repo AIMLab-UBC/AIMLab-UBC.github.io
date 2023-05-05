@@ -58,7 +58,7 @@
   number_educ: 2
   education1: MASc student in Electrical & Computer Engineering, University of British Columbia, Canada
   education2: BSc in Electrical Engineering (Communication) and minor in Computer Engineering, University of Tehran, Iran
-  alumni: 0
+  alumni: 1
 
 - name: Nikolay Alabi
   photo: Alabi_Nikolay.jpg
@@ -128,7 +128,7 @@
   education1: MASc student in Bioinformatics, University of British Columbia, Canada
   education2: MASc in Computer Engineering (Software), Shahid Rajaee Teacher Training University, Iran
   education3: BSc in Computer Engineering (Software), Isfahan University, Iran
-  alumni: 0
+  alumni: 1
 
 - name: Tina Li
   photo: tinal.jpg
