@@ -201,6 +201,20 @@
   education1: MASc in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc in Biomedical Engineering, Simon Fraser University, Canada
   alumni: 0
+  
+ - name: Elahe Ranjbari
+  photo: elahe.jpg
+  info: Graduate Student
+  email: mailto:elahe.ranjbari98@gmail.com
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MSc student in Bioinformatics, University of British Columbia, Canada
+  education2: BSc in Computer Engineering,  Amirkabir University of Technology, Iran
+  alumni: 0
 
 - name: Graham Archibald 
   photo: grahama.jpg
