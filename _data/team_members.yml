@@ -200,9 +200,9 @@
   number_educ: 2
   education1: MASc in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc in Biomedical Engineering, Simon Fraser University, Canada
-  alumni: 0
-  
- - name: Elahe Ranjbari
+  alumni: 0 
+
+- name: Elahe Ranjbari
   photo: elahe.jpg
   info: Graduate Student
   email: mailto:elahe.ranjbari98@gmail.com
