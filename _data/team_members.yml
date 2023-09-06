@@ -62,15 +62,31 @@
 
 - name: Nikolay Alabi
   photo: Alabi_Nikolay.jpg
-  info: MD/PhD student
-  email: 0
+  info: Graduate Student
+  email: nikolay.alabi@queensu.ca
   website: 0
   github: 0
   twitter: 0
   linkedin: 0
   google_scholar: 0
-  number_educ: 1
-  education1: BSc in Life Sciences, Queens University, Canada
+  number_educ: 2
+  education1: MD/PhD Student (Bioinformatics), University of British Columbia, Canada
+  education2: BSc in Life Sciences, Queens University, Canada
+  alumni: 0
+
+- name: Ali Khajegili Mirabadi
+  photo: Alichi.jpg
+  info: Graduate Student
+  email: mailto:alikhm@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/ali-khajegili
+  google_scholar: 0
+  number_educ: 3
+  education1: PhD student in Bioinformatics, University of British Columbia, Canada
+  education2: BSc in Electrical Engineering, Isfahan University of Technology, Iran
+  education3: BSc in Mathematics, Isfahan University of Technology, Iran
   alumni: 0
 
 - name: Mayur Mallya
@@ -297,21 +313,6 @@
   number_educ: 2
   education1: MASc student in Bioinformatics, University of British Columbia, Canada
   education2: Combined BSc (Hon) in Biology and Computer Science, University of British Columbia, Canada
-  alumni: 0
-
-- name: Ali Khajegili Mirabadi
-  photo: Ali_Kh.jpg
-  info: Graduate Student
-  email: mailto:alikhm@student.ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/ali-khajegili
-  google_scholar: 0
-  number_educ: 3
-  education1: PhD student in Bioinformatics, University of British Columbia, Canada
-  education2: BSc in Electrical Engineering, Isfahan University of Technology, Iran
-  education3: BSc in Mathematics, Isfahan University of Technology, Iran
   alumni: 0
     
 - name: Colin Chen
