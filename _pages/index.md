@@ -6,33 +6,6 @@ sitemap: false
 permalink: /
 ---
 
-<div style="margin-top: 15px">
-    <div class="container-fluid" style="max-width: 1200px; color: #0f1419;">
-        <div class="section">
-            <div class="col-sm-8">
-                <h1 class="title">
-                    <b>Welcome to the AIM Lab at UBC</b>
-                </h1>
-                <p style="font-size:18px">
-                The <b>Artificial Intelligence in Medicine (AIM) Lab</b>'s research area lies in the interface between computational, engineering and biomedical sciences.
-                <br><br>
-                We are interested in developing machine learning, statistical and signal processing algorithms and software infrastructure to combine various sources of omics and imaging data with major emphasis on discovering novel biological information and biomarkers that can be used for treatment selection in cancer. 
-                <br><br>
-                We have active projects in ovarian, endometrial, prostate, pancreatic, and breast cancers.
-                <br><br>
-                <b>Contact:</b><br>...<br>...
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <div class='jekyll-twitter-plugin' align="center">
-                    <div class="jekyll-twitter-plugin"><a class="twitter-timeline" data-width="350" data-tweet-limit="2" href="https://twitter.com/ABashashati">Tweets by ubcAIMlab</a>
-                        <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <div class ="row" id="carousel-container">
     <div class="col-sm-12">
@@ -74,6 +47,31 @@ permalink: /
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+        </div>
+    </div>
+</div>
+
+
+<div style="margin-top: 15px; margin-bottom: 75px;">
+    <div class="container-fluid" style="max-width: 1200px; color: #0f1419;">
+        <div class="section">
+            <div class="col-sm-8" style="padding-top: 15px;">
+                <h1 class="title">
+                    <b>Welcome to the AIM Lab at UBC</b>
+                </h1>
+                <p style="font-size:18px">
+                The <b>Artificial Intelligence in Medicine (AIM) Lab</b>'s research area lies in the interface between computational, engineering and biomedical sciences.
+                <br><br>
+                We are interested in developing machine learning, statistical and signal processing algorithms and software infrastructure to combine various sources of omics and imaging data with major emphasis on discovering novel biological information and biomarkers that can be used for treatment selection in cancer. 
+                <br><br>
+                We have active projects in ovarian, endometrial, prostate, pancreatic, and breast cancers.
+                <br><br>
+                <b>Contact:</b><br>...<br>...
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <a class="twitter-timeline" data-width="350" data-height="748" data-theme="light" href="https://twitter.com/ABashashati?ref_src=twsrc%5Etfw">Tweets by ABashashati</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
         </div>
     </div>
 </div>

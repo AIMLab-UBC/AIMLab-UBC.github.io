@@ -55,7 +55,7 @@ pubtit {
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
-  max-width: 1000px; /* or 950px */
+  max-width: 1200px; /* or 950px */
 }
 
 .container-full {
@@ -79,12 +79,12 @@ pubtit {
 }
 
 /* Team & Publications */
-#gridid img { margin: 16px 22px 6px 0;}
+#gridid img { margin: 16px 22px 16px 0;}
 #projectid img { margin: 16px 22px 6px 12px; }
 #projectid .row { margin-bottom: 24px; }
 #homeid img { margin: 0 0 0 0;}
 #picid img { margin: 6px 3px 60px 6px;}
-#gridid .row { margin-bottom: 24px; }
+#gridid .row { margin-bottom: 0px; }
 
 
 /* Grid overrides */
@@ -111,7 +111,7 @@ pubtit {
 .carousel {
     border-radius: 3px 3px 3px 3px;
     margin: auto;
-    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.3)
+    box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.3)
 }
 
 /*
@@ -156,16 +156,6 @@ img {
     border: 1px solid transparent;
   }
 
-  .btn-aim {
-    border-radius: 0px;
-    color: white;
-    background-color: #FF330D;
-  }
-
-  .btn-aim:hover {
-    color: white;
-  }
-
 .carousel{
   max-width: 1500px;
 }
@@ -175,6 +165,12 @@ img {
     justify-content: center;
     align-items: center;
     height: auto;
+    transition: 0.3s ease;
+}
+
+.navbar {
+    height: 66px;
+    will-change: height;
     transition: 0.3s ease;
 }
 
@@ -191,4 +187,81 @@ img {
     text-align: center;
     margin-bottom: 25px;
     margin-top: 0px;
+}
+
+#twitter-widget-0 {
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+    border-radius: 13px;
+}
+
+.glyphicon-chevron-left, .glyphicon-chevron-right {
+    color: $brand-primary;
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 45px !important;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    width: 100%;
+}
+
+.flex-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.flex-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    color: #0f1419;
+}
+
+#project-header {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 42px;
+    color: #0f1419;
+}
+
+.well {
+    border: none !important;
+    border-radius: 0px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    background-color: #ffe5cf;
+}
+
+.panel-footer{
+    background-color: #ffe5cf;
+}
+
+.project-title{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.img-responsive {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+    box-shadow: 0px 0px 6px 1px rgb(0 0 0 / 50%);
+}
+
+.clearfix {
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
