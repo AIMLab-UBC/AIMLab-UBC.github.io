@@ -46,6 +46,106 @@
   education3: BSc in Software Engineering, IUST, Iran
   alumni: 0 
 
+- name: Pouya Ahmadvand
+  photo: pahmadvand.png
+  info: Graduate Student
+  email: mailto:pouya.ahmadvand@ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/pouya-ahmadvand-a8913673
+  google_scholar: 0
+  number_educ: 3
+  education1: MASc student in Bioinformatics, University of British Columbia, Canada
+  education2: MASc in Computer Engineering (Software), Shahid Rajaee Teacher Training University, Iran
+  education3: BSc in Computer Engineering (Software), Isfahan University, Iran
+  alumni: 1
+
+- name: Nikolay Alabi
+  photo: Alabi_Nikolay.jpg
+  info: Graduate Student
+  email: mailto:nikolay.alabi@queensu.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MD/PhD Student (Bioinformatics), University of British Columbia, Canada
+  education2: BSc in Life Sciences, Queens University, Canada
+  alumni: 0
+
+- name: Graham Archibald 
+  photo: grahama.jpg
+  info: Graduate Student
+  email: 0
+  website: https://meistrog.github.io/
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/graham-archibald-159114148
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education2: BScH in Physics, Queens University, Canada
+  alumni: 0 
+
+- name: Puria Azadi
+  photo: Puria.jpg
+  info: Graduate Student
+  email: mailto:puria.azadi@ubc.ca
+  website: www.puriam.net
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 3
+  education1: PhD student in Electrical & Computer Engineering, University of British Columbia, Canada
+  education2: MSc in Computer Science, Simon Fraser University, Canada
+  education3: BSc in Electrical Engineering and minor in Computer Engineering, University of Tehran, Iran
+  alumni: 0
+
+- name: Parisa Beygi
+  photo: parisab.png
+  info: Graduate Student
+  email: mailto:pabeygi@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 3
+  education1: PhD student in Biomedical Engineering, University of British Columbia, Canada
+  education2: MASc in Computer Engineering (Artificial Intelligence), Amirkabir University of Technology, Iran
+  education3: BSc in Computer Engineering (Software), University of Tehran, Iran
+  alumni: 0
+
+- name: Jeffrey Boschman
+  photo: jboschman.png
+  info: Graduate Student
+  email: mailto:jeff.boschman@ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc student in Biomedical Engineering, University of British Columbia, Canada
+  education2: BSc in Chemical & Biological Engineering, University of British Columbia, Canada
+  alumni: 1
+    
+- name: Colin Chen
+  photo: cchen.jpeg
+  info: Co-op Student
+  email: mailto:colinc@fastmail.com
+  website: 0
+  github: https://github.com/fireofearth
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/thisiscolinc
+  google_scholar: 0
+  number_educ: 1
+  education1: BSc Combined Honours in Computer Science and Mathematics, University of British Columbia, Canada
+  alumni: 1
+
 - name: Amirali Darbandsari
   photo: Amirali.jpg
   info: machine learning scientist
@@ -60,19 +160,58 @@
   education2: BSc in Electrical Engineering (Communication) and minor in Computer Engineering, University of Tehran, Iran
   alumni: 1
 
-- name: Nikolay Alabi
-  photo: Alabi_Nikolay.jpg
+- name: Michael Diaz-Stewart
+  photo: michael.jpg
   info: Graduate Student
-  email: nikolay.alabi@queensu.ca
+  email: mailto:michael.diaz@ubc.ca
+  website: 0
+  github: https://github.com/MikeDiaz1
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/michael-diaz-stewart-7547ab271/
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc student in Biomedical Engineering, University of British Columbia, Canada
+  education2: Hons. BSc in Biology (Biomedical Science), York Univeristy, Canada
+  alumni: 0
+
+- name: Irem Eren
+  photo: Irem.jpg
+  info: Lab Tech
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 1
+  education1: BSc in Life Sciences, University of British Columbia, Canada
+  alumni: 0
+
+- name: Amir Hadjifaradji
+  photo: amirh.jpg
+  info: Graduate Student
+  email: mailto:ahadji@student.ubc.ca
   website: 0
   github: 0
   twitter: 0
   linkedin: 0
   google_scholar: 0
   number_educ: 2
-  education1: MD/PhD Student (Bioinformatics), University of British Columbia, Canada
-  education2: BSc in Life Sciences, Queens University, Canada
-  alumni: 0
+  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education2: BSc in Biomedical Engineering, Simon Fraser University, Canada
+  alumni: 0 
+
+- name: Christopher Halim
+  photo: default_aim.png
+  info: Summer Student
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 0
+  alumni: 1
 
 - name: Ali Khajegili Mirabadi
   photo: Alichi.jpg
@@ -89,63 +228,6 @@
   education3: BSc in Mathematics, Isfahan University of Technology, Iran
   alumni: 0
 
-- name: Mayur Mallya
-  photo: Mayur.png
-  info: PhD student
-  email: mailto:mmallya@sfu.ca
-  website: https://mayurmallya.github.io
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/mayur-m-mallya-695a7915b
-  google_scholar: https://scholar.google.ca/citations?user=gzRUnEMAAAAJ&hl=en
-  number_educ: 2
-  education1: BSc in Electronics and Communication Engineering, National Institute of Technology Karnataka (NIT-K), India
-  education2: MSc in Computer Science, Simon Fraser University, Canada
-  alumni: 0
-  
-- name: Matthew Wiens
-  photo: MatthewWiens.jpeg
-  info: Graduate Student
-  email: mailto:matthew.v.wiens@ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc student in Biomedical Engineering, University of British Columbia, Canada
-  education2: BSc in Electrical Engineering (minor in Computer Engineering), University of Calgary, Canada
-  alumni: 1
-
-- name: Jeffrey Boschman
-  photo: jboschman.png
-  info: Graduate Student
-  email: mailto:jeff.boschman@ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc student in Biomedical Engineering, University of British Columbia, Canada
-  education2: BSc in Chemical & Biological Engineering, University of British Columbia, Canada
-  alumni: 1
-
-- name: Pouya Ahmadvand
-  photo: pahmadvand.png
-  info: Graduate Student
-  email: mailto:pouya.ahmadvand@ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/pouya-ahmadvand-a8913673
-  google_scholar: 0
-  number_educ: 3
-  education1: MASc student in Bioinformatics, University of British Columbia, Canada
-  education2: MASc in Computer Engineering (Software), Shahid Rajaee Teacher Training University, Iran
-  education3: BSc in Computer Engineering (Software), Isfahan University, Iran
-  alumni: 1
-
 - name: Tina Li
   photo: tinal.jpg
   info: Graduate Intern
@@ -160,19 +242,32 @@
   education2: BSc Chemical & Biological Engineering, University of British Columbia, Canada
   alumni: 1
 
-- name: Parisa Beygi
-  photo: parisab.png
-  info: Graduate Student
-  email: mailto:pabeygi@student.ubc.ca
-  website: 0
+- name: Mayur Mallya
+  photo: Mayur.jpg
+  info: PhD student
+  email: mailto:mmallya@sfu.ca
+  website: https://mayurmallya.github.io
   github: 0
   twitter: 0
-  linkedin: 0
+  linkedin: https://www.linkedin.com/in/mayur-m-mallya-695a7915b
+  google_scholar: https://scholar.google.ca/citations?user=gzRUnEMAAAAJ&hl=en
+  number_educ: 2
+  education1: BSc in Electronics and Communication Engineering, National Institute of Technology Karnataka (NIT-K), India
+  education2: MSc in Computer Science, Simon Fraser University, Canada
+  alumni: 0
+  
+- name: Maedeh Mirzazadeh
+  photo: Maedeh.jpg
+  info: Graduate Student
+  email: mailto:maeede.mir@gmail.com
+  website: https://maedemir.github.io/
+  github: https://github.com/maedemir
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/maedehmirzazadeh
   google_scholar: 0
-  number_educ: 3
-  education1: PhD student in Biomedical Engineering, University of British Columbia, Canada
-  education2: MASc in Computer Engineering (Artificial Intelligence), Amirkabir University of Technology, Iran
-  education3: BSc in Computer Engineering (Software), University of Tehran, Iran
+  number_educ: 2
+  education1: MSc student in Bioinformatics, University of British Columbia, Canada
+  education2: BSc in Computer Engineering, Amirkabir University of Technology, Iran
   alumni: 0
 
 - name: Ramin Nakhli
@@ -190,144 +285,6 @@
   education3: BSc in Electrical Engineering, Sharif University of Technology, Iran
   alumni: 0
 
-- name: Katherine Rich
-  photo: katheriner.jpg
-  info: Graduate Student
-  email: mailto:richkath@student.ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
-  education2: BSc in Electrical Engineering (minor in Biomedical Engineering), University of Toronto, Canada
-  alumni: 0
-
-- name: Amir Hadjifaradji
-  photo: amirh.jpg
-  info: Graduate Student
-  email: mailto:ahadji@student.ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
-  education2: BSc in Biomedical Engineering, Simon Fraser University, Canada
-  alumni: 0 
-
-- name: Elahe Ranjbari
-  photo: elahe.jpg
-  info: Graduate Student
-  email: mailto:elahe.ranjbari98@gmail.com
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 2
-  education1: MSc student in Bioinformatics, University of British Columbia, Canada
-  education2: BSc in Computer Engineering,  Amirkabir University of Technology, Iran
-  alumni: 0
-
-- name: Graham Archibald 
-  photo: grahama.jpg
-  info: Graduate Student
-  email: 0
-  website: https://meistrog.github.io/
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/graham-archibald-159114148
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
-  education2: BScH in Physics, Queens University, Canada
-  alumni: 0  
-
-- name: Puria Azadi
-  photo: Puria.jpg
-  info: Graduate Student
-  email: mailto:puria.azadi@ubc.ca
-  website: www.puriam.net
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 3
-  education1: PhD student in Electrical & Computer Engineering, University of British Columbia, Canada
-  education2: MSc in Computer Science, Simon Fraser University, Canada
-  education3: BSc in Electrical Engineering and minor in Computer Engineering, University of Tehran, Iran
-  alumni: 0
-
-- name: Irem Eren
-  photo: Irem.jpg
-  info: Lab Tech
-  email: 0
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 1
-  education1: BSc in Life Sciences, University of British Columbia, Canada
-  alumni: 0
-
-- name: Tony Xu
-  photo: tonyxu.jpg
-  info: Undergraduate Student
-  email: 0
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 1
-  education1: BSc in Electrical Engineering (minor in Physics), University of British Columbia, Canada
-  alumni: 1
-  
-- name: Sanne Van Dalen
-  photo: Sanne.jpg
-  info: Co-op Student
-  email: mailto:sannevandalen@hotmail.nl
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/sanne-van-dalen-084a97151
-  google_scholar: 0
-  number_educ: 2
-  education1: MSc in Biomedical Engineering, Eindhoven University of Technology, Netherlands
-  education2: BSc in Biomedical Engineering, Eindhoven University of Technology, Netherlands
-  alumni: 1
-  
-- name: Cindy Shi
-  photo: Cindy.jpg
-  info: Graduate Student
-  email: mailto:xpshi@student.ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/cindy-shi-22b5b3117
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc student in Bioinformatics, University of British Columbia, Canada
-  education2: Combined BSc (Hon) in Biology and Computer Science, University of British Columbia, Canada
-  alumni: 0
-    
-- name: Colin Chen
-  photo: cchen.jpeg
-  info: Co-op Student
-  email: mailto:colinc@fastmail.com
-  website: 0
-  github: https://github.com/fireofearth
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/thisiscolinc
-  google_scholar: 0
-  number_educ: 1
-  education1: BSc Combined Honours in Computer Science and Mathematics, University of British Columbia, Canada
-  alumni: 1
-
 - name: Mitchell Nursey
   photo: mnursey.jpg
   info: Co-op Student
@@ -344,6 +301,104 @@
   desc: "Over the past few years I have been working and developing my skills as a hobbyist programmer. Currently, I am working towards getting a bachelor's degree at the University of Victoria studying Computer Science. I have worked on a plethora of projects, from strategy games, to neural networks. I have a keen interest in artificial intelligence, game design, low level networking, computer vision, and teaching."
   alumni: 1
 
+- name: Jason Peng
+  photo: default_aim.png
+  info: Research Intern
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 0
+  alumni: 1
+
+- name: Elahe Ranjbari
+  photo: elahe.jpg
+  info: Graduate Student
+  email: mailto:elahe.ranjbari98@gmail.com
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MSc student in Bioinformatics, University of British Columbia, Canada
+  education2: BSc in Computer Engineering,  Amirkabir University of Technology, Iran
+  alumni: 0
+
+- name: Katherine Rich
+  photo: katheriner.jpg
+  info: Graduate Student
+  email: mailto:richkath@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education2: BSc in Electrical Engineering (minor in Biomedical Engineering), University of Toronto, Canada
+  alumni: 0
+
+- name: Kareem Shammout
+  photo: kareems.jpg
+  info: Co-op Student
+  email: mailto:shammo23@student.ubc.ca
+  website: https://kshammout.com/
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 1
+  education1: BSc in Mathematics and Computer Science, University of British Columbia, Canada
+  desc: "UBC undergrad enthusiastic about machine learning and data collection. I started programming by using python scripts to scrape data off of websites, and then moved on to other projects such as lighthearted Reddit bots and a grocery store comparison site. I've started a blog on my website that goes through my individual projects, explaining the process behind them in hopes of helping others to get started with computer science projects of their own."
+  page_name: kareems
+  alumni: 1 
+  
+- name: Cindy Shi
+  photo: Cindy.jpg
+  info: Graduate Student
+  email: mailto:xpshi@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/cindy-shi-22b5b3117
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc student in Bioinformatics, University of British Columbia, Canada
+  education2: Combined BSc (Hon) in Biology and Computer Science, University of British Columbia, Canada
+  alumni: 0
+  
+- name: Sanne Van Dalen
+  photo: Sanne.jpg
+  info: Co-op Student
+  email: mailto:sannevandalen@hotmail.nl
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/sanne-van-dalen-084a97151
+  google_scholar: 0
+  number_educ: 2
+  education1: MSc in Biomedical Engineering, Eindhoven University of Technology, Netherlands
+  education2: BSc in Biomedical Engineering, Eindhoven University of Technology, Netherlands
+  alumni: 1
+
+- name: Ashley Van Spankeren
+  photo: ashleyv.JPG
+  info: Co-op Student
+  email: mailto:ashley.vanspankeren@ubc.ca
+  website: 0
+  github: https://github.com/ashleyvansp
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/ashleyvansp
+  google_scholar: 0
+  number_educ: 1
+  education1: BSc in Mathematics and Computer Science, University of Victoria, Canada
+  desc: "I’m currently an undergraduate student at the University of Victoria studying mathematics and computer science. My interest in artificial intelligence developed through my desire to integrate both aspects of my degree. I’m eager to explore applications of machine learning and image processing in the biomedical domain."
+  page_name: ashleyv
+  alumni: 1 
+
 - name: Yiping Wang
   photo: ywang.jpg
   info: Co-op Student
@@ -357,6 +412,20 @@
   education1: Honours BSc in Computer Science, University of Victoria, Canada
   page_name: ywang
   desc: "Currently, I am a senior Honours BSc student in the Department of Computer Science at the University of Victoria. My interest and enthusiasm for Computer Vision and Medical Image Processing. I explore how to use medical image data and machine learning to help doctors make decisions. I am broadly interested in machine learning for improving lesion detection and classification, anatomical structure segmentation and quantification, cancer diagnosis and therapy. In a nutshell, I study and apply computer vision and machine learning for medical imaging."
+  alumni: 1
+  
+- name: Matthew Wiens
+  photo: MatthewWiens.jpeg
+  info: Graduate Student
+  email: mailto:matthew.v.wiens@ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc student in Biomedical Engineering, University of British Columbia, Canada
+  education2: BSc in Electrical Engineering (minor in Computer Engineering), University of Calgary, Canada
   alumni: 1
 
 - name: Yang Xia
@@ -376,28 +445,17 @@
   desc: "I am an undergraduate student at UBC"
   alumni: 1
 
-- name: Christopher Halim
-  photo: default_aim.png
-  info: Summer Student
+- name: Tony Xu
+  photo: tonyxu.jpg
+  info: Undergraduate Student
   email: 0
   website: 0
   github: 0
   twitter: 0
   linkedin: 0
   google_scholar: 0
-  number_educ: 0
-  alumni: 1
-
-- name: Jason Peng
-  photo: default_aim.png
-  info: Research Intern
-  email: 0
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 0
+  number_educ: 1
+  education1: BSc in Electrical Engineering (minor in Physics), University of British Columbia, Canada
   alumni: 1
 
 - name: Sina Zareian
@@ -411,33 +469,3 @@
   google_scholar: 0
   number_educ: 0
   alumni: 1
-
-- name: Kareem Shammout
-  photo: kareems.jpg
-  info: Co-op Student
-  email: mailto:shammo23@student.ubc.ca
-  website: https://kshammout.com/
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 1
-  education1: BSc in Mathematics and Computer Science, University of British Columbia, Canada
-  desc: "UBC undergrad enthusiastic about machine learning and data collection. I started programming by using python scripts to scrape data off of websites, and then moved on to other projects such as lighthearted Reddit bots and a grocery store comparison site. I've started a blog on my website that goes through my individual projects, explaining the process behind them in hopes of helping others to get started with computer science projects of their own."
-  page_name: kareems
-  alumni: 1 
-
-- name: Ashley Van Spankeren
-  photo: ashleyv.JPG
-  info: Co-op Student
-  email: mailto:ashley.vanspankeren@ubc.ca
-  website: 0
-  github: https://github.com/ashleyvansp
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/ashleyvansp
-  google_scholar: 0
-  number_educ: 1
-  education1: BSc in Mathematics and Computer Science, University of Victoria, Canada
-  desc: "I’m currently an undergraduate student at the University of Victoria studying mathematics and computer science. My interest in artificial intelligence developed through my desire to integrate both aspects of my degree. I’m eager to explore applications of machine learning and image processing in the biomedical domain."
-  page_name: ashleyv
-  alumni: 1 

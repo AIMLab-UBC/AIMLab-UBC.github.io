@@ -6,7 +6,10 @@ sitemap: false
 permalink: /projects/
 ---
 
-<h2 id="project-header">Projects</h2>
+
+<div class="container-projects">
+<div class="row" style="max-width: 900px">
+
 
 {% assign number_printed = 0 %}
 {% for project in site.data.project_list %}
@@ -14,15 +17,13 @@ permalink: /projects/
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if project.highlight == 1 %}
 
-<div class="col-sm-12 clearfix" style="transition: 0.3s ease;">
+<div class="col-sm-12 clearfix" style="transition: 0.3s ease; padding-top: 15px; padding-bottom: 10px">
     <div style="margin-top: 50px;">
         <pubtit class="project-title">{{ project.title }}</pubtit>
-        <div class="hover-container" style="position: relative;">
-            <div class="well" style="background-color: white; padding: 0; margin-bottom: 0px">
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/project_pic/{{ project.image }}" width="100%" style="margin:0;"/>
-            </div>
+        <div class="hover-container">
             <div class="well">
-                <p style="margin-top: 0px;">{{ project.description }}</p>
+                <img src="{{ site.url }}{{ site.baseurl }}/assets/project_pic/{{ project.image }}" class="project-image"/>
+                <p class="project-text">{{ project.description }}</p>
                 <span style="display: flex; justify-content: center;">
                     {% if project.link_pdf.show == 1 %}
                     <a type="button" class="btn btn-aim" href="{{ project.link_pdf.url }}">{{ project.link_pdf.display }}</a>
@@ -46,5 +47,8 @@ permalink: /projects/
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
-</div>
 {% endif %}
+
+
+</div>
+</div>
