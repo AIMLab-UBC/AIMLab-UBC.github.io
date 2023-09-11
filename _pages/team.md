@@ -6,7 +6,7 @@ sitemap: false
 permalink: /team/
 ---
 
-<h2 id="project-header">Team Members</h2>
+<h2 class="project-header" style="padding-top: 24px;">Team Members</h2>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -18,31 +18,31 @@ permalink: /team/
  {% if color == 0 %}
   <div class="row team-row">
   {% else %}
-  <div class="row team-row" style="background-color: #fff4eb;">
+  <div class="row team-row" style="background-color: #e9f0ff;">
   {% endif %}
 {% endif %}
 
-<div class="col-sm-6">
+<div class="col-half">
   <div>
-      <a href="{{ member.page_name }}"><img src="{{ site.url }}{{ site.baseurl }}/assets/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
-      <a href="{{ member.page_name }}"><h4>{{ member.name }}</h4></a>
+      <img src="{{ site.url }}{{ site.baseurl }}/assets/teampic/{{ member.photo }}" class="img-responsive" style="float: left" />
+      <h4>{{ member.name }}</h4>
       {% if member.email != 0 %}
-      <a href="{{ member.email }}"> <i class="far fa-envelope" style="color: #f15a29; font-size:24px;"></i></a>
+      <a href="{{ member.email }}"> <i class="far fa-envelope icon"></i></a>
       {% endif %}
       {% if member.google_scholar != 0 %}
-      <a href="{{ member.google_scholar }}/"> <i class="ai ai-google-scholar ai-3x" style="color: #f15a29; font-size:24px;"></i></a>
+      <a href="{{ member.google_scholar }}/"> <i class="ai ai-google-scholar ai-3x icon"></i></a>
       {% endif %}
       {% if member.website != 0 %}
-      <a href="{{ member.website }}/"> <i class="fas fa-link" style="color: #f15a29; font-size:24px;"></i></a>
+      <a href="{{ member.website }}"> <i class="fas fa-link icon"></i></a>
       {% endif %}
       {% if member.github != 0 %}
-      <a href="{{ member.github }}/"> <i class="fab fa-github-alt" style="color: #f15a29; font-size:24px;"></i></a>
+      <a href="{{ member.github }}/"> <i class="fab fa-github-alt icon"></i></a>
       {% endif %}
       {% if member.twitter != 0 %}
-      <a href="{{ member.twitter }}/"> <i class="fa fa-twitter" style="color: #f15a29; font-size:24px;"></i></a>
+      <a href="{{ member.twitter }}/"> <i class="fa fa-twitter icon"></i></a>
       {% endif %}
       {% if member.linkedin != 0 %}
-      <a href="{{ member.linkedin }}/"> <i class="fab fa-linkedin-in" style="color: #f15a29; font-size:24px;"></i></a>
+      <a href="{{ member.linkedin }}/"> <i class="fab fa-linkedin-in icon"></i></a>
       {% endif %}
       <br>
       <i>{{ member.info }}<br></i>
@@ -87,7 +87,7 @@ permalink: /team/
 {% endif %}
 
 
-## Alumni
+<h2 class="project-header">Alumni</h2>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -101,36 +101,36 @@ permalink: /team/
 {% if color == 0 %}
 <div class="row team-row">
 {% else %}
-<div class="row team-row" style="background-color: #fff4eb;">
+<div class="row team-row" style="background-color: #e9f0ff;">
 {% endif %}
 {% endif %}
 
-  <div class="col-sm-6">
+  <div class="col-half">
 <div>
-  <a href="{{ member.page_name }}"><img src="{{ site.url }}{{ site.baseurl }}/assets/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /></a>
-  <a href="{{ member.page_name }}"><h4>{{ member.name }}</h4></a>
+  <img src="{{ site.url }}{{ site.baseurl }}/assets/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <h4>{{ member.name }}</h4>
   {% if member.email != 0 %}
-  <a href="{{ member.email }}"> <i class="far fa-envelope" style="color: #f15a29; font-size:24px;"></i></a>
+  <a href="{{ member.email }}"> <i class="far fa-envelope icon"></i></a>
   {% assign has_link = 1 %}
   {% endif %}
   {% if member.google_scholar != 0 %}
-  <a href="{{ member.google_scholar }}/"> <i class="ai ai-google-scholar ai-3x" style="color: #f15a29; font-size:24px;"></i></a>
+  <a href="{{ member.google_scholar }}/"> <i class="ai ai-google-scholar ai-3x icon"></i></a>
   {% assign has_link = 1 %}
   {% endif %}
   {% if member.website != 0 %}
-  <a href="{{ member.website }}/"> <i class="fas fa-link" style="color: #f15a29; font-size:24px;"></i></a>
+  <a href="{{ member.website }}/"> <i class="fas fa-link icon"></i></a>
   {% assign has_link = 1 %}
   {% endif %}
   {% if member.github != 0 %}
-  <a href="{{ member.github }}/"> <i class="fab fa-github-alt" style="color: #f15a29; font-size:24px;"></i></a>
+  <a href="{{ member.github }}/"> <i class="fab fa-github-alt icon"></i></a>
   {% assign has_link = 1 %}
   {% endif %}
   {% if member.twitter != 0 %}
-  <a href="{{ member.twitter }}/"> <i class="fa fa-twitter" style="color: #f15a29; font-size:24px;"></i></a>
+  <a href="{{ member.twitter }}/"> <i class="fa fa-twitter icon"></i></a>
   {% assign has_link = 1 %}
   {% endif %}
   {% if member.linkedin != 0 %}
-  <a href="{{ member.linkedin }}/"> <i class="fab fa-linkedin-in" style="color: #f15a29; font-size:24px;"></i></a>
+  <a href="{{ member.linkedin }}/"> <i class="fab fa-linkedin-in icon"></i></a>
   {% assign has_link = 1 %}
   {% endif %}
   {% if has_link != 0 %}

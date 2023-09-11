@@ -8,8 +8,7 @@ permalink: /projects/
 
 
 <div class="container-projects">
-<div class="row" style="max-width: 900px">
-
+<h2>Research Projects</h2>
 
 {% assign number_printed = 0 %}
 {% for project in site.data.project_list %}
@@ -17,28 +16,33 @@ permalink: /projects/
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if project.highlight == 1 %}
 
-<div class="col-sm-12 clearfix" style="transition: 0.3s ease; padding-top: 15px; padding-bottom: 10px">
-    <div style="margin-top: 50px;">
-        <pubtit class="project-title">{{ project.title }}</pubtit>
-        <div class="hover-container">
-            <div class="well">
-                <img src="{{ site.url }}{{ site.baseurl }}/assets/project_pic/{{ project.image }}" class="project-image"/>
-                <p class="project-text">{{ project.description }}</p>
-                <span style="display: flex; justify-content: center;">
-                    {% if project.link_pdf.show == 1 %}
-                    <a type="button" class="btn btn-aim" href="{{ project.link_pdf.url }}">{{ project.link_pdf.display }}</a>
-                    {% endif %}
-                    {% if project.link_github.show == 1 %}
-                    <a type="button" class="btn btn-aim" href="{{ project.link_github.url }}">{{ project.link_github.display }}</a>
-                    {% endif %}
-                    {% if project.link_demo.show == 1 %}
-                    <a type="button" class="btn btn-aim" href="{{ project.link_demo.url }}">{{ project.link_demo.display }}</a>
-                    {% endif %}
-                </span>
-            </div>
-        </div>
+{% if even_odd == 0 %}
+<div class="project-row">
+{% endif %}
+
+<div class="project-item">
+    <pubtit class="project-title">{{ project.title }}</pubtit>
+    <div>
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/project_pic/{{ project.image }}" class="project-image"/>
+        <p class="project-text">{{ project.description }}</p>
     </div>
+    <span class="project-btns">
+        {% if project.link_pdf.show == 1 %}
+        <a type="button" class="btn" href="{{ project.link_pdf.url }}">{{ project.link_pdf.display }}</a>
+        {% endif %}
+        {% if project.link_github.show == 1 %}
+        <a type="button" class="btn" href="{{ project.link_github.url }}">{{ project.link_github.display }}</a>
+        {% endif %}
+        {% if project.link_demo.show == 1 %}
+        <a type="button" class="btn" href="{{ project.link_demo.url }}">{{ project.link_demo.display }}</a>
+        {% endif %}
+    </span>
 </div>
+
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
 
 {% assign number_printed = number_printed | plus: 1 %}
 
@@ -49,6 +53,10 @@ permalink: /projects/
 {% if even_odd == 1 %}
 {% endif %}
 
-
+<div class="project-item last-project-item">
+    <span class="project-btns">
+        <a type="button" class="btn" href="../team/alib" style="font-weight: normal; font-size: 32px;">📜...</a>
+    </span>
 </div>
+
 </div>

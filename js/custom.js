@@ -1,9 +1,7 @@
-
-
 document.addEventListener("DOMContentLoaded", function() {
-    //Navbar underlines
+    //Navbar bold text
     let currentURL = window.location.href;
-    let navLinks = document.querySelectorAll(".navbar-nav a");
+    let navLinks = document.querySelectorAll(".nav a");
     
     navLinks.forEach(link => {
         let linkHref = link.getAttribute("href").replace(/\/$/, "");
@@ -14,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    //Navbar scroll animations
+    //Navbar scroll animation
     const banner = document.getElementsByClassName('navbar');
     window.addEventListener('scroll', function() {
         if (window.scrollY > 0) {
@@ -49,18 +47,20 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         const handleOnMove = e => {
-        if(distanceFromLast(e.clientX, e.clientY) > (window.innerWidth / 20)) {
-            const lead = images[globalIndex % images.length],
-                tail = images[(globalIndex - 5) % images.length];
-
-            activate(lead, e.clientX, e.clientY);
-
-            if(tail) tail.dataset.status = "inactive";
             
-            globalIndex++;
-        }
-        }
+        if (window.scrollY <= 450) {
+            if(distanceFromLast(e.clientX, e.clientY) > (window.innerWidth / 20)) {
+                const lead = images[globalIndex % images.length],
+                    tail = images[(globalIndex - 5) % images.length];
 
+                activate(lead, e.clientX, e.clientY);
+
+                if(tail) tail.dataset.status = "inactive";
+                
+                globalIndex++;
+            }
+            }
+        }
         window.onmousemove = e => handleOnMove(e);
         window.ontouchmove = e => handleOnMove(e.touches[0]);
     }
