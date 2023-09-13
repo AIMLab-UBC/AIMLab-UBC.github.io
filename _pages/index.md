@@ -42,10 +42,31 @@ permalink: /
             </div>
         </div>
     </div>
-    <div class="front-banner"><a href="/projects" class="btn front-btn">➥ Research Highlights 🔥</a>
+    <div class="front-banner"><a href="/projects" class="btn front-btn">➥ Research Highlights 📝</a>
     </div>
     <div class="front-image-container">
-        <img class="front-image" src="../img/Meetup2.jpg"/>
-        <img class="front-image" src="../img/Meetup1.jpg"/>
+        <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="front-image" src="../img/Meetup1.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="front-image" src="../img/Meetup2.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="front-image" src="../img/Meetup3.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="front-image" src="../img/Meetup4.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="front-image" src="../img/Meetup5.jpg"/>
+                    </div>
+                </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
     </div>
 </div>

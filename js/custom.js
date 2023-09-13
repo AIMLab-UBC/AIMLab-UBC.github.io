@@ -70,4 +70,20 @@ document.addEventListener("DOMContentLoaded", function() {
         window.onmousemove = e => handleOnMove(e);
         window.ontouchmove = e => handleOnMove(e.touches[0]);
     }
+
+    // Swiper carousel
+    const swiper = new Swiper('.swiper', {
+        slidesPerView: 2,
+        spaceBetween: 10,
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
 });

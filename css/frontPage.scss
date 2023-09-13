@@ -16,14 +16,7 @@
     color: $text-black;
     padding: 15px;
     text-align: justify;
-}
-
-.front-image {
-    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
-    flex: 1;
-    max-width: 500px;
-    object-fit: cover;
-    margin: 10px;
+    padding-top: 0px;
 }
 
 .front-banner {
@@ -40,7 +33,7 @@
 
 .front-effect-container {
     position: relative;
-    height: calc(100vh - 66px);
+    height: calc(80vh - 66px);
     background-color: rgb(255, 255, 255);
     margin: 0px;
     overflow: hidden;
@@ -54,6 +47,9 @@
 }
 
 .arrow {
+    position: fixed;
+    bottom: 0;
+    left: calc(50vw - 18px);
     width: 36px;
     height: 36px;
     border-left: 4px solid #ff851b;
@@ -73,9 +69,12 @@
     color: $text-black;
     text-align: center;
     font-size: 62px;
-    margin-bottom: 25px;
+    margin-bottom: 65px;
     margin-top: 0px;
-    background-color: #fff0e3;
+    border: 3px solid #e76b00;
+    border-radius: 45px;
+    box-shadow: 0px 0px 5px 1px #00000052;
+    padding: 10px;
 }
 
 .image {
@@ -96,5 +95,26 @@ display: block;
     .front-effect-container { display: none; }
     .front-image-container { flex-direction: column !important;}
     .front-image { max-width: 95%; }
-    .title { font-size: 28px; }
+    .title { font-size: 28px; margin-bottom: 25px; }
+}
+
+.front-image {
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
+    flex: 1;
+    max-width: 95%;
+    object-fit: cover;
+}
+
+.swiper {
+    max-width: 850px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-wrapper {
+    margin: 5px;
 }
