@@ -7,6 +7,9 @@ permalink: /
 ---
 
 <div class="front-effect-container">
+    <div class="arrow-container">
+        <div class="arrow"></div>
+    </div>
     <img class="image" data-index="0" data-status="inactive" src="../img/front_effect/OvCa-Zoom.jpg" />
     <img class="image" data-index="1" data-status="inactive" src="../img/front_effect/OvCa-Zoom7.jpg" />
     <img class="image" data-index="2" data-status="inactive" src="../img/front_effect/OvCa-Zoom6.jpg" />
@@ -28,7 +31,7 @@ permalink: /
     <div class="container-fluid front-textbox">
         <div class="section">
             <div>
-                <h1 class="title"><b>Welcome to AIM Lab @ UBC</b></h1>
+                <h1 class="title"><b>Welcome to AIM Lab at UBC</b></h1>
                 <p style="font-size: 18px">
                 The <b>Artificial Intelligence in Medicine (AIM) Lab</b>'s research lies in the interface between computation, engineering and biomedicine.
                 <br><br>
@@ -39,7 +42,7 @@ permalink: /
             </div>
         </div>
     </div>
-    <div class="front-banner"><a href="/projects" class="btn front-btn">Research Highlights 🔥</a>
+    <div class="front-banner"><a href="/projects" class="btn front-btn">➥ Research Highlights 🔥</a>
     </div>
     <div class="front-image-container">
         <img class="front-image" src="../img/Meetup2.jpg"/>
