@@ -5,12 +5,12 @@ This site is based on Jekyll using [Poole](http://getpoole.com).
 ## Get started
 
 - Install [jekyll](https://jekyllrb.com/docs/installation/)
-- Clone this repo:
+- Clone this repo
 ```
-git clone https://github.com/AIMLab-UBC/AIMLab-UBC.github.io
-cd AIMLab-UBC.github.io.git
+git clone https://github.com/AIMLab-UBC/AIMLab-UBC.github.io.git
+cd AIMLab-UBC.github.io
 ```
-- Deploy the website locally:
+- Deploy the website locally
 ```
 jekyll serve
 ```
