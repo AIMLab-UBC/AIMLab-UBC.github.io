@@ -6,7 +6,9 @@ sitemap: false
 permalink: /projects/
 ---
 
-## Projects
+
+<div class="container-projects">
+<h2>Research Projects</h2>
 
 {% assign number_printed = 0 %}
 {% for project in site.data.project_list %}
@@ -15,42 +17,46 @@ permalink: /projects/
 {% if project.highlight == 1 %}
 
 {% if even_odd == 0 %}
-<div class="row">
+<div class="project-row">
 {% endif %}
 
-<div class="col-sm-12 clearfix">
- <div class="well">
-  <pubtit>{{ project.title }}</pubtit>
-  <p></p>
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/project_pic/{{ project.image }}" class="img-responsive" width="33%" style="float: left" />
-  <p>{{ project.description }}</p>
-  <p><em>{{ project.authors }}</em></p>
-  <span style="display: inline;">
-  {% if project.link_pdf.show == 1 %}
-  <a type="button" class="btn btn-aim" href="{{ project.link_pdf.url }}">{{ project.link_pdf.display }}</a>
-  {% endif %}
-  {% if project.link_github.show == 1 %}
-  <a type="button" class="btn btn-aim" href="{{ project.link_github.url }}">{{ project.link_github.display }}</a>
-  {% endif %}
-  {% if project.link_demo.show == 1 %}
-  <a type="button" class="btn btn-aim" href="{{ project.link_demo.url }}">{{ project.link_demo.display }}</a>
-  {% endif %}
-  </span>
-  <p class="text-danger"><strong> {{ project.news1 }}</strong></p>
-  <p> {{ project.news2 }}</p>
- </div>
+<div class="project-item">
+    <pubtit class="project-title">{{ project.title }}</pubtit>
+    <div>
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/project_pic/{{ project.image }}" class="project-image"/>
+        <p class="project-text">{{ project.description }}</p>
+    </div>
+    <span class="project-btns">
+        {% if project.link_pdf.show == 1 %}
+        <a type="button" class="btn" href="{{ project.link_pdf.url }}">{{ project.link_pdf.display }}</a>
+        {% endif %}
+        {% if project.link_github.show == 1 %}
+        <a type="button" class="btn" href="{{ project.link_github.url }}">{{ project.link_github.display }}</a>
+        {% endif %}
+        {% if project.link_demo.show == 1 %}
+        <a type="button" class="btn" href="{{ project.link_demo.url }}">{{ project.link_demo.display }}</a>
+        {% endif %}
+    </span>
 </div>
 
-{% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+
+{% assign number_printed = number_printed | plus: 1 %}
 
 {% endif %}
 {% endfor %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
-</div>
 {% endif %}
+
+<div class="project-item last-project-item">
+    <span class="project-btns">
+        <a type="button" class="btn" href="../team/alib" style="font-weight: normal; font-size: 32px;">📜...</a>
+    </span>
+</div>
+
+</div>

@@ -7,10 +7,8 @@ This site is based on Jekyll using [Poole](http://getpoole.com).
 - Install [jekyll](https://jekyllrb.com/docs/installation/)
 - Clone this repo
 ```
-mkdir aim_lab_website
-cd aim_lab_website
 git clone https://github.com/AIMLab-UBC/AIMLab-UBC.github.io.git
-cd AIMLab-UBC.github.io.git
+cd AIMLab-UBC.github.io
 ```
 - Deploy the website locally
 ```

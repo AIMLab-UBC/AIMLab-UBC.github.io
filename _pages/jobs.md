@@ -28,6 +28,7 @@ To view the job descript and apply please visit: [Software developer position](h
 
 ### Note 
 Due to the volume of the applications, we regretfully cannot respond to all the inquiries but guarantee that we read ALL the applications. As such, we will only contact the short-listed applicants. We feel the enthusiasm from the emails but unfortunately, there is so much we can do on our end. We wish all the best for all the applicants and confident that everybody will manage to find a posiiton that matches their background and intrest. 
+<div style="padding-bottom: 36px;"></div>
 
 
 

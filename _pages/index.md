@@ -6,68 +6,46 @@ sitemap: false
 permalink: /
 ---
 
-<div class="col-sm-12">
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="8000" data-pause="hover" >
-    <!-- Menu -->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <!-- <li data-target="#carousel" data-slide-to="4"></li> -->
-        <!-- <li data-target="#carousel" data-slide-to="5"></li> -->
-        <!-- <li data-target="#carousel" data-slide-to="6"></li> -->
-    </ol>
-
-<!-- NOTE: USE 3400 x 1600px as default image size! -->
-
-    <!-- Items -->
-    <div class="carousel-inner" markdown="0">
-
-        <div class="item active">
-            <img src="../img/gan3.png" alt="Slide 1" />
-        </div>
-        <div class="item">
-            <img src="../img/slider4.png" alt="Slide 2" />
-        </div>
-        <div class="item">
-            <img src="../img/slider3.png" alt="Slide 3" />
-        </div>
-        <!-- <div class="item">
-            <img src="../img/ocp_overview.jpg" alt="Slide 4" />
-        </div> -->
-        <!-- <div class="item">
-            <img src="../img/ec1_overview.jpg" alt="Slide 5" />
-        </div> -->
-        <!-- <div class="item">
-            <img src="../img/ec2_overview.jpg" alt="Slide 6" />
-        </div>  -->
-
+<div class="front-effect-container">
+    <div class="arrow-container">
+        <div class="arrow"></div>
     </div>
-    <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
-</div>
-
-<div class="col-sm-8">
-<p style="font-size:22px">
-The Artificial Intelligence in Medicine (AIM) Lab research area lies the interface between computational, engineering and biomedical sciences.
-<br><br>
-We are interested in developing machine learning, statistical and signal processing algorithms and software infrastructure to combine various sources of omics and imaging data with major emphasis on discovering novel biological information and biomarkers that can be used for treatment selection in cancer. 
-<br><br>
-We have active projects in ovarian, endometrial, prostate, pancreatic, and breast cancers.
-</p>
+    <img class="image" data-index="0" data-status="inactive" src="../img/front_effect/OvCa-Zoom.jpg" />
+    <img class="image" data-index="1" data-status="inactive" src="../img/front_effect/OvCa-Zoom7.jpg" />
+    <img class="image" data-index="2" data-status="inactive" src="../img/front_effect/OvCa-Zoom6.jpg" />
+    <img class="image" data-index="3" data-status="inactive" src="../img/front_effect/OvCa-Zoom8.jpg" />
+    <img class="image" data-index="4" data-status="inactive" src="../img/front_effect/OvCa-Zoom12.jpg" />
+    <img class="image" data-index="5" data-status="inactive" src="../img/front_effect/OvCa-Zoom9.jpg" />
+    <img class="image" data-index="6" data-status="inactive" src="../img/front_effect/OvCa-Zoom13.jpg" />
+    <img class="image" data-index="7" data-status="inactive" src="../img/front_effect/OvCa-Zoom10.jpg" />
+    <img class="image" data-index="8" data-status="inactive" src="../img/front_effect/OvCa-Zoom5.jpg" />
+    <img class="image" data-index="9" data-status="inactive" src="../img/front_effect/OvCa-Zoom15.jpg" />
+    <img class="image" data-index="10" data-status="inactive" src="../img/front_effect/OvCa-Zoom3.jpg" />
+    <img class="image" data-index="11" data-status="inactive" src="../img/front_effect/OvCa-Zoom11.jpg" />
+    <img class="image" data-index="12" data-status="inactive" src="../img/front_effect/OvCa-Zoom4.jpg" />
+    <img class="image" data-index="13" data-status="inactive" src="../img/front_effect/OvCa-Zoom2.jpg" />
+    <img class="image" data-index="14" data-status="inactive" src="../img/front_effect/OvCa-Zoom14.jpg" />
 </div>
 
-<div class="col-sm-4">
-    <div class='jekyll-twitter-plugin' align="center">
-        <div class="jekyll-twitter-plugin"><a class="twitter-timeline" data-width="350" data-tweet-limit="2" href="https://twitter.com/ABashashati">Tweets by ubcAIMlab</a>
-            <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div>
+    <div class="container-fluid front-textbox">
+        <div class="section">
+            <div>
+                <h1 class="title"><b>Welcome to AIM Lab at UBC</b></h1>
+                <p style="font-size: 18px">
+                The <b>Artificial Intelligence in Medicine (AIM) Lab</b>'s research lies in the interface between computation, engineering and biomedicine.
+                <br><br>
+                We're interested in developing machine learning, statistical and signal processing algorithms and software to combine sources of omics and imaging data with an emphasis on discovering novel biological information and biomarkers which can be used for treatment selection in cancer.
+                <br><br>
+                We have active projects in ovarian, endometrial, prostate, pancreatic, and breast cancers.
+                </p>
+            </div>
         </div>
+    </div>
+    <div class="front-banner"><a href="/projects" class="btn front-btn">➥ Research Highlights 🔥</a>
+    </div>
+    <div class="front-image-container">
+        <img class="front-image" src="../img/Meetup2.jpg"/>
+        <img class="front-image" src="../img/Meetup1.jpg"/>
     </div>
 </div>
