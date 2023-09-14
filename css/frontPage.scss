@@ -84,11 +84,11 @@
 }
 
 .image[data-status="inactive"] {
-display: none;
+    display: none;
 }
 
 .image[data-status="active"] {
-display: block;
+    display: block;
 }
 
 @media (max-width: 1024px) {
@@ -106,15 +106,20 @@ display: block;
 }
 
 .swiper {
-    max-width: 850px;
+    max-width: 1050px;
+    width: 100%;
 }
 
 .swiper-slide {
-    display: flex;
+    display: flex !important;
     align-items: center;
     justify-content: center;
 }
 
 .swiper-wrapper {
     margin: 5px;
+}
+
+:root {
+    --swiper-theme-color: #ff851b !important;
 }
