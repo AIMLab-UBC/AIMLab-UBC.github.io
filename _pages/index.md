@@ -17,14 +17,14 @@ permalink: /
     <img class="image" data-index="4" data-status="inactive" src="../img/front_effect/OvCa-Zoom12.jpg" />
     <img class="image" data-index="5" data-status="inactive" src="../img/front_effect/OvCa-Zoom9.jpg" />
     <img class="image" data-index="6" data-status="inactive" src="../img/front_effect/OvCa-Zoom13.jpg" />
-    <img class="image" data-index="7" data-status="inactive" src="../img/front_effect/OvCa-Zoom10.jpg" />
-    <img class="image" data-index="8" data-status="inactive" src="../img/front_effect/OvCa-Zoom5.jpg" />
-    <img class="image" data-index="9" data-status="inactive" src="../img/front_effect/OvCa-Zoom15.jpg" />
-    <img class="image" data-index="10" data-status="inactive" src="../img/front_effect/OvCa-Zoom3.jpg" />
-    <img class="image" data-index="11" data-status="inactive" src="../img/front_effect/OvCa-Zoom11.jpg" />
-    <img class="image" data-index="12" data-status="inactive" src="../img/front_effect/OvCa-Zoom4.jpg" />
-    <img class="image" data-index="13" data-status="inactive" src="../img/front_effect/OvCa-Zoom2.jpg" />
-    <img class="image" data-index="14" data-status="inactive" src="../img/front_effect/OvCa-Zoom14.jpg" />
+    <img class="image" data-index="7" data-status="inactive" src="../img/front_effect/OvCa-Zoom15.jpg" />
+    <img class="image" data-index="8" data-status="inactive" src="../img/front_effect/OvCa-Zoom3.jpg" />
+    <img class="image" data-index="9" data-status="inactive" src="../img/front_effect/OvCa-Zoom11.jpg" />
+    <img class="image" data-index="10" data-status="inactive" src="../img/front_effect/OvCa-Zoom10.jpg" />
+    <img class="image" data-index="11" data-status="inactive" src="../img/front_effect/OvCa-Zoom4.jpg" />
+    <img class="image" data-index="12" data-status="inactive" src="../img/front_effect/OvCa-Zoom2.jpg" />
+    <img class="image" data-index="13" data-status="inactive" src="../img/front_effect/OvCa-Zoom14.jpg" />
+    <img class="image" data-index="14" data-status="inactive" src="../img/front_effect/OvCa-Zoom5.jpg" />
 </div>
 
 <div>
@@ -42,10 +42,31 @@ permalink: /
             </div>
         </div>
     </div>
-    <div class="front-banner"><a href="/projects" class="btn front-btn">➥ Research Highlights 🔥</a>
+    <div class="front-banner"><a href="/projects" class="btn front-btn">➥ Research Highlights 📝</a>
     </div>
     <div class="front-image-container">
-        <img class="front-image" src="../img/Meetup2.jpg"/>
-        <img class="front-image" src="../img/Meetup1.jpg"/>
+        <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="front-image" src="../img/Meetup1.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="front-image" src="../img/Meetup2.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="front-image" src="../img/Meetup3.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="front-image" src="../img/Meetup4.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="front-image" src="../img/Meetup5.jpg"/>
+                    </div>
+                </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
     </div>
 </div>

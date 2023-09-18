@@ -23,8 +23,6 @@ author:
   name:           'Ali Bashashati'
   url:            http://blogs.ubc.ca/alibashashati/
 
-paginate:         5
-
 # Custom vars
 version:          1.0
 markdown:         kramdown

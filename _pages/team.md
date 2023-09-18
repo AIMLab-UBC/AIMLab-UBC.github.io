@@ -30,7 +30,7 @@ permalink: /team/
       <a href="{{ member.email }}"> <i class="far fa-envelope icon"></i></a>
       {% endif %}
       {% if member.google_scholar != 0 %}
-      <a href="{{ member.google_scholar }}/"> <i class="ai ai-google-scholar ai-3x icon"></i></a>
+      <a href="{{ member.google_scholar }}/"> <i class="fa fa-graduation-cap icon"></i></a>
       {% endif %}
       {% if member.website != 0 %}
       <a href="{{ member.website }}"> <i class="fas fa-link icon"></i></a>

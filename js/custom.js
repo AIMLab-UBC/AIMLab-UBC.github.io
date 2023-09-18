@@ -70,4 +70,32 @@ document.addEventListener("DOMContentLoaded", function() {
         window.onmousemove = e => handleOnMove(e);
         window.ontouchmove = e => handleOnMove(e.touches[0]);
     }
+
+    // Swiper carousel
+    const swiper = new Swiper('.swiper', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        breakpoints: {
+            // when window width is >= 1024px
+            1024: {
+                slidesPerView: 2,
+                spaceBetween: 40
+            },
+            // when window width is >= 1024px
+            1600: {
+                slidesPerView: 3,
+                spaceBetween: 40
+            }
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
 });

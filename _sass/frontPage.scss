@@ -1,0 +1,125 @@
+.front-btn {
+    font-size: 48px; 
+    font-family: 'Open Sans';
+    font-weight: normal;
+}
+
+.front-image-container {
+    display: flex;
+    margin-bottom: 75px;
+    justify-content: center;
+    align-items: center;
+}
+
+.front-textbox {
+    max-width: 1000px;
+    color: $text-black;
+    padding: 15px;
+    text-align: justify;
+    padding-top: 0px;
+}
+
+.front-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9f0ff;
+    margin: 50px 0;
+    font-weighT: bold;
+    font-size: 32px;
+    color: white;
+    padding: 80px 0;
+}
+
+.front-effect-container {
+    position: relative;
+    height: calc(80vh - 66px);
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    overflow: hidden;
+}
+
+.arrow-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.arrow {
+    position: fixed;
+    bottom: 0;
+    left: calc(50vw - 18px);
+    width: 36px;
+    height: 36px;
+    border-left: 4px solid #ff851b;
+    border-bottom: 4px solid #ff851b;
+    transform: rotate(-45deg);
+    animation: bounce 0.5s infinite alternate;
+    margin-bottom: 20px;
+    z-index: 5000;
+}
+
+@keyframes bounce {
+    0% { transform: rotate(-45deg) translate(0, 0); }
+    100% { transform: rotate(-45deg) translate(10px, -10px); }
+}
+
+.title {
+    color: $text-black;
+    text-align: center;
+    font-size: 62px;
+    margin-bottom: 65px;
+    margin-top: 0px;
+    border: 3px solid #e76b00;
+    border-radius: 45px;
+    box-shadow: 0px 0px 5px 1px #00000052;
+    padding: 10px;
+}
+
+.image {
+    width: 40vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.image[data-status="inactive"] {
+    display: none;
+}
+
+.image[data-status="active"] {
+    display: block;
+}
+
+@media (max-width: 1024px) {
+    .front-effect-container { display: none; }
+    .front-image-container { flex-direction: column !important;}
+    .front-image { max-width: 95%; }
+    .title { font-size: 28px; margin-bottom: 25px; }
+}
+
+.front-image {
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.5);
+    flex: 1;
+    max-width: 95%;
+    object-fit: cover;
+}
+
+.swiper {
+    max-width: 1050px;
+    width: 100%;
+}
+
+.swiper-slide {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-wrapper {
+    margin: 5px;
+}
+
+:root {
+    --swiper-theme-color: #ff851b !important;
+}
