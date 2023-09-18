@@ -46,21 +46,6 @@
   education3: BSc in Software Engineering, IUST, Iran
   alumni: 0 
 
-- name: Pouya Ahmadvand
-  photo: pahmadvand.png
-  info: Graduate Student
-  email: mailto:pouya.ahmadvand@ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/pouya-ahmadvand-a8913673
-  google_scholar: 0
-  number_educ: 3
-  education1: MASc student in Bioinformatics, University of British Columbia, Canada
-  education2: MASc in Computer Engineering (Software), Shahid Rajaee Teacher Training University, Iran
-  education3: BSc in Computer Engineering (Software), Isfahan University, Iran
-  alumni: 1
-
 - name: Nikolay Alabi
   photo: Alabi_Nikolay.jpg
   info: Graduate Student
@@ -75,33 +60,34 @@
   education2: BSc in Life Sciences, Queens University, Canada
   alumni: 0
 
-- name: Graham Archibald 
-  photo: grahama.jpg
+# Sept 2020
+- name: Ramin Nakhli
+  photo: raminn.jpg
   info: Graduate Student
-  email: 0
-  website: https://meistrog.github.io/
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/graham-archibald-159114148
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
-  education2: BScH in Physics, Queens University, Canada
-  alumni: 0 
-
-- name: Puria Azadi
-  photo: Puria.jpg
-  info: Graduate Student
-  email: mailto:puria.azadi@ubc.ca
-  website: https://www.puriam.net
+  email: mailto:raminnak@student.ubc.ca
+  website: 0
   github: 0
   twitter: 0
   linkedin: 0
   google_scholar: 0
   number_educ: 3
-  education1: PhD student in Electrical & Computer Engineering, University of British Columbia, Canada
-  education2: MSc in Computer Science, Simon Fraser University, Canada
-  education3: BSc in Electrical Engineering and minor in Computer Engineering, University of Tehran, Iran
+  education1: PhD student in Biomedical Engineering, University of British Columbia, Canada
+  education2: MASc in Computer Engineering (Artificial Intelligence), University of Tehran, Iran
+  education3: BSc in Electrical Engineering, Sharif University of Technology, Iran
+  alumni: 0
+
+- name: Katherine Rich
+  photo: katheriner.jpg
+  info: Graduate Student
+  email: mailto:richkath@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: PhD student in Bioinformatics, University of British Columbia, Canada
+  education2: BSc in Electrical Engineering (minor in Biomedical Engineering), University of Toronto, Canada
   alumni: 0
 
 - name: Parisa Beygi
@@ -118,6 +104,171 @@
   education2: MASc in Computer Engineering (Artificial Intelligence), Amirkabir University of Technology, Iran
   education3: BSc in Computer Engineering (Software), University of Tehran, Iran
   alumni: 0
+
+- name: Amir Hadjifaradji
+  photo: amirh.jpg
+  info: Graduate Student
+  email: mailto:ahadji@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education2: Hons. BASc in Biomedical Engineering, Simon Fraser University, Canada
+  alumni: 1
+
+# Sept 2021
+- name: Puria Azadi
+  photo: Puria.jpg
+  info: Graduate Student
+  email: mailto:puria.azadi@ubc.ca
+  website: https://www.puriam.net
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 3
+  education1: PhD student in Electrical & Computer Engineering, University of British Columbia, Canada
+  education2: MSc in Computer Science, Simon Fraser University, Canada
+  education3: BSc in Electrical Engineering and minor in Computer Engineering, University of Tehran, Iran
+  alumni: 0
+
+- name: Irem Eren
+  photo: Irem.jpg
+  info: Lab Tech
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 1
+  education1: BSc in Life Sciences, University of British Columbia, Canada
+  alumni: 0
+
+
+# May 2022
+- name: Cindy Shi
+  photo: Cindy.jpg
+  info: Graduate Student
+  email: mailto:xpshi@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/cindy-shi-22b5b3117
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc student in Bioinformatics, University of British Columbia, Canada
+  education2: Combined BSc (Hon) in Biology and Computer Science, University of British Columbia, Canada
+  alumni: 0
+
+- name: Graham Archibald 
+  photo: grahama.jpg
+  info: Graduate Student
+  email: 0
+  website: https://meistrog.github.io/
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/graham-archibald-159114148
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education2: BScH in Physics, Queens University, Canada
+  alumni: 0 
+
+# July 2022
+- name: Ali Khajegili Mirabadi
+  photo: Alichi.jpg
+  info: Graduate Student
+  email: mailto:alikhm@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/ali-khajegili
+  google_scholar: 0
+  number_educ: 3
+  education1: PhD student in Bioinformatics, University of British Columbia, Canada
+  education2: BSc in Electrical Engineering, Isfahan University of Technology, Iran
+  education3: BSc in Mathematics, Isfahan University of Technology, Iran
+  alumni: 0
+
+  # Jan 2023
+- name: Mayur Mallya
+  photo: Mayur.jpg
+  info: Graduate Student
+  email: mailto:mmallya@sfu.ca
+  website: https://mayurmallya.github.io
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/mayur-m-mallya-695a7915b
+  google_scholar: https://scholar.google.ca/citations?user=gzRUnEMAAAAJ&hl=en
+  number_educ: 3
+  education1: PhD student in Bioinformatics, University of British Columbia, Canada
+  education2: MSc in Computer Science, Simon Fraser University, Canada
+  education3: BSc in Electronics and Communication Engineering, National Institute of Technology Karnataka (NIT-K), India
+  alumni: 0
+
+# May 2023
+- name: Elahe Ranjbari
+  photo: elahe.jpg
+  info: Graduate Student
+  email: mailto:elahe.ranjbari98@gmail.com
+  website: https://elirn98.github.io/
+  github: https://github.com/elirn98
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/elirn98/
+  google_scholar: 0
+  number_educ: 2
+  education1: MSc student in Bioinformatics, University of British Columbia, Canada
+  education2: BSc in Computer Engineering,  Amirkabir University of Technology, Iran
+  alumni: 0
+
+# July 2023
+- name: Michael Diaz-Stewart
+  photo: michael.jpg
+  info: Graduate Student
+  email: mailto:michael.diaz@ubc.ca
+  website: 0
+  github: https://github.com/MikeDiaz1
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/michael-diaz-stewart-7547ab271/
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc student in Biomedical Engineering, University of British Columbia, Canada
+  education2: Hons. BSc in Biology (Biomedical Science), York Univeristy, Canada
+  alumni: 0
+
+# September 2023
+- name: Maedeh Mirzazadeh
+  photo: Maedeh.jpg
+  info: Graduate Student
+  email: mailto:maeede.mir@gmail.com
+  website: https://maedemir.github.io/
+  github: https://github.com/maedemir
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/maedehmirzazadeh
+  google_scholar: 0
+  number_educ: 2
+  education1: MSc student in Bioinformatics, University of British Columbia, Canada
+  education2: BSc in Computer Engineering, Amirkabir University of Technology, Iran
+  alumni: 0
+
+- name: Pouya Ahmadvand
+  photo: pahmadvand.png
+  info: Graduate Student
+  email: mailto:pouya.ahmadvand@ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/pouya-ahmadvand-a8913673
+  google_scholar: 0
+  number_educ: 3
+  education1: MASc student in Bioinformatics, University of British Columbia, Canada
+  education2: MASc in Computer Engineering (Software), Shahid Rajaee Teacher Training University, Iran
+  education3: BSc in Computer Engineering (Software), Isfahan University, Iran
+  alumni: 1
 
 - name: Jeffrey Boschman
   photo: jboschman.png
@@ -160,46 +311,7 @@
   education2: BSc in Electrical Engineering (Communication) and minor in Computer Engineering, University of Tehran, Iran
   alumni: 1
 
-- name: Michael Diaz-Stewart
-  photo: michael.jpg
-  info: Graduate Student
-  email: mailto:michael.diaz@ubc.ca
-  website: 0
-  github: https://github.com/MikeDiaz1
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/michael-diaz-stewart-7547ab271/
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc student in Biomedical Engineering, University of British Columbia, Canada
-  education2: Hons. BSc in Biology (Biomedical Science), York Univeristy, Canada
-  alumni: 0
 
-- name: Irem Eren
-  photo: Irem.jpg
-  info: Lab Tech
-  email: 0
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 1
-  education1: BSc in Life Sciences, University of British Columbia, Canada
-  alumni: 0
-
-- name: Amir Hadjifaradji
-  photo: amirh.jpg
-  info: Graduate Student
-  email: mailto:ahadji@student.ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
-  education2: Hons. BASc in Biomedical Engineering, Simon Fraser University, Canada
-  alumni: 0 
 
 - name: Christopher Halim
   photo: default_aim.png
@@ -212,21 +324,6 @@
   google_scholar: 0
   number_educ: 0
   alumni: 1
-
-- name: Ali Khajegili Mirabadi
-  photo: Alichi.jpg
-  info: Graduate Student
-  email: mailto:alikhm@student.ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/ali-khajegili
-  google_scholar: 0
-  number_educ: 3
-  education1: PhD student in Bioinformatics, University of British Columbia, Canada
-  education2: BSc in Electrical Engineering, Isfahan University of Technology, Iran
-  education3: BSc in Mathematics, Isfahan University of Technology, Iran
-  alumni: 0
 
 - name: Tina Li
   photo: tinal.jpg
@@ -241,49 +338,8 @@
   education1: MEng student in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc Chemical & Biological Engineering, University of British Columbia, Canada
   alumni: 1
-
-- name: Mayur Mallya
-  photo: Mayur.jpg
-  info: PhD student
-  email: mailto:mmallya@sfu.ca
-  website: https://mayurmallya.github.io
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/mayur-m-mallya-695a7915b
-  google_scholar: https://scholar.google.ca/citations?user=gzRUnEMAAAAJ&hl=en
-  number_educ: 2
-  education1: BSc in Electronics and Communication Engineering, National Institute of Technology Karnataka (NIT-K), India
-  education2: MSc in Computer Science, Simon Fraser University, Canada
-  alumni: 0
   
-- name: Maedeh Mirzazadeh
-  photo: Maedeh.jpg
-  info: Graduate Student
-  email: mailto:maeede.mir@gmail.com
-  website: https://maedemir.github.io/
-  github: https://github.com/maedemir
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/maedehmirzazadeh
-  google_scholar: 0
-  number_educ: 2
-  education1: MSc student in Bioinformatics, University of British Columbia, Canada
-  education2: BSc in Computer Engineering, Amirkabir University of Technology, Iran
-  alumni: 0
 
-- name: Ramin Nakhli
-  photo: raminn.jpg
-  info: Graduate Student
-  email: mailto:raminnak@student.ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 3
-  education1: PhD student in Biomedical Engineering, University of British Columbia, Canada
-  education2: MASc in Computer Engineering (Artificial Intelligence), University of Tehran, Iran
-  education3: BSc in Electrical Engineering, Sharif University of Technology, Iran
-  alumni: 0
 
 - name: Mitchell Nursey
   photo: mnursey.jpg
@@ -313,34 +369,6 @@
   number_educ: 0
   alumni: 1
 
-- name: Elahe Ranjbari
-  photo: elahe.jpg
-  info: Graduate Student
-  email: mailto:elahe.ranjbari98@gmail.com
-  website: https://elirn98.github.io/
-  github: https://github.com/elirn98
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/elirn98/
-  google_scholar: 0
-  number_educ: 2
-  education1: MSc student in Bioinformatics, University of British Columbia, Canada
-  education2: BSc in Computer Engineering,  Amirkabir University of Technology, Iran
-  alumni: 0
-
-- name: Katherine Rich
-  photo: katheriner.jpg
-  info: Graduate Student
-  email: mailto:richkath@student.ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
-  education2: BSc in Electrical Engineering (minor in Biomedical Engineering), University of Toronto, Canada
-  alumni: 0
-
 - name: Kareem Shammout
   photo: kareems.jpg
   info: Co-op Student
@@ -355,20 +383,6 @@
   desc: "UBC undergrad enthusiastic about machine learning and data collection. I started programming by using python scripts to scrape data off of websites, and then moved on to other projects such as lighthearted Reddit bots and a grocery store comparison site. I've started a blog on my website that goes through my individual projects, explaining the process behind them in hopes of helping others to get started with computer science projects of their own."
   page_name: kareems
   alumni: 1 
-  
-- name: Cindy Shi
-  photo: Cindy.jpg
-  info: Graduate Student
-  email: mailto:xpshi@student.ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/cindy-shi-22b5b3117
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc student in Bioinformatics, University of British Columbia, Canada
-  education2: Combined BSc (Hon) in Biology and Computer Science, University of British Columbia, Canada
-  alumni: 0
   
 - name: Sanne Van Dalen
   photo: Sanne.jpg
