@@ -60,7 +60,7 @@ permalink: /
                         <img class="front-image" src="../img/Meetup4.jpg"/>
                     </div>
                     <div class="swiper-slide">
-                        <img class="front-image" src="../img/Meetup5.jpg"/>
+                        <img class="front-image" src="../img/Meetup5.JPG"/>
                     </div>
                 </div>
             <div class="swiper-pagination"></div>
