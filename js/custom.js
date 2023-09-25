@@ -89,6 +89,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         pagination: {
             el: '.swiper-pagination',
+            clickable: true
         },
         navigation: {
             nextEl: '.swiper-button-next',
@@ -96,6 +97,7 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         scrollbar: {
             el: '.swiper-scrollbar',
+            draggable: true
         },
     });
 });
