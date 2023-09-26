@@ -46,9 +46,10 @@
   education3: BSc in Software Engineering, IUST, Iran
   alumni: 0 
 
+# Sept 2022
 - name: Nikolay Alabi
   photo: Alabi_Nikolay.jpg
-  info: Graduate Student
+  info: MD/PhD Student
   email: mailto:nikolay.alabi@queensu.ca
   website: 0
   github: 0
@@ -63,7 +64,7 @@
 # Sept 2020
 - name: Ramin Nakhli
   photo: raminn.jpg
-  info: Graduate Student
+  info: PhD Student
   email: mailto:raminnak@student.ubc.ca
   website: 0
   github: 0
@@ -76,9 +77,10 @@
   education3: BSc in Electrical Engineering, Sharif University of Technology, Iran
   alumni: 0
 
+# Sept 2020
 - name: Katherine Rich
   photo: katheriner.jpg
-  info: Graduate Student
+  info: PhD Student
   email: mailto:richkath@student.ubc.ca
   website: 0
   github: 0
@@ -90,9 +92,10 @@
   education2: BSc in Electrical Engineering (minor in Biomedical Engineering), University of Toronto, Canada
   alumni: 0
 
+# Sept 2020
 - name: Parisa Beygi
   photo: parisab.png
-  info: Graduate Student
+  info: PhD Student
   email: mailto:pabeygi@student.ubc.ca
   website: 0
   github: 0
@@ -105,9 +108,10 @@
   education3: BSc in Computer Engineering (Software), University of Tehran, Iran
   alumni: 0
 
+# Sept 2020
 - name: Amir Hadjifaradji
   photo: amirh.jpg
-  info: Graduate Student
+  info: MASc Student
   email: mailto:ahadji@student.ubc.ca
   website: 0
   github: 0
@@ -122,7 +126,7 @@
 # Sept 2021
 - name: Puria Azadi
   photo: Puria.jpg
-  info: Graduate Student
+  info: PhD Student
   email: mailto:puria.azadi@ubc.ca
   website: https://www.puriam.net
   github: 0
@@ -135,53 +139,10 @@
   education3: BSc in Electrical Engineering and minor in Computer Engineering, University of Tehran, Iran
   alumni: 0
 
-- name: Irem Eren
-  photo: Irem.jpg
-  info: Lab Tech
-  email: 0
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 1
-  education1: BSc in Life Sciences, University of British Columbia, Canada
-  alumni: 0
-
-
-# May 2022
-- name: Cindy Shi
-  photo: Cindy.jpg
-  info: Graduate Student
-  email: mailto:xpshi@student.ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/cindy-shi-22b5b3117
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc student in Bioinformatics, University of British Columbia, Canada
-  education2: Combined BSc (Hon) in Biology and Computer Science, University of British Columbia, Canada
-  alumni: 0
-
-- name: Graham Archibald 
-  photo: grahama.jpg
-  info: Graduate Student
-  email: 0
-  website: https://meistrog.github.io/
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/graham-archibald-159114148
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
-  education2: BScH in Physics, Queens University, Canada
-  alumni: 0 
-
-# July 2022
+  # July 2022
 - name: Ali Khajegili Mirabadi
   photo: Alichi.jpg
-  info: Graduate Student
+  info: PhD Student
   email: mailto:alikhm@student.ubc.ca
   website: 0
   github: 0
@@ -194,10 +155,10 @@
   education3: BSc in Mathematics, Isfahan University of Technology, Iran
   alumni: 0
 
-  # Jan 2023
+# Jan 2023
 - name: Mayur Mallya
   photo: Mayur.jpg
-  info: Graduate Student
+  info: PhD Student
   email: mailto:mmallya@sfu.ca
   website: https://mayurmallya.github.io
   github: 0
@@ -210,10 +171,42 @@
   education3: BSc in Electronics and Communication Engineering, National Institute of Technology Karnataka (NIT-K), India
   alumni: 0
 
+# End PhD students -> MSc below
+
+# May 2022
+- name: Cindy Shi
+  photo: Cindy.jpg
+  info: MASc Student
+  email: mailto:xpshi@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/cindy-shi-22b5b3117
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc student in Bioinformatics, University of British Columbia, Canada
+  education2: Combined BSc (Hon) in Biology and Computer Science, University of British Columbia, Canada
+  alumni: 0
+
+# May 2022
+- name: Graham Archibald 
+  photo: grahama.jpg
+  info: MASc Student
+  email: 0
+  website: https://meistrog.github.io/
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/graham-archibald-159114148
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education2: BScH in Physics, Queens University, Canada
+  alumni: 0 
+
 # May 2023
 - name: Elahe Ranjbari
   photo: elahe.jpg
-  info: Graduate Student
+  info: MSc Student
   email: mailto:elahe.ranjbari98@gmail.com
   website: https://elirn98.github.io/
   github: https://github.com/elirn98
@@ -228,7 +221,7 @@
 # July 2023
 - name: Michael Diaz-Stewart
   photo: michael.jpg
-  info: Graduate Student
+  info: MASc Student
   email: mailto:michael.diaz@ubc.ca
   website: 0
   github: https://github.com/MikeDiaz1
@@ -243,7 +236,7 @@
 # September 2023
 - name: Maedeh Mirzazadeh
   photo: Maedeh.jpg
-  info: Graduate Student
+  info: MSc Student
   email: mailto:maeede.mir@gmail.com
   website: https://maedemir.github.io/
   github: https://github.com/maedemir
@@ -255,6 +248,21 @@
   education2: BSc in Computer Engineering, Amirkabir University of Technology, Iran
   alumni: 0
 
+# Sept 2021
+- name: Irem Eren
+  photo: Irem.jpg
+  info: Lab Tech
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 1
+  education1: BSc in Life Sciences, University of British Columbia, Canada
+  alumni: 0
+
+# Alumni
 - name: Pouya Ahmadvand
   photo: pahmadvand.png
   info: Graduate Student
