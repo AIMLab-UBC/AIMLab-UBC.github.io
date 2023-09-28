@@ -46,6 +46,21 @@
   education3: BSc in Software Engineering, IUST, Iran
   alumni: 0 
 
+- name: Kelly YP Liu
+  photo: KellyLiu.JPG
+  info: Post-doctoral Fellow
+  email: mailto:keliu@bccrc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linked: linkedin.com/in/kelly-liu-phd-9350a684
+  google_scholar: https://scholar.google.ca/citations?user=15vpGWUAAAAJ&hl=en&authuser=1
+  number_educ: 3
+  education1: PhD in Oral Biolgoical and Medical Sciences, University of British Columbia, Canada
+  education2: MSc in Oral Biolgoical and Medical Sciences, University of British Columbia, Canada
+  education3: BSc in Molecular Biology and Biochemistry, Simon Fraser Univserity, Canada
+  alumni: 0
+
 # Sept 2022
 - name: Nikolay Alabi
   photo: Alabi_Nikolay.jpg
