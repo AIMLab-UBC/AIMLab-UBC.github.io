@@ -22,6 +22,7 @@ Note 3: Our preference is to admit PhD students. Therefore, outstanding applican
 
 ### Post-doctoral position in machine learning for medical imaging and bioinformatics
 To view the job description and apply please visit: [Post-doctoral position](https://docs.google.com/forms/d/1ZitNWNpyYSc4i54Qe4RRTurcqm9U7_C_B8SXtBVtwKE/viewform?edit_requested=true)
+PLease also send a note to h.farahani at ubc.ca once you have submitted your application. 
 
 ### Note 
 Due to the volume of the applications, we regretfully cannot respond to all the inquiries but guarantee that we read ALL the applications. As such, we will only contact the short-listed applicants. We feel the enthusiasm from the emails but unfortunately, there is so much we can do on our end. We wish all the best for all the applicants and confident that everybody will manage to find a posiiton that matches their background and intrest. 
