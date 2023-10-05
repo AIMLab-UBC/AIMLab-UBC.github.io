@@ -35,9 +35,8 @@ permalink: /
                 <p style="font-size: 18px">
                 The <b>Artificial Intelligence in Medicine (AIM) Lab</b>'s research lies in the interface between computation, engineering and biomedicine.
                 <br><br>
-                We're interested in developing machine learning, statistical and signal processing algorithms and software to combine sources of omics and imaging data with an emphasis on discovering novel biological information and biomarkers which can be used for treatment selection in cancer.
+                We're interested in developing machine learning algorithms and software to combine sources of omics and imaging data with an emphasis on discovering novel biological information and biomarkers which can be used for treatment selection in cancer.
                 <br><br>
-                We have active projects in ovarian, endometrial, prostate, pancreatic, and breast cancers.
                 </p>
             </div>
         </div>
