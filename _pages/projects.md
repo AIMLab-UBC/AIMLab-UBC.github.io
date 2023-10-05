@@ -21,7 +21,10 @@ permalink: /projects/
 {% endif %}
 
 <div class="project-item">
-    <pubtit class="project-title">{{ project.title }}</pubtit>
+    <div>
+        <pubtit class="project-title">{{ project.title }}</pubtit>
+        <div class="project-subtitle">{{ project.subtitle }}</div>
+    </div>
     <div>
         <img src="{{ site.url }}{{ site.baseurl }}/assets/project_pic/{{ project.image }}" class="project-image"/>
         <p class="project-text">{{ project.description }}</p>
