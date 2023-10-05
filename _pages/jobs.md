@@ -20,11 +20,8 @@ Note 2: We review ALL the applications that we receive but unfortunately cannot 
 
 Note 3: Our preference is to admit PhD students. Therefore, outstanding applicants with BSc degrees will be considered for direct admission to PhD program. 
 
-### April 18, 2023: Post-doctoral position in machine learning for medical imaging and bioinformatics
-To view the job descript and apply please visit: [Post-doctoral position](https://docs.google.com/forms/d/1ZitNWNpyYSc4i54Qe4RRTurcqm9U7_C_B8SXtBVtwKE/viewform?edit_requested=true)
-
-### April 18, 2023: Machine learning software developer position 
-To view the job descript and apply please visit: [Software developer position](https://docs.google.com/forms/d/1U8nAhy6IdtuO3p4U3J_ue5KIrxpE-iBlcNgJv5yqgj8/viewform?edit_requested=true)
+### Post-doctoral position in machine learning for medical imaging and bioinformatics
+To view the job description and apply please visit: [Post-doctoral position](https://docs.google.com/forms/d/1ZitNWNpyYSc4i54Qe4RRTurcqm9U7_C_B8SXtBVtwKE/viewform?edit_requested=true)
 
 ### Note 
 Due to the volume of the applications, we regretfully cannot respond to all the inquiries but guarantee that we read ALL the applications. As such, we will only contact the short-listed applicants. We feel the enthusiasm from the emails but unfortunately, there is so much we can do on our end. We wish all the best for all the applicants and confident that everybody will manage to find a posiiton that matches their background and intrest. 
