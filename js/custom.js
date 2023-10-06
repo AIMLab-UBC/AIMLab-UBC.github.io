@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", function() {
     //Navbar bold text
-    let currentURL = window.location.href.split(/[?#]/)[0]; // removes any query or fragment
+    let currentURL = window.location.pathname;
     let navLinks = document.querySelectorAll(".nav a");
     
     navLinks.forEach(link => {
-        let linkHref = link.getAttribute("href").replace(/\/$/, "");
-        let adjustedCurrentURL = currentURL.replace(/\/$/, "");   // remove trailing slash
-            
+        let linkHref = link.getAttribute("href").replace(/\/$/, ""); // remove trailing slash if it exists
+        let adjustedCurrentURL = currentURL.replace(/\/$/, "");      // remove trailing slash if it exists
+        
         if (linkHref === adjustedCurrentURL) {
             link.classList.add("active-link");
         }
