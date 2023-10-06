@@ -8,7 +8,7 @@ permalink: /projects/
 
 
 <div class="container-projects">
-<h2>Research Projects</h2>
+<h2>Research Highlights</h2>
 
 {% assign number_printed = 0 %}
 {% for project in site.data.project_list %}

@@ -1,3 +1,39 @@
+- title: "AMIGO: Sparse Multi-Modal Graph Transformer with Shared-Context Processing for Representation Learning of Giga-pixel Images"
+  subtitle: CVPR 2023
+  image: amigo.PNG
+  description: Processing giga-pixel whole slide histopathology images (WSI) is a computationally expensive task. Multiple instance learning (MIL) has become the conventional approach to process WSIs, in which these images are split into smaller patches for further processing. However, MIL-based techniques ignore explicit information about the individual cells within a patch. In this paper, by defining the novel concept of shared-context processing, we designed a multi-modal Graph Transformer (AMIGO) that uses the celluar graph within the tissue to provide a single representation for a patient while taking advantage of the hierarchical structure of the tissue, enabling a dynamic focus between cell-level and tissue-level information. We benchmarked the performance of our model against multiple state-of-the-art methods in survival prediction and showed that ours can significantly outperform all of them including hierarchical Vision Transformer (ViT). More importantly, we show that our model is strongly robust to missing information to an extent that it can achieve the same performance with as low as 20% of the data. Finally, in two different cancer datasets, we demonstrated that our model was able to stratify the patients into low-risk and high-risk groups while other state-of-the-art methods failed to achieve this goal. We also publish a large dataset of immunohistochemistry images (InUIT) containing 1,600 tissue microarray (TMA) cores from 188 patients along with their survival information, making it one of the largest publicly available datasets in this context.
+  authors: 
+  link_pdf:
+    show: 1
+    url: https://openaccess.thecvf.com/content/CVPR2023/papers/Nakhli_Sparse_Multi-Modal_Graph_Transformer_With_Shared-Context_Processing_for_Representation_Learning_CVPR_2023_paper.pdf
+    display: PDF
+  highlight: 1
+  news2:
+
+- title: "CO-PILOT: Dynamic Top-Down Point Cloud with Conditional Neighborhood Aggregation for Multi-Gigapixel Histopathology Image Representation"
+  subtitle: ICCV 2023
+  image: copilot.PNG
+  description: Predicting survival rates based on multi-gigapixel histopathology images is one of the most challenging tasks in digital pathology. Due to the computational complexities, Multiple Instance Learning (MIL) has become the conventional approach for this process as it breaks the image into smaller patches. However, this technique fails to account for the individual cells present in each patch, while they are the fundamental part of the tissue. In this work, we developed a novel dynamic and hierarchical point-cloud-based method Co-Pilot for the processing of cellular graphs extracted from routine histopathology images. By using bottom-up information propagation and top-down conditional attention, our model gains access to an adaptive focus across different levels of tissue hierarchy. Through comprehensive experiments, we demonstrate that our model can outperform all the state-of-the-art methods in survival prediction, including the hierarchical Vision Transformer (ViT), across three datasets and four metrics with only half of the parameters of the closest baseline. Importantly, our model is able to stratify the patients into different risk cohorts with statistically different outcomes across three large datasets, a task that was previously achievable only using genomic information. Furthermore, we publish a large dataset containing 873 cellular graphs from 188 patients, along with their survival information, making it one of the largest publicly available datasets in this context.
+  authors: ICCV 2023
+  link_pdf:
+    show: 1
+    url: https://openaccess.thecvf.com/content/ICCV2023/html/Nakhli_CO-PILOT_Dynamic_Top-Down_Point_Cloud_with_Conditional_Neighborhood_Aggregation_for_ICCV_2023_paper.html
+    display: Paper
+  highlight: 1
+  news2:
+
+- title: "VOLTA: an Environment-Aware Contrastive Cell Representation Learning for Histopathology"
+  subtitle: Preprint
+  image: volta.PNG
+  description: In clinical practice, many diagnosis tasks rely on the identification of cells in histopathology images. While supervised machine learning techniques require labels, providing manual cell annotations is time-consuming due to the large number of cells. In this paper, we propose a self-supervised framework (Volta) for cell representation learning in histopathology images using a novel technique that accounts for the cell's mutual relationship with its environment for improved cell representations. We subjected our model to extensive experiments on the data collected from multiple institutions around the world comprising of over 700,000 cells, four cancer types, and cell types ranging from three to six categories for each dataset. The results show that our model outperforms the state-of-the-art models in cell representation learning. To showcase the potential power of our proposed framework, we applied Volta to ovarian and endometrial cancers with very small sample sizes (10-20 samples) and demonstrated that our cell representations can be utilized to identify the known histotypes of ovarian cancer and provide novel insights that link histopathology and molecular subtypes of endometrial cancer. Unlike supervised deep learning models that require large sample sizes for training, we provide a framework that can empower new discoveries without any annotation data in situations where sample sizes are limited.
+  authors: 
+  link_pdf:
+    show: 1
+    url: https://arxiv.org/abs/2303.04696
+    display: Paper
+  highlight: 1
+  news2:
+
 - title: "ALL-IN: A Local GLobal Graph-Based DIstillatioN Model for Representation Learning of Gigapixel Histopathology Images With Application In Cancer Risk Assessment"
   subtitle: MICCAI 2023
   image: miccai_paper.png
@@ -15,7 +51,6 @@
     show: 1
     url:  https://www.youtube.com/watch?v=0KPH2Rd7co0
     display: Presentation
-
   highlight: 1
   news2:
 
@@ -32,7 +67,7 @@
   news2:
   
 - title: "CCRL: Contrastive Cell Representation Learning"
-  subtitle: ECCV 2022
+  subtitle: ECCV 2023
   image: ccrl_Ramin.jpg
   description: Cell identification within the H&E slides is an essential prerequisite that can pave the way towards further pathology analyses including tissue classification, cancer grading, and phenotype prediction. However, performing such a task using deep learning techniques requires a large cell-level annotated dataset. Although previous studies have investigated the performance of contrastive self-supervised methods in tissue classification, the utility of this class of algorithms in cell identification and clustering is still unknown. In this work, we investigated the utility of Self-Supervised Learning (SSL) in cell clustering by proposing the Contrastive Cell Representation Learning (CCRL) model. Through comprehensive comparisons, we show that this model can outperform all currently available cell clustering models by a large margin across two datasets from different tissue types. More interestingly, the results show that our proposed model worked well with a few number of cell categories while the utility of SSL models has been mainly shown in the context of natural image datasets with large numbers of classes (e.g., ImageNet). The unsupervised representation learning approach proposed in this research eliminates the time-consuming step of data annotation in cell classification tasks, which enables us to train our model on a much larger dataset compared to previous methods. Therefore, considering the promising outcome, this approach can open a new avenue to automatic cell representation learning.
   authors: 
@@ -48,31 +83,31 @@
   news2:
   
 - title: "Deep Learning-Based Histotype Diagnosis of Ovarian Carcinoma Whole-Slide Pathology Images"
-  subtitle: Modern Pathology 2022
+  subtitle: Modern Pathology
   image: colornorm_MPathology.png
   description: We compared four different deep convolutional neural networks for classifying H&E-stained images of epithelial ovarian carcinoma histotypes using the largest training dataset to date (948 slides corresponding to 485 patients), exploring techniques such as color normalization and partially balancing the histotypes. The best performing model, assessed on an independent test set of 60 patients from another institution, achieved a mean diagnostic concordance of 80.97% (Cohen’s kappa 0.7547). As well, in 4 of 8 cases misclassified by ML on the external testing dataset, two expert subspecialty pathologists rendered diagnoses, based on blind review of the WSIs, that agree with AI rather than the integrated reference diagnosis. Our results indicate that color normalization can reliably improve AI-based diagnosis of WSIs sourced from multiple centers, and specifically that an ML-based ovarian carcinoma classifier is ready for clinical validation studies as an adjunct for informing histotype diagnosis.
   authors: 
   link_pdf:
-    show: 0
-    url: 
-    display: PDF
+    show: 1
+    url: https://www.sciencedirect.com/science/article/abs/pii/S0893395222055107?casa_token=aF5WgtiWst0AAAAA:O02OeVTmnF_aUtN4lre91BylaLfh_Xt0SCmWaPrYbVYQ3O4k0C_wNBE5qA0ouI5xl_T6BkNT
+    display: Paper
   highlight: 1
   news2:
   
 - title: "Identification of a Novel Subtype of Endometrial Cancer with Unfavourable Outcome Using Artificial Intelligence-based Histopathology Image Analysis"
-  subtitle: Preprint
+  subtitle: The Journal of Clinical Oncology
   image: EC_Project.png
   description: Utilizing an AI-based approach for histopathology image analysis, we have discovered ‘p53abn-like’ NSMPs, a novel subtype of NSMP ECs with morphological features similar to p53abn cases. ‘p53abn-like’ NSMPs exhibit similar clinical behavior as p53abn, having noticeably inferior outcome.
   authors: 
   link_pdf:
-    show: 0
-    url: 
-    display: PDF
+    show: 1
+    url: https://ascopubs.org/doi/abs/10.1200/JCO.2022.40.16_suppl.5594?role=tab
+    display: Paper
   highlight: 1
   news2:
   
 - title: "The utility of color normalization for AI-based diagnosis of hematoxylin and eosin-stained pathology images"
-  subtitle: The Journal of Pathology 2022
+  subtitle: The Journal of Pathology
   image: colornorm_JPathology.png
   description: The color variation of hematoxylin and eosin (H&E)-stained tissues has presented a challenge for applications of artificial intelligence (AI) in digital pathology. In this study, we investigated eight color normalization algorithms for AI-based classification of H&E-stained histopathology slides, in the context of both using images from one center and from multiple centers. Our results show that color normalization does not consistently improve classification performance when both training and testing data are from a single center. However, using four multi-center datasets of two cancer types, we show that color normalization can significantly improve the classification of images from external datasets (ovarian cancer 0.25 AUC increase, p=1.6e-05, pleural cancer 0.21 AUC increase, p=1.4e-10). Furthermore, we introduce a novel augmentation strategy by mixing color-normalized images using three easily accessible algorithms that consistently improves the diagnosis of test images from external centers, even when the individual normalization methods had varied results.
   authors: 
@@ -84,7 +119,7 @@
   news2:
 
 - title: "Synthesis of Clinical Grade Cancer Pathology Images Using Generative Adversarial Networks"
-  subtitle: The Journal of Pathology 2020
+  subtitle: The Journal of Pathology
   image: gan-flow.png
   description: The purpose of this project is to showcase the capacity of generative adversarial networks (GAN) in synthesizing realistic looking histopathology images. Our findings have important applications in proficiency testing of medical practitioners and quality assurance in clinical laboratories. Furthermore, training of computer-aided diagnostic systems can benefit from synthetic images where labeled datasets are limited (e.g., rare cancers). We have created a publicly available demo website where clinicians and researchers can attempt questions from the image survey.
   authors: 
@@ -163,7 +198,7 @@
   #news2:
 
 - title: "Genomic Signatures for Ovarian Cancer Histotypes Stratification"
-  subtitle: Nature Genetics 2017
+  subtitle: Nature Genetics
   image: ov_landscape.jpg
   description: we stratified ovarian cancer histotypes into novel genomic subtypes. This major discovery was built upon novel approach of integrating computation of point mutation and structural variation signatures that provided a potent, genome-based discriminant biomarker across the spectra of ovarian cancer histotypes. The most striking finding was a previously unreported poor outcome group representing ~50% of high grade serous ovarian cancer (HGSOC) cases. The poor outcome group was characterized by specific types of genomic structural rearrangement reflective of micro homology mediated end joining (MMEJ) as an active double strand break repair process that was notably absent from the other HGSOC cases.
   authors: 
@@ -175,7 +210,7 @@
   news2:  
   
 - title: "TMEM30A Loss of Function Mutations in Diffuse Large B-Cell Lymphoma"
-  subtitle: Nature Medicine 2020
+  subtitle: Nature Medicine
   image: tmem30a.png
   description: We conducted an integrative genomic analysis on a large cohort of patients with de novo DLBCL, drawn from a population registry, that were treated uniformly with modern immune-chemotherapy (R-CHOP). This study provides unprecedented insight into mutation-associated changes in membrane physiology linked to cancer. We identified and characterized TMEM30A as a novel tumor suppressor gene whose loss is exclusively found in DLBCL and associated with favourable outcome after immuno-chemotherapy.
   authors: 
@@ -187,7 +222,7 @@
   news2:    
   
 - title: "Kronos: a Workflow Assembler for Genome Analytics and Informatics"
-  subtitle: Gigascience 2017
+  subtitle: Gigascience
   image: kronos.jpg
   description: Kronos is a software platform for facilitating the development and execution of modular, auditable, and distributable bioinformatics workflows. Kronos obviates the need for explicit coding of workflows by compiling a text configuration file into executable Python applications. The Kronos platform provides a standard framework for developers to implement custom tools, reuse existing tools, and contribute to the community at large. 
   authors: 
@@ -199,7 +234,7 @@
   news2:  
   
 - title: "Evolutionary Trajectories of Primary High‐Grade Serous Ovarian Cancers"
-  subtitle: The Journal of Pathology 2012
+  subtitle: The Journal of Pathology
   image: ITH.jpg
   description: The first world study on quantifying the degree of clonal diversity and evolution in primary untreated high-grade serous ovarian cancers (HGSOC). In this study, we measured the degree of genomic diversity within primary, untreated HGSCs to examine the natural state of tumour evolution prior to therapy. Our results demonstrate extensive intra-tumoral mutational, copy number and expression heterogeneity in HGSCs, thus illuminating a challenge for application of sequencing tumor genomes in the context of personalized, precision medicine. Although HGSCs are considered a single disease, they exhibit individual evolutionary trajectories that will require consideration in future therapeutic solutions.
   authors: 
@@ -211,7 +246,7 @@
   news2:    
   
 - title: "DriverNet: Measuring the Impact of Somatic Mutations on Transcriptional Networks in Cancer"
-  subtitle: Genome Biology 2012
+  subtitle: Genome Biology
   image: drivernet.jpg
   description: We introduce a novel computational framework, DriverNet, to identify likely driver mutations by virtue of their effect on mRNA expression networks. Application to four cancer datasets reveals the prevalence of rare candidate driver mutations associated with disrupted transcriptional networks and a simultaneous modulation of oncogenic and metabolic networks, induced by copy number co-modification of adjacent oncogenic and metabolic drivers.
   authors: 
