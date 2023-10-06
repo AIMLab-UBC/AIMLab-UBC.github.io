@@ -151,6 +151,12 @@ body {
     flex-direction: row;
 }
 
+.jobs-container {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+}
+
 @media (max-width: 1024px) {
     .twitter-container { display: none !important; }
     .front-btn { font-size: 32px }
