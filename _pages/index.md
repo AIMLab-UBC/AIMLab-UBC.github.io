@@ -47,6 +47,9 @@ permalink: /
         <div class="swiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
+                        <img class="front-image" src="../img/Meetup7.jpg"/>
+                    </div>
+                    <div class="swiper-slide">
                         <img class="front-image" src="../img/Meetup6.jpg"/>
                     </div>
                     <div class="swiper-slide">
