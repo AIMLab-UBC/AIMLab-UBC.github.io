@@ -61,19 +61,20 @@
   education3: BSc in Molecular Biology and Biochemistry, Simon Fraser Univserity, Canada
   alumni: 0
 
-# Sept 2022
-- name: Nikolay Alabi
-  photo: Nikolay.jpg
-  info: MD/PhD Student
-  email: mailto:nikolay.alabi@queensu.ca
+  # Jan 2024
+- name: Pouya Ahmadvand
+  photo: pahmadvand.png
+  info: Machine Learning Engineer
+  email: mailto:pouya.ahmadvand@ubc.ca
   website: 0
   github: 0
   twitter: 0
-  linkedin: 0
+  linkedin: https://www.linkedin.com/in/pouya-ahmadvand-a8913673
   google_scholar: 0
-  number_educ: 2
-  education1: MD/PhD Student (Bioinformatics), University of British Columbia, Canada
-  education2: BSc in Life Sciences, Queens University, Canada
+  number_educ: 3
+  education1: MASc in Bioinformatics, University of British Columbia, Canada
+  education2: MASc in Computer Engineering (Software), Shahid Rajaee Teacher Training University, Iran
+  education3: BSc in Computer Engineering (Software), Isfahan University, Iran
   alumni: 0
 
 # Sept 2020
@@ -107,37 +108,6 @@
   education2: BSc in Electrical Engineering (minor in Biomedical Engineering), University of Toronto, Canada
   alumni: 0
 
-# Sept 2020
-- name: Parisa Beygi
-  photo: Parisa.jpg
-  info: PhD Student
-  email: mailto:pabeygi@student.ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 3
-  education1: PhD student in Biomedical Engineering, University of British Columbia, Canada
-  education2: MASc in Computer Engineering (Artificial Intelligence), Amirkabir University of Technology, Iran
-  education3: BSc in Computer Engineering (Software), University of Tehran, Iran
-  alumni: 0
-
-# Sept 2020
-- name: Amir Hadjifaradji
-  photo: Amir.jpg
-  info: MASc Student
-  email: mailto:ahadji@student.ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
-  education2: Hons. BASc in Biomedical Engineering, Simon Fraser University, Canada
-  alumni: 1
-
 # Sept 2021
 - name: Puria Azadi
   photo: Puria-v2.jpg
@@ -170,6 +140,21 @@
   education3: BSc in Mathematics, Isfahan University of Technology, Iran
   alumni: 0
 
+  # Sept 2022
+- name: Nikolay Alabi
+  photo: Nikolay.jpg
+  info: MD/PhD Student
+  email: mailto:nikolay.alabi@queensu.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MD/PhD Student (Bioinformatics), University of British Columbia, Canada
+  education2: BSc in Life Sciences, Queens University, Canada
+  alumni: 0
+
 # Jan 2023
 - name: Mayur Mallya
   photo: Mayur-v2.jpg
@@ -184,6 +169,22 @@
   education1: PhD student in Bioinformatics, University of British Columbia, Canada
   education2: MSc in Computer Science, Simon Fraser University, Canada
   education3: BSc in Electronics and Communication Engineering, National Institute of Technology Karnataka (NIT-K), India
+  alumni: 0
+
+  # Jan 2024
+- name: Benham Maneshgar
+  photo: benham.jpg
+  info: PhD Student
+  email: mailto:bmanesh@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: www.linkedin.com/in/bmaneshgar
+  google_scholar: 0
+  number_educ: 3
+  education1: PhD Student in Bioinformatics, University of Brithish Columbia, Canada
+  education2: MSc in Computer Science, Concordia University, Canada
+  education3: BEng in Software Engineering, Isfahan University, Iran
   alumni: 0
 
 # End PhD students -> MSc below
@@ -202,21 +203,6 @@
   education1: MASc student in Bioinformatics, University of British Columbia, Canada
   education2: Combined BSc (Hon) in Biology and Computer Science, University of British Columbia, Canada
   alumni: 0
-
-# May 2022
-- name: Graham Archibald 
-  photo: Graham2.jpg
-  info: MASc Student
-  email: 0
-  website: https://meistrog.github.io/
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/graham-archibald-159114148
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
-  education2: BScH in Physics, Queens University, Canada
-  alumni: 0 
 
 # May 2023
 - name: Elahe Ranjbari
@@ -263,6 +249,97 @@
   education2: BSc in Computer Engineering, Amirkabir University of Technology, Iran
   alumni: 0
 
+# Jan 2024
+- name: Haoran Liu
+  photo: haoran.jpg
+  info: Visiting Student
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: PhD student in Computer Engineering, University of Electronic Science and Technology of China, China
+  education2: BSc in Electrical Engineering, Qingdao University of Science and Technology, China
+  alumni: 0
+
+- name: Faezeh Moradi
+  photo: default_aim.png
+  info: Visiting Student
+  email: mailto:Faezeh.moradi@dal.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 3
+  education1: PhD Candidate in Computer Science, Dalhousie University, Halifax, Canada
+  education2: MASc in Computer Engineer, University of Tehran, Iran
+  education3: BSc in Computer Engineering, University of Tehran, Iran
+  alumni: 0
+
+# Jan 2024
+- name: Bjorn Holst
+  photo: bjorn.png
+  info: Co-op Student
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 1
+  education1: BSc in Computer Science, University of British Columbia, Canada
+  alumni: 0
+
+# Jan 2024
+- name: Aly Khan Nuruddin
+  photo: Alykhan.jpeg
+  info: Co-op Student
+  email: mailto:alykhan5@student.ubc.ca
+  website: 0
+  github: https://github.com/alykhan10/
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/alykhannuruddin/
+  google_scholar: 0
+  number_educ: 1
+  education1: BASc in Biomedical Engineering (Minor in Commerce), University of British Columbia, Canada
+  alumni: 0
+
+######### Alumni Below #########
+
+# May 2022
+- name: Graham Archibald 
+  photo: Graham2.jpg
+  info: MASc Student
+  email: 0
+  website: https://meistrog.github.io/
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/graham-archibald-159114148
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education2: BScH in Physics, Queens University, Canada
+  alumni: 1
+
+  # Sept 2020
+- name: Parisa Beygi
+  photo: Parisa.jpg
+  info: MASc Student
+  email: mailto:pabeygi@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 3
+  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education2: MASc in Computer Engineering (Artificial Intelligence), Amirkabir University of Technology, Iran
+  education3: BSc in Computer Engineering (Software), University of Tehran, Iran
+  alumni: 1
+
 # Sept 2021
 - name: Irem Eren
   photo: Irem.jpg
@@ -275,22 +352,21 @@
   google_scholar: 0
   number_educ: 1
   education1: BSc in Life Sciences, University of British Columbia, Canada
-  alumni: 0
+  alumni: 1
 
-# Alumni
-- name: Pouya Ahmadvand
-  photo: pahmadvand.png
-  info: Graduate Student
-  email: mailto:pouya.ahmadvand@ubc.ca
+  # Sept 2020
+- name: Amir Hadjifaradji
+  photo: Amir.jpg
+  info: MASc Student
+  email: mailto:ahadji@student.ubc.ca
   website: 0
   github: 0
   twitter: 0
-  linkedin: https://www.linkedin.com/in/pouya-ahmadvand-a8913673
+  linkedin: 0
   google_scholar: 0
-  number_educ: 3
-  education1: MASc student in Bioinformatics, University of British Columbia, Canada
-  education2: MASc in Computer Engineering (Software), Shahid Rajaee Teacher Training University, Iran
-  education3: BSc in Computer Engineering (Software), Isfahan University, Iran
+  number_educ: 2
+  education1: MASc in Biomedical Engineering, University of British Columbia, Canada
+  education2: Hons. BASc in Biomedical Engineering, Simon Fraser University, Canada
   alumni: 1
 
 - name: Jeffrey Boschman
@@ -484,7 +560,7 @@
 
 - name: Tony Xu
   photo: tonyxu.jpg
-  info: Undergraduate Student
+  info: Co-op Student
   email: 0
   website: 0
   github: 0
