@@ -8,7 +8,7 @@
     url: https://ascopubs.org/doi/abs/10.1200/JCO.2022.40.16_suppl.5594?role=tab
     display: Paper
   highlight: 1
-  news2:
+  news2: https://www.med.ubc.ca/news/scientists-discover-high-risk-form-of-endometrial-cancer-and-how-to-test-for-it-using-ai/
   
 - title: "VOLTA: an Environment-Aware Contrastive Cell Representation Learning for Histopathology"
   subtitle: Nature Communications 2024
