@@ -1,3 +1,27 @@
+- title: "Identification of a Novel Subtype of Endometrial Cancer with Unfavourable Outcome Using Artificial Intelligence-based Histopathology Image Analysis"
+  subtitle: Nature Communications 2024
+  image: EC_Project.png
+  description: Utilizing an AI-based approach for histopathology image analysis, we have discovered ‘p53abn-like’ NSMPs, a novel subtype of NSMP ECs with morphological features similar to p53abn cases. ‘p53abn-like’ NSMPs exhibit similar clinical behavior as p53abn, having noticeably inferior outcome.
+  authors: 
+  link_pdf:
+    show: 1
+    url: https://ascopubs.org/doi/abs/10.1200/JCO.2022.40.16_suppl.5594?role=tab
+    display: Paper
+  highlight: 1
+  news2:
+  
+- title: "VOLTA: an Environment-Aware Contrastive Cell Representation Learning for Histopathology"
+  subtitle: Nature Communications 2024
+  image: volta.PNG
+  description: In clinical practice, many diagnosis tasks rely on the identification of cells in histopathology images. While supervised machine learning techniques require labels, providing manual cell annotations is time-consuming due to the large number of cells. In this paper, we propose a self-supervised framework (Volta) for cell representation learning in histopathology images using a novel technique that accounts for the cell's mutual relationship with its environment for improved cell representations. We subjected our model to extensive experiments on the data collected from multiple institutions around the world comprising of over 700,000 cells, four cancer types, and cell types ranging from three to six categories for each dataset. The results show that our model outperforms the state-of-the-art models in cell representation learning. To showcase the potential power of our proposed framework, we applied Volta to ovarian and endometrial cancers with very small sample sizes (10-20 samples) and demonstrated that our cell representations can be utilized to identify the known histotypes of ovarian cancer and provide novel insights that link histopathology and molecular subtypes of endometrial cancer. Unlike supervised deep learning models that require large sample sizes for training, we provide a framework that can empower new discoveries without any annotation data in situations where sample sizes are limited.
+  authors: 
+  link_pdf:
+    show: 1
+    url: https://arxiv.org/abs/2303.04696
+    display: Paper
+  highlight: 1
+  news2:
+
 - title: "AMIGO: Sparse Multi-Modal Graph Transformer with Shared-Context Processing for Representation Learning of Giga-pixel Images"
   subtitle: CVPR 2023
   image: amigo.PNG
@@ -18,18 +42,6 @@
   link_pdf:
     show: 1
     url: https://openaccess.thecvf.com/content/ICCV2023/html/Nakhli_CO-PILOT_Dynamic_Top-Down_Point_Cloud_with_Conditional_Neighborhood_Aggregation_for_ICCV_2023_paper.html
-    display: Paper
-  highlight: 1
-  news2:
-
-- title: "VOLTA: an Environment-Aware Contrastive Cell Representation Learning for Histopathology"
-  subtitle: Preprint
-  image: volta.PNG
-  description: In clinical practice, many diagnosis tasks rely on the identification of cells in histopathology images. While supervised machine learning techniques require labels, providing manual cell annotations is time-consuming due to the large number of cells. In this paper, we propose a self-supervised framework (Volta) for cell representation learning in histopathology images using a novel technique that accounts for the cell's mutual relationship with its environment for improved cell representations. We subjected our model to extensive experiments on the data collected from multiple institutions around the world comprising of over 700,000 cells, four cancer types, and cell types ranging from three to six categories for each dataset. The results show that our model outperforms the state-of-the-art models in cell representation learning. To showcase the potential power of our proposed framework, we applied Volta to ovarian and endometrial cancers with very small sample sizes (10-20 samples) and demonstrated that our cell representations can be utilized to identify the known histotypes of ovarian cancer and provide novel insights that link histopathology and molecular subtypes of endometrial cancer. Unlike supervised deep learning models that require large sample sizes for training, we provide a framework that can empower new discoveries without any annotation data in situations where sample sizes are limited.
-  authors: 
-  link_pdf:
-    show: 1
-    url: https://arxiv.org/abs/2303.04696
     display: Paper
   highlight: 1
   news2:
@@ -90,18 +102,6 @@
   link_pdf:
     show: 1
     url: https://www.sciencedirect.com/science/article/abs/pii/S0893395222055107?casa_token=aF5WgtiWst0AAAAA:O02OeVTmnF_aUtN4lre91BylaLfh_Xt0SCmWaPrYbVYQ3O4k0C_wNBE5qA0ouI5xl_T6BkNT
-    display: Paper
-  highlight: 1
-  news2:
-  
-- title: "Identification of a Novel Subtype of Endometrial Cancer with Unfavourable Outcome Using Artificial Intelligence-based Histopathology Image Analysis"
-  subtitle: Preprint
-  image: EC_Project.png
-  description: Utilizing an AI-based approach for histopathology image analysis, we have discovered ‘p53abn-like’ NSMPs, a novel subtype of NSMP ECs with morphological features similar to p53abn cases. ‘p53abn-like’ NSMPs exhibit similar clinical behavior as p53abn, having noticeably inferior outcome.
-  authors: 
-  link_pdf:
-    show: 1
-    url: https://ascopubs.org/doi/abs/10.1200/JCO.2022.40.16_suppl.5594?role=tab
     display: Paper
   highlight: 1
   news2:
