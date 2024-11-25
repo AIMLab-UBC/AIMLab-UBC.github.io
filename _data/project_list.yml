@@ -2,13 +2,13 @@
   subtitle: Nature Communications 2024
   image: EC_Project.png
   description: Endometrial cancer (EC) has four molecular subtypes with strong prognostic value and therapeutic implications. The most common subtype (NSMP; No Specific Molecular Profile) is assigned after exclusion of the defining features of the other three molecular subtypes and includes patients with heterogeneous clinical outcomes. In this study, we employ artificial intelligence (AI)-powered histopathology image analysis to differentiate between p53abn and NSMP EC subtypes and consequently identify a sub-group of NSMP EC patients that has markedly inferior progression-free and disease-specific survival (termed ‘p53abn-like NSMP’), in a discovery cohort of 368 patients and two independent validation cohorts of 290 and 614 from other centers. Shallow whole genome sequencing reveals a higher burden of copy number abnormalities in the ‘p53abn-like NSMP’ group compared to NSMP, suggesting that this group is biologically distinct compared to other NSMP ECs. Our work demonstrates the power of AI to detect prognostically different and otherwise unrecognizable subsets of EC where conventional and standard molecular or pathologic criteria fall short, refining image-based tumor classification. This study’s findings are applicable exclusively to females.
-  authors: ???
+  authors: 
   link_pdf:
     show: 1
     url: https://www.nature.com/articles/s41467-024-49017-2
     display: Paper
   highlight: 1
-  news2: https://www.med.ubc.ca/news/scientists-discover-high-risk-form-of-endometrial-cancer-and-how-to-test-for-it-using-ai/
+  news2: 
   
 - title: "VOLTA: an Environment-Aware Contrastive Cell Representation Learning for Histopathology"
   subtitle: Nature Communications 2024
