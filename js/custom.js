@@ -17,16 +17,17 @@ document.addEventListener("DOMContentLoaded", function() {
     const arrow = document.getElementsByClassName("arrow");
     window.addEventListener('scroll', function() {
         if (window.scrollY > 0) {
-            //banner[0].style.backgroundColor = "white";
-            banner[0].style.borderBottomColor = "#f15a29";
-            banner[0].style.height = "88px";
+            banner[0].style.backgroundColor =   "#ffffffff";
+            //banner[0].style.backgroundColor = "#00000020";
+            //banner[0].style.borderBottomColor = "#f15a29";
+            //banner[0].style.height = "88px";
             if (arrow[0] != undefined) {
                 arrow[0].style.display = "none"
             }
         } else {
-            //banner[0].style.backgroundColor = "#ffffff00";
-            banner[0].style.borderBottomColor = "#ffffff00";
-            banner[0].style.height = "66px";
+            banner[0].style.backgroundColor = "#ffffff00";
+            //banner[0].style.borderBottomColor = "#ffffff00";
+            //banner[0].style.height = "66px";
             if (arrow[0] != undefined) {
                 arrow[0].style.display = "unset"
             }

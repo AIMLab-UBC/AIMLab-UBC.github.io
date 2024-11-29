@@ -35,3 +35,6 @@ authors:
 
 github:
   repo:           https://github.com/AliBashashati/AliBashashati.github.io
+
+exclude:
+  - _pagesNotInUse/

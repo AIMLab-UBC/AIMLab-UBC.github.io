@@ -1,11 +1,11 @@
 ---
 title: "AIM Lab | Team"
-layout: gridlay
+layout: default
 excerpt: "AIM Lab| Team members"
 sitemap: false
 permalink: /team/
 ---
-
+<div id="gridid" class="col-sm-12">
 <h2 class="project-header" style="padding-top: 24px;">Team Members</h2>
 
 {% assign number_printed = 0 %}
@@ -180,3 +180,4 @@ permalink: /team/
 {% endif %}
 
 <br />
+</div>

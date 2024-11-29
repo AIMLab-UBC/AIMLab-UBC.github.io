@@ -5,17 +5,17 @@
     right: 0;
 
     display: flex;
-    //justify-content: center;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
-    height: 80px;
+    height: 66px;
     will-change: height;
     z-index: 5000;
     max-width: 100vw;
     transition: 0.3s ease;
-    background-color: #ffffff00;
-    //border-bottom-width: 4px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-bottom-width: 4px;
 }
 
 .navbar-brand {
