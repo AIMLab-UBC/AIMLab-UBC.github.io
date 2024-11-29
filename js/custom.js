@@ -12,27 +12,47 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 
-    //Navbar scroll animation
-    const banner = document.getElementsByClassName('navbar');
-    const arrow = document.getElementsByClassName("arrow");
-    window.addEventListener('scroll', function() {
-        if (window.scrollY > 0) {
-            banner[0].style.backgroundColor =   "#ffffffff";
-            //banner[0].style.backgroundColor = "#00000020";
-            //banner[0].style.borderBottomColor = "#f15a29";
-            //banner[0].style.height = "88px";
-            if (arrow[0] != undefined) {
-                arrow[0].style.display = "none"
+    const isUpdatedPage = document.body.classList.contains('updated-pages');
+
+    if (isUpdatedPage) {
+            //Navbar scroll animation - new
+        const banner = document.getElementsByClassName('navbar');
+        const arrow = document.getElementsByClassName("arrow");
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 0) {
+                banner[0].style.backgroundColor =   "#ffffffff";
+                if (arrow[0] != undefined) {
+                    arrow[0].style.display = "none"
+                }
+            } else {
+                banner[0].style.backgroundColor = "#ffffff00";
+                if (arrow[0] != undefined) {
+                    arrow[0].style.display = "unset"
+                }
             }
-        } else {
-            banner[0].style.backgroundColor = "#ffffff00";
-            //banner[0].style.borderBottomColor = "#ffffff00";
-            //banner[0].style.height = "66px";
-            if (arrow[0] != undefined) {
-                arrow[0].style.display = "unset"
+        });
+    } else {
+        //Navbar scroll animation - old
+        const banner = document.getElementsByClassName('navbar');
+        const arrow = document.getElementsByClassName("arrow");
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 0) {
+                banner[0].style.borderBottomColor = "#f15a29";
+                banner[0].style.height = "88px";
+                if (arrow[0] != undefined) {
+                    arrow[0].style.display = "none"
+                }
+            } else {
+                banner[0].style.borderBottomColor = "#ffffff00";
+                banner[0].style.height = "66px";
+                if (arrow[0] != undefined) {
+                    arrow[0].style.display = "unset"
+                }
             }
-        }
-    });
+        });
+    }
+
+
 
     //Front page image effect
     const images = document.getElementsByClassName("image");
