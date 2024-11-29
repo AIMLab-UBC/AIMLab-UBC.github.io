@@ -1,6 +1,6 @@
 - name: Ali Bashashati
   photo: alib.jpg
-  info: Director of AI Research at BC Ovarian Cancer Program (OVCARE), Assistant Professor in Biomedical Engineering & Pathology
+  info: Director of AI Research at BC Ovarian Cancer Program (OVCARE), Associate Professor in Biomedical Engineering & Pathology
   email: mailto:ali.bashashati@ubc.ca
   website: alib
   github: 0
@@ -17,13 +17,13 @@
 
 - name: Hossein Farahani
   photo: hossein.jpg
-  info: Lead Machine Learning Scientist
+  info: Lecturer in Biomedical Engineering
   email: mailto:h.farahani@ubc.ca
   website: 0
   github: 0
   twitter: 0
   linkedin: 0
-  google_scholar: 0
+  google_scholar: https://scholar.google.com/citations?user=1-vUj9EAAAAJ&hl=en&oi=ao
   number_educ: 4
   education1: PhD in Computer Science, KTH Royal Institute of Technology 
   education2: MSc in Space Science & Technology, The Julius Maximilians University of Würzburg, Germany
@@ -279,6 +279,8 @@
   education3: BSc in Computer Engineering, University of Tehran, Iran
   alumni: 0
 
+######### Alumni Below #########
+
 # Jan 2024
 - name: Bjorn Holst
   photo: bjorn.png
@@ -291,7 +293,7 @@
   google_scholar: 0
   number_educ: 1
   education1: BSc in Computer Science, University of British Columbia, Canada
-  alumni: 0
+  alumni: 1
 
 # Jan 2024
 - name: Aly Khan Nuruddin
@@ -305,7 +307,7 @@
   google_scholar: 0
   number_educ: 1
   education1: BASc in Biomedical Engineering (Minor in Commerce), University of British Columbia, Canada
-  alumni: 0
+  alumni: 1
 
   # Jan 2024
 - name: Kamal Azzam
@@ -319,9 +321,7 @@
   google_scholar: 0
   number_educ: 1
   education1: Combined BSc in Computer Science and Biology, University of British Columbia, Canada
-  alumni: 0
-
-######### Alumni Below #########
+  alumni: 1
 
 # May 2022
 - name: Graham Archibald 
