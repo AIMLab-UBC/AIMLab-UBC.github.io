@@ -15,19 +15,38 @@ document.addEventListener("DOMContentLoaded", function() {
     const isUpdatedPage = document.body.classList.contains('updated-pages');
 
     if (isUpdatedPage) {
-            //Navbar scroll animation - new
+        //Navbar scroll animation - new
         const banner = document.getElementsByClassName('navbar');
         const arrow = document.getElementsByClassName("arrow");
+        const navLinks = document.querySelectorAll('.nav > li > a');
+        const logo = document.querySelector('.navbar-brand img')
+
         window.addEventListener('scroll', function() {
             if (window.scrollY > 0) {
                 banner[0].style.backgroundColor =   "#ffffffff";
                 if (arrow[0] != undefined) {
                     arrow[0].style.display = "none"
                 }
+
+                navLinks.forEach(link => {
+                    link.style.color = "#0f1419";
+                });
+
+                if (logo) {
+                    logo.src = "/assets/project_pic/AIM_logo_transperant.png";
+                }
             } else {
                 banner[0].style.backgroundColor = "#ffffff00";
                 if (arrow[0] != undefined) {
                     arrow[0].style.display = "unset"
+                }
+
+                navLinks.forEach(link => {
+                    link.style.color = "white";
+                });
+
+                if (logo) {
+                    logo.src = "/assets/project_pic/AIM_logo_transperant_light.png";
                 }
             }
         });
