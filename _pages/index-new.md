@@ -35,7 +35,7 @@ permalink: /updated-frontpage/
                 </div>
                 <div class="service-item">
                     <img src="/img/service-3.jpg" alt="Content Creation">
-                    <h3>Content Creation</h3>
+                    <h3>VOLTA: an enVironment-aware cOntrastive ceLl represenTation leArning for histopathology</h3>
                     <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
                 </div>
             </div>
