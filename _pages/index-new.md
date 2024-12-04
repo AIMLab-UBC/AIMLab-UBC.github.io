@@ -24,7 +24,8 @@ permalink: /updated-frontpage/
             <div class="our-services">
                 <div class="service-item">
                     <img src="/img/group photo image.png" alt="VOLTA">
-                    <h3>VOLTA</h3>
+                    <h3>Learning generalizable AI models for multi-center histopathology image classification
+</h3>
                     <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
                 </div>
                 <div class="service-item">
