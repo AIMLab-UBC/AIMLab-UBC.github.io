@@ -20,7 +20,7 @@ permalink: /updated-frontpage/
     </div>
     <div class="front-rows-container">  
         <div class="front-row front-row1">
-        <div class="service-title">Our Services</div>
+        <div class="service-title">Research Highlights</div>
             <div class="our-services">
                 <div class="service-item">
                     <img src="/img/service-1.jpg" alt="Web Design">
