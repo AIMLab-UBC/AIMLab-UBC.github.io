@@ -31,7 +31,7 @@ permalink: /updated-frontpage/
                 <div class="service-item">
                     <img src="/img/service-2.jpg" alt="Graphic Design">
                     <h3>AI-based histopathology image analysis reveals a distinct subset of endometrial cancers</h3>
-                    <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
+                    <p>This research focuses on improving the classification of endometrial cancer (EC), a cancer that affects the lining of the uterus. Endometrial Cancer (EC) has four molecular subtypes, each with different implications for prognosis and treatment. </p>
                 </div>
                 <div class="service-item">
                     <img src="/img/service-3.jpg" alt="Content Creation">
