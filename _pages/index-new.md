@@ -36,7 +36,7 @@ permalink: /updated-frontpage/
                 <div class="service-item">
                     <img src="/img/service-3.jpg" alt="Content Creation">
                     <h3>VOLTA: an enVironment-aware cOntrastive ceLl represenTation leArning for histopathology</h3>
-                    <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
+                    <p>This research introduces a new machine learning framework called VOLTA (enVironment-aware cOntrastive cell represenTation learning), designed to improve how cells are identified in histopathology images, which are critical for diagnosing cancer. </p>
                 </div>
             </div>
         </div>
