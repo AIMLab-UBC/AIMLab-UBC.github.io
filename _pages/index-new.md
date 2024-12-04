@@ -24,7 +24,7 @@ permalink: /updated-frontpage/
             <div class="our-services">
                 <div class="service-item">
                     <img src="/img/group photo image.png" alt="VOLTA">
-                    <h3>Web Design</h3>
+                    <h3>VOLTA</h3>
                     <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
                 </div>
                 <div class="service-item">
