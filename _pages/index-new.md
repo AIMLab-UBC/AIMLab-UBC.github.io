@@ -30,7 +30,7 @@ permalink: /updated-frontpage/
                 </div>
                 <div class="service-item">
                     <img src="/img/service-2.jpg" alt="Graphic Design">
-                    <h3>Graphic Design</h3>
+                    <h3>AI-based histopathology image analysis reveals a distinct subset of endometrial cancers</h3>
                     <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
                 </div>
                 <div class="service-item">
