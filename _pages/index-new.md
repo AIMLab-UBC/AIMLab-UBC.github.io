@@ -43,8 +43,8 @@ permalink: /updated-frontpage/
         <div class="front-row front-row2">
             <div class="quote-container">
             <blockquote>
-                <p>"Original and with an innate understanding of their customer's needs, the team at Love Nature are always a pleasure to work with."</p>
-                <cite>Jane Miller</cite>
+                <p>"AI is revolutionizing Cancer Diagnosis with new methods making it easier for doctors to examine tissues and identify cancerous cells."</p>
+                <cite></cite>
             </blockquote>
             </div>
         </div>
