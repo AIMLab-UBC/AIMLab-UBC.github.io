@@ -23,7 +23,7 @@ permalink: /updated-frontpage/
         <div class="service-title">Research Highlights</div>
             <div class="our-services">
                 <div class="service-item">
-                    <img src="/img/service-1.jpg" alt="Web Design">
+                    <img src="/img/group photo image.png" alt="Web Design">
                     <h3>Web Design</h3>
                     <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
                 </div>
