@@ -51,8 +51,8 @@ permalink: /updated-frontpage/
         <div class="front-row front-row3">
             <div class="row3-container">
                 <div class="text-content">
-                    <h1>Tell website visitors who you are and why they should choose your business.</h1>
-                    <p>Because when a visitor first lands on your website, you're a stranger to them. They have to get to know you in order to want to read your blog posts, subscribe to your email newsletter, or buy what you're selling.</p>
+                    <h1>Who We Are & What We Do</h1>
+                    <p>At AIMLAB (Artificial Intelligence in Medicine Lab) at the University of British Columbia, we’re dedicated to advancing healthcare through the power of AI. Our team of researchers, engineers, and healthcare professionals work together to develop cutting-edge solutions that address some of the most pressing challenges in medicine. From improving diagnostic accuracy to enhancing treatment outcomes, we combine innovative AI technologies with deep domain expertise to transform healthcare delivery. Whether you're a researcher, healthcare provider, or tech innovator, AIMLAB is your partner in shaping the future of medicine.</p>
                     <button class="cta-button">Find Out More</button>
                 </div>
                 <div class="image-container">
