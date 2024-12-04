@@ -62,9 +62,9 @@ permalink: /updated-frontpage/
         </div>
         <div class="front-row front-row4">
             <div class="front-text-container" style="max-width: 500px;">
-                <div style="font-size: 60px; color: #536942;">QUESTIONS?
+                <div style="font-size: 60px; color: #536942;">Looking to collaborate?
                 </div>
-                <div style="font-size: 16px; color: #536942; text-align: center; line-height: 30px;">Whether you’re curious about features, a free trial, or even press, we’re here to answer any questions.
+                <div style="font-size: 16px; color: #536942; text-align: center; line-height: 30px;">Contact AIMLAB @ UBC to discuss your next project or research opportunity.
                 </div>
             </div>
         </div>
