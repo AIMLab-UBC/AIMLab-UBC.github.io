@@ -56,7 +56,7 @@ permalink: /updated-frontpage/
                     <button class="cta-button">Find Out More</button>
                 </div>
                 <div class="image-container">
-                    <img src="/img/LABCOATSIGN.JPG" alt="Nature scene">
+                    <img src="/img/LABCOATS.JPG" alt="Nature scene">
                 </div>
             </div>
         </div>
