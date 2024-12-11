@@ -23,7 +23,7 @@ permalink: /updated-frontpage/
         <div class="service-title">Research Highlights</div>
             <div class="our-services">
                 <div class="service-item">
-                    <img src="/img/group photo.png" alt="VOLTA">
+                    <img src="/img/group photo image.png" alt="VOLTA">
                     <h3>Learning generalizable AI models for multi-center histopathology image classification
 </h3>
                     <p>Histopathology—the study of tissue samples under a microscope—is a key method for diagnosing cancer. Pathologists examine slides to identify cancerous cells, but the process is time-consuming and prone to variability, especially with differences in tissue preparation and slide staining.</p>
