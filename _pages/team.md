@@ -18,7 +18,7 @@ permalink: /team/
  {% if color == 0 %}
   <div class="row team-row">
   {% else %}
-  <div class="row team-row" style="background-color: #e9f0ff;">
+  <div class="row team-row">
   {% endif %}
 {% endif %}
 
@@ -46,30 +46,30 @@ permalink: /team/
       {% endif %}
       <br>
       <i>{{ member.info }}<br></i>
-      <ul style="overflow: hidden">
-    {% if member.number_educ == 1 %}
-    <li> {{ member.education1 }} </li>
-    {% endif %}
-    
-    {% if member.number_educ == 2 %}
-    <li> {{ member.education1 }} </li>
-    <li> {{ member.education2 }} </li>
-    {% endif %}
-    
-    {% if member.number_educ == 3 %}
-    <li> {{ member.education1 }} </li>
-    <li> {{ member.education2 }} </li>
-    <li> {{ member.education3 }} </li>
-    {% endif %}
-    
-    {% if member.number_educ == 4 %}
-    <li> {{ member.education1 }} </li>
-    <li> {{ member.education2 }} </li>
-    <li> {{ member.education3 }} </li>
-    <li> {{ member.education4 }} </li>
-    {% endif %}
-    
-    </ul>
+      <ul style="overflow: hidden; font-size:14px;">
+        {% if member.number_educ == 1 %}
+        <li> {{ member.education1 }} </li>
+        {% endif %}
+        
+        {% if member.number_educ == 2 %}
+        <li> {{ member.education1 }} </li>
+        <li> {{ member.education2 }} </li>
+        {% endif %}
+        
+        {% if member.number_educ == 3 %}
+        <li> {{ member.education1 }} </li>
+        <li> {{ member.education2 }} </li>
+        <li> {{ member.education3 }} </li>
+        {% endif %}
+        
+        {% if member.number_educ == 4 %}
+        <li> {{ member.education1 }} </li>
+        <li> {{ member.education2 }} </li>
+        <li> {{ member.education3 }} </li>
+        <li> {{ member.education4 }} </li>
+        {% endif %}
+        
+      </ul>
     </div>
   </div>
 
@@ -101,7 +101,7 @@ permalink: /team/
 {% if color == 0 %}
 <div class="row team-row">
 {% else %}
-<div class="row team-row" style="background-color: #e9f0ff;">
+<div class="row team-row">
 {% endif %}
 {% endif %}
 
@@ -137,7 +137,7 @@ permalink: /team/
   <br>
   {% endif %}
   <i>{{ member.info }}<br></i>
-  <ul style="overflow: hidden">
+  <ul style="overflow: hidden; font-size:14px;">
   
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>

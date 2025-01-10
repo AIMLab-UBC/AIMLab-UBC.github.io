@@ -10,8 +10,8 @@ permalink: /updated-frontpage/
 <div class="updated-pages">
     <div class="front-hero-container">
         <div class="front-text-container">
-            <div style="font-size: 30px">University of British Columbia
-            </div>
+            <!--<div style="font-size: 30px">University of British Columbia
+            </div>-->
             <div style="font-size: 80px;">AI in Medicine Lab
             </div>
             <div style="font-size: 18px">At the interface of computation, engineering and medicine.
@@ -20,50 +20,53 @@ permalink: /updated-frontpage/
     </div>
     <div class="front-rows-container">  
         <div class="front-row front-row1">
-        <div class="service-title">Our Services</div>
+        <div class="service-title">Research <b style="background-color: #ffa54e;">Highlights</b></div>
             <div class="our-services">
                 <div class="service-item">
-                    <img src="/img/service-1.jpg" alt="Web Design">
-                    <h3>Web Design</h3>
-                    <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
+                    <img src="/img/front-highlights-1.png">
+                    <h3>Learning generalizable AI models for multi-center histopathology image classification</h3>
+                    <p>Histopathology—the study of tissue samples under a microscope—is a key method for diagnosing cancer. Pathologists examine slides to identify cancerous cells, but the process is time-consuming and prone to variability, especially with differences in tissue preparation and slide staining.</p>
                 </div>
                 <div class="service-item">
-                    <img src="/img/service-2.jpg" alt="Graphic Design">
-                    <h3>Graphic Design</h3>
-                    <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
+                    <img src="/img/front-highlights-2.png">
+                    <h3>AI-based histopathology image analysis reveals a distinct subset of endometrial cancers</h3>
+                    <p>This research focuses on improving the classification of endometrial cancer (EC), a cancer that affects the lining of the uterus. Endometrial Cancer (EC) has four molecular subtypes, each with different implications for prognosis and treatment.</p>
                 </div>
                 <div class="service-item">
-                    <img src="/img/service-3.jpg" alt="Content Creation">
-                    <h3>Content Creation</h3>
-                    <p>Focus on how you can help and benefit your user. Use simple words so that you don't confuse people.</p>
+                    <img src="/img/front-highlights-3.png">
+                    <h3>VOLTA: an enVironment-aware cOntrastive ceLl represenTation leArning for histopathology</h3>
+                    <p>This research introduces a new machine learning framework called VOLTA (enVironment-aware cOntrastive cell represenTation learning), designed to improve how cells are identified in histopathology images, which are critical for diagnosing cancer.</p>
                 </div>
             </div>
         </div>
         <div class="front-row front-row2">
             <div class="quote-container">
             <blockquote>
-                <p>"Original and with an innate understanding of their customer's needs, the team at Love Nature are always a pleasure to work with."</p>
-                <cite>Jane Miller</cite>
+                <p>"<b style="color: #f15a29">AI</b> is <b style="color: #f15a29">revolutionizing</b> cancer diagnosis with new methods making it easier for doctors to examine tissues and identify cancerous cells."</p>
+                <!--<cite>Jane Miller</cite>-->
             </blockquote>
             </div>
         </div>
         <div class="front-row front-row3">
             <div class="row3-container">
                 <div class="text-content">
-                    <h1>Tell website visitors who you are and why they should choose your business.</h1>
-                    <p>Because when a visitor first lands on your website, you're a stranger to them. They have to get to know you in order to want to read your blog posts, subscribe to your email newsletter, or buy what you're selling.</p>
+                    <h1>Who We Are & What We Do</h1>
+                    <p>The AIM Lab (Artificial Intelligence in Medicine Lab) at the University of British Columbia, is dedicated to advancing healthcare through the power of AI. Our team of researchers, engineers, and healthcare professionals work together to develop cutting-edge solutions that address some of the most pressing challenges in medicine. From improving diagnostic accuracy to enhancing treatment outcomes, we combine innovative AI technologies with deep domain expertise to transform healthcare delivery. Whether you're a researcher, healthcare provider, or tech innovator, AIM Lab is your partner in shaping the future of medicine.</p>
                     <button class="cta-button">Find Out More</button>
                 </div>
                 <div class="image-container">
-                    <img src="/img/leaf.jpg" alt="Nature scene">
+                    <img src="/img/front-page-4.png">
                 </div>
             </div>
         </div>
         <div class="front-row front-row4">
-            <div class="front-text-container" style="max-width: 500px;">
-                <div style="font-size: 60px; color: #536942;">QUESTIONS?
+            <div class="row3-container">
+                <div class="image-container">
+                    <img src="/img/front-page-5.png">
                 </div>
-                <div style="font-size: 16px; color: #536942; text-align: center; line-height: 30px;">Whether you’re curious about features, a free trial, or even press, we’re here to answer any questions.
+                <div class="text-content">
+                    <h1>Looking to Collaborate?</h1>
+                    <p>Contact <b style="color: #f15a29">AIMLAB @ UBC</b> to discuss your next project or research opportunity.</p>
                 </div>
             </div>
         </div>
