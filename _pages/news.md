@@ -11,8 +11,6 @@ permalink: /news/
 <div>
     <div class="col-lg-12" style="min-height: 50vh">
     <h4 class="publications-title">News</h4>
-        <div class="twitter-container" style="margin: 0 25px;">
-            <a class="twitter-timeline" data-theme="light" href="https://twitter.com/ABashashati?ref_src=twsrc%5Etfw">Tweets by ABashashati</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
+        <a class="twitter-timeline" data-dnt="true" data-theme="light" href="https://twitter.com/ABashashati?ref_src=twsrc%5Etfw">Tweets by ABashashati</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 </div>
