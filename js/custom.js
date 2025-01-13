@@ -23,30 +23,49 @@ document.addEventListener("DOMContentLoaded", function() {
 
         window.addEventListener('scroll', function() {
             if (window.scrollY > 0) {
-                banner[0].style.backgroundColor =   "#ffffffff";
-                if (arrow[0] != undefined) {
-                    arrow[0].style.display = "none"
-                }
+                if (document.querySelector('.navbar2')) {
+                    // using the 'non-front-page' navbar
+                    
+                } else {
+                    banner[0].style.backgroundColor =   "#ffffffff";
+                    if (arrow[0] != undefined) {
+                        arrow[0].style.display = "none"
+                    }
 
-                navLinks.forEach(link => {
-                    link.style.color = "#0f1419";
-                });
+                    navLinks.forEach(link => {
+                        link.classList.remove('nav-dark');
+                    });
 
-                if (logo) {
-                    logo.src = "/assets/project_pic/AIM_logo_transperant.png";
+                    navLinks.forEach(link => {
+                        link.classList.add('nav-light');
+                    });
+
+                    if (logo) {
+                        logo.src = "/assets/project_pic/AIM_logo_transperant.png";
+                    }
                 }
             } else {
-                banner[0].style.backgroundColor = "#ffffff00";
-                if (arrow[0] != undefined) {
-                    arrow[0].style.display = "unset"
-                }
+                if (document.querySelector('.navbar2')) {
+                    // using the 'non-front-page' navbar
+                    
+                } else {
+                    // front page navbar
+                    banner[0].style.backgroundColor = "#ffffff00";
+                    if (arrow[0] != undefined) {
+                        arrow[0].style.display = "unset"
+                    }
 
-                navLinks.forEach(link => {
-                    link.style.color = "white";
-                });
+                    navLinks.forEach(link => {
+                        link.classList.remove('nav-light');
+                    });
 
-                if (logo) {
-                    logo.src = "/assets/project_pic/AIM_logo_transperant_light.png";
+                    navLinks.forEach(link => {
+                        link.classList.add('nav-dark');
+                    });
+
+                    if (logo) {
+                        logo.src = "/assets/project_pic/AIM_logo_transperant_light.png";
+                    }
                 }
             }
         });

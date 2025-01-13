@@ -1,3 +1,6 @@
+// navbar 1 ==> frontpage navbar
+// navbar 2 ==> other pages navbar
+
 .navbar {
     position: fixed;
     top: 0;
@@ -5,7 +8,6 @@
     right: 0;
 
     display: flex;
-    //justify-content: center;
     justify-content: space-between;
     align-items: center;
 
@@ -14,9 +16,15 @@
     z-index: 5000;
     max-width: 100vw;
     transition: 0.3s ease;
+
     background-color: #ffffff00;
-    //border-bottom-width: 4px;
     border-radius: 0px;
+}
+
+.navbar2 {
+    background-color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+    border-bottom-width: 4px !important;
 }
 
 .navbar-brand {
@@ -33,14 +41,21 @@
 
 .nav > li > a {
     transition: 0.3s ease;
-    color: $text-black;
+    //color: $text-black;
     display: block;
     padding: 10px 15px;
     text-decoration: none;
+}
+
+.nav-light {
+    color: #0f1419;
+}
+
+.nav-dark {
     color:white;
 }
 
-.nav > li > a:hover {
+.nav-light:hover, .nav-dark:hover {
     color: $logo-orange;
 }
 

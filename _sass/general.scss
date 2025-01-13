@@ -9,6 +9,7 @@ html{
     display: flex;
     min-height: 100vh;
     flex-direction: column-reverse;
+    justify-content: flex-end;
 }
 
 body {
@@ -171,4 +172,56 @@ body {
 
 @media (max-width: 768px ) {
     .team-row { flex-direction: column !important; }
+}
+
+.publications-hero-container {
+    position: relative;
+    height: calc(30vh);
+    background-color: rgb(255, 255, 255);
+    background-image: url('/img/glass-slides.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.publications-title {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+}
+
+.news-hero-container {
+    position: relative;
+    height: calc(30vh);
+    background-color: rgb(255, 255, 255);
+    background-image: url('/img/news.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.careers-hero-container {
+    position: relative;
+    height: calc(30vh);
+    background-color: rgb(255, 255, 255);
+    background-image: url('/img/CLEANZONE.JPG');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
