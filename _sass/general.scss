@@ -246,22 +246,22 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 16px;
     padding: 16px 0 ;
-  }
+}
   
-  .gallery-item {
+.gallery-item {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
-  }
+}
   
-  .gallery-item img {
+.gallery-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
-  }
+}
   
-  .gallery-item img:hover {
+.gallery-item img:hover {
     transform: scale(1.1);
-  }
+}
   
