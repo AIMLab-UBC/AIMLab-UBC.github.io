@@ -93,7 +93,7 @@
 }
 
 .front-row {
-    min-height: 300px;
+    min-height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,7 +156,7 @@
 
 .quote-container {
     display: flex;
-    height: 300px;
+    height: 200px;
     align-items: center;
 }
 
@@ -182,6 +182,7 @@ cite {
     display: flex;
     align-items: center;
     padding: 40px;
+    padding-top: 0px;
     max-width: 1250px;
     justify-content: space-between;
 }
@@ -207,11 +208,20 @@ cite {
 
 .cta-button {
     background-color: #ff851b;
-    color: #fff;
+    color: #fff; /* Enforce white text color */
     border: none;
     padding: 12px 24px;
     font-size: 16px;
     cursor: pointer;
+    text-decoration: none; /* No underline */
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cta-button:hover {
+    background-color: #e67300;
+    transform: scale(1.05);
+    color: #fff; /* Ensure text remains white on hover */
 }
 
 .image-container {

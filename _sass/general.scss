@@ -18,6 +18,7 @@ body {
     line-height: 1.428571429;
     margin: 0;
     color:#292929;
+    background-color: #f9f9f9;
     //padding-top: 70px;
 }
 
@@ -215,7 +216,7 @@ body {
     position: relative;
     height: calc(30vh);
     background-color: rgb(255, 255, 255);
-    background-image: url('/img/CLEANZONE.JPG');
+    background-image: url('/img/CLEANZONE_crop.JPG');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -230,8 +231,8 @@ body {
     position: relative;
     height: calc(30vh);
     background-color: rgb(255, 255, 255);
-    background-image: url('/img/nature.jpg');
-    background-position: center bottom;
+    background-image: url('/img/gallery_banner.png');
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0px;
@@ -263,5 +264,16 @@ body {
   
 .gallery-item img:hover {
     transform: scale(1.1);
+}
+
+.news-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.twitter-col, .linkedin-col {
+    flex-basis:50%
 }
   

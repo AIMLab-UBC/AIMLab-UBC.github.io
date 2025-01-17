@@ -52,7 +52,7 @@ permalink: /updated-frontpage/
                 <div class="text-content">
                     <h1>Who We Are & What We Do</h1>
                     <p>The AIM Lab (Artificial Intelligence in Medicine Lab) at the University of British Columbia, is dedicated to advancing healthcare through the power of AI. Our team of researchers, engineers, and healthcare professionals work together to develop cutting-edge solutions that address some of the most pressing challenges in medicine. From improving diagnostic accuracy to enhancing treatment outcomes, we combine innovative AI technologies with deep domain expertise to transform healthcare delivery. Whether you're a researcher, healthcare provider, or tech innovator, AIM Lab is your partner in shaping the future of medicine.</p>
-                    <button class="cta-button">Find Out More</button>
+                    <a href="/about" class="cta-button">Find Out More</a>
                 </div>
                 <div class="image-container">
                     <img src="/img/front-page-4.png">
@@ -61,12 +61,12 @@ permalink: /updated-frontpage/
         </div>
         <div class="front-row front-row4">
             <div class="row3-container">
-                <div class="image-container">
+                <!--<div class="image-container">
                     <img src="/img/front-page-5.png">
-                </div>
-                <div class="text-content">
+                </div>-->
+                <div class="text-content" style="flex-basis:100%">
                     <h1>Looking to Collaborate?</h1>
-                    <p>Contact <b style="color: #f15a29">AIMLAB @ UBC</b> to discuss your next project or research opportunity.</p>
+                    <p>Contact <a href="/careers">AIMLAB @ UBC</a> to discuss your next project or research opportunity.</p>
                 </div>
             </div>
         </div>
