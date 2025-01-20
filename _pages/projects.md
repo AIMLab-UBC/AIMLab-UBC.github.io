@@ -3,7 +3,7 @@ title: "AIM Lab | Projects"
 layout: full-width
 excerpt: "AIM Lab | Projects"
 sitemap: false
-permalink: /projects/
+permalink: /projects-old/
 ---
 
 

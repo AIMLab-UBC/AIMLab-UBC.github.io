@@ -3,7 +3,7 @@ title: "AIM Lab | Jobs"
 layout: default
 excerpt: "AIM Lab | Jobs"
 sitemap: false
-permalink: /jobs/
+permalink: /jobs-old/
 ---
 
 ## Jobs

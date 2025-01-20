@@ -3,7 +3,7 @@ title: "AIM Lab | Home"
 layout: full-width
 excerpt: "AIM Lab | Artificial Intelligence in Medicine Lab."
 sitemap: false
-permalink: /
+permalink: /old-front/
 ---
 
 <div class="front-effect-container">

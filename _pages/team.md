@@ -3,7 +3,7 @@ title: "AIM Lab | Team"
 layout: default
 excerpt: "AIM Lab| Team members"
 sitemap: false
-permalink: /team/
+permalink: /team-old/
 ---
 <div id="gridid" class="col-sm-12">
 <h2 class="project-header" style="padding-top: 24px;">Team Members</h2>
