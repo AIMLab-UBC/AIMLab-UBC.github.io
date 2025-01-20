@@ -55,7 +55,7 @@ permalink: /updated-frontpage/
                     <a href="/about" class="cta-button">Find Out More</a>
                 </div>
                 <div class="image-container">
-                    <img src="/img/front-page-4.png">
+                    <img src="/img/abstractmiddlephoto.png">
                 </div>
             </div>
         </div>
