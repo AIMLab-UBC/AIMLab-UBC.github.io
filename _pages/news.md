@@ -16,7 +16,7 @@ permalink: /news/
                 <a class="twitter-timeline" href="https://twitter.com/ABashashati?ref_src=twsrc%5Etfw">Tweets by ABashashati</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
             <div class="linkedin-col">
-                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7211767321130881024" height="1220" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7211767321130881024" style="min-height:500px; flex:1" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
             </div>
         </div>
     </div>

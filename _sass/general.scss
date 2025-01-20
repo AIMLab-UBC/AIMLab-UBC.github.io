@@ -61,7 +61,6 @@ pubtit {
 #gridid .row { margin-bottom: 0px; }
 
 .col-half {
-    margin: 12px;
     width: 50%;
 }
 
@@ -227,6 +226,12 @@ body {
     justify-content: center;
 }
 
+@media (max-width: 768px ) {
+    .careers-hero-container {
+        height: calc(17vh);
+    }
+}
+
 .gallery-hero-container {
     position: relative;
     height: calc(30vh);
@@ -244,15 +249,15 @@ body {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 16px;
-    padding: 16px 0 ;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust column sizes */
+    padding: 0 20px;
+    align-items: center;
 }
   
 .gallery-item {
     position: relative;
     overflow: hidden;
-    border-radius: 8px;
 }
   
 .gallery-item img {
@@ -271,9 +276,57 @@ body {
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+    padding: 20px;
+
+}
+
+@media (max-width: 768px ) {
+    .news-container {
+        flex-direction: column;
+    }
+
+    .linkedin-col {
+        max-height: 300px;
+        overflow-y: auto;
+        overflow-x: auto;
+    }
+}
+
+.linkedin-col {
+    display: flex;
+    justify-content: center;
+    max-height: 1140px;
 }
 
 .twitter-col, .linkedin-col {
     flex-basis:50%
 }
-  
+
+.styled-list {
+    list-style: none; /* Remove default bullets */
+    padding-left: 20px; /* Indent the list */
+}
+
+.styled-list li {
+    margin-bottom: 10px; /* Space between items */
+    position: relative;
+    padding-left: 30px; /* Space for custom bullet */
+}
+
+.styled-list li::before {
+    content: "❐"; /* A decorative bullet point */
+    color: #6c757d; /* Subtle color for the bullet */
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
+}
+
+.scrollbox {
+    max-height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    background-color: #ffffff;
+    /* border-radius: 5px; */
+}

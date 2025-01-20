@@ -3,7 +3,7 @@
 
 .navbar {
     position: fixed;
-    top: 0;
+    top: env(safe-area-inset-top, 0);
     left: 0;
     right: 0;
 
@@ -16,6 +16,7 @@
     z-index: 5000;
     max-width: 100vw;
     transition: 0.3s ease;
+    border:none;
 
     background-color: #ffffff00;
     border-radius: 0px;
@@ -23,12 +24,21 @@
 
 .navbar2 {
     background-color: #ffffff !important;
-    border: 1px solid #ffffff !important;
-    border-bottom-width: 4px !important;
+    //border: 1px solid #ffffff !important;
+    //border-bottom-width: 4px !important;
+}
+
+.navbar-header {
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-brand {
     float: left;
+    flex: 1;
 }
 
 .nav {
@@ -46,6 +56,17 @@
     padding: 10px 15px;
     text-decoration: none;
 }
+
+@media (max-width: 768px) {
+    .collapse-light {
+        background-color: #ffffff !important;;
+    }
+    .collapse-dark {
+        background-color: #292929e0 !important;
+    
+    }
+}
+
 
 .nav-light {
     color: #0f1419;

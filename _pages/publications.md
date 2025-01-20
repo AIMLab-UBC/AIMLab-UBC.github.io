@@ -11,7 +11,7 @@ permalink: /publications/
 <div>
 {% for member in site.data.team_members %}
 {% if member.name == 'Ali Bashashati' %}
-    <div class="col-lg-12">
+    <div class="col-lg-12" style="padding: 15px 0;">
     {% assign firstname = member.name | split: ' ' | first %}
     {% assign lastname = member.name | split: ' ' | last %}
     {% for paper in site.data.publication_list %}
@@ -26,21 +26,25 @@ permalink: /publications/
     {% endfor %}
     {% if has_papers == true %}
     <h4 class="publications-title">Publications</h4>
-    {% for paper in site.data.publication_list %}
-        {% assign authors = paper.authors | split: ',' %}
-        {% for author in authors %}
-            {% if author contains firstname %}
-                {% if author contains lastname %}
-                    {% if paper.url == nil %}
-                    <p>{{ paper.title }}</p>
-                    {% else %}
-                    <p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></p>
+        <div class="scrollbox">
+            <ul class="styled-list">
+            {% for paper in site.data.publication_list %}
+                {% assign authors = paper.authors | split: ',' %}
+                {% for author in authors %}
+                    {% if author contains firstname %}
+                        {% if author contains lastname %}
+                            {% if paper.url == nil %}
+                            <li><p>{{ paper.title }}</p></li>
+                            {% else %}
+                            <li><p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a></p></li>
+                            {% endif %}
+                        {% endif %}
                     {% endif %}
-                {% endif %}
+                {% endfor %}
+            {% endfor %}
             {% endif %}
-        {% endfor %}
-    {% endfor %}
-    {% endif %}
+            </ul>
+        </div>
     </div>
 {% endif %}
 {% endfor %}

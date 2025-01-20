@@ -23,7 +23,7 @@ permalink: /about/
 {% endif %}
 
 <div class="col-half">
-  <div>
+  <div style="padding: 0 10px;">
       <img src="{{ site.url }}{{ site.baseurl }}/assets/teampic/{{ member.photo }}" class="img-responsive" style="float: left" />
       <h4>{{ member.name }}</h4>
       {% if member.email != 0 %}

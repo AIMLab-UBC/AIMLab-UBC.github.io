@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const arrow = document.getElementsByClassName("arrow");
         const navLinks = document.querySelectorAll('.nav > li > a');
         const logo = document.querySelector('.navbar-brand img')
+        const collapse = document.querySelector('.collapse')
 
         window.addEventListener('scroll', function() {
             if (window.scrollY > 0) {
@@ -39,6 +40,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     navLinks.forEach(link => {
                         link.classList.add('nav-light');
                     });
+
+                    collapse.classList.remove('collapse-dark');
+                    collapse.classList.add('collapse-light');
 
                     if (logo) {
                         logo.src = "/assets/project_pic/AIM_logo_transperant.png";
@@ -62,6 +66,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     navLinks.forEach(link => {
                         link.classList.add('nav-dark');
                     });
+                        
+                    collapse.classList.remove('collapse-light');
+                    collapse.classList.add('collapse-dark');
 
                     if (logo) {
                         logo.src = "/assets/project_pic/AIM_logo_transperant_light.png";

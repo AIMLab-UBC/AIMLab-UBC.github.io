@@ -12,7 +12,7 @@ permalink: /updated-frontpage/
         <div class="front-text-container">
             <!--<div style="font-size: 30px">University of British Columbia
             </div>-->
-            <div style="font-size: 80px;">AI in Medicine Lab
+            <div class="front-title">AI in Medicine Lab
             </div>
             <div style="font-size: 18px">At the interface of computation, engineering and medicine.
             </div>
@@ -20,7 +20,7 @@ permalink: /updated-frontpage/
     </div>
     <div class="front-rows-container">  
         <div class="front-row front-row1">
-        <div class="service-title">Research <b style="background-color: #ffa54e;">Highlights</b></div>
+        <div class="service-title">Research Highlights</div>
             <div class="our-services">
                 <div class="service-item">
                     <img src="/img/front-highlights-1.png">
@@ -64,7 +64,7 @@ permalink: /updated-frontpage/
                 <!--<div class="image-container">
                     <img src="/img/front-page-5.png">
                 </div>-->
-                <div class="text-content" style="flex-basis:100%">
+                <div class="text-content" style="flex-basis:100%; text-align:center;">
                     <h1>Looking to Collaborate?</h1>
                     <p>Contact <a href="/careers">AIMLAB @ UBC</a> to discuss your next project or research opportunity.</p>
                 </div>
