@@ -184,9 +184,15 @@ body {
     background-size: cover;
     margin: 0px;
     overflow: hidden;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .publications-hero-container {
+        display: flex;
+    }
 }
 
 .publications-title {
@@ -322,7 +328,7 @@ body {
 }
 
 .scrollbox {
-    max-height: 500px;
+    max-height: 650px;
     overflow-y: auto;
     overflow-x: hidden;
     /* border: 1px solid #ccc; */

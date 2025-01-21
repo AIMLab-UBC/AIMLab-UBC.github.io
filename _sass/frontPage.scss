@@ -33,10 +33,14 @@
 
 .front-effect-container {
     position: relative;
-    height: calc(80vh - 66px);
-    background-color: rgb(255, 255, 255);
-    margin: 0px;
+    height: calc(50vh - 66px);
+    /* background-color: rgb(255, 255, 255); */
+    /* margin: 0px; */
     overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    .front-effect-container { display: none; }
 }
 
 .front-hero-container {
