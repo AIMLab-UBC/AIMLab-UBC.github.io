@@ -1,3 +1,111 @@
+- title: "How Molecules Impact Cells: Unlocking Contrastive PhenoMolecular Retrieval"
+  authors: Puria Azadi Moghadam, Fradkin Philip, Karush Suri, Frederik Wenkel, Ali Bashashati, Maciej Sypetkowski, Dominique Beaini
+  url: https://arxiv.org/abs/2409.08302
+
+- title: "A Deep Learning Approach for the Identification of the Molecular Subtypes of Pancreatic Ductal Adenocarcinoma Based on Whole Slide Pathology Images"
+  authors: Pouya Ahmadvand, Hossein Farahani, David Farnell, Amirali Darbandsari, James Topham, Joanna Karasinska, Jessica Nelson, Julia Naso, Steven Jones, Daniel Renouf, David Schaeffer, Ali Bashashati
+  url: https://www.sciencedirect.com/science/article/pii/S0002944024003250
+
+- title: "ATEC23 Challenge: Automated Prediction of Treatment Effectiveness in Ovarian Cancer Using Histopathological Images"
+  authors: CW Wang, NP Firdi, TC Chu, MF Faiz, MZ Iqbal, Y Li, B Yang, M Mallya, A Bashashati, F Li, H Wang
+  url: https://www.sciencedirect.com/science/article/abs/pii/S1361841524002676
+
+- title: "Benchmarking Histopathology Foundation Models for Ovarian Cancer Bevacizumab Treatment Response Prediction from Whole Slide Images"
+  authors: Mayur Mallya, Ali Khajegili Mirabadi, Hossein Farahani, Ali Bashashati
+  url: https://arxiv.org/abs/2407.20596
+
+- title: "Benchmarking Bulk and Single-Cell Variant Calling Approaches on Chromium scRNA-seq and scATAC-seq Libraries"
+  authors: Wiens MVJ, Farahani H, Scott RW, Underhill TM, Bashashati A
+  url: https://genome.cshlp.org/content/34/8/1196.short
+
+- title: "AI-Based Histopathology Image Analysis Reveals a Distinct Subset of Endometrial Cancers"
+  authors: Darbandsari A, Farahani H, Asadi M, Wiens M, Cochrane D, Khajegili Mirabadi A, Jamieson A, Farnell D, Ahmadvand P, Douglas M, Leung S, Abolmaesumi P, Jones SJM, Talhouk A, Kommoss S, Gilks CB, Huntsman DG, Singh N, McAlpine JN, Bashashati A
+  url: https://www.nature.com/articles/s41467-024-49017-2
+
+- title: "VOLTA: An Environment-Aware Contrastive Cell Representation Learning for Histopathology"
+  authors: Ramin Nakhli, Katherine Rich, Allen Zhang, Amirali Darbandsari, Elahe Shenasa, Sydney Thiessen, Katy Milne, Jessica McAlpine, Brad Nelson, C Blake Gilk, Hossein Farahani, Ali Bashashati
+  url: https://www.nature.com/articles/s41467-024-48062-1
+
+- title: "Practical Application of Deep Learning in Diagnostic Neuropathology - Reimagining a Histological Asset in the Era of Precision Medicine"
+  authors: Rich K, Tosefsky K, Martin KC, Bashashati A, Yip S
+  url: https://www.mdpi.com/2072-6694/16/11/1976
+
+- title: "Multi-Scale Relational Graph Convolutional Network for Multiple Instance Learning in Histopathology Images"
+  authors: R Bazargani, L Fazli, M Gleave, L Goldenberg, A Bashashati, S Salcudean
+  url: https://www.sciencedirect.com/science/article/pii/S1361841524001221
+
+- title: "Prostate Cancer Risk Stratification by Digital Histopathology and Deep Learning"
+  authors: Y Shao, R Bazargani, D Karimi, J Wang, L Fazli, SL Goldenberg, ME Gleave, PC Black, A Bashashati, S Salcudean
+  url: https://ascopubs.org/doi/full/10.1200/CCI.23.00184
+
+- title: "Learning Generalizable AI Models for Multi-Center Histopathology Image Classification"
+  authors: M Asadi-Aghbolaghi, A Darbandsari, A Zhang, A Contreras-Sanz, J Boschman, P Ahmadvand, M Köbel, D Farnell, DG Huntsman, A Churg, PC Black, G Wang, CB Gilks, H Farahani, A Bashashati
+  url: https://www.nature.com/articles/s41698-024-00652-4
+
+- title: "Harmonized Molecular Classification; Assessment of a Single-Test ProMisE NGS Tool"
+  authors: A Jamieson, MK McConechy, A Lum, S Leung, EF Thompson, J Senz, A Talhouk, DG Huntsman, A Bashashati, CB Gilks, JN McAlpine
+  url: https://www.sciencedirect.com/science/article/abs/pii/S0090825823003268
+
+- title: "CO-PILOT: Dynamic Top-Down Point Cloud with Conditional Neighborhood Aggregation for Multi-Gigapixel Histopathology Image Representation"
+  authors: Ramin Nakhli, Allen Zhang, Ali Khajegili, Katherine Rich, Maryam Asadi, C. Blake Gilks, Hossein Farahani, Ali Bashashati
+  url: https://openaccess.thecvf.com/content/ICCV2023/html/Nakhli_CO-PILOT_Dynamic_Top-Down_Point_Cloud_with_Conditional_Neighborhood_Aggregation_for_ICCV_2023_paper.html
+
+- title: "ALL-IN: A Local Global Graph-based Distillation Model for Representation Learning of Gigapixel Histopathology Images With Application In Cancer Risk Assessment"
+  authors: Puria Azadi, Jonothan Suderman, Ramin Nakhli, Katherine Rich, Maryam Asadi, Sonia Kung, Htoo Zarni, M. Keyes, Hossein Farahani, Calum McAulay, Larry Goldenberg, Peter Black, Ali Bashashati
+  url: https://link.springer.com/chapter/10.1007/978-3-031-43987-2_74 
+
+- title: "Sparse Multi-Modal Graph Transformer with Shared-Context Processing for Representation Learning of Giga-pixel Images"
+  authors: Ramin Nakhli, Puria Azadi Moghadam, Haoyang Mi, Hossein Farahani, Alexander Baras, Blake Gilks, Ali Bashashati
+  url: https://openaccess.thecvf.com/content/CVPR2023/html/Nakhli_Sparse_Multi-Modal_Graph_Transformer_With_Shared-Context_Processing_for_Representation_Learning_CVPR_2023_paper.html
+
+- title: "Artificial Intelligence and Pathomics: Prostate Cancer"
+  authors: Puria Azadi, Ali Bashashati, Larry Goldenberg
+  url: https://www.urologic.theclinics.com/article/S0094-0143(23)00052-6/abstract
+
+- title: "A Morphology Focused Diffusion Probabilistic Model for Synthesis of Histopathology Images"
+  authors: Puria Azadi Moghadam, Sanne van Delen, Karina C. Martin, Jochen Lennerz, Stephen Yip, Hossein Farahani, Ali Bashashati
+  url: https://openaccess.thecvf.com/content/WACV2023/html/Moghadam_A_Morphology_Focused_Diffusion_Probabilistic_Model_for_Synthesis_of_Histopathology_WACV_2023_paper.html
+
+- title: "A Novel H&E Color Augmentation for Unannotated Domain Invariance Histopathology Prostate Cancer Classification"
+  authors: Roozbeh Bazargani, Wanwen Chen, Sadaf Sadeghian, Maryam Asadi, Jeffrey Boschman, Amirali Darbandsari, Ali Bashashati, Septimiu Salcudean
+  url: https://www.researchgate.net/publication/369897274_A_novel_H_and_E_color_augmentation_for_domain_invariance_classification_of_unannotated_histopathology_prostate_cancer_images
+
+- title: "Gastrointestinal Symptoms and the Severity of COVID-19: Disorders of Gut-Brain Interaction Are an Outcome"
+  authors: Ramin Ebrahim Nakhli, Aaron Shanker, Irene Sarosiek, Jeffrey Boschman, Karina Espino, Solmaz Sigaroodi, Ihsan Al Bayati, Sherif Elhanafi, Amin Sadeghi, Jerzy Sarosiek, Marc J Zuckerman, Ali Rezaie, Richard W McCallum, Max J Schmulson, Ali Bashashati, Mohammad Bashashati
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1111/nmo.14368
+
+- title: "AI for Prostate Cancer Diagnosis - Hype or Today’s Reality?"
+  authors: Ali Bashashati, S Larry Goldenberg
+  url: https://www.nature.com/articles/s41585-022-00583-4
+
+- title: "CCRL: Contrastive Cell Representation Learning"
+  authors: Ramin Ebrahim Nakhli, Amirali Darbandsari, Hossein Farahani, Ali Bashashati
+  url: https://link.springer.com/chapter/10.1007/978-3-031-25082-8_26
+
+- title: "Tumor Associated Antigen PRAME Exhibits Dualistic Functions That Are Targetable in Diffuse Large B-Cell Lymphoma"
+  authors: Katsuyoshi Takata, Lauren C Chong, Daisuke Ennishi, Tomohiro Aoki, Michael Yu Li, Avinash Thakur, Shannon Healy, Elena Viganò, Tao Dao, Daniel Kwon, Gerben Duns, Julie S Nielsen, Susana Ben-Neriah, Ethan Tse, Stacy S Hung, Merrill Boyle, Sung Soo Mun, Christopher M Bourne, Bruce Woolcock, Adèle H Telenius, Makoto Kishida, Shinya Rai, Allen W Zhang, Ali Bashashati, Saeed Saberi, Gianluca D'Antonio, Brad H Nelson, Sohrab P Shah, Pamela A Hoodless, Ari M Melnick, Randy D Gascoyne, Joseph M Connors, David A Scheinberg, Wendy Béguelin, David W Scott, Christian Steidl
+  url: https://www.jci.org/articles/view/145343?elqTrackId=5d3fe62a19304cf19bfee49e1342ae8a
+
+- title: "Deep Learning-Based Histotype Diagnosis of Ovarian Carcinoma Whole-Slide Pathology Images"
+  authors: Hossein Farahani, Jeffrey Boschman, David Farnell, Amirali Darbandsari, Allen Zhang, Pouya Ahmadvand, Ashley van Spankeren, Steven Jones, Martin Koebel, David Huntsman, C Blake Gilks, Naveena Singh, Ali Bashashati
+  url: https://www.sciencedirect.com/science/article/pii/S0893395222055107
+
+- title: "The Utility of Color Normalization for AI-Based Diagnosis of Hematoxylin and Eosin-Stained Pathology Images"
+  authors: Jeffrey Boschman, Hossein Farahani, Amirali Darbandsari, Pouya Ahmadvand, Ashley Van Spankeren, David Farnell, Adrian Levine, Julia R. Naso, Andrew Churg, Steven Jones, Stephen Yip, Martin Koebel, David Huntsman, Blake Gilks, Ali Bashashati
+  url: https://biomed.reviewer.ly/app/publication/7b1044c7-e104-47b5-95b7-1b6d30c8681f
+
+- title: "Deep Learning-Based Classification Distinguishes Sarcomatoid Malignant Mesotheliomas from Benign Spindle Cell Mesothelial Proliferations"
+  authors: Julia R. Naso, Adrian B. Levine, Hossein Farahani, Lucian R. Chirieac, Sanja Dacic, Joanne L. Wright, Chi Lai, Hui-Min Yang, Steven J. M. Jones, Ali Bashashati, Stephen Yip, Andrew Churg
+  url: https://www.nature.com/articles/s41379-021-00850-6
+
+- title: "Adult-Type Granulosa Cell Tumor of the Ovary: A FOXL2-Centric Disease"
+  authors: Jessica A Pilsworth, Dawn R Cochrane, Samantha J Neilson, Bahar H Moussavi, Daniel Lai, Asl? D Munzur, Janine Senz, Yi Kan Wang, Sina Zareian, Ali Bashashati, Adele Wong, Jacqueline Keul, Annette Staebler, Hannah S van Meurs, Hugo M Horlings, Stefan Kommoss, Friedrich Kommoss, Esther Oliva, Anniina EM Färkkilä, Blake Gilks, David G Huntsman
+  url: https://pubmed.ncbi.nlm.nih.gov/33428330/
+
+- title: "Endometrial cancer molecular risk stratification is equally prognostic for endometrioid ovarian carcinoma"
+  authors: Pauline Krämer, Aline Talhouk, Mary Anne Brett, Derek S. Chiu, Evan S. Cairns, Daniëlla A. Scheunhage, Rory F. L. Hammond, David Farnell, Tayyebeh M. Nazeran, Marcel Grube, Zhouchunyang Xia, Janine Senz, Samuel Leung, Lukas Feil, Jana Pasternak, Katherine Dixon, Andreas Hartkopf, Bernhard Krämer, Sara Brucker, Florian Heitz, Andreas du Bois, Philipp Harter, Felix K. F. Kommoss, Hans-Peter Sinn, Sabine Heublein, Friedrich Kommoss, Hans-Walter Vollert, Ranjit Manchanda, Cornelis D. de Kroon, Hans W. Nijman, Marco de Bruyn, Emily F. Thompson, Ali Bashashati, Jessica N. McAlpine, Naveena Singh, Anna V. Tinker, Annette Staebler, Tjalling Bosse, Stefan Kommoss, Martin Köbel, Michael S. Anglesio
+  url: https://aacrjournals.org/clincancerres/article-abstract/26/20/5400/82797/Endometrial-Cancer-Molecular-Risk-Stratification
+
 - title: "Synthesis of diagnostic quality cancer pathology images"
   authors: Adrian B. Levine, Jason Peng, David Farnell, Mitchell Nursey, Yiping Wang, Julia R. Naso, Hezhen Ren, Hossein Farahani, Colin Chen, Derek Chiu, Aline Talhouk, Brandon Sheffield, Maziar Riazy, Philip P. Ip, Carlos Parra-Herran, Anne Mills, Naveena Singh, Basile Tessier-Cloutier, Taylor Salisbury, Jonathan Lee, Tim Salcudean, Steven J.M. Jones, David G. Huntsman, C. Blake Gilks, Stephen Yip, Ali Bashashati
   url: https://doi.org/10.1101/2020.02.24.963553
