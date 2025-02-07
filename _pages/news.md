@@ -21,7 +21,6 @@ permalink: /news/
         </div>
     </div>
 </div>
-
             </div>
             <div class="linkedin-col">
                 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7211767321130881024" style="min-height:500px; flex:1" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
