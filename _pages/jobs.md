@@ -20,8 +20,8 @@ Note 2: We review ALL the applications that we receive but unfortunately cannot 
 
 Note 3: Our preference is to admit PhD students. Therefore, outstanding applicants with BSc degrees will be considered for direct admission to PhD program. 
 
-### Post-doctoral position in machine learning for medical imaging and bioinformatics
-To view the job description and apply please visit: [Post-doctoral position](https://docs.google.com/forms/d/1ZitNWNpyYSc4i54Qe4RRTurcqm9U7_C_B8SXtBVtwKE/viewform?edit_requested=true)
+### Post-doctoral or staff positions in machine learning for medical imaging, bioinformatics, language models, and time series analysis
+To view the job description and apply please fill out the: [Application Form](https://docs.google.com/forms/d/1ZitNWNpyYSc4i54Qe4RRTurcqm9U7_C_B8SXtBVtwKE/viewform?edit_requested=true)
 Please also send a note to h.farahani at ubc.ca once you have submitted your application. 
 
 ### Note 
