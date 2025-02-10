@@ -293,6 +293,21 @@
   education3: BSc in Computer Engineering, University of Tehran, Iran
   alumni: 0
 
+  - name: Tina Zhang
+  photo: 
+  info: MASc student 
+  email: mailto:tina.zhang@ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/tina-zhang-88275a1b7/
+  google_scholar: 0
+  number_educ: 3
+  education1: MASc student in Biomedical Engineering, University of British Columbia, Canada
+  education2: BASc in Biomedical Engineering (Bioinformatics) and minor in Biochemistry, University of British Columbia, Canada
+  education3: 0
+  alumni: 0
+
 ######### Alumni Below #########
 
 # Jan 2024
