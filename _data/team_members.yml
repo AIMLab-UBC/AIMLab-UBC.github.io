@@ -77,6 +77,20 @@
   education3: BSc in Computer Engineering (Software), Isfahan University, Iran
   alumni: 0
 
+- name: Matthew Wiens
+  photo: MatthewWiens.jpeg
+  info: Machine Learning Engineer
+  email: mailto:matthew.v.wiens@ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc student in Biomedical Engineering, University of British Columbia, Canada
+  education2: BSc in Electrical Engineering (minor in Computer Engineering), University of Calgary, Canada
+  alumni: 0
+
 # Sept 2020
 - name: Ramin Nakhli
   photo: Ramin.jpg
@@ -541,20 +555,6 @@
   desc: "Currently, I am a senior Honours BSc student in the Department of Computer Science at the University of Victoria. My interest and enthusiasm for Computer Vision and Medical Image Processing. I explore how to use medical image data and machine learning to help doctors make decisions. I am broadly interested in machine learning for improving lesion detection and classification, anatomical structure segmentation and quantification, cancer diagnosis and therapy. In a nutshell, I study and apply computer vision and machine learning for medical imaging."
   alumni: 1
   
-- name: Matthew Wiens
-  photo: MatthewWiens.jpeg
-  info: Graduate Student
-  email: mailto:matthew.v.wiens@ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 2
-  education1: MASc student in Biomedical Engineering, University of British Columbia, Canada
-  education2: BSc in Electrical Engineering (minor in Computer Engineering), University of Calgary, Canada
-  alumni: 1
-
 - name: Yang Xia
   photo: yxia.jpg
   info: Co-op Student
