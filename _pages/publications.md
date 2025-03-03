@@ -1,8 +1,8 @@
 ---
 title: "AIM Lab | Publications"
-layout: default-updated-styles
+layout: default
 excerpt: "AIM Lab | Publications"
-sitemap: false
+sitemap: true
 permalink: /publications/
 ---
 <div class="publications-hero-container">

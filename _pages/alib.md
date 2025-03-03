@@ -2,8 +2,8 @@
 title: "AIM Lab | Ali Bashashati"
 layout: default
 excerpt: "AIM Lab | Ali Bashashati"
-sitemap: false
-permalink: /team/alib
+sitemap: true
+permalink: /about/alib
 team_member_name: Ali Bashashati
 ---
 

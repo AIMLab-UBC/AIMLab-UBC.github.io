@@ -2,76 +2,73 @@
 title: "AIM Lab | Home"
 layout: full-width
 excerpt: "AIM Lab | Artificial Intelligence in Medicine Lab."
-sitemap: false
-permalink: /old-front/
+sitemap: true
+permalink: /
 ---
 
-<div class="front-effect-container">
-    <div class="arrow-container">
-        <div class="arrow"></div>
-    </div>
-    <img class="image" data-index="0" data-status="inactive" src="../img/front_effect/OvCa-Zoom.jpg" />
-    <img class="image" data-index="1" data-status="inactive" src="../img/front_effect/OvCa-Zoom7.jpg" />
-    <img class="image" data-index="2" data-status="inactive" src="../img/front_effect/OvCa-Zoom6.jpg" />
-    <img class="image" data-index="3" data-status="inactive" src="../img/front_effect/OvCa-Zoom8.jpg" />
-    <img class="image" data-index="4" data-status="inactive" src="../img/front_effect/OvCa-Zoom12.jpg" />
-    <img class="image" data-index="5" data-status="inactive" src="../img/front_effect/OvCa-Zoom9.jpg" />
-    <img class="image" data-index="6" data-status="inactive" src="../img/front_effect/OvCa-Zoom13.jpg" />
-    <img class="image" data-index="7" data-status="inactive" src="../img/front_effect/OvCa-Zoom15.jpg" />
-    <img class="image" data-index="8" data-status="inactive" src="../img/front_effect/OvCa-Zoom3.jpg" />
-    <img class="image" data-index="9" data-status="inactive" src="../img/front_effect/OvCa-Zoom11.jpg" />
-    <img class="image" data-index="10" data-status="inactive" src="../img/front_effect/OvCa-Zoom10.jpg" />
-    <img class="image" data-index="11" data-status="inactive" src="../img/front_effect/OvCa-Zoom4.jpg" />
-    <img class="image" data-index="12" data-status="inactive" src="../img/front_effect/OvCa-Zoom2.jpg" />
-    <img class="image" data-index="13" data-status="inactive" src="../img/front_effect/OvCa-Zoom14.jpg" />
-    <img class="image" data-index="14" data-status="inactive" src="../img/front_effect/OvCa-Zoom5.jpg" />
-</div>
 
-<div>
-    <div class="container-fluid front-textbox">
-        <div class="section">
-            <div>
-                <h1 class="title"><b>Welcome to AIM Lab at UBC</b></h1>
-                <p style="font-size: 18px">
-                The <b>Artificial Intelligence in Medicine (AIM) Lab</b>'s research lies in the interface between computation, engineering and biomedicine.
-                <br><br>
-                We're interested in developing machine learning algorithms and software to combine sources of omics and imaging data with an emphasis on discovering novel biological information and biomarkers which can be used for treatment selection in cancer.
-                <br><br>
-                </p>
+<div class="updated-pages">
+    <div class="front-hero-container">
+        <div class="front-text-container">
+            <!--<div style="font-size: 30px">University of British Columbia
+            </div>-->
+            <div class="front-title">AI in Medicine Lab
+            </div>
+            <div style="font-size: 18px">At the interface of computation, engineering and medicine.
             </div>
         </div>
     </div>
-    <div class="front-banner"><a href="/projects" class="btn front-btn">➥ Research Highlights 📝</a>
-    </div>
-    <div class="front-image-container">
-        <div class="swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img class="front-image" src="../img/Meetup7.jpg"/>
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="front-image" src="../img/Meetup6.jpg"/>
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="front-image" src="../img/Meetup1.jpg"/>
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="front-image" src="../img/Meetup2.jpg"/>
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="front-image" src="../img/Meetup3.jpg"/>
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="front-image" src="../img/Meetup4.jpg"/>
-                    </div>
-                    <div class="swiper-slide">
-                        <img class="front-image" src="../img/Meetup5.JPG"/>
-                    </div>
+    <div class="front-rows-container">  
+        <div class="front-row front-row1">
+        <div class="service-title">Research Highlights</div>
+            <div class="our-services">
+                <div class="service-item">
+                    <img src="/img/front-highlights-1.png">
+                    <h3>Learning generalizable AI models for multi-center histopathology image classification</h3>
+                    <p>Histopathology—the study of tissue samples under a microscope—is a key method for diagnosing cancer. Pathologists examine slides to identify cancerous cells, but the process is time-consuming and prone to variability, especially with differences in tissue preparation and slide staining.</p>
                 </div>
-            <div class="swiper-pagination"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-scrollbar"></div>
+                <div class="service-item">
+                    <img src="/img/front-highlights-2.png">
+                    <h3>AI-based histopathology image analysis reveals a distinct subset of endometrial cancers</h3>
+                    <p>This research focuses on improving the classification of endometrial cancer (EC), a cancer that affects the lining of the uterus. Endometrial Cancer (EC) has four molecular subtypes, each with different implications for prognosis and treatment.</p>
+                </div>
+                <div class="service-item">
+                    <img src="/img/front-highlights-3.png">
+                    <h3>VOLTA: an enVironment-aware cOntrastive ceLl represenTation leArning for histopathology</h3>
+                    <p>This research introduces a new machine learning framework called VOLTA (enVironment-aware cOntrastive cell represenTation learning), designed to improve how cells are identified in histopathology images, which are critical for diagnosing cancer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="front-row front-row2">
+            <div class="quote-container">
+            <blockquote>
+                <p>"<b style="color: #f15a29">AI</b> is <b style="color: #f15a29">revolutionizing</b> cancer diagnosis with new methods making it easier for doctors to examine tissues and identify cancerous cells."</p>
+                <!--<cite>Jane Miller</cite>-->
+            </blockquote>
+            </div>
+        </div>
+        <div class="front-row front-row3">
+            <div class="row3-container">
+                <div class="text-content">
+                    <h1>Who We Are & What We Do</h1>
+                    <p>The AIM Lab (Artificial Intelligence in Medicine Lab) at the University of British Columbia, is dedicated to advancing healthcare through the power of AI. Our team of researchers, engineers, and healthcare professionals work together to develop cutting-edge solutions that address some of the most pressing challenges in medicine. From improving diagnostic accuracy to enhancing treatment outcomes, we combine innovative AI technologies with deep domain expertise to transform healthcare delivery. Whether you're a researcher, healthcare provider, or tech innovator, AIM Lab is your partner in shaping the future of medicine.</p>
+                    <a href="/about" class="cta-button">Find Out More</a>
+                </div>
+                <div class="image-container">
+                    <img src="/img/abstractmiddlephoto.png">
+                </div>
+            </div>
+        </div>
+        <div class="front-row front-row4">
+            <div class="row3-container">
+                <!--<div class="image-container">
+                    <img src="/img/front-page-5.png">
+                </div>-->
+                <div class="text-content" style="flex-basis:100%; text-align:center;">
+                    <h1>Looking to Collaborate?</h1>
+                    <p>Contact <a href="/careers">AIMLAB @ UBC</a> to discuss your next project or research opportunity.</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>

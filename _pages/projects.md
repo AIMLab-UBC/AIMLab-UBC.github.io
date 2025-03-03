@@ -1,14 +1,14 @@
 ---
 title: "AIM Lab | Projects"
-layout: full-width
+layout: default
 excerpt: "AIM Lab | Projects"
-sitemap: false
-permalink: /projects-old/
+sitemap: true
+permalink: /projects/
 ---
 
 
 <div class="container-projects">
-<h2>Research Highlights</h2>
+<h2 class="publications-title">Research Highlights</h2>
 
 {% assign number_printed = 0 %}
 {% for project in site.data.project_list %}
@@ -58,7 +58,7 @@ permalink: /projects-old/
 
 <div class="project-item last-project-item">
     <span class="project-btns">
-        <a type="button" class="btn" href="../team/alib" style="font-weight: normal; font-size: 32px;">📜...</a>
+        <a type="button" class="btn" href="/publications" style="font-weight: normal; font-size: 32px;">📜...</a>
     </span>
 </div>
 

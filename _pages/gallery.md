@@ -1,8 +1,8 @@
 ---
 title: "AIM Lab | Gallery"
-layout: default-updated-styles
+layout: default
 excerpt: "AIM Lab | Gallery"
-sitemap: false
+sitemap: true
 permalink: /gallery/
 ---
 <div class="gallery-hero-container">

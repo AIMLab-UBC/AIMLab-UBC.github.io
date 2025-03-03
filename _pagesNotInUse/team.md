@@ -1,12 +1,12 @@
 ---
-title: "AIM Lab | About"
-layout: default-updated-styles
-excerpt: "AIM Lab| About"
+title: "AIM Lab | Team"
+layout: default
+excerpt: "AIM Lab| Team members"
 sitemap: false
-permalink: /about/
+permalink: /team-old/
 ---
 <div id="gridid" class="col-sm-12">
-<h2 class="project-header" style="padding-top: 24px;">Our Team</h2>
+<h2 class="project-header" style="padding-top: 24px;">Team Members</h2>
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
@@ -23,7 +23,7 @@ permalink: /about/
 {% endif %}
 
 <div class="col-half">
-  <div style="padding: 0 10px;">
+  <div>
       <img src="{{ site.url }}{{ site.baseurl }}/assets/teampic/{{ member.photo }}" class="img-responsive" style="float: left" />
       <h4>{{ member.name }}</h4>
       {% if member.email != 0 %}

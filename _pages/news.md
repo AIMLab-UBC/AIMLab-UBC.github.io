@@ -1,8 +1,8 @@
 ---
 title: "AIM Lab | News"
-layout: default-updated-styles
+layout: default
 excerpt: "AIM Lab | News"
-sitemap: false
+sitemap: true
 permalink: /news/
 ---
 <div class="news-hero-container">

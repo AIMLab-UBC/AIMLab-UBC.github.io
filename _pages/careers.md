@@ -1,8 +1,8 @@
 ---
 title: "AIM Lab | Careers"
-layout: default-updated-styles
+layout: default
 excerpt: "AIM Lab | Careers"
-sitemap: false
+sitemap: true
 permalink: /careers/
 ---
 <div class="careers-hero-container">
