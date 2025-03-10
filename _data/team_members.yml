@@ -318,8 +318,24 @@
   google_scholar: 0
   number_educ: 2
   education1: Msc in Bioinformatics, University of British Columbia, Canada 
-  education2: BSc in Biology and Mathematics, McGill, Canada 
+  education2: BSc in Biology and Mathematics, McGill, Canada
   alumni: 0
+
+- name: Maryamsadat Rasoulidanesh
+  photo: maryamhchi.jpg 
+  info: PhD student
+  email: 0
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 3
+  education1: PhD in  Engineering Science, Simon Fraser University, Canada
+  education2: MSc in Electrical Engineering, K.N.Toosi University of technology, Iran
+  education3: BSc in computer Engineering, K.N.Toosi University of technology, Iran
+  alumni: 0
+
 
 ######### Alumni Below #########
 
