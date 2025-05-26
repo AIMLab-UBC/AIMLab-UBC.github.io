@@ -278,21 +278,6 @@
   education2: BSc in Electrical Engineering, Qingdao University of Science and Technology, China
   alumni: 0
 
-- name: Faezeh Moradi
-  photo: faezeh.jpg
-  info: Research Intern
-  email: mailto:Faezeh.moradi@dal.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 3
-  education1: PhD Candidate in Computer Science, Dalhousie University, Halifax, Canada
-  education2: MSc in Computer Engineer, University of Tehran, Iran
-  education3: BSc in Computer Engineering, University of Tehran, Iran
-  alumni: 0
-
 - name: Tina Zhang
   photo: tina.jpg
   info: MASc student 
@@ -320,21 +305,7 @@
   education1: Msc in Bioinformatics, University of British Columbia, Canada 
   education2: BSc in Biology and Mathematics, McGill, Canada
   alumni: 0
-
-- name: Maryamsadat Rasoulidanesh
-  photo: maryamchi.jpg 
-  info: Post-doctoral Fellow
-  email: Rasoulidanesh.m@gmail.com
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: https://ca.linkedin.com/in/maryamsadat-rasoulidanesh
-  google_scholar: 0
-  number_educ: 3
-  education1: PhD in  Engineering Science, Simon Fraser University, Canada
-  education2: MSc in Electrical Engineering, K.N.Toosi University of technology, Iran
-  education3: BSc in computer Engineering, K.N.Toosi University of technology, Iran
-  alumni: 0
+  
 
 - name: Chen Liu
   photo: chen.png
