@@ -337,6 +337,21 @@
   education3: BSc in Biomedical Engineering, Yanshan University, China  
   alumni: 0
 
+  - name: Marvin Wang
+  photo: marvin.jpeg
+  info: MASc Student
+  email: mwu584@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/marvinwu101/
+  google_scholar: 0
+  number_educ: 2
+  education1: MASc Student in Biomedical Engineering, University of British Columbia, Canada
+  education2: BASc in Biomedical Engineering, University of British Columbia, Canada
+  education3: 0
+  alumni: 0
+
 - name: Ghazal Fallahpour
   photo: ghazal.jpeg
   info: Co-op Student
