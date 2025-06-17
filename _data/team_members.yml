@@ -355,7 +355,7 @@
 - name: Ghazal Fallahpour
   photo: ghazal.jpeg
   info: Co-op Student
-  email: ghazalfa@icloud.com
+  email: mailto:ghazalfa@icloud.com
   website: 0
   github: 0
   twitter: 0
@@ -368,7 +368,7 @@
 - name: Abteen Arab
   photo: abteen.jpeg
   info: Co-op Student
-  email: abteen.a@gmail.com
+  email: mailto:abteen.a@gmail.com
   website: 0
   github:  https://github.com/Abteen-Arab
   twitter: 0
