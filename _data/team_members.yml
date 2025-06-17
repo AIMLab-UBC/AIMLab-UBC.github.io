@@ -310,7 +310,7 @@
 - name: Chen Liu
   photo: chen.png
   info: Research Assistant
-  email: chenliu5@student.ubc.ca
+  email: mailto:chenliu5@student.ubc.ca
   website: 0
   github: 0
   twitter: 0
@@ -325,7 +325,7 @@
 - name: Zeyu Zhang
   photo: zeyu.jpg
   info: PhD Student
-  email: zeyuzzy@student.ubc.ca
+  email: mailto:zeyuzzy@student.ubc.ca
   website: 0
   github: 0
   twitter: 0
@@ -340,7 +340,7 @@
 - name: Marvin Wu
   photo: Marvin.jpeg
   info: MASc Student
-  email: mwu584@student.ubc.ca
+  email: mailto:mwu584@student.ubc.ca
   website: 0
   github: 0
   twitter: 0
