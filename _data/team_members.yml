@@ -684,3 +684,20 @@
   google_scholar: 0
   number_educ: 0
   alumni: 1
+
+- name: Faezeh Moradi
+  photo: faezeh.jpg
+  info: Machine-learning Researcher
+  email: mailto:faezeh.moradi@dal.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: www.linkedin.com/in/faezehmoradi-
+  google_scholar: 0
+  number_educ: 3
+  education1: PhD Candidate at Dalhousie University, Canada
+  education2: MSc in Computer Engineering, University of Tehran, Iran
+  education3: BSc in Software Engineering, University of Tehran, Iran
+  page_name: 0
+  desc: 0
+  alumni: 1
