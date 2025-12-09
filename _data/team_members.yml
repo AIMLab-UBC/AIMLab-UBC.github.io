@@ -77,20 +77,6 @@
   education3: BSc in Computer Engineering (Software), Isfahan University, Iran
   alumni: 0
 
-- name: Matthew Wiens
-  photo: MatthewWiens.jpeg
-  info: Machine Learning Engineer
-  email: mailto:matthew.v.wiens@ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 2
-  education1: MSc student in Biomedical Engineering, University of British Columbia, Canada
-  education2: BSc in Electrical Engineering (minor in Computer Engineering), University of Calgary, Canada
-  alumni: 0
-
 - name: Chengyou Liu
   photo: chengyou.jpg
   info: Machine Learning Software Developer
@@ -103,22 +89,6 @@
   number_educ: 2
   education1: MSc in Electrical & Computer Engineering, University of Manitoba, Canada
   education2: BEng in Electronic Information Science and Technology, Xiamen University, China
-  alumni: 0
-
-# Sept 2020
-- name: Ramin Nakhli
-  photo: Ramin.jpg
-  info: PhD Student
-  email: mailto:raminnak@student.ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 3
-  education1: PhD student in Biomedical Engineering, University of British Columbia, Canada
-  education2: MSc in Computer Engineering (Artificial Intelligence), University of Tehran, Iran
-  education3: BSc in Electrical Engineering, Sharif University of Technology, Iran
   alumni: 0
 
 # Sept 2020
@@ -409,6 +379,36 @@
   google_scholar: 0
   number_educ: 1
   education1: BSc in Computer Science, University of British Columbia, Canada
+  alumni: 1
+
+  # Jan 2024
+- name: Ramin Nakhli
+  photo: Ramin.jpg
+  info: PhD Student
+  email: mailto:raminnak@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 3
+  education1: PhD student in Biomedical Engineering, University of British Columbia, Canada
+  education2: MSc in Computer Engineering (Artificial Intelligence), University of Tehran, Iran
+  education3: BSc in Electrical Engineering, Sharif University of Technology, Iran
+  alumni: 1
+
+- name: Matthew Wiens
+  photo: MatthewWiens.jpeg
+  info: Machine Learning Engineer
+  email: mailto:matthew.v.wiens@ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 2
+  education1: MSc student in Biomedical Engineering, University of British Columbia, Canada
+  education2: BSc in Electrical Engineering (minor in Computer Engineering), University of Calgary, Canada
   alumni: 1
 
 # Jan 2024
