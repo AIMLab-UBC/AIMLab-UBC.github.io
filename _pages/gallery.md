@@ -10,12 +10,13 @@ permalink: /gallery/
 
 <h4 class="publications-title">Gallery</h4>
 <div class="gallery">
-  {% for image in site.static_files %}
-    {% if image.path contains '/img/gallery_pics/' %}
-      <div class="gallery-item">
-        <img src="{{ image.path }}" alt="Gallery Image">
+  {% for item in site.data.gallery_images %}
+    <div class="gallery-item">
+      <img src="{{ item.image }}" alt="{{ item.title | escape }}">
+      <div class="gallery-caption">
+        {{ item.description }}
       </div>
-    {% endif %}
+    </div>
   {% endfor %}
 </div>
 
