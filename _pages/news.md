@@ -13,16 +13,16 @@ permalink: /news/
     <h4 class="publications-title">News</h4>
         <div class="news-container">
             <div class="linkedin-col">
-                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7377420234372210688" style="min-height:700px; flex:1" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7432502480799719424?collapsed=1" style="min-height:700px; flex:1" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
             </div>
             <div class="linkedin-col">
-                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7195450423216939008" style="min-height:700px; flex:1" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7424972272257597441?collapsed=1" style="min-height:700px; flex:1" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
             </div>
             <div class="linkedin-col">
-                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7319457791583170560" style="min-height:700px; flex:1" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7398942486175449089?collapsed=1" style="min-height:700px; flex:1" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
             </div>
             <div class="linkedin-col">
-                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7211767321130881024" style="min-height:700px; flex:1" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+                <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7388103607226789888?collapsed=1" style="min-height:700px; flex:1" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
             </div>
         </div>
     </div>
