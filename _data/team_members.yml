@@ -31,37 +31,8 @@
   education4: BSc in Mechanical Engineering, Sharif University of Technology, Iran
   alumni: 0
 
-- name: Maryam Asadi
-  photo: maryam.png
-  info: Post-doctoral Fellow
-  email: mailto:maryam.asadi@ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/maryam-asadi-40556170
-  google_scholar: https://scholar.google.com/citations?user=8UqpIK8AAAAJ&hl=en&oi=ao
-  number_educ: 3
-  education1: PhD in Computer Engineering (Artificial Intelligence), Sharif University of Technology, Iran
-  education2: MSc in Software Engineering, IUST, Iran
-  education3: BSc in Software Engineering, IUST, Iran
-  alumni: 0 
 
-- name: Kelly YP Liu
-  photo: Kelly.jpg
-  info: Post-doctoral Fellow
-  email: mailto:keliu@bccrc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linked: linkedin.com/in/kelly-liu-phd-9350a684
-  google_scholar: https://scholar.google.ca/citations?user=15vpGWUAAAAJ&hl=en&authuser=1
-  number_educ: 3
-  education1: PhD in Oral Biological and Medical Sciences, University of British Columbia, Canada
-  education2: MSc in Oral Biological and Medical Sciences, University of British Columbia, Canada
-  education3: BSc in Molecular Biology and Biochemistry, Simon Fraser Univserity, Canada
-  alumni: 0
-
-  # Jan 2024
+ # Jan 2024
 - name: Pouya Ahmadvand
   photo: pahmadvand.png
   info: Machine Learning Engineer
@@ -89,6 +60,21 @@
   number_educ: 2
   education1: MSc in Electrical & Computer Engineering, University of Manitoba, Canada
   education2: BEng in Electronic Information Science and Technology, Xiamen University, China
+  alumni: 0
+
+- name: Daniel Espiritu
+  photo: danielEspiritu.jpeg
+  info: Post-doctoral fellow
+  email: mailto:despiritu@hotmail.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: www.linkedin.com/in/d-espiritu
+  google_scholar: https://scholar.google.ca/citations?user=umFV-KgAAAAJ&hl=en&oi=ao
+  number_educ: 3
+  education1:PhD in Pathology and Molecular Medicine, Queen's University, Canada
+  education2: MBI (Master's in Biomedical Informatics), Queen's University, Canada
+  education3: Hons. BSc in Life Sciences, Queen's University, Canada
   alumni: 0
 
 # Sept 2020
@@ -368,6 +354,38 @@
 ######### Alumni Below #########
 
   # Jan 2024
+
+
+- name: Maryam Asadi
+  photo: maryam.png
+  info: Post-doctoral Fellow
+  email: mailto:maryam.asadi@ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/maryam-asadi-40556170
+  google_scholar: https://scholar.google.com/citations?user=8UqpIK8AAAAJ&hl=en&oi=ao
+  number_educ: 3
+  education1: PhD in Computer Engineering (Artificial Intelligence), Sharif University of Technology, Iran
+  education2: MSc in Software Engineering, IUST, Iran
+  education3: BSc in Software Engineering, IUST, Iran
+  alumni: 1 
+
+- name: Kelly YP Liu
+  photo: Kelly.jpg
+  info: Post-doctoral Fellow
+  email: mailto:keliu@bccrc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linked: linkedin.com/in/kelly-liu-phd-9350a684
+  google_scholar: https://scholar.google.ca/citations?user=15vpGWUAAAAJ&hl=en&authuser=1
+  number_educ: 3
+  education1: PhD in Oral Biological and Medical Sciences, University of British Columbia, Canada
+  education2: MSc in Oral Biological and Medical Sciences, University of British Columbia, Canada
+  education3: BSc in Molecular Biology and Biochemistry, Simon Fraser Univserity, Canada
+  alumni: 1
+
 - name: Ramin Nakhli
   photo: Ramin.jpg
   info: PhD Student
