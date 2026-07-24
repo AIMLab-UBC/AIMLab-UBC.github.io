@@ -321,32 +321,6 @@
   education3: 0
   alumni: 0
 
-- name: Ghazal Fallahpour
-  photo: ghazal.jpeg
-  info: Co-op Student
-  email: mailto:ghazalfa@icloud.com
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: https://ca.linkedin.com/in/ghazal-fallahpour-67990918a
-  google_scholar: 0
-  number_educ: 1
-  education1: BASc in Biomedical Engineering (Bioinformatics), University of British Columbia, Canada
-  alumni: 0
-
-- name: Abteen Arab
-  photo: abteen.jpeg
-  info: Co-op Student
-  email: mailto:abteen.a@gmail.com
-  website: 0
-  github:  https://github.com/Abteen-Arab
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/abteen-a-669842267/
-  google_scholar: 0
-  number_educ: 1
-  education1: BASc in Biomedical Engineering (Bioinformatics), University of British Columbia, Canada
-  alumni: 0
-
 
 
 
@@ -413,6 +387,32 @@
   education1: MSc student in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc in Electrical Engineering (minor in Computer Engineering), University of Calgary, Canada
   alumni: 1
+
+- name: Ghazal Fallahpour
+  photo: ghazal.jpeg
+  info: Co-op Student
+  email: mailto:ghazalfa@icloud.com
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://ca.linkedin.com/in/ghazal-fallahpour-67990918a
+  google_scholar: 0
+  number_educ: 1
+  education1: BASc in Biomedical Engineering (Bioinformatics), University of British Columbia, Canada
+  alumni: 0
+
+- name: Abteen Arab
+  photo: abteen.jpeg
+  info: Co-op Student
+  email: mailto:abteen.a@gmail.com
+  website: 0
+  github:  https://github.com/Abteen-Arab
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/abteen-a-669842267/
+  google_scholar: 0
+  number_educ: 1
+  education1: BASc in Biomedical Engineering (Bioinformatics), University of British Columbia, Canada
+  alumni: 0
 
   # Jan 2024
 - name: Bjorn Holst
