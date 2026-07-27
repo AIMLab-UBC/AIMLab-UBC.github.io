@@ -399,7 +399,7 @@
   google_scholar: 0
   number_educ: 1
   education1: BASc in Biomedical Engineering (Bioinformatics), University of British Columbia, Canada
-  alumni: 0
+  alumni: 1
 
 - name: Abteen Arab
   photo: abteen.jpeg
@@ -412,7 +412,7 @@
   google_scholar: 0
   number_educ: 1
   education1: BASc in Biomedical Engineering (Bioinformatics), University of British Columbia, Canada
-  alumni: 0
+  alumni: 1
 
   # Jan 2024
 - name: Bjorn Holst
