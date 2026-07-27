@@ -321,6 +321,20 @@
   education3: 0
   alumni: 0
 
+  
+- name: Patrick
+  photo: Patrick.jpg
+  info: Co-op Student
+  email: mailto:pmac37@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 1
+  education1: B.Sc. In Nutritional Sciences, University of British Columbia.
+  alumni: 0
+
 
 
 
