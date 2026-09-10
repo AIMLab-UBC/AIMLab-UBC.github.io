@@ -1,29 +1,21 @@
-<div class="navbar navbar2" role="navigation">
-	<div class="navbar-header">
-	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
-	
-    <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/"><img src="/assets/project_pic/AIM_logo_transperant.png" style="max-width:150px; margin-top: -11px;"></a>
-	</div>
-	<div class="collapse navbar-collapse collapse-light" id="navbar-collapse-1">
-	  <ul class="nav">
-		<li><a class="nav-light" href="/">Home</a></li>
-		<li><a class="nav-light" href="{{ site.url }}{{ site.baseurl }}/about">About</a></li>
-		<li><a class="nav-light" href="{{ site.url }}{{ site.baseurl }}/projects">Research Highlights</a></li>
-		<li><a class="nav-light" href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
-		<li><a class="nav-light" href="{{ site.url }}{{ site.baseurl }}/gallery">Gallery</a></li>
-		<li><a class="nav-light" href="{{ site.url }}{{ site.baseurl }}/news">News</a></li>
-		<li><a class="nav-light" href="{{ site.url }}{{ site.baseurl }}/careers">Careers</a></li>
-		<!--
-		<li><a href="{{ site.url }}{{ site.baseurl }}/teaching">Teaching</a></li>
-		-->
-		<!--
-		<li><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
-		-->
-	  </ul>
-	</div>
-</div>
+<header class="site-header">
+  <div class="site-shell header-inner">
+    <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="AIM Lab home">
+      <img src="{{ '/assets/project_pic/AIM_logo_transperant.png' | relative_url }}" alt="AIM Lab" width="150" height="55">
+    </a>
+    <button class="menu-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" hidden>
+      <span>Menu</span><span class="menu-icon" aria-hidden="true"><span></span><span></span></span>
+    </button>
+    <nav id="site-navigation" class="site-navigation" aria-label="Main navigation">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a></li>
+        <li><a href="{{ '/about/' | relative_url }}"{% if page.url contains '/about' %} aria-current="page"{% endif %}>About</a></li>
+        <li><a href="{{ '/projects/' | relative_url }}"{% if page.url contains '/projects' %} aria-current="page"{% endif %}>Research Highlights</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}"{% if page.url contains '/publications' %} aria-current="page"{% endif %}>Publications</a></li>
+        <li><a href="{{ '/gallery/' | relative_url }}"{% if page.url contains '/gallery' %} aria-current="page"{% endif %}>Gallery</a></li>
+        <li><a href="{{ '/news/' | relative_url }}"{% if page.url contains '/news' %} aria-current="page"{% endif %}>News</a></li>
+        <li><a href="{{ '/careers/' | relative_url }}"{% if page.url contains '/careers' %} aria-current="page"{% endif %}>Careers</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

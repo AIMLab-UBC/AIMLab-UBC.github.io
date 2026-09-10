@@ -1,0 +1,27 @@
+{% assign member = include.member %}
+{% assign profile_page = site.pages | where: 'team_member_name', member.name | first %}
+{% assign fields = 'email,google_scholar,website,github,twitter,linkedin,resume' | split: ',' %}
+<div class="member-links">
+  {% for field in fields %}
+    {% assign href = member[field] %}
+    {% if href and href != 0 and href != empty %}
+      {% assign href = href | strip %}
+      {% case field %}
+        {% when 'email' %}{% assign label = 'Email' %}
+        {% when 'google_scholar' %}{% assign label = 'Scholar' %}
+        {% when 'website' %}{% assign label = 'Website' %}
+        {% when 'github' %}{% assign label = 'GitHub' %}
+        {% when 'twitter' %}{% assign label = 'Twitter' %}
+        {% when 'linkedin' %}{% assign label = 'LinkedIn' %}
+        {% when 'resume' %}{% assign label = 'CV' %}
+      {% endcase %}
+      {% if field == 'website' and profile_page %}
+        {% assign href = profile_page.url | relative_url %}
+        {% assign label = 'Biography' %}
+      {% elsif href contains 'www.' %}
+        {% unless href contains '://' %}{% assign href = 'https://' | append: href %}{% endunless %}
+      {% endif %}
+      <a href="{{ href | escape }}" aria-label="{{ member.name | escape }}: {{ label }}">{{ label }}</a>
+    {% endif %}
+  {% endfor %}
+</div>
