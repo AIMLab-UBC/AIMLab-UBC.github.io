@@ -61,6 +61,20 @@
   education2: BEng in Electronic Information Science and Technology, Xiamen University, China
   alumni: 0
 
+- name: Maedeh Mirzazadeh
+  photo: maedeh.png
+  info: Machine Learning Engineer
+  email: mailto:maeede.mir@gmail.com
+  website: https://maedemir.github.io/
+  github: https://github.com/maedemir
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/maedehmirzazadeh
+  google_scholar: 0
+  number_educ: 2
+  education1: MSc student in Bioinformatics, University of British Columbia, Canada
+  education2: BSc in Computer Engineering, Amirkabir University of Technology, Iran
+  alumni: 0
+
 - name: Daniel Espiritu
   photo: DanielEspiritu.jpeg
   info: Post-doctoral fellow
@@ -217,20 +231,6 @@
   education2: Hons. BSc in Biology (Biomedical Science), York Univeristy, Canada
   alumni: 0
 
-# September 2023
-- name: Maedeh Mirzazadeh
-  photo: Maedeh-2.jpg
-  info: MSc Student
-  email: mailto:maeede.mir@gmail.com
-  website: https://maedemir.github.io/
-  github: https://github.com/maedemir
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/maedehmirzazadeh
-  google_scholar: 0
-  number_educ: 2
-  education1: MSc student in Bioinformatics, University of British Columbia, Canada
-  education2: BSc in Computer Engineering, Amirkabir University of Technology, Iran
-  alumni: 0
 
 # Jan 2024
 - name: Haoran Liu
