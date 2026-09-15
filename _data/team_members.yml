@@ -321,6 +321,33 @@
   education3: 0
   alumni: 0
 
+- name: Ghazal Fallahpour
+  photo: ghazal.jpeg
+  info: MSc Student in Bioinformatics
+  email: mailto:ghazalfa@icloud.com
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://ca.linkedin.com/in/ghazal-fallahpour-67990918a
+  google_scholar: 0
+  number_educ: 1
+  education1: BASc in Biomedical Engineering (Bioinformatics), University of British Columbia, Canada
+  alumni: 0
+
+- name: Soroush Azhdari
+  photo: 
+  info: PhD student 
+  email: mailto:soroush.azhdari.sa@gmail.com
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/soroush-azhdari-ph-d-78648121b?utm_source=share_via&utm_content=profile&utm_medium=member_ios
+  google_scholar: https://scholar.google.com/citations?user=o5bWDc8AAAAJ&hl=en
+  number_educ: 1
+  education1: PhD in materials engineering, University of British Columbia, Canada
+  education2: Master of science in mechanical engineering from Iran University of science and technology
+  alumni: 0
+
   
 - name: Patrick MacNeill
   photo: Patrick.jpg
@@ -400,19 +427,6 @@
   number_educ: 2
   education1: MSc student in Biomedical Engineering, University of British Columbia, Canada
   education2: BSc in Electrical Engineering (minor in Computer Engineering), University of Calgary, Canada
-  alumni: 1
-
-- name: Ghazal Fallahpour
-  photo: ghazal.jpeg
-  info: Co-op Student
-  email: mailto:ghazalfa@icloud.com
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: https://ca.linkedin.com/in/ghazal-fallahpour-67990918a
-  google_scholar: 0
-  number_educ: 1
-  education1: BASc in Biomedical Engineering (Bioinformatics), University of British Columbia, Canada
   alumni: 1
 
 - name: Abteen Arab
