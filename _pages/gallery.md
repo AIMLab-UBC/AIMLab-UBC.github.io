@@ -7,7 +7,7 @@ permalink: /gallery/
 ---
 <header class="gallery-intro">
   <div><p class="eyebrow">Life at AIM Lab</p><h1>Gallery</h1></div>
-  <figure><img src="{{ '/img/team-patio.jpg' | relative_url }}" alt="The AIM Lab team gathered on the BRC patio in 2022" width="1800" height="1350"><figcaption>BRC Patio 2022</figcaption></figure>
+  <figure><img src="{{ '/img/gallery_pics/Team-indian1.jpg' | relative_url }}" alt="The AIM Lab team standing together at Tandoori Flame in 2025" width="1428" height="1071"><figcaption>Lunch at Tandoori Flame 2025</figcaption></figure>
 </header>
 <div class="gallery">
   {% for item in site.data.gallery_images %}
