@@ -1,18 +1,10 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   {% include head.html %}
-
-  <body class="updated-pages">
-
+  <body class="updated-pages home-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
     {% include front-header.html %}
-
-    <div class="container-full">
-      {{content}}
-    </div>
-
+    <main id="main-content" tabindex="-1">{{ content }}</main>
     {% include footer.html %}
-
   </body>
-
 </html>

@@ -1,0 +1,11 @@
+{% assign member = include.member %}
+{% assign profile_page = site.pages | where: 'team_member_name', member.name | first %}
+<article class="team-card">
+  <img class="member-photo" src="{{ '/assets/teampic/' | append: member.photo | relative_url }}" alt="{{ member.name | escape }}" width="144" height="180" loading="lazy">
+  <div class="member-details">
+    <h3>{% if profile_page %}<a href="{{ profile_page.url | relative_url }}">{{ member.name | escape }}</a>{% else %}{{ member.name | escape }}{% endif %}</h3>
+    <p class="member-role">{{ member.info | escape }}</p>
+    {% include member-links.html member=member %}
+    {% include member-education.html member=member %}
+  </div>
+</article>

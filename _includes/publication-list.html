@@ -1,0 +1,11 @@
+<ol class="publication-list">
+  {% assign heading = include.heading | default: 'h2' %}
+  {% for paper in site.data.publication_list %}
+    <li class="publication-item">
+      <article>
+        <{{ heading }}>{% if paper.url %}<a href="{{ paper.url | strip | escape }}">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}</{{ heading }}>
+        <p class="publication-authors">{{ paper.authors | escape }}</p>
+      </article>
+    </li>
+  {% endfor %}
+</ol>

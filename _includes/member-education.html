@@ -1,0 +1,9 @@
+{% assign member = include.member %}
+{% if member.number_educ > 0 %}
+  <ul class="member-education">
+    {% for index in (1..member.number_educ) %}
+      {% assign education_key = 'education' | append: index %}
+      <li>{{ member[education_key] | escape }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}

@@ -1,3 +1,12 @@
+@use "variables";
+
+@function -font-path($path) {
+  @if variables.$bootstrap-sass-asset-helper {
+    @return twbs-font-path($path);
+  }
+  @return $path;
+}
+
 //
 // Glyphicons for Bootstrap
 //
@@ -11,12 +20,12 @@
   // Import the fonts
   @font-face {
     font-family: 'Glyphicons Halflings';
-    src: url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$icon-font-path}#{$icon-font-name}.eot'), '#{$icon-font-path}#{$icon-font-name}.eot'));
-    src: url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$icon-font-path}#{$icon-font-name}.eot?#iefix'), '#{$icon-font-path}#{$icon-font-name}.eot?#iefix')) format('embedded-opentype'),
-         url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$icon-font-path}#{$icon-font-name}.woff2'), '#{$icon-font-path}#{$icon-font-name}.woff2')) format('woff2'),
-         url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$icon-font-path}#{$icon-font-name}.woff'), '#{$icon-font-path}#{$icon-font-name}.woff')) format('woff'),
-         url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$icon-font-path}#{$icon-font-name}.ttf'), '#{$icon-font-path}#{$icon-font-name}.ttf')) format('truetype'),
-         url(if($bootstrap-sass-asset-helper, twbs-font-path('#{$icon-font-path}#{$icon-font-name}.svg##{$icon-font-svg-id}'), '#{$icon-font-path}#{$icon-font-name}.svg##{$icon-font-svg-id}')) format('svg');
+    src: url(-font-path('#{variables.$icon-font-path}#{variables.$icon-font-name}.eot'));
+    src: url(-font-path('#{variables.$icon-font-path}#{variables.$icon-font-name}.eot?#iefix')) format('embedded-opentype'),
+         url(-font-path('#{variables.$icon-font-path}#{variables.$icon-font-name}.woff2')) format('woff2'),
+         url(-font-path('#{variables.$icon-font-path}#{variables.$icon-font-name}.woff')) format('woff'),
+         url(-font-path('#{variables.$icon-font-path}#{variables.$icon-font-name}.ttf')) format('truetype'),
+         url(-font-path('#{variables.$icon-font-path}#{variables.$icon-font-name}.svg##{variables.$icon-font-svg-id}')) format('svg');
   }
 }
 
