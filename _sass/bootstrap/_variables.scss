@@ -1,3 +1,5 @@
+@use "sass:color";
+@use "sass:math";
 $bootstrap-sass-asset-helper: false !default;
 // Lumen 3.3.7
 // Variables
@@ -9,11 +11,11 @@ $bootstrap-sass-asset-helper: false !default;
 //## Gray and brand colors for use across Bootstrap.
 
 $gray-base:              #000 !default;
-$gray-darker:            lighten($gray-base, 13.5%) !default; // #222
-$gray-dark:              lighten($gray-base, 20%) !default;   // #333
-$gray:                   lighten($gray-base, 33.5%) !default; // #555
-$gray-light:             lighten($gray-base, 60%) !default;   // #999
-$gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
+$gray-darker:            color.adjust($gray-base, $lightness: 13.5%) !default; // #222
+$gray-dark:              color.adjust($gray-base, $lightness: 20%) !default;   // #333
+$gray:                   color.adjust($gray-base, $lightness: 33.5%) !default; // #555
+$gray-light:             color.adjust($gray-base, $lightness: 60%) !default;   // #999
+$gray-lighter:           color.adjust($gray-base, $lightness: 93.5%) !default; // #eee
 
 $brand-primary:         #f15a29 !default;
 $brand-hover:           #ffa98e !default;
@@ -51,20 +53,20 @@ $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !def
 $font-family-base:        $font-family-sans-serif !default;
 
 $font-size-base:          16px !default;
-$font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-large:         math.ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:         math.ceil(($font-size-base * 0.85)) !default; // ~12px
 
-$font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
-$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // ~24px
-$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-h1:            math.floor(($font-size-base * 2.6)) !default; // ~36px
+$font-size-h2:            math.floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            math.ceil(($font-size-base * 1.7)) !default; // ~24px
+$font-size-h4:            math.ceil(($font-size-base * 1.25)) !default; // ~18px
 $font-size-h5:            $font-size-base !default;
-$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-h6:            math.ceil(($font-size-base * 0.85)) !default; // ~12px
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:        1.428571429 !default; // 20/14
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
-$line-height-computed:    floor(($font-size-base * $line-height-base)) !default; // ~20px
+$line-height-computed:    math.floor(($font-size-base * $line-height-base)) !default; // ~20px
 
 //** By default, this inherits from the `<body>`.
 $headings-font-family:    inherit !default;
@@ -78,7 +80,13 @@ $headings-color:          $gray-dark !default;
 //## Specify custom location and filename of the included Glyphicons icon font. Useful for those including Bootstrap via Bower.
 
 //** Load fonts from this directory.
-$icon-font-path: if($bootstrap-sass-asset-helper, "bootstrap/", "../fonts/") !default;
+$icon-font-path: null !default;
+@if $icon-font-path == null {
+  $icon-font-path: "../fonts/";
+  @if $bootstrap-sass-asset-helper {
+    $icon-font-path: "bootstrap/";
+  }
+}
 //** File name for all font files.
 $icon-font-name:          "glyphicons-halflings-regular" !default;
 //** Element ID within SVG icon file.
@@ -148,27 +156,27 @@ $btn-font-weight:                normal !default;
 
 $btn-default-color:              $gray !default;
 $btn-default-bg:                 $gray-lighter !default;
-$btn-default-border:             darken($btn-default-bg, 5%) !default;
+$btn-default-border:             color.adjust($btn-default-bg, $lightness: -5%) !default;
 
 $btn-primary-color:              #fff !default;
 $btn-primary-bg:                 $brand-primary !default;
-$btn-primary-border:             darken($btn-primary-bg, 5%) !default;
+$btn-primary-border:             color.adjust($btn-primary-bg, $lightness: -5%) !default;
 
 $btn-success-color:              #fff !default;
 $btn-success-bg:                 $brand-success !default;
-$btn-success-border:             darken($btn-success-bg, 5%) !default;
+$btn-success-border:             color.adjust($btn-success-bg, $lightness: -5%) !default;
 
 $btn-info-color:                 #fff !default;
 $btn-info-bg:                    $brand-info !default;
-$btn-info-border:                darken($btn-info-bg, 5%) !default;
+$btn-info-border:                color.adjust($btn-info-bg, $lightness: -5%) !default;
 
 $btn-warning-color:              #fff !default;
 $btn-warning-bg:                 $brand-warning !default;
-$btn-warning-border:             darken($btn-warning-bg, 5%) !default;
+$btn-warning-border:             color.adjust($btn-warning-bg, $lightness: -5%) !default;
 
 $btn-danger-color:               #fff !default;
 $btn-danger-bg:                  $brand-danger !default;
-$btn-danger-border:              darken($btn-danger-bg, 5%) !default;
+$btn-danger-border:              color.adjust($btn-danger-bg, $lightness: -5%) !default;
 
 $btn-link-disabled-color:        $gray-light !default;
 
@@ -190,7 +198,7 @@ $input-bg-disabled:              $gray-lighter !default;
 //** Text color for `<input>`s
 $input-color:                    $gray !default;
 //** `<input>` border color
-$input-border:                   darken(#f8f8f8, 6.5%) !default;
+$input-border:                   color.adjust(#f8f8f8, $lightness: -6.5%) !default;
 
 // TODO: Rename `$input-border-radius` to `$input-border-radius-base` in v4
 //** Default `.form-control` border radius
@@ -210,9 +218,9 @@ $input-color-placeholder:        $gray-light !default;
 //** Default `.form-control` height
 $input-height-base:              ($line-height-computed + ($padding-base-vertical * 2) + 4) !default;
 //** Large `.form-control` height
-$input-height-large:             (ceil($font-size-large * $line-height-large) + ($padding-large-vertical * 2) + 2) !default;
+$input-height-large:             (math.ceil($font-size-large * $line-height-large) + ($padding-large-vertical * 2) + 2) !default;
 //** Small `.form-control` height
-$input-height-small:             (floor($font-size-small * $line-height-small) + ($padding-small-vertical * 2) + 2) !default;
+$input-height-small:             (math.floor($font-size-small * $line-height-small) + ($padding-small-vertical * 2) + 2) !default;
 
 //** `.form-group` margin
 $form-group-margin-bottom:       15px !default;
@@ -362,8 +370,8 @@ $container-lg:                 $container-large-desktop !default;
 $navbar-height:                    50px !default;
 $navbar-margin-bottom:             $line-height-computed !default;
 $navbar-border-radius:             $border-radius-base !default;
-$navbar-padding-horizontal:        floor(($grid-gutter-width / 2)) !default;
-$navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2) !default;
+$navbar-padding-horizontal:        math.floor(($grid-gutter-width * 0.5)) !default;
+$navbar-padding-vertical:          (($navbar-height - $line-height-computed) * 0.5) !default;
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             $text-color !default;
@@ -394,7 +402,7 @@ $navbar-default-toggle-border-color:       $gray-lighter !default;
 // Reset inverted navbar basics
 $navbar-inverse-color:                      $gray-light !default;
 $navbar-inverse-bg:                         #fff !default;
-$navbar-inverse-border:                     darken($navbar-inverse-bg, 10%) !default;
+$navbar-inverse-border:                     color.adjust($navbar-inverse-bg, $lightness: -10%) !default;
 
 // Inverted navbar links
 $navbar-inverse-link-color:                 $gray-light !default;
@@ -490,8 +498,8 @@ $jumbotron-padding:              30px !default;
 $jumbotron-color:                inherit !default;
 $jumbotron-bg:                   #fafafa !default;
 $jumbotron-heading-color:        inherit !default;
-$jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
-$jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
+$jumbotron-font-size:            math.ceil(($font-size-base * 1.5)) !default;
+$jumbotron-heading-font-size:    math.ceil(($font-size-base * 4.5)) !default;
 
 
 //== Form states and alerts
@@ -500,19 +508,19 @@ $jumbotron-heading-font-size:    ceil(($font-size-base * 4.5)) !default;
 
 $state-success-text:             #fff !default;
 $state-success-bg:               $brand-success !default;
-$state-success-border:           darken($state-success-bg, 4%) !default;
+$state-success-border:           color.adjust($state-success-bg, $lightness: -4%) !default;
 
 $state-info-text:                #fff !default;
 $state-info-bg:                  $brand-info !default;
-$state-info-border:              darken($state-info-bg, 12%) !default;
+$state-info-border:              color.adjust($state-info-bg, $lightness: -12%) !default;
 
 $state-warning-text:             #fff !default;
 $state-warning-bg:               $brand-warning !default;
-$state-warning-border:           darken($state-warning-bg, 5%) !default;
+$state-warning-border:           color.adjust($state-warning-bg, $lightness: -5%) !default;
 
 $state-danger-text:              #fff !default;
 $state-danger-bg:                $brand-danger !default;
-$state-danger-border:            darken($state-danger-bg, 10%) !default;
+$state-danger-border:            color.adjust($state-danger-bg, $lightness: -10%) !default;
 
 
 //== Tooltips
@@ -547,7 +555,7 @@ $popover-border-color:                rgba(0,0,0,.2) !default;
 $popover-fallback-border-color:       #ccc !default;
 
 //** Popover title background color
-$popover-title-bg:                    darken($popover-bg, 3%) !default;
+$popover-title-bg:                    color.adjust($popover-bg, $lightness: -3%) !default;
 
 //** Popover arrow width
 $popover-arrow-width:                 10px !default;
@@ -559,7 +567,7 @@ $popover-arrow-outer-width:           ($popover-arrow-width + 1) !default;
 //** Popover outer arrow color
 $popover-arrow-outer-color:           fadein($popover-border-color, 5%) !default;
 //** Popover outer arrow fallback color
-$popover-arrow-outer-fallback-color:  darken($popover-fallback-border-color, 20%) !default;
+$popover-arrow-outer-fallback-color:  color.adjust($popover-fallback-border-color, $lightness: -20%) !default;
 
 
 //== Labels
@@ -686,7 +694,7 @@ $list-group-active-bg:          $component-active-bg !default;
 //** Background color of active list items
 $list-group-active-border:      $list-group-active-bg !default;
 //** Text color for content within active list items
-$list-group-active-text-color:  lighten($list-group-active-bg, 40%) !default;
+$list-group-active-text-color:  color.adjust($list-group-active-bg, $lightness: 40%) !default;
 
 //** Text color of disabled list items
 $list-group-disabled-color:      $gray-light !default;
@@ -763,7 +771,7 @@ $thumbnail-caption-padding:   9px !default;
 //##
 
 $well-bg:                     $jumbotron-bg !default;
-$well-border:                 darken($well-bg, 7%) !default;
+$well-border:                 color.adjust($well-bg, $lightness: -7%) !default;
 
 
 //== Badges

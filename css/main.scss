@@ -4,8 +4,8 @@
 $text-black: #0f1419 !default;
 $logo-orange: #f15a29 !default;
 
-@import "bootstrap";
-@import "navbar";
-@import "general";
-@import "project";
-@import "frontPage";
+@use "bootstrap";
+@use "navbar";
+@use "general";
+@use "project";
+@use "frontPage";
