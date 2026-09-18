@@ -38,3 +38,7 @@ github:
 
 exclude:
   - _pagesNotInUse/
+  - Gemfile
+  - Gemfile.lock
+  - scripts/
+  - vendor/
