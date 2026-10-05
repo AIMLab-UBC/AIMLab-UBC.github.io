@@ -1,4 +1,3 @@
-@use "sass:color";
 // Tables
 
 @mixin table-row-variant($state, $background) {
@@ -23,7 +22,7 @@
     &.#{$state}:hover > td,
     &:hover > .#{$state},
     &.#{$state}:hover > th {
-      background-color: color.adjust($background, $lightness: -5%);
+      background-color: darken($background, 5%);
     }
   }
 }

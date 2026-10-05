@@ -1,4 +1,3 @@
-@use "sass:color";
 // Typography
 
 // [converter] $parent hack
@@ -8,6 +7,6 @@
   }
   a#{$parent}:hover,
   a#{$parent}:focus {
-    color: color.adjust($color, $lightness: -10%);
+    color: darken($color, 10%);
   }
 }

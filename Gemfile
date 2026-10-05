@@ -1,11 +1,10 @@
 source "https://rubygems.org"
 
-# Use the same modern Sass compiler locally and in the Pages workflow.
-gem "jekyll", "4.3.4"
-gem "jekyll-sass-converter", "3.0.0"
-gem "sass-embedded", "1.81.0"
-gem "kramdown-parser-gfm", "1.1.0"
+# Match GitHub Pages' built-in branch builder, including Ruby Sass 3.7.4.
+# See https://pages.github.com/versions/ before updating this version.
+gem "github-pages", "232", group: :jekyll_plugins
 gem "webrick", "1.9.0"
+gem "faraday-retry"
 
 # Explicit dependencies for libraries leaving Ruby's default gem set.
 gem "base64"

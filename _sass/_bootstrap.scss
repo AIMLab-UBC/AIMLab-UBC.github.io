@@ -5,15 +5,15 @@
  */
 
 // Core variables and mixins
-@use "bootstrap/variables";
-@use "bootstrap/mixins";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
 
 // Reset and dependencies
-@use "bootstrap/glyphicons";
+@import "bootstrap/glyphicons";
 
 // Core CSS
-@use "bootstrap/type";
-@use "bootstrap/forms";
+@import "bootstrap/type";
+@import "bootstrap/forms";
 
 // Components
-@use "bootstrap/navbar";
+@import "bootstrap/navbar";
