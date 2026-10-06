@@ -201,19 +201,6 @@
 # End PhD students -> MSc below
 
 # May 2022
-- name: Cindy Shi
-  photo: Cindy-v2.jpg
-  info: MASc Student
-  email: mailto:xpshi@student.ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: https://www.linkedin.com/in/cindy-shi-22b5b3117
-  google_scholar: 0
-  number_educ: 2
-  education1: MSc student in Bioinformatics, University of British Columbia, Canada
-  education2: Combined BSc (Hon) in Biology and Computer Science, University of British Columbia, Canada
-  alumni: 0
 
 # May 2023
 - name: Elahe Ranjbari
@@ -288,22 +275,6 @@
   education1: Msc in Bioinformatics, University of British Columbia, Canada 
   education2: BSc in Biology and Mathematics, McGill, Canada
   alumni: 0
-  
-
-- name: Chen Liu
-  photo: chen.png
-  info: Research Assistant
-  email: mailto:chenliu5@student.ubc.ca
-  website: 0
-  github: 0
-  twitter: 0
-  linkedin: 0
-  google_scholar: 0
-  number_educ: 3
-  education1: MEng in Electrical & Computer Engineering, University of British Columbia
-  education2: BEng in Electrical Engineering, McGill University
-  alumni: 0
-
   
 - name: Zeyu Zhang
   photo: zeyu.jpg
@@ -439,6 +410,34 @@
   google_scholar: 0
   number_educ: 1
   education1: BASc in Biomedical Engineering (Bioinformatics), University of British Columbia, Canada
+  alumni: 1
+
+- name: Cindy Shi
+  photo: Cindy-v2.jpg
+  info: MASc Student
+  email: mailto:xpshi@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://www.linkedin.com/in/cindy-shi-22b5b3117
+  google_scholar: 0
+  number_educ: 2
+  education1: MSc student in Bioinformatics, University of British Columbia, Canada
+  education2: Combined BSc (Hon) in Biology and Computer Science, University of British Columbia, Canada
+  alumni: 1
+
+- name: Chen Liu
+  photo: chen.png
+  info: Research Assistant
+  email: mailto:chenliu5@student.ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 0
+  google_scholar: 0
+  number_educ: 3
+  education1: MEng in Electrical & Computer Engineering, University of British Columbia
+  education2: BEng in Electrical Engineering, McGill University
   alumni: 1
 
   # Jan 2024
