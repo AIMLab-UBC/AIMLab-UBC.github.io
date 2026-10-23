@@ -104,6 +104,22 @@
   education2: MSc in Mechanical Engineering, Iran University of Science and Technology
   alumni: 0
 
+- name: George Wright
+  photo: George.jpg
+  info: Post-doctoral fellow 
+  email: mailto:george.wright@ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: https://uk.linkedin.com/in/george-wright-3209ba51
+  google_scholar: https://scholar.google.com/citations?user=TCboQ3UAAAAJ&hl=en
+  number_educ: 4
+  education1: PhD in Computer Science, University of Warwick
+  education2: Msc in Computer Science, University of Warwick
+  education3: BSc in Computer Science, Open University
+  education3: BSc in Mathematics, University of Sheffield
+  alumni: 0
+
 # Sept 2020
 - name: Katherine Rich
   photo: katheriner.jpg
@@ -168,7 +184,7 @@
 
 # Jan 2023
 - name: Mayur Mallya
-  photo: Mayur-v2.jpg
+  photo: mayur.png
   info: PhD Student
   email: mailto:mmallya@student.ubc.ca
   website: https://mayurmallya.github.io
