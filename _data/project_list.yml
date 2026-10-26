@@ -26,6 +26,7 @@
   link_pdf:
     show: 1
     url: https://openaccess.thecvf.com/content/CVPR2026/papers/Moghadam_Factorized_Context_Aggregation_for_Robust_Cancer_Risk_Estimation_via_Soft_CVPR_2026_paper.pdf
+    display: Paper
   highlight: 1
   news2: 
 
