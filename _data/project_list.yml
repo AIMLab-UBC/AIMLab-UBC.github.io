@@ -1,23 +1,7 @@
 - title: "“Performance Assessment of a Deep Learning–based Algorithm for Ovarian Cancer Histotyping in an Independent Data Set"
   subtitle: The American Journal of Surgical Pathology, 2026
   image: RH1.png
-  description: Artificial intelligence (AI) has the potential to improve histotype
-    classification in epithelial ovarian cancer, although variability
-    in histopathology slides across institutions remains a major challenge.
-    This study independently evaluated the adversarial Fourier-based
-    domain adaptation (AIDA) deep learning framework, originally trained
-    on data from Vancouver General Hospital, using an external cohort
-    from Amsterdam University Medical Center. The model classified five
-    major ovarian cancer histotypes: clear cell, endometrioid,
-    high-grade serous, low-grade serous, and mucinous carcinoma.
-    AIDA achieved an overall balanced accuracy of 79.7%, with the
-    highest accuracy for clear cell (90.9%) and low-grade serous
-    carcinoma (89.8%). Retraining with additional histopathology
-    slides improved balanced accuracy to 85.8% using single-slide
-    voting and 82.6% using majority voting. These findings demonstrate
-    the potential of AI-based histotyping across independent clinical
-    cohorts while highlighting the importance of further refinement
-    to improve classification of challenging ovarian cancer subtypes.
+  description: Artificial intelligence diagnostic tools show promise for improving histotype classification in epithelial ovarian cancer but face challenges due to slide variability across institutions. To address this domain shift, the adversarial Fourier-based domain adaptation (AIDA) model was developed. This retrospective study evaluates AIDA’s performance in classifying the 5 major ovarian cancer subtypes using an independent cohort. Surgically treated patients diagnosed with clear cell (CCC), endometrioid (EC), high-grade serous (HGSC), low-grade serous (LGSC), or mucinous (MC) ovarian cancer at Amsterdam University Medical Center (1985-2022) were included in the study. The deep learning method AIDA, trained on data from Vancouver General Hospital, was applied to all cases. Final histotype predictions were made through majority voting across 15 independently trained models. For misclassified cases, up to 3 additional slides were scanned, and the AIDA model was retrained. Classification was then assessed using single-slide and majority voting approaches. The AIDA algorithm achieved an overall balanced accuracy of 79.7% across all histotypes. Accuracy was highest for CCC (90.9%) and LGSC (89.8%), and lowest for EC (62.4%). Common misclassifications included MC as EC and EC as HGSC or LGSC. Retraining with additional slides improved balanced accuracy to 85.8% based on single-slide voting and 82.6% based on majority voting. This study highlights the future potential of the AIDA model in classifying epithelial ovarian cancer histotypes. With further refinement to improve performance on more challenging cases, the model could enhance diagnostic accuracy in clinical practice.
   authors: 
   link_pdf:
     show: 1
