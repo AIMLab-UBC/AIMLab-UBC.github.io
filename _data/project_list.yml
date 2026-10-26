@@ -1,3 +1,34 @@
+- title: "“Factorized Context Aggregation for Robust Cancer Risk Estimation via Soft Re-Ranked Retrieval and Hierarchical Anchors"
+  subtitle: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026
+  image: RH3.png
+  description: Accurate cancer risk estimation is essential for personalized
+    treatment planning, yet existing multimodal AI approaches often
+    rely on the availability of multiple data types, including
+    histopathology, genomics, and clinical reports. Such comprehensive
+    data are frequently unavailable in routine clinical settings.
+    To address this limitation, we introduce a novel framework for
+    cancer risk prediction that uses routinely available histopathology
+    images while leveraging complementary molecular and clinical
+    information during model training. The approach integrates
+    soft re-ranked multimodal retrieval, factorized context aggregation,
+    and hierarchical anchoring to capture shared and modality-specific
+    representations and improve robustness to missing data.
+    Evaluated across eight cancer types and multiple missing-data
+    scenarios, the framework consistently outperformed existing
+    approaches, achieving up to an 8% relative improvement over
+    histopathology-only baselines while approaching the performance
+    of models requiring complete multimodal information.
+    The framework also demonstrated improved patient risk
+    stratification and strong generalizability, highlighting its
+    potential for scalable and clinically practical cancer prognosis
+    using routinely collected histopathology images.
+  authors: 
+  link_pdf:
+    show: 1
+    url: https://openaccess.thecvf.com/content/CVPR2026/papers/Moghadam_Factorized_Context_Aggregation_for_Robust_Cancer_Risk_Estimation_via_Soft_CVPR_2026_paper.pdf
+  highlight: 1
+  news2: 
+
 - title: "“HistoMILKD: A Multiple Instance Learning based Multi-Teacher Knowledge Distillation Framework for Whole Slide Image Classification"
   subtitle: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2026
   image: RH2.png
