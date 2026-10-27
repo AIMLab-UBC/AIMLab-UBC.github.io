@@ -1,33 +1,72 @@
 
-- title: "“Boltzmann Semantic Score: A Semantic Metric for Evaluating Large Vision Models Using Large Language Models"
-  subtitle: International Conference on Learning Representations (ICLR), 2025
-  image: RH4.png
-  description: Large vision models (LVMs) have demonstrated remarkable potential
-    in computational pathology, yet evaluating whether their learned
-    representations capture clinically meaningful information remains
-    challenging. To address this limitation, we introduce the Boltzmann
-    Semantic Score (BSS), a novel metric inspired by state-space
-    modeling that evaluates the semantic alignment between visual
-    representations extracted from histopathology images and textual
-    representations derived from expert pathology reports using large
-    language models (LLMs). Through extensive experiments involving
-    32 cancer datasets from The Cancer Genome Atlas (TCGA), five
-    LLMs, and seven LVMs, we demonstrate that current vision models
-    exhibit substantial limitations in capturing the semantic
-    information encoded in expert pathology reports. Importantly,
-    BSS showed statistically significant correlations with model
-    performance in downstream tasks, including histopathology image
-    retrieval and patient survival prediction. We further demonstrate
-    substantial agreement among different LLMs when evaluating
-    visual representations, supporting the robustness of the proposed
-    metric. These findings establish BSS as a scalable and quantitative
-    approach for assessing the clinical relevance of representations
-    learned by medical vision models, with potential applications
-    beyond computational pathology.
+- title: "“SurvMILKD: A Weakly Supervised Survival Analysis Framework for Multi-Teacher Knowledge Distillation Using Pathology Foundation Models"
+  subtitle: European Conference on Computer Vision (ECCV), 2026
+  image: RH6.png
+  description: Accurate survival prediction from histopathology whole slide
+    images (WSIs) is critical for cancer risk stratification and
+    personalized treatment planning. Although pathology foundation
+    models have substantially improved computational pathology,
+    their performance varies across datasets and clinical tasks,
+    making model selection challenging. Combining multiple
+    foundation models through ensembling can improve predictive
+    performance but introduces considerable computational
+    complexity. To overcome these limitations, we introduce
+    SurvMILKD, a novel multi-teacher knowledge distillation
+    framework for weakly supervised survival analysis using
+    histopathology images. The framework integrates multiple
+    instance learning (MIL) adapters to transfer complementary
+    prognostic information from multiple pathology foundation
+    models into a single student model. A novel risk-aware
+    distillation loss further enables the transfer of
+    outcome-specific knowledge from multiple teachers,
+    improving survival risk estimation while maintaining
+    computationally efficient inference. Evaluated across
+    eight publicly available datasets, including two external
+    evaluation cohorts, SurvMILKD outperformed individual
+    foundation models, their ensembles, and existing
+    multi-teacher knowledge distillation approaches.
+    These findings demonstrate the potential of knowledge
+    distillation to develop accurate, efficient, and
+    generalizable AI frameworks for cancer prognosis
+    using routinely collected histopathology images.
   authors: 
   link_pdf:
     show: 1
-    url: https://proceedings.iclr.cc/paper_files/paper/2025/file/fc07feae9af49dd3f1a1e049b77f4e17-Paper-Conference.pdf
+    url: https://doi.org/10.1007/978-3-032-37032-7_10
+    display: Paper
+  highlight: 1
+  news2: 
+
+- title: "“MedGSSR: Generalizable Medical Image Super-Resolution 3D Reconstruction via Hierarchical Feed-forward Gaussian Splatting"
+  subtitle: European Conference on Computer Vision (ECCV), 2026
+  image: RH5.png
+  description: High-resolution three-dimensional medical imaging is essential
+    for accurate diagnosis and clinical decision-making, yet image
+    acquisition is often constrained by scanner hardware, acquisition
+    time, and radiation exposure in computed tomography (CT).
+    Existing approaches to medical image super-resolution frequently
+    require patient-specific optimization or rely on implicit
+    representations that limit computational efficiency and anatomical
+    fidelity. To address these challenges, we introduce MedGSSR,
+    a generalizable, end-to-end framework for medical image
+    super-resolution using hierarchical feed-forward 3D Gaussian
+    splatting. The framework represents medical volumes as continuous
+    3D Gaussian fields and separates structural preservation from
+    fine-grained texture reconstruction through a Pyramid Anatomical
+    Encoder and Hierarchical Gaussian Projector. By incorporating
+    sub-voxel Gaussian decomposition and a Differentiable Gaussian
+    Voxelizer, MedGSSR enables high-fidelity reconstruction at
+    arbitrary spatial resolutions without patient-specific
+    optimization. Extensive experiments across MRI and CT datasets
+    demonstrate improvements over existing methods in reconstruction
+    quality, computational efficiency, and generalization to unseen
+    datasets. These findings highlight the potential of MedGSSR
+    to enable faster, more accurate, and scalable high-resolution
+    medical imaging for clinical applications.
+  authors: 
+  link_pdf:
+    show: 1
+    url: https://arxiv.org/pdf/2609.06874
     display: Paper
   highlight: 1
   news2: 
@@ -84,6 +123,39 @@
   link_pdf:
     show: 1
     url: https://doi.org/10.1097/PAS.0000000000002481
+    display: Paper
+  highlight: 1
+  news2: 
+
+  - title: "“Boltzmann Semantic Score: A Semantic Metric for Evaluating Large Vision Models Using Large Language Models"
+  subtitle: International Conference on Learning Representations (ICLR), 2025
+  image: RH4.png
+  description: Large vision models (LVMs) have demonstrated remarkable potential
+    in computational pathology, yet evaluating whether their learned
+    representations capture clinically meaningful information remains
+    challenging. To address this limitation, we introduce the Boltzmann
+    Semantic Score (BSS), a novel metric inspired by state-space
+    modeling that evaluates the semantic alignment between visual
+    representations extracted from histopathology images and textual
+    representations derived from expert pathology reports using large
+    language models (LLMs). Through extensive experiments involving
+    32 cancer datasets from The Cancer Genome Atlas (TCGA), five
+    LLMs, and seven LVMs, we demonstrate that current vision models
+    exhibit substantial limitations in capturing the semantic
+    information encoded in expert pathology reports. Importantly,
+    BSS showed statistically significant correlations with model
+    performance in downstream tasks, including histopathology image
+    retrieval and patient survival prediction. We further demonstrate
+    substantial agreement among different LLMs when evaluating
+    visual representations, supporting the robustness of the proposed
+    metric. These findings establish BSS as a scalable and quantitative
+    approach for assessing the clinical relevance of representations
+    learned by medical vision models, with potential applications
+    beyond computational pathology.
+  authors: 
+  link_pdf:
+    show: 1
+    url: https://proceedings.iclr.cc/paper_files/paper/2025/file/fc07feae9af49dd3f1a1e049b77f4e17-Paper-Conference.pdf
     display: Paper
   highlight: 1
   news2: 
