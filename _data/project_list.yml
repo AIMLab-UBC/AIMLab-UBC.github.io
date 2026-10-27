@@ -1,3 +1,37 @@
+
+- title: "“Boltzmann Semantic Score: A Semantic Metric for Evaluating Large Vision Models Using Large Language Models"
+  subtitle: International Conference on Learning Representations (ICLR), 2025
+  image: RH4.png
+  description: Large vision models (LVMs) have demonstrated remarkable potential
+    in computational pathology, yet evaluating whether their learned
+    representations capture clinically meaningful information remains
+    challenging. To address this limitation, we introduce the Boltzmann
+    Semantic Score (BSS), a novel metric inspired by state-space
+    modeling that evaluates the semantic alignment between visual
+    representations extracted from histopathology images and textual
+    representations derived from expert pathology reports using large
+    language models (LLMs). Through extensive experiments involving
+    32 cancer datasets from The Cancer Genome Atlas (TCGA), five
+    LLMs, and seven LVMs, we demonstrate that current vision models
+    exhibit substantial limitations in capturing the semantic
+    information encoded in expert pathology reports. Importantly,
+    BSS showed statistically significant correlations with model
+    performance in downstream tasks, including histopathology image
+    retrieval and patient survival prediction. We further demonstrate
+    substantial agreement among different LLMs when evaluating
+    visual representations, supporting the robustness of the proposed
+    metric. These findings establish BSS as a scalable and quantitative
+    approach for assessing the clinical relevance of representations
+    learned by medical vision models, with potential applications
+    beyond computational pathology.
+  authors: 
+  link_pdf:
+    show: 1
+    url: https://proceedings.iclr.cc/paper_files/paper/2025/file/fc07feae9af49dd3f1a1e049b77f4e17-Paper-Conference.pdf
+    display: Paper
+  highlight: 1
+  news2: 
+
 - title: "“Factorized Context Aggregation for Robust Cancer Risk Estimation via Soft Re-Ranked Retrieval and Hierarchical Anchors"
   subtitle: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026
   image: RH3.png
