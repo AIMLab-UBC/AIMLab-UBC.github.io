@@ -1,5 +1,5 @@
 
-- title: "“SurvMILKD: A Weakly Supervised Survival Analysis Framework for Multi-Teacher Knowledge Distillation Using Pathology Foundation Models"
+- title: "SurvMILKD: A Weakly Supervised Survival Analysis Framework for Multi-Teacher Knowledge Distillation Using Pathology Foundation Models"
   subtitle: European Conference on Computer Vision (ECCV), 2026
   image: RH6.png
   description: Accurate survival prediction from histopathology whole slide
@@ -37,7 +37,7 @@
   highlight: 1
   news2: 
 
-- title: "“MedGSSR: Generalizable Medical Image Super-Resolution 3D Reconstruction via Hierarchical Feed-forward Gaussian Splatting"
+- title: "MedGSSR: Generalizable Medical Image Super-Resolution 3D Reconstruction via Hierarchical Feed-forward Gaussian Splatting"
   subtitle: European Conference on Computer Vision (ECCV), 2026
   image: RH5.png
   description: High-resolution three-dimensional medical imaging is essential
@@ -71,7 +71,7 @@
   highlight: 1
   news2: 
 
-- title: "“Factorized Context Aggregation for Robust Cancer Risk Estimation via Soft Re-Ranked Retrieval and Hierarchical Anchors"
+- title: "Factorized Context Aggregation for Robust Cancer Risk Estimation via Soft Re-Ranked Retrieval and Hierarchical Anchors"
   subtitle: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026
   image: RH3.png
   description: Accurate cancer risk estimation is essential for personalized
@@ -103,7 +103,7 @@
   highlight: 1
   news2: 
 
-- title: "“HistoMILKD: A Multiple Instance Learning based Multi-Teacher Knowledge Distillation Framework for Whole Slide Image Classification"
+- title: "HistoMILKD: A Multiple Instance Learning based Multi-Teacher Knowledge Distillation Framework for Whole Slide Image Classification"
   subtitle: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2026
   image: RH2.png
   description: Foundation models (FM) in digital pathology have revolutionized the field of whole slide image (WSI) analysis, with models such as UNI, Virchow, Prov-GigaPath, and many more outperforming the previously established benchmarks set by the ImageNet-based backbones. However, despite several benchmarking studies, there has been no clear consensus on the choice of a single FM that is best suited for a variety of histopathology datasets and/or tasks. With more than 25 pathology FMs in the literature so far, the challenge of model selection is a growing concern. Although an ensemble of FMs can circumvent this issue, given the bulky nature of individual FMs, the inference time and computational cost drastically increase with the addition of each FM into the ensemble. To this end, we propose HistoMILKD, the first multi-teacher knowledge distillation (MKD) framework for WSI classification. To handle the gigapixel resolution of WSIs, we use multiple instance learning (MIL), making this also the first work to integrate MIL and MKD frameworks into a single model. Our approach leverages the complementary representations of different FMs to distill collective task-specific knowledge into a single trainable MIL adapter on top of the student FM, which is utilized during inference. Evaluated on five public datasets, the proposed approach significantly (p < 0.05) outperforms the individual FMs, their ensemble, and previous MKD approaches in WSI classification.
@@ -115,7 +115,7 @@
   highlight: 1
   news2: 
 
-- title: "“Performance Assessment of a Deep Learning–based Algorithm for Ovarian Cancer Histotyping in an Independent Data Set"
+- title: "Performance Assessment of a Deep Learning–based Algorithm for Ovarian Cancer Histotyping in an Independent Data Set"
   subtitle: The American Journal of Surgical Pathology, 2026
   image: RH1.png
   description: Artificial intelligence diagnostic tools show promise for improving histotype classification in epithelial ovarian cancer but face challenges due to slide variability across institutions. To address this domain shift, the adversarial Fourier-based domain adaptation (AIDA) model was developed. This retrospective study evaluates AIDA’s performance in classifying the 5 major ovarian cancer subtypes using an independent cohort. Surgically treated patients diagnosed with clear cell (CCC), endometrioid (EC), high-grade serous (HGSC), low-grade serous (LGSC), or mucinous (MC) ovarian cancer at Amsterdam University Medical Center (1985-2022) were included in the study. The deep learning method AIDA, trained on data from Vancouver General Hospital, was applied to all cases. Final histotype predictions were made through majority voting across 15 independently trained models. For misclassified cases, up to 3 additional slides were scanned, and the AIDA model was retrained. Classification was then assessed using single-slide and majority voting approaches. The AIDA algorithm achieved an overall balanced accuracy of 79.7% across all histotypes. Accuracy was highest for CCC (90.9%) and LGSC (89.8%), and lowest for EC (62.4%). Common misclassifications included MC as EC and EC as HGSC or LGSC. Retraining with additional slides improved balanced accuracy to 85.8% based on single-slide voting and 82.6% based on majority voting. This study highlights the future potential of the AIDA model in classifying epithelial ovarian cancer histotypes. With further refinement to improve performance on more challenging cases, the model could enhance diagnostic accuracy in clinical practice.
@@ -127,7 +127,7 @@
   highlight: 1
   news2: 
 
-  - title: "“Boltzmann Semantic Score: A Semantic Metric for Evaluating Large Vision Models Using Large Language Models"
+  - title: "Boltzmann Semantic Score: A Semantic Metric for Evaluating Large Vision Models Using Large Language Models"
   subtitle: International Conference on Learning Representations (ICLR), 2025
   image: RH4.png
   description: Large vision models (LVMs) have demonstrated remarkable potential
