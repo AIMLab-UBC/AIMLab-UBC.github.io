@@ -1,46 +1,46 @@
 - title: "Knowledge-Enhanced Representation Learning with Retrieval-Augmented Multimodal Fusion for Survival Prediction"
   authors: "Z Zhang, P Azadi, B Maneshgar, A Khajegili Mirabadi, N Alabi, et al."
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:4MWp96NkSFoC"
+  url: "https://link.springer.com/chapter/10.1007/978-3-032-38172-9_34"
 
 - title: "SurvMILKD: A Weakly Supervised Survival Analysis Framework for Multi-teacher Knowledge Distillation Using Pathology Foundation Models"
   authors: "M Mallya, AK Mirabadi, H Farahani, A Bashashati"
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:ML0RJ9NH7IQC"
+  url: "https://link.springer.com/chapter/10.1007/978-3-032-37032-7_10"
 
 - title: "MedGSSR: Generalizable Medical Image Super-Resolution 3D Reconstruction via Hierarchical Feed-forward Gaussian Splatting"
   authors: "C Wang, L Hong, Y Zhao, J Wang, X Feng, F Qin, Z Kuang, X Yin, et al."
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:Z5m8FVwuT1cC"
+  url: "https://link.springer.com/chapter/10.1007/978-3-032-37718-0_30"
 
 - title: "Recommendations for Pathologist-Led Deployment of Artificial Intelligence Tools as Laboratory-Developed Tests"
   authors: "AW Zhang, MJ Cecchini, A Bashashati, CB Gilks, M Kinloch, DF Schaeffer"
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:vDijr-p_gm4C"
+  url: "https://www.laboratoryinvestigation.org/article/S0023-6837(26)00061-9/abstract"
 
 - title: "AI-driven 3D spatial transcriptomics for 3D tumor microenvironment mapping in prostate adenocarcinoma"
   authors: "C Almagro-Pérez, A Song, L Weishaupt, A Kim, G Jaume, K Hemker, et al."
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:zLWjf1WUPmwC"
+  url: "https://aacrjournals.org/cancerres/article/86/7_Supplement/77/775918"
 
 - title: "HistoMILKD: A Multiple Instance Learning based Multi-Teacher Knowledge Distillation Framework for Whole Slide Image Classification"
   authors: "M Mallya, AK Mirabadi, H Farahani, A Bashashati"
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:ipzZ9siozwsC"
+  url: "https://ieeexplore.ieee.org/abstract/document/11492600"
 
 - title: "943 Pre-Surgical Risk Stratification of NSMP Endometrial Cancer Using AI on Biopsies"
   authors: "MA Aghbolaghi, H Farahani, A Zhang, A Darbandsari, S Kommoss, et al."
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:EkHepimYqZsC"
+  url: "https://www.laboratoryinvestigation.org/article/S0023-6837(25)01144-4/fulltext"
 
 - title: "Regional tissue perfusion index (RTPI): a new optical-based metric for quantifying regional tissue perfusion"
   authors: "B Shadgan, I Amani Tehrani, S Khosravi, Z Askari, AP Pirhadi Rad, et al."
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:XD-gHx7UXLsC"
+  url: "https://link.springer.com/article/10.1007/s10877-026-01424-0"
 
 - title: "Performance Assessment of a Deep Learning–based Algorithm for Ovarian Cancer Histotyping in an Independent Data Set"
   authors: "HS Zelisse, M Asadi-Aghbolaghi, H Farahani, MLH Snijders, GKJ Hooijer, et al."
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:9Nmd_mFXekcC"
+  url: "https://www.ovid.com/jnls/ajsp/abstract/10.1097/pas.0000000000002481~performance-assessment-of-a-deep-learningbased-algorithm-for?redirectionsource=fulltextview"
 
 - title: "Factorized Context Aggregation for Robust Cancer Risk Estimation via Soft Re-Ranked Retrieval and Hierarchical Anchors"
   authors: "PA Moghadam, AK Mirabadi, B Maneshgar, H Farahani, A Bashashati"
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:uWiczbcajpAC"
+  url: "https://scholar.google.com/scholar?cluster=17240818268483684026&hl=en&oi=scholarr"
 
 - title: "Context Matters: Anatomy-Aware Dual-Stream Multiple Instance Learning Framework for eGFR Prediction"
   authors: "A Arab, M Riazy, A Bashashati"
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:epqYDVWIO7EC"
+  url: "https://openreview.net/forum?id=KTfPFMntqQ"
 
 
 # =========================
@@ -49,15 +49,15 @@
 
 - title: "A deep learning framework for classification of neuroendocrine neoplasm whole slide images"
   authors: "A Hadjifaradji, M Diaz-Stewart, J Chu, D Farnell, D Schaeffer, H Farahani, et al."
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:t7zJ5fGR-2UC"
+  url: "https://www.mdpi.com/2072-6694/17/18/2991"
 
 - title: "34 RISK STRATIFICATION USING DEEP FEATURES IN IDH-MUTANT GLIOMAS"
   authors: "K Rich, KC Martin, H Farahani, C Ma, S Yip, A Bashashati"
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:z_wVstp3MssC"
+  url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12398763/"
 
 - title: "KAFSTExp: Kernel Adaptive Filtering with Nystrom Approximation for Predicting Spatial Gene Expression from Histology Image"
   authors: "H Liu, H Farahani, X Li, Y Xie, A Bashashati"
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:VLnqNzywnoUC"
+  url: "https://ieeexplore.ieee.org/abstract/document/11112549"
 
 - title: "Boltzmann Semantic Score: A Semantic Metric for Evaluating Large Vision Models Using Large Language Models"
   authors: "A Khajegili Mirabadi, K Rich, H Farahani, A Bashashati"
@@ -65,19 +65,19 @@
 
 - title: "Changes in the spatial architecture of the tumor microenvironment associated with treatment resistance in muscle invasive bladder cancer"
   authors: "N Alabi, N Zheng, J Scurll, J Nikkola, A Contreras-Sanz, M Roberts, et al."
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:j8SEvjWlNXcC"
+  url: "https://aacrjournals.org/cancerres/article/85/8_Supplement_1/6262/758656"
 
 - title: "941 OCEAN Challenge: Advancing AI for Generalized Ovarian Cancer Diagnosis"
   authors: "MA Aghbolaghi, H Farahani, A Zhang, AK Mirabadi, A Akbari, S Kim, et al."
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:fEOibwPWpKIC"
+  url: "https://www.laboratoryinvestigation.org/article/S0023-6837(24)02853-8/fulltext"
 
 - title: "AI-driven 3D spatial transcriptomics"
   authors: "C Almagro-Pérez, AH Song, L Weishaupt, A Kim, G Jaume, et al."
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:35r97b3x0nAC"
+  url: "https://arxiv.org/abs/2502.17761"
 
 - title: "Benchmarking histopathology foundation models for ovarian cancer bevacizumab treatment response prediction from whole slide images"
   authors: "M Mallya, AK Mirabadi, D Farnell, H Farahani, A Bashashati"
-  url: "https://scholar.google.ca/citations?view_op=view_citation&hl=en&user=syvMubEAAAAJ&sortby=pubdate&citation_for_view=syvMubEAAAAJ:tKAzc9rXhukC"
+  url: "https://link.springer.com/article/10.1007/s12672-025-01973-x"
 
 - title: "ATEC23 Challenge: Automated prediction of treatment effectiveness in ovarian cancer using histopathological images"
   authors: "CW Wang, NP Firdi, TC Chu, MFI Faiz, MZ Iqbal, Y Li, B Yang, M Mallya, et al."
