@@ -63,6 +63,20 @@
 
 - name: Maedeh Mirzazadeh
   photo: maedeh.png
+  info: Machine Learning Engineer/Scientist
+  email: mailto:timofei.liusko@ubc.ca
+  website: 0
+  github: 0
+  twitter: 0
+  linkedin: 
+  google_scholar: 0
+  number_educ: 2
+  education1: MSc student in Bioinformatics, University of British Columbia, Canada
+  education2: BSc in Computer Engineering, Amirkabir University of Technology, Iran
+  alumni: 0
+
+- name: Timofei Liusko
+  photo: Tim.jpg
   info: Machine Learning Engineer
   email: mailto:maeede.mir@gmail.com
   website: https://maedemir.github.io/
@@ -71,8 +85,8 @@
   linkedin: https://www.linkedin.com/in/maedehmirzazadeh
   google_scholar: 0
   number_educ: 2
-  education1: MSc student in Bioinformatics, University of British Columbia, Canada
-  education2: BSc in Computer Engineering, Amirkabir University of Technology, Iran
+  education1: MSc in Systems Design Engineering, University of Waterloo
+  education2: MSc in Applied Mathematics and Computer Science, Moscow Institute of Physics and Technology
   alumni: 0
 
 - name: Daniel Espiritu
